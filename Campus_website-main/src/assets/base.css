@@ -1,0 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#kdocs_web_cut_iframe_box{
+    display: none !important;
+}
