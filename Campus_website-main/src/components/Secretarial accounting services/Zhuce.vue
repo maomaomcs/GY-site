@@ -19,7 +19,7 @@
 export default {
   data() {
     return {
-      companyName: 'Grand Blossom GBA',
+      companyName: 'Grand Blossom GBA1',
       companySlogan: '与客户合作推广可持续实践造可持续发展之路',
       companyDescription: '我们为客户提供全面的开业、公司秘书、会计、审计、税务、ESG报告、投融资及IPO等专业服务，遍布澳门、香港及内地，量身定制解决方案。',
       services: [
