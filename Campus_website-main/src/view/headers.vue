@@ -6,6 +6,11 @@ import community from '@/components/community_classification.vue'
 import Show from "@/components/show.vue";
 import Opend from "@/components/Secretarial accounting services/CompanyOpened.vue";
 import Zhu from "@/components/Secretarial accounting services/Zhuce.vue";
+import SecretarialServices from "@/components/Secretarial accounting services/Secretarial services.vue";
+import OpeningABank from "@/components/Secretarial accounting services/Opening a bank.vue";
+import FinancialAccounting from "@/components/Secretarial accounting services/Financial Accounting.vue";
+import PayrollManagement from "@/components/Secretarial accounting services/Payroll management.vue";
+import CompanySupport from "@/components/Secretarial accounting services/Company support.vue";
 import {MessagePlugin} from "tdesign-vue-next";
 import axios from "axios";
 import Message from "@/components/message.vue";
@@ -145,6 +150,21 @@ const clickHandler = (data) => {
         </div>
         <div v-else-if="menu_value === '3-2'">
             <Zhu></Zhu>
+        </div>
+        <div v-else-if="menu_value === '3-3'">
+            <SecretarialServices></SecretarialServices>
+        </div>
+        <div v-else-if="menu_value === '3-4'">
+            <OpeningABank></OpeningABank>
+        </div>
+        <div v-else-if="menu_value === '3-5'">
+            <FinancialAccounting></FinancialAccounting>
+        </div>
+        <div v-else-if="menu_value === '3-6'">
+            <PayrollManagement></PayrollManagement>
+        </div>
+        <div v-else-if="menu_value === '3-7'">
+            <CompanySupport></CompanySupport>
         </div>
         <div v-else>
             <not-found></not-found>
