@@ -11,6 +11,15 @@ import OpeningABank from "@/components/Secretarial accounting services/Opening a
 import FinancialAccounting from "@/components/Secretarial accounting services/Financial Accounting.vue";
 import PayrollManagement from "@/components/Secretarial accounting services/Payroll management.vue";
 import CompanySupport from "@/components/Secretarial accounting services/Company support.vue";
+import adite from "@/components/Audit_and_tax_services/statutory-audit.vue";
+import imadite from "@/components/Audit_and_tax_services/Immigration audit.vue";
+import acquisitions from "@/components/Audit_and_tax_services/Corporate mergers and acquisitions.vue";
+import valuation from "@/components/Audit_and_tax_services/business valuation.vue";
+import tax from "@/components/Audit_and_tax_services/Tax Consultation.vue";
+import procedures from "@/components/Audit_and_tax_services/Perform Agreed - upon Procedures.vue";
+import CPA from "@/components/Audit_and_tax_services/CPA.vue";
+import due from "@/components/Audit_and_tax_services/due diligence.vue";
+import Macau from "@/components/Audit_and_tax_services/Macau subsidiary company.vue";
 import {MessagePlugin} from "tdesign-vue-next";
 import axios from "axios";
 import Message from "@/components/message.vue";
@@ -165,6 +174,33 @@ const clickHandler = (data) => {
         </div>
         <div v-else-if="menu_value === '3-7'">
             <CompanySupport></CompanySupport>
+        </div>
+        <div v-else-if="menu_value === '4-1'">
+            <adite></adite>
+        </div>
+        <div v-else-if="menu_value === '4-2'">
+            <valuation></valuation>
+        </div>
+        <div v-else-if="menu_value === '4-3'">
+            <procedures></procedures>
+        </div>
+        <div v-else-if="menu_value === '4-4'">
+            <tax></tax>
+        </div>
+        <div v-else-if="menu_value === '4-5'">
+            <CPA></CPA>
+        </div>
+        <div v-else-if="menu_value === '4-6'">
+            <due></due>
+        </div>
+        <div v-else-if="menu_value === '4-7'">
+            <acquisitions></acquisitions>
+        </div>
+        <div v-else-if="menu_value === '4-8'">
+            <imadite></imadite>
+        </div>
+        <div v-else-if="menu_value === '4-9'">
+            <Macau></Macau>
         </div>
         <div v-else>
             <not-found></not-found>
