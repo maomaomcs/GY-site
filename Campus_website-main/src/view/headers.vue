@@ -20,6 +20,10 @@ import procedures from "@/components/Audit_and_tax_services/Perform Agreed - upo
 import CPA from "@/components/Audit_and_tax_services/CPA.vue";
 import due from "@/components/Audit_and_tax_services/due diligence.vue";
 import Macau from "@/components/Audit_and_tax_services/Macau subsidiary company.vue";
+import Kong from "@/components/Audit_and_tax_services/Listing planning.vue";
+import Faudit from "@/components/Audit_and_tax_services/Financial audit.vue";
+import ESG from "@/components/Audit_and_tax_services/Environmental, social and governance (ESG) report.vue";
+import review from "@/components/Audit_and_tax_services/nternal control review.vue";
 import {MessagePlugin} from "tdesign-vue-next";
 import axios from "axios";
 import Message from "@/components/message.vue";
@@ -201,6 +205,18 @@ const clickHandler = (data) => {
         </div>
         <div v-else-if="menu_value === '4-9'">
             <Macau></Macau>
+        </div>
+        <div v-else-if="menu_value === '5-1'">
+            <Kong></Kong>
+        </div>
+        <div v-else-if="menu_value === '5-2'">
+            <Faudit></Faudit>
+        </div>
+        <div v-else-if="menu_value === '5-3'">
+            <ESG></ESG>
+        </div>
+        <div v-else-if="menu_value === '5-4'">
+            <review></review>
         </div>
         <div v-else>
             <not-found></not-found>
