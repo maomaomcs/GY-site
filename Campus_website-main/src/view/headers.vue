@@ -215,6 +215,18 @@ const clickHandler = (data) => {
         <div v-else-if="menu_value === '4-9'">
             <Macau></Macau>
         </div>
+        <div v-else-if="menu_value === '5-1'">
+            <Kong></Kong>
+        </div>
+        <div v-else-if="menu_value === '5-2'">
+            <Faudit></Faudit>
+        </div>
+        <div v-else-if="menu_value === '5-3'">
+            <ESG></ESG>
+        </div>
+        <div v-else-if="menu_value === '5-4'">
+            <review></review>
+        </div>
         <div v-else-if="menu_value === '6-1'">
             <shangbiao></shangbiao>
         </div>
