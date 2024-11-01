@@ -5,47 +5,47 @@
                 <div>
                     <ul>
                         <li>公司秘書及會計服務</li>
-                        <li><a href="">公司開業</a></li>
-                        <li><a href="">註冊地址</a></li>
-                        <li><a href="">秘書服務</a></li>
-                        <li><a href="">銀行開戶</a></li>
-                        <li><a href="">財務會計</a></li>
-                        <li><a href="">薪酬管理</a></li>
-                        <li><a href="">離岸公司支援(英屬維爾京群島、開曼群島)</a></li>
+                        <li><router-link to="/company-opened">公司開業</router-link></li>
+                        <li><router-link to="/Zhuce">註冊地址</router-link></li>
+                        <li><router-link to="/Secretarialservices">秘書服務</router-link></li>
+                        <li><router-link to="/Openingabank">銀行開戶</router-link></li>
+                        <li><router-link to="/Payrollmanagement">財務會計</router-link></li>
+                        <li><router-link to="/FinancialAccounting">薪酬管理</router-link></li>
+                        <li><router-link to="/CompanySupport">離岸公司支援(英屬維爾京群島、開曼群島)</router-link></li>
                     </ul>
                     <ul>
-                        <li>蜜計及稅務服務</li>
-                        <li><a href="">法定審計</a></li>
-                        <li><a href="">商業估值</a></li>
-                        <li><a href="">執行商定程序</a></li>
-                        <li><a href="">稅務諮詢</a></li>
-                        <li><a href="">鑑證會計</a></li>
-                        <li><a href="">盡職調查</a></li>
-                        <li><a href="">企業併購</a></li>
-                        <li><a href="">香港移民審計</a></li>
-                        <li><a href="">澳門子公司密計</a></li>
+                        <li>稅務及審計服務</li>
+                        <li><router-link to="{ name: 'Faudit' }">法定審計</router-link></li>
+                        <li><router-link to="{ name: 'valuation' }">商業估值</router-link></li>
+                        <li><router-link to="{ name: 'procedures' }">執行商定程序</router-link></li>
+                        <li><router-link to="{ name: 'tax' }">稅務諮詢</router-link></li>
+                        <li><router-link to="{ name: 'CPA' }">鑑證會計</router-link></li>
+                        <li><router-link to="{ name: 'due' }">盡職調查</router-link></li>
+                        <li><router-link to="{ name: 'acquisitions' }">企業併購</router-link></li>
+                        <li><router-link to="{ name: 'imadite' }">香港移民審計</router-link></li>
+                        <li><router-link to="{ name: 'Macau' }">澳門子公司密計</router-link></li>
                     </ul>
                     <ul>
                         <li>上市公司服務</li>
-                        <li><a href="">上市策劃(美國、香港)</a></li>
-                        <li><a href="">財務審計</a></li>
-                        <li><a href="">環境社會及管治報告</a></li>
-                        <li><a href="">内部控制審閱</a></li>
-                        <li><a href="">企業風險管理</a></li>
-                        <li><a href="">上市公司秘書</a></li>
-                        <li><a href="">任職董事</a></li>
+                        <li><router-link to="{ name: 'Kong' }">上市策劃(美國、香港)</router-link></li>
+                        <li><router-link to="{ name: 'Faudit' }">財務審計</router-link></li>
+                        <li><router-link to="{ name: 'ESG' }">環境社會及管治報告</router-link></li>
+                        <li><router-link to="{ name: 'review' }">內部控制審閱</router-link></li>
+                        <li><router-link to="{ name: 'riskManagement' }">企業風險管理</router-link></li>
+                        <li><router-link to="{ name: 'Secretarial' }">上市公司秘書</router-link></li>
+                        <li><router-link to="{ name: 'director' }">任職董事</router-link></li>
                     </ul>
                     <ul>
                         <li>其他服務</li>
-                        <li><a href="">註冊商標</a></li>
-                        <li><a href="">資助申報</a></li>
-                        <li><a href="">受資助項目查驗</a></li>
-                        <li><a href="">港澳車牌申請</a></li>
-                        <li><a href="">資產管理</a></li>
-                        <li><a href="">股權投融</a></li>
-                        <li><a href="">信貨支援</a></li>
-                        <li><a href="">股權包銷</a></li>
-                        <li><a href="">重大投資移民</a></li>
+                        <li><router-link to="{ name: 'shangbiao' }">註冊商標</router-link></li>
+                        <li><router-link to="{ name: 'zizhu' }">資助申報</router-link></li>
+                        <li><router-link to="{ name: 'shouzi' }">受資助項目查驗</router-link></li>
+                        <li><router-link to="{ name: 'chepai' }">港澳車牌申請</router-link></li>
+                        <li><router-link to="{ name: 'zichan' }">資產管理</router-link></li>
+                        <li><router-link to="{ name: 'sifs' }">股權投融</router-link></li>
+                        <li><router-link to="{ name: 'xdzy' }">信貸支援</router-link></li>
+                        <li><router-link to="{ name: 'gqbx' }">股權包銷</router-link></li>
+                        <li><router-link to="{ name: 'ym' }">重大投資移民</router-link></li>
                     </ul>
                 </div>
                 <div>
@@ -60,31 +60,13 @@
                 </div>
             </div>
         </div>
-        <div style="width: 100%;margin: 10px 0 auto;background-color: #fafafa;padding: 10px 0;text-align: center">
-            <!-- <div class="info-text" style="width: 85%;margin: 0 auto">
-                <div class="info_content" style="width: 100%">
-                    <p class="sites"><a rel="nofollow" href="//www.mi.com/shop" target="_blank">港湾学院</a><span class="sep">|</span><a rel="nofollow" href="" target="_blank">学院风采</a><span class="sep">|</span><a rel="nofollow" href="" target="_blank">学校</a><span class="sep">|</span><a rel="nofollow" href="" target="_blank">办公室</a><span class="sep">|</span><a rel="nofollow" href="" target="_blank">校报</a><span class="sep">|</span><a rel="nofollow" href="" target="_blank">娱乐</a><span class="sep">|</span><a rel="nofollow" href="" target="_blank">休闲</a><span class="sep">|</span><a rel="nofollow" href="" target="_blank">校企企服务</a><span class="sep">|</span><a rel="nofollow" href="" target="_blank">港湾缴费</a><span class="sep">|</span><a rel="nofollow" href="" target="_blank">港湾学院隐私政策</a><span class="sep">|</span><a rel="nofollow" href="" target="_blank">港湾学院儿童信息保护规则</a><span class="sep">|</span><a rel="nofollow" href="" target="_blank">港湾学院隐私政策</a><span class="sep">|</span><a rel="nofollow" href="" target="_blank">港湾学院用户协议</a><span class="sep">|</span><a rel="nofollow" href="" target="_blank">问题反馈</a><span class="sep">|</span><a rel="nofollow" href="" class="J_siteGlobalRegion">联系校长</a></p>
-                    <p class="sites" style="margin: 5px 0"><a rel="nofollow" href="http://www.mi.com/beihu" target="_blank">北京互联网法院法律服务工作站</a> <span class="sep">|</span> <a rel="nofollow" href="http://www.cca.org.cn/" target="_blank">中国消费者协会</a> <span class="sep">|</span> <a rel="nofollow" href="http://www.bj315.org/" target="_blank">北京市消费者协会</a></p>
-                    <div class="logo">
-                        <img src="../../public/logo/GrandBlossom.png" alt="">
-                    </div>
-                    <p>
-                        ©
-                        <a href="" title="mi.com">qdgw.edu.cn</a> 鲁ICP备09093029号-1
-                        <a href="http://beian.miit.gov.cn/" target="_blank" rel="nofollow">鲁ICP备09093029号-1</a> <a rel="nofollow" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=37021102000241" target="_blank">鲁公网安备 37021102000241号</a> <a href="" target="_blank">鲁公网安备 37021102000241号</a> <br> <a href="" target="_blank">（鲁）网械平台备字（2018）第****号</a> <a href="" target="_blank">互联网药品信息服务资格证 (鲁)-非经营性-****-****</a> <a href="" target="_blank">营业执照</a> <a href="" target="_blank">医疗器械质量公告</a> <br> <a href="https://cdn.cnbj1.fds.api.mi-img.com/staticsfile/pc/5f93056c-bc30-401e-9526-66839114ffb9.png" target="_blank">增值电信业务经营许可证编号：京*****</a>&nbsp;网络食品经营备案 京食药网食备**** &nbsp;
-                        <a href="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/c6859168166651511897f54fa1047fe3.png" target="_blank">食品经营许可证</a>&nbsp;新出发京批字第直*****号
-                        <br>违法和不良信息举报电话：171-5104-4404&nbsp;<a href="https://www.mi.com/intellectual" target="_blank">知识产权侵权投诉</a>&nbsp;本网站所列数据，除特殊说明，所有数据均出自我校实验室测试
-                    </p>
-                </div>
-            </div> -->
-
+        <div style="width: 100%; margin: 10px 0 auto; background-color: #fafafa; padding: 10px 0; text-align: center;">
             <div class="call">
                 <span>GrandBlossom官网</span>
             </div>
         </div>
     </div>
 </template>
-
 <style src="../../src/assets/home.css"></style>
 <style scoped>
 #foot {
