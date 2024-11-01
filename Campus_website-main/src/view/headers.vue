@@ -20,9 +20,22 @@ import procedures from "@/components/Audit_and_tax_services/Perform Agreed - upo
 import CPA from "@/components/Audit_and_tax_services/CPA.vue";
 import due from "@/components/Audit_and_tax_services/due diligence.vue";
 import Macau from "@/components/Audit_and_tax_services/Macau subsidiary company.vue";
+import Kong from "@/components/Audit_and_tax_services/Listing planning.vue";
+import Faudit from "@/components/Audit_and_tax_services/Financial audit.vue";
+import ESG from "@/components/Audit_and_tax_services/Environmental, social and governance (ESG) report.vue";
+import review from "@/components/Audit_and_tax_services/nternal control review.vue";
 import {MessagePlugin} from "tdesign-vue-next";
 import axios from "axios";
 import Message from "@/components/message.vue";
+import shangbiao from "@/components/other/shangbiaozhuce.vue";
+import zizhu from "@/components/other/zizhushenbao.vue";
+import shouzi from "@/components/other/shouzizhuxiangmu.vue";
+import chepai from "@/components/other/chepaishenbao.vue";
+import zichan from "@/components/other/zichanguanli.vue";
+import sifs from "@/components/other/equity-investment-and-financing-service-container.vue";
+import xdzy from "@/components/other/credit-support-service-container.vue";
+import gqbx from "@/components/other/equity-underwriting-service-container.vue";
+import ym from "@/components/other/major-investment-immigration-service-container.vue";
 
 let menu_value = ref('1')
 const changeHandler = (active) => {
@@ -202,6 +215,33 @@ const clickHandler = (data) => {
         <div v-else-if="menu_value === '4-9'">
             <Macau></Macau>
         </div>
+        <div v-else-if="menu_value === '6-1'">
+            <shangbiao></shangbiao>
+        </div>
+        <div v-else-if="menu_value === '6-2'">
+            <zizhu></zizhu>
+        </div>
+         <div v-else-if="menu_value === '6-3'">
+            <shouzi></shouzi>   
+        </div>       
+         <div v-else-if="menu_value === '6-4'">
+            <chepai></chepai>   
+        </div>
+        <div v-else-if="menu_value === '6-5'">
+            <zichan></zichan>   
+        </div>
+        <div v-else-if="menu_value === '6-6'">
+            <sifs></sifs>   
+        </div>
+        <div v-else-if="menu_value === '6-7'">
+            <xdzy></xdzy>   
+        </div>
+        <div v-else-if="menu_value === '6-8'">
+            <gqbx></gqbx>   
+        </div>
+        <div v-else-if="menu_value === '6-9'">
+            <ym></ym>   
+        </div>              
         <div v-else>
             <not-found></not-found>
         </div>
