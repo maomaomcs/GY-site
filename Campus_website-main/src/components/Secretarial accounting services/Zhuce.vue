@@ -109,9 +109,6 @@
       </div>
     </div>
 
-    <div class="button-container">
-      <button class="btn-primary">了解更多信息</button>
-    </div>
   </div>
 </template>
 
@@ -125,7 +122,7 @@ export default {
 .company-registration-page {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 20px 20px 100px 20px;
   background-color: #f5f7fa;
 }
 

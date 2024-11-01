@@ -65,7 +65,6 @@
           <li>公司秘书服务</li>
           <li>商标注册与许可申请</li>
         </ul>
-        <button class="btn-primary">查看更多服务</button>
       </div>
     </section>
   </div>
@@ -81,7 +80,7 @@ export default {
 .company-registration-page {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 20px 20px 100px 20px;
   background-color: #f5f7fa;
 }
 

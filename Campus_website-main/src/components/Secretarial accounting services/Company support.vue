@@ -107,10 +107,6 @@
         </ul>
       </div>
     </div>
-
-    <div class="text-center">
-      <button class="btn-primary">立即聯繫我們</button>
-    </div>
   </div>
 </template>
 
@@ -124,7 +120,7 @@ export default {
 .company-registration-page {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 20px 20px 100px 20px;
   background-color: #f5f7fa;
 }
 

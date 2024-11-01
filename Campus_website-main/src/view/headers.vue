@@ -83,12 +83,12 @@ const clickHandler = (data) => {
                 <span style="margin: 5px 0 5px 10px;font-size: 18px">GrandBlossom官网</span>
             </template>
             <t-menu-item value="1"> 官网首页 </t-menu-item>
-            <t-submenu value="2" title="公司概况">
+            <!-- <t-submenu value="2" title="公司概况">
                 <t-menu-item value="2-1"> 学校社团 </t-menu-item>
                 <t-menu-item value="2-2"> 办学理念 </t-menu-item>
                 <t-menu-item value="2-3"> 院系介绍 </t-menu-item>
                 <t-menu-item value="2-4"> 院系介绍 </t-menu-item>
-            </t-submenu>
+            </t-submenu> -->
             <t-submenu value="3" title="公司秘書及會計服務">
                 <t-menu-item value="3-1"> 公司開業 </t-menu-item>
                 <t-menu-item value="3-2"> 註冊地址 </t-menu-item>
