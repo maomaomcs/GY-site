@@ -59,7 +59,9 @@ function redirectToLogin() {
     });
 
 }
-
+function newPageFunction() {
+            window.location.href = 'http://localhost:5173/login';
+        }
 const visible_message = ref(false);
 const options = [
     { content: '个人信息', value: 1 },
@@ -130,18 +132,11 @@ const clickHandler = (data) => {
                 <t-menu-item value="6-9"> 重大投資移民 </t-menu-item>
             </t-submenu> 
             <template #operations>
-                <t-button variant="text" shape="square" @click="MessagePlugin.success('这个功能还没有写哦')">
-                    <template #icon><t-icon name="search" /></template>
-                </t-button>
-                <t-button variant="text" shape="square"  @click="visible_message = true">
-                    <template #icon><t-icon name="mail" /></template>
-                </t-button>
-                <t-button variant="text" shape="square" @click="redirectToLogin">
+                
+                <t-button variant="text" shape="square" @click="redirectToLogin();newPageFunction()">
                     <template #icon><t-icon name="user" /></template>
                 </t-button>
-                <t-dropdown :options="options" @click="clickHandler">
-                    <t-button  style="border: none" theme="default" variant="outline" shape="square"> <t-icon name="ellipsis" size="16" /></t-button>
-                </t-dropdown>
+                
             </template>
         </t-head-menu>
     </div>

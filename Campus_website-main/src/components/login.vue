@@ -2,12 +2,6 @@
 import {computed, reactive, ref} from 'vue';
 import {MessagePlugin} from 'tdesign-vue-next';
 import axios from "axios";
-// import {token} from '@/token'
-// const options = [
-//     {label: '选项一', value: '1'},
-//     {label: '选项二', value: '2'},
-//     {label: '选项三', value: '3'},
-// ];
 
 const handleChange = (value) => {
     console.log('handleChange:', value);
@@ -28,12 +22,6 @@ const formData = reactive({
     email: '',
     age: undefined,
     gender: '',
-    course: [],
-    college: '',
-    date: '',
-    content: {
-        url: '',
-    },
 });
 const rules = {
     account: [
@@ -50,28 +38,8 @@ const rules = {
         {number: true, message: '请输入数字', type: 'warning'},
     ],
     gender: [{required: true, message: '性别必填', type: 'warning'}],
-    course: [{required: true, message: '身份必填', type: 'warning'}],
-    college: [
-        // 注意：trigger: blur 仅在输入框或选择框失去焦点时触发，需要注意配合 trigger: change 使用
-        {required: true, message: '学院必选', type: 'warning', trigger: 'blur'},
-        {required: true, message: '学院必选', type: 'warning', trigger: 'change'},
-    ],
-    'content.url': [
-        {required: true, message: '个人网站必填', type: 'warning'},
-        {
-            url: {
-                protocols: ['http', 'https', 'ftp'],
-                require_protocol: true,
-            },
-            message: '请输入正确的个人主页',
-        },
-    ],
 };
-const courseOptions = [
-    {label: '教师', value: '1'},
-    {label: '学生', value: '2'},
-    {label: '其他', value: '3'},
-];
+
 const emailSuffix = ['@qq.com', '@163.com', '@gmail.com'];
 const emailOptions = computed(() => {
     const emailPrefix = formData.email.split('@')[0];
@@ -79,17 +47,11 @@ const emailOptions = computed(() => {
 
     return emailSuffix.map((suffix) => emailPrefix + suffix);
 });
-const options = [
-    {label: '计算机学院', value: '1'},
-    {label: '软件学院', value: '2'},
-    {label: '物联网学院', value: '3'},
-];
 
 const login_in_form = ref(null)
 const login_formData = reactive({
     account: '',
     password: '',
-    agreed: []
 });
 const login_rules = {
     account: [
@@ -106,14 +68,7 @@ const login_rules = {
         {min: 8, message: '输入字数应在8到16之间', type: 'error', trigger: 'blur'},
         {max: 16, message: '输入字数应在8到16之间', type: 'error', trigger: 'blur'},
     ],
-    agreed: [
-        {required: false, message: '', type: 'warning'}
-    ]
 }
-
-const loginOptions = [
-    {label: '已阅读并同意我校 用户协议 和 隐私政策', value: true},
-];
 
 const onReset = () => {
     MessagePlugin.success('重置成功');
@@ -128,7 +83,7 @@ const onSubmit = ({validateResult, firstError, e}) => {
             withCredentials: true,
         }).then((data) => {
             let result = data['data']
-            if (result ['code'] === 0) {
+            if (result['code'] === 0) {
                 MessagePlugin.success('注册成功,你的账号为: ' + result['user_id']);
             } else if (result['code'] === 2) {
                 MessagePlugin.success("注册失败,因为: " + result['msg'])
@@ -144,11 +99,6 @@ const onSubmit = ({validateResult, firstError, e}) => {
 
 const onSubmit1 = ({validateResult, firstError, e}) => {
     e.preventDefault();
-    console.log(login_formData.agreed[0])
-    if (login_formData.agreed[0] === undefined) {
-        MessagePlugin.warning("请先同意协议");
-        return;
-    }
     if (validateResult === true) {
         const url = 'http://127.0.0.1:5000/get_login_in'; // 目标API的URL
         axios.post(url, login_formData, {
@@ -169,15 +119,6 @@ const onSubmit1 = ({validateResult, firstError, e}) => {
         MessagePlugin.warning(firstError);
     }
 };
-
-const handleClear = () => {
-    form.value.clearValidate();
-};
-
-const handleClear1 = () => {
-    login_in_form.value.clearValidate();
-};
-
 </script>
 
 <template>
@@ -185,8 +126,8 @@ const handleClear1 = () => {
         <div class="right" style="padding: 15px">
             <div class="top">
                 <div class="_logo">
-                    <img src="../../public/logo/school.jpg" alt="" style="width: 20%;font-size: 0">
-                    <span style="font-size: 25px">校园账号</span>
+                    <img src="../../public/logo/Photo.png" alt="" style="width: 60%;font-size: 0">
+                    <span style="font-size: 25px">GrandBlossom</span>
                 </div>
                 <div class="_title">
                     <div>
@@ -194,11 +135,7 @@ const handleClear1 = () => {
                         <a href="">隐私政策</a>
                         <a href="">帮助中心</a>
                     </div>
-                    <div>
-                        <t-select v-model="value" value-type="object" :clearable="true" placeholder="-请选择-"
-                                  :options="options" style="width: 200px; display: inline-block; margin-right: 20px"
-                                  @change="handleChange"/>
-                    </div>
+                    
                 </div>
             </div>
             <div class="content" style="padding: 15px;border-radius: 8px;overflow: hidden;border:1px solid rgba(128,128,128,0.6)">
@@ -214,19 +151,11 @@ const handleClear1 = () => {
                                 <t-input v-model="login_formData.account"></t-input>
                             </t-form-item>
                             <t-form-item label="密码" help="" name="password">
-                                <t-input v-model="login_formData.password"></t-input>
-                            </t-form-item>
-                            <t-form-item label="" help="" name="agreed">
-                                <t-checkbox-group v-model="login_formData.agreed"
-                                                  :options="loginOptions"></t-checkbox-group>
+                                <t-input v-model="login_formData.password" type="password"></t-input>
                             </t-form-item>
                             <t-form-item>
-                                <t-space size="small">
-                                    <t-button theme="primary" type="submit">提交</t-button>
-                                    <t-button theme="default" variant="base" type="reset">重置</t-button>
-                                    <t-button theme="default" variant="base" @click="handleClear1">清空校验结果
-                                    </t-button>
-                                </t-space>
+                                <t-button theme="primary" type="submit">提交</t-button>
+                                <t-button theme="default" variant="base" type="reset">重置</t-button>
                             </t-form-item>
                         </t-form>
 
@@ -264,43 +193,9 @@ const handleClear1 = () => {
                                     <t-radio value="femal">女</t-radio>
                                 </t-radio-group>
                             </t-form-item>
-
-                            <t-form-item label="身份" name="course">
-                                <t-checkbox-group v-model="formData.course" :options="courseOptions"></t-checkbox-group>
-                            </t-form-item>
-
-                            <t-form-item label="学院" name="college">
-                                <t-select v-model="formData.college" class="demo-select-base" :clearable="true"
-                                          :filterable="false">
-                                    <t-option v-for="(item, index) in options" :key="index" :value="item.value"
-                                              :label="item.label">
-                                        {{ item.label }}
-                                    </t-option>
-                                </t-select>
-                            </t-form-item>
-
-                            <t-form-item
-                                label="入学时间"
-                                name="date"
-                                :rules="[
-        { required: true, message: '此项必填' },
-        { date: { delimiters: ['/', '-', '.'] }, message: '日期格式有误' },
-      ]"
-                            >
-                                <t-input v-model="formData.date"></t-input>
-                            </t-form-item>
-
-                            <t-form-item label="个人网站" name="content.url">
-                                <t-input v-model="formData.content.url"></t-input>
-                            </t-form-item>
-
                             <t-form-item>
-                                <t-space size="small">
-                                    <t-button theme="primary" type="submit">提交</t-button>
-                                    <t-button theme="default" variant="base" type="reset">重置</t-button>
-                                    <t-button theme="default" variant="base" @click="handleClear">清空校验结果
-                                    </t-button>
-                                </t-space>
+                                <t-button theme="primary" type="submit">提交</t-button>
+                                <t-button theme="default" variant="base" type="reset">重置</t-button>
                             </t-form-item>
                         </t-form>
                     </t-tab-panel>
