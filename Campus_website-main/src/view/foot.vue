@@ -15,37 +15,37 @@
                     </ul>
                     <ul>
                         <li>稅務及審計服務</li>
-                        <li><router-link to="{ name: 'Faudit' }">法定審計</router-link></li>
-                        <li><router-link to="{ name: 'valuation' }">商業估值</router-link></li>
-                        <li><router-link to="{ name: 'procedures' }">執行商定程序</router-link></li>
-                        <li><router-link to="{ name: 'tax' }">稅務諮詢</router-link></li>
-                        <li><router-link to="{ name: 'CPA' }">鑑證會計</router-link></li>
-                        <li><router-link to="{ name: 'due' }">盡職調查</router-link></li>
-                        <li><router-link to="{ name: 'acquisitions' }">企業併購</router-link></li>
-                        <li><router-link to="{ name: 'imadite' }">香港移民審計</router-link></li>
-                        <li><router-link to="{ name: 'Macau' }">澳門子公司密計</router-link></li>
+                        <li><router-link to="/statutory-audit">法定審計</router-link></li>
+                        <li><router-link to="/businessvaluation">商業估值</router-link></li>
+                        <li><router-link to="/PerformProcedures">執行商定程序</router-link></li>
+                        <li><router-link to="/TaxConsultation">稅務諮詢</router-link></li>
+                        <li><router-link to="/CPA">鑑證會計</router-link></li>
+                        <li><router-link to="/duediligence">盡職調查</router-link></li>
+                        <li><router-link to="/Corporate">企業併購</router-link></li>
+                        <li><router-link to="/Immigrationaudit">香港移民審計</router-link></li>
+                        <li><router-link to="/Macaucompany">澳門子公司密計</router-link></li>
                     </ul>
                     <ul>
                         <li>上市公司服務</li>
-                        <li><router-link to="{ name: 'Kong' }">上市策劃(美國、香港)</router-link></li>
-                        <li><router-link to="{ name: 'Faudit' }">財務審計</router-link></li>
-                        <li><router-link to="{ name: 'ESG' }">環境社會及管治報告</router-link></li>
-                        <li><router-link to="{ name: 'review' }">內部控制審閱</router-link></li>
-                        <li><router-link to="{ name: 'riskManagement' }">企業風險管理</router-link></li>
-                        <li><router-link to="{ name: 'Secretarial' }">上市公司秘書</router-link></li>
-                        <li><router-link to="{ name: 'director' }">任職董事</router-link></li>
+                        <li><router-link to="/Listingplanning">上市策劃(美國、香港)</router-link></li>
+                        <li><router-link to="/Financialaudit">財務審計</router-link></li>
+                        <li><router-link to="/Environmental">環境社會及管治報告</router-link></li>
+                        <li><router-link to="/nternalreview">內部控制審閱</router-link></li>
+                        <li><router-link to="/">企業風險管理</router-link></li>
+                        <li><router-link to="/">上市公司秘書</router-link></li>
+                        <li><router-link to="/">任職董事</router-link></li>
                     </ul>
                     <ul>
                         <li>其他服務</li>
-                        <li><router-link to="{ name: 'shangbiao' }">註冊商標</router-link></li>
-                        <li><router-link to="{ name: 'zizhu' }">資助申報</router-link></li>
-                        <li><router-link to="{ name: 'shouzi' }">受資助項目查驗</router-link></li>
-                        <li><router-link to="{ name: 'chepai' }">港澳車牌申請</router-link></li>
-                        <li><router-link to="{ name: 'zichan' }">資產管理</router-link></li>
-                        <li><router-link to="{ name: 'sifs' }">股權投融</router-link></li>
-                        <li><router-link to="{ name: 'xdzy' }">信貸支援</router-link></li>
-                        <li><router-link to="{ name: 'gqbx' }">股權包銷</router-link></li>
-                        <li><router-link to="{ name: 'ym' }">重大投資移民</router-link></li>
+                        <li><router-link to="/shangbiaozhuce">註冊商標</router-link></li>
+                        <li><router-link to="/zizhushenbao">資助申報</router-link></li>
+                        <li><router-link to="/shouzizhuxiangmu">受資助項目查驗</router-link></li>
+                        <li><router-link to="/chepaishenbao">港澳車牌申請</router-link></li>
+                        <li><router-link to="/zichanguanli">資產管理</router-link></li>
+                        <li><router-link to="/equityinvestment">股權投融</router-link></li>
+                        <li><router-link to="/creditsupport">信貸支援</router-link></li>
+                        <li><router-link to="/equityunderwriting">股權包銷</router-link></li>
+                        <li><router-link to="/majorinvestment">重大投資移民</router-link></li>
                     </ul>
                 </div>
                 <div>
