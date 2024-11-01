@@ -24,6 +24,9 @@ import Kong from "@/components/Audit_and_tax_services/Listing planning.vue";
 import Faudit from "@/components/Audit_and_tax_services/Financial audit.vue";
 import ESG from "@/components/Audit_and_tax_services/Environmental, social and governance (ESG) report.vue";
 import review from "@/components/Audit_and_tax_services/nternal control review.vue";
+import risk from "@/components/Audit_and_tax_services/Enterprise risk management.vue";
+import Listed from "@/components/Audit_and_tax_services/Listed company services.vue";
+import Director from "@/components/Audit_and_tax_services/Appointed Director.vue";
 import {MessagePlugin} from "tdesign-vue-next";
 import axios from "axios";
 import Message from "@/components/message.vue";
@@ -116,7 +119,7 @@ const clickHandler = (data) => {
                 <t-menu-item value="5-4"> 內部控制審閱 </t-menu-item>
                 <t-menu-item value="5-5"> 企業風險管理 </t-menu-item>
                 <t-menu-item value="5-6"> 上市公司秘書 </t-menu-item>
-                <t-menu-item value="5-6"> 任職董事 </t-menu-item>
+                <t-menu-item value="5-7"> 任職董事 </t-menu-item>
             </t-submenu> 
             <t-submenu value="6" title="其他服務">
                 <t-menu-item value="6-1"> 註冊商標 </t-menu-item>
@@ -226,6 +229,15 @@ const clickHandler = (data) => {
         </div>
         <div v-else-if="menu_value === '5-4'">
             <review></review>
+        </div>
+        <div v-else-if="menu_value === '5-5'">
+            <risk></risk>
+        </div>
+        <div v-else-if="menu_value === '5-6'">
+            <Listed></Listed>
+        </div>
+        <div v-else-if="menu_value === '5-7'">
+            <Director></Director>
         </div>
         <div v-else-if="menu_value === '6-1'">
             <shangbiao></shangbiao>
