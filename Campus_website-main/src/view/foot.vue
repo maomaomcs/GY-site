@@ -1,48 +1,51 @@
-<script setup>
-
-</script>
-
 <template>
     <div id="foot">
         <div class="footer">
             <div class="about">
                 <div>
                     <ul>
-                        <li>公司概况</li>
-                        <li><a href="">董事长致辞</a></li>
-                        <li><a href="">领导团队</a></li>
-                        <li><a href="">发展历程</a></li>
-                        <li><a href="">企业价值观</a></li>
-                        <li><a href="">经营理念</a></li>
-                        <li><a href="">公司简介</a></li>
-                        <li><a href="">公司视频</a></li>
+                        <li>公司秘書及會計服務</li>
+                        <li><a href="">公司開業</a></li>
+                        <li><a href="">註冊地址</a></li>
+                        <li><a href="">秘書服務</a></li>
+                        <li><a href="">銀行開戶</a></li>
+                        <li><a href="">財務會計</a></li>
+                        <li><a href="">薪酬管理</a></li>
+                        <li><a href="">離岸公司支援(英屬維爾京群島、開曼群島)</a></li>
                     </ul>
                     <ul>
-                        <li>部门设置</li>
-                        <li><a href="">董事会办公室</a></li>
-                        <li><a href="">品牌宣传部</a></li>
-                        <li><a href="">监察审计部</a></li>
-                        <li><a href="">人力资源部</a></li>
-                        <li><a href="">业务管理部</a></li>
-                        <li><a href="">合作发展部</a></li>
-                        <li><a href="">客户服务中心</a></li>
+                        <li>蜜計及稅務服務</li>
+                        <li><a href="">法定審計</a></li>
+                        <li><a href="">商業估值</a></li>
+                        <li><a href="">執行商定程序</a></li>
+                        <li><a href="">稅務諮詢</a></li>
+                        <li><a href="">鑑證會計</a></li>
+                        <li><a href="">盡職調查</a></li>
+                        <li><a href="">企業併購</a></li>
+                        <li><a href="">香港移民審計</a></li>
+                        <li><a href="">澳門子公司密計</a></li>
                     </ul>
                     <ul>
-                        <li>业务板块</li>
-                        <li><a href="">生产制造板块</a></li>
-                        <li><a href="">研发创新板块</a></li>
-                        <li><a href="">市场营销板块</a></li>
-                        <li><a href="">技术服务中心</a></li>
-                        <li><a href="">物流配送板块</a></li>
-                        <li><a href="">综合管理部</a></li>
+                        <li>上市公司服務</li>
+                        <li><a href="">上市策劃(美國、香港)</a></li>
+                        <li><a href="">財務審計</a></li>
+                        <li><a href="">環境社會及管治報告</a></li>
+                        <li><a href="">内部控制審閱</a></li>
+                        <li><a href="">企業風險管理</a></li>
+                        <li><a href="">上市公司秘書</a></li>
+                        <li><a href="">任職董事</a></li>
                     </ul>
                     <ul>
-                        <li>公共服务</li>
-                        <li><a href="">业务管理</a></li>
-                        <li><a href="">协同办公</a></li>
-                        <li><a href="">企业邮箱</a></li>
-                        <li><a href="">公司官网导航</a></li>
-                        <li><a href="">意见反馈箱</a></li>
+                        <li>其他服務</li>
+                        <li><a href="">註冊商標</a></li>
+                        <li><a href="">資助申報</a></li>
+                        <li><a href="">受資助項目查驗</a></li>
+                        <li><a href="">港澳車牌申請</a></li>
+                        <li><a href="">資產管理</a></li>
+                        <li><a href="">股權投融</a></li>
+                        <li><a href="">信貨支援</a></li>
+                        <li><a href="">股權包銷</a></li>
+                        <li><a href="">重大投資移民</a></li>
                     </ul>
                 </div>
                 <div>
@@ -85,6 +88,7 @@
 <style src="../../src/assets/home.css"></style>
 <style scoped>
 #foot {
+    margin-top: 50px;
     text-align: center;
     user-select: none;
 }
