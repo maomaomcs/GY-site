@@ -22,7 +22,7 @@
       </div>
       <div class="step-content">
         <h2>公司注册流程</h2>
-        <ul>
+        <ul class="list">
           <li>撰写并递交公司章程</li>
           <li>确认并递交股东架构</li>
           <li>制作公司印章和银行印章</li>
@@ -41,7 +41,7 @@
       </div>
       <div class="step-content">
         <h2>银行开户步骤</h2>
-        <ol>
+        <ol class="list">
           <li>准备公司注册资料（如公司注册证书、商业登记证等）</li>
           <li>提供股东、董事身份证明和地址证明</li>
           <li>递交开户申请，银行进行尽职调查</li>
@@ -59,7 +59,7 @@
       </div>
       <div class="step-content">
         <h2>额外服务</h2>
-        <ul>
+        <ul class="list">
           <li>法律公证文件准备</li>
           <li>多币种银行账户支持</li>
           <li>公司秘书服务</li>
@@ -101,12 +101,12 @@ export default {
 
 .step-card {
   display: flex;
+  align-items: center;
   background-color: #ffffff;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   margin-bottom: 30px;
-  align-items: center;
 }
 
 .step-icon {
@@ -126,15 +126,13 @@ export default {
 }
 
 .step-content p,
-.step-content ul,
-.step-content ol {
+.step-content .list {
   font-size: 1.1em;
   color: #7f8c8d;
   margin-bottom: 15px;
 }
 
-.step-content ul,
-.step-content ol {
+.list {
   padding-left: 20px;
 }
 
