@@ -127,16 +127,16 @@
 
         <div>
             <div style="position: relative">
-                <a href="" style="display: block;width: 80%;margin: 0 auto;">
+                <a href="./login" style="display: block;width: 80%;margin: 0 auto;">
                     <img src="https://www.tencent.com/data/student/join-bg.jpg" alt="" width="100%"
                         style="overflow: hidden;border-radius: 8px">
                 </a>
                 <div class="mess">
-                    <a href="..">
+                    <a href="./login">
                         <h2>加入我们</h2>
                         <p class="desc"></p>
                         <div class="go-link">
-                            <i class="go-icon"><img src="https://www.tencent.com/img/responsibility/go-icon.png" alt="img"><p>GrandBlossom</p></i>
+                            <i class="go-icon"><img src="https://www.tencent.com/img/responsibility/go-icon.png" alt="./login"><p>GrandBlossom</p></i>
                         </div>
                     </a>
                 </div>

@@ -54,7 +54,7 @@
               <p>8:00-18:00（仅收市话费）</p>
               <t-button :ghost="true">
                 <em class="iconfont-message2"></em>
-                <p>联系我们</p>
+                <p><a href="../login">联系我们</a></p>
               </t-button>
             </div>
           </div>

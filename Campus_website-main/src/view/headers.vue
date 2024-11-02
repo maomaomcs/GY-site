@@ -20,7 +20,7 @@ const redirectToLogin = () => {
         });
 };
 function newPageFunction() {
-            window.location.href = 'http://localhost:5173/login';
+            window.location.href = './login';
         }
 const clickHandler = (data) => {
     MessagePlugin.success(data.content);
