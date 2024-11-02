@@ -1,72 +1,72 @@
 <template>
     <div id="foot">
-        <div class="footer">
-            <div class="about">
-                <div>
-                    <ul>
-                        <li>公司秘書及會計服務</li>
-                        <li><router-link to="/company-opened">公司開業</router-link></li>
-                        <li><router-link to="/Zhuce">註冊地址</router-link></li>
-                        <li><router-link to="/Secretarialservices">秘書服務</router-link></li>
-                        <li><router-link to="/Openingabank">銀行開戶</router-link></li>
-                        <li><router-link to="/Payrollmanagement">財務會計</router-link></li>
-                        <li><router-link to="/FinancialAccounting">薪酬管理</router-link></li>
-                        <li><router-link to="/CompanySupport">離岸公司支援(英屬維爾京群島、開曼群島)</router-link></li>
-                    </ul>
-                    <ul>
-                        <li>稅務及審計服務</li>
-                        <li><router-link to="/statutory-audit">法定審計</router-link></li>
-                        <li><router-link to="/businessvaluation">商業估值</router-link></li>
-                        <li><router-link to="/PerformProcedures">執行商定程序</router-link></li>
-                        <li><router-link to="/TaxConsultation">稅務諮詢</router-link></li>
-                        <li><router-link to="/CPA">鑑證會計</router-link></li>
-                        <li><router-link to="/duediligence">盡職調查</router-link></li>
-                        <li><router-link to="/Corporate">企業併購</router-link></li>
-                        <li><router-link to="/Immigrationaudit">香港移民審計</router-link></li>
-                        <li><router-link to="/Macaucompany">澳門子公司密計</router-link></li>
-                    </ul>
-                    <ul>
-                        <li>上市公司服務</li>
-                        <li><router-link to="/Listingplanning">上市策劃(美國、香港)</router-link></li>
-                        <li><router-link to="/Financialaudit">財務審計</router-link></li>
-                        <li><router-link to="/Environmental">環境社會及管治報告</router-link></li>
-                        <li><router-link to="/nternalreview">內部控制審閱</router-link></li>
-                        <li><router-link to="/">企業風險管理</router-link></li>
-                        <li><router-link to="/">上市公司秘書</router-link></li>
-                        <li><router-link to="/">任職董事</router-link></li>
-                    </ul>
-                    <ul>
-                        <li>其他服務</li>
-                        <li><router-link to="/shangbiaozhuce">註冊商標</router-link></li>
-                        <li><router-link to="/zizhushenbao">資助申報</router-link></li>
-                        <li><router-link to="/shouzizhuxiangmu">受資助項目查驗</router-link></li>
-                        <li><router-link to="/chepaishenbao">港澳車牌申請</router-link></li>
-                        <li><router-link to="/zichanguanli">資產管理</router-link></li>
-                        <li><router-link to="/equityinvestment">股權投融</router-link></li>
-                        <li><router-link to="/creditsupport">信貸支援</router-link></li>
-                        <li><router-link to="/equityunderwriting">股權包銷</router-link></li>
-                        <li><router-link to="/majorinvestment">重大投資移民</router-link></li>
-                    </ul>
-                </div>
-                <div>
-                    <div class="phone_">
-                        <h3>0532-12345678</h3>
-                        <p>8:00-18:00（仅收市话费）</p>
-                        <t-button :ghost="true">
-                            <em class="iconfont-message2"></em>
-                            <p>联系我们</p>
-                        </t-button>
-                    </div>
-                </div>
+      <div class="footer">
+        <div class="about">
+          <div>
+            <ul>
+              <li>公司秘書及會計服務</li>
+              <li><a href="/company-opened" target="_blank">公司開業</a></li>
+              <li><a href="/Zhuce" target="_blank">註冊地址</a></li>
+              <li><a href="/Secretarialservices" target="_blank">秘書服務</a></li>
+              <li><a href="/Openingabank" target="_blank">銀行開戶</a></li>
+              <li><a href="/Payrollmanagement" target="_blank">財務會計</a></li>
+              <li><a href="/FinancialAccounting" target="_blank">薪酬管理</a></li>
+              <li><a href="/CompanySupport" target="_blank">離岸公司支援(英屬維爾京群島、開曼群島)</a></li>
+            </ul>
+            <ul>
+              <li>稅務及審計服務</li>
+              <li><a href="/statutory-audit" target="_blank">法定審計</a></li>
+              <li><a href="/businessvaluation" target="_blank">商業估值</a></li>
+              <li><a href="/PerformProcedures" target="_blank">執行商定程序</a></li>
+              <li><a href="/TaxConsultation" target="_blank">稅務諮詢</a></li>
+              <li><a href="/CPA" target="_blank">鑑證會計</a></li>
+              <li><a href="/duediligence" target="_blank">盡職調查</a></li>
+              <li><a href="/Corporate" target="_blank">企業併購</a></li>
+              <li><a href="/Immigrationaudit" target="_blank">香港移民審計</a></li>
+              <li><a href="/Macaucompany" target="_blank">澳門子公司密計</a></li>
+            </ul>
+            <ul>
+              <li>上市公司服務</li>
+              <li><a href="/Listingplanning" target="_blank">上市策劃(美國、香港)</a></li>
+              <li><a href="/Financialaudit" target="_blank">財務審計</a></li>
+              <li><a href="/Environmental" target="_blank">環境社會及管治報告</a></li>
+              <li><a href="/nternalreview" target="_blank">內部控制審閱</a></li>
+              <li><a href="/" target="_blank">企業風險管理</a></li>
+              <li><a href="/" target="_blank">上市公司秘書</a></li>
+              <li><a href="/" target="_blank">任職董事</a></li>
+            </ul>
+            <ul>
+              <li>其他服務</li>
+              <li><a href="/shangbiaozhuce" target="_blank">註冊商標</a></li>
+              <li><a href="/zizhushenbao" target="_blank">資助申報</a></li>
+              <li><a href="/shouzizhuxiangmu" target="_blank">受資助項目查驗</a></li>
+              <li><a href="/chepaishenbao" target="_blank">港澳車牌申請</a></li>
+              <li><a href="/zichanguanli" target="_blank">資產管理</a></li>
+              <li><a href="/equityinvestment" target="_blank">股權投融</a></li>
+              <li><a href="/creditsupport" target="_blank">信貸支援</a></li>
+              <li><a href="/equityunderwriting" target="_blank">股權包銷</a></li>
+              <li><a href="/majorinvestment" target="_blank">重大投資移民</a></li>
+            </ul>
+          </div>
+          <div>
+            <div class="phone_">
+              <h3>0532-12345678</h3>
+              <p>8:00-18:00（仅收市话费）</p>
+              <t-button :ghost="true">
+                <em class="iconfont-message2"></em>
+                <p>联系我们</p>
+              </t-button>
             </div>
+          </div>
         </div>
-        <div style="width: 100%; margin: 10px 0 auto; background-color: #fafafa; padding: 10px 0; text-align: center;">
-            <div class="call">
-                <span>GrandBlossom官网</span>
-            </div>
+      </div>
+      <div style="width: 100%; margin: 10px 0 auto; background-color: #fafafa; padding: 10px 0; text-align: center;">
+        <div class="call">
+          <span>GrandBlossom官网</span>
         </div>
+      </div>
     </div>
-</template>
+  </template>
 <style src="../../src/assets/home.css"></style>
 <style scoped>
 #foot {
