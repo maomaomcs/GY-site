@@ -2,7 +2,7 @@
 import {ref} from "vue";
 import notFound from "@/components/not-found.vue";
 import index from '@/components/index.vue'
-import community from '@/components/community_classification.vue'
+//import community from '@/components/community_classification.vue'
 import Opend from "@/components/Secretarial accounting services/CompanyOpened.vue";
 import Zhu from "@/components/Secretarial accounting services/Zhuce.vue";
 import SecretarialServices from "@/components/Secretarial accounting services/Secretarial services.vue";

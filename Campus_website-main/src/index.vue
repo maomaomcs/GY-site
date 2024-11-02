@@ -1,6 +1,6 @@
 <script setup>
-import page_foot from '@/view/foot.vue'
-import page_head from '@/view/headers.vue'
+//import page_foot from '@/view/foot.vue'
+//import page_head from '@/view/headers.vue'
 import index from './components/index.vue';
 </script>
 
