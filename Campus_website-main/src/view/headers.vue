@@ -31,12 +31,12 @@ const clickHandler = (data) => {
         <message></message>
     </t-drawer>
     <div class="box">
-        <t-head-menu  expand-type="popup">
+        <t-head-menu expand-type="popup">
             <template #logo>
                 <img style="height: 28px" src="../../public/logo/Photo.png" alt="logo" />
                 <span style="margin: 5px 0 5px 10px;font-size: 18px">GrandBlossom官网</span>
             </template>
-            <t-menu-item @click="router.push('/')"> 官网首页 </t-menu-item>
+            <t-menu-item class="no-color" @click="router.push('/')"> 官网首页 </t-menu-item>
             <t-submenu value="3" title="公司秘書及會計服務">
                 <t-menu-item @click="router.push('/company-opened')"> 公司開業 </t-menu-item>
                 <t-menu-item @click="router.push('/Zhuce')"> 註冊地址 </t-menu-item>
@@ -97,6 +97,12 @@ const clickHandler = (data) => {
 </template>
 
 <style lang="less" scoped>
+.no-color {
+    color: inherit; /* Use inherited color */
+    background-color: transparent; /* No background */
+    border: none; /* Remove border */
+}
+
 .t-menu__operations {
     .t-button {
         margin-left: 8px;
