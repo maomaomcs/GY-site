@@ -132,7 +132,7 @@
                         style="overflow: hidden;border-radius: 8px">
                 </a>
                 <div class="mess">
-                    <a href="">
+                    <a href="..">
                         <h2>加入我们</h2>
                         <p class="desc"></p>
                         <div class="go-link">
