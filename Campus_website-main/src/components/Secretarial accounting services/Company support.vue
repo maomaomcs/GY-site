@@ -1,16 +1,18 @@
 <template>
-  <div class="company-registration-page">
-    <h1 class="header">公司註册及專業服務</h1>
-    <p class="description">提供全面的公司註册及專業服務，讓您的業務輕鬆啟動。</p>
+  <div class="offshore-support-page">
+    <h1 class="header">離岸公司支援</h1>
+    <p class="description">提供全面的離岸公司支援服務，讓您的業務穩步發展。</p>
 
     <div class="step-card">
       <div class="step-icon">1</div>
       <div class="step-content">
-        <h2>成立公司條件</h2>
+        <h2>會計及稅務支拨</h2>
+        <p>納稅人應具備完善的會計帳册，並由在「會計師專業委員會」註册的會計師核對帳冊及簽署有關申報檔。</p>
+        <h3>主要項目:</h3>
         <ul class="list">
-          <li>至少一名年满18歲的股東和董事</li>
-          <li>一名法定秘書（由香港永久居民或香港公司擔任）</li>
-          <li>一個香港註册地址</li>
+          <li>利得稅、薪俸稅、物業稅申報</li>
+          <li>海外收入稅務豁免</li>
+          <li>避免雙重徵稅</li>
         </ul>
       </div>
     </div>
@@ -18,11 +20,13 @@
     <div class="step-card">
       <div class="step-icon">2</div>
       <div class="step-content">
-        <h2>註册方式及所需時間</h2>
+        <h2>職業稅及薪酬申報</h2>
+        <p>根據澳門法律，企業必須履行以下義務：</p>
         <ul class="list">
-          <li>註册易!方式註册（需時1天）</li>
-          <li>註册全新香港有限公司（需時約5-6天）</li>
-          <li>購買現成香港公司（即空殼公司，需時約2天）</li>
+          <li>員工入職及離職登記</li>
+          <li>薪金、加班費、假期工作補償及費用報銷</li>
+          <li>按季度提交社會保障基金費用</li>
+          <li>年度申報表(M3/M4)</li>
         </ul>
       </div>
     </div>
@@ -30,11 +34,12 @@
     <div class="step-card">
       <div class="step-icon">3</div>
       <div class="step-content">
-        <h2>所需資料</h2>
+        <h2>虛擬辦公室服務</h2>
         <ul class="list">
-          <li>公司中英文名稱或單一的中文或英文名稱</li>
-          <li>股東、董事身份證或護照複印件</li>
-          <li>公司註册地址</li>
+          <li>提供公司註册地址及聯絡地址</li>
+          <li>專人代收信件並寄回指定地址</li>
+          <li>會議室借用（需提前預約）</li>
+          <li>接待政府部門稽查</li>
         </ul>
       </div>
     </div>
@@ -42,44 +47,12 @@
     <div class="step-card">
       <div class="step-icon">4</div>
       <div class="step-content">
-        <h2>公司秘書服務</h2>
+        <h2>專業會計服務</h2>
+        <p>我們提供清晰、準確的財務信息，幫助企業做出明智的決策，提升管理水平和盈利能力。</p>
+        <h3>服務包括:</h3>
         <ul class="list">
-          <li>編寫及保存法定記錄</li>
-          <li>安排及出席董事和股東會議</li>
-          <li>預備及呈交法定文件</li>
-          <li>協助開設銀行賬戶</li>
-          <li>協助申請香港工作簽證</li>
-          <li>公司註銷及暫停活動申請</li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="step-card">
-      <div class="step-icon">5</div>
-      <div class="step-content">
-        <h2>開戶方式及流程</h2>
-        <ul class="list">
-          <li>親臨開戶: 公司董事親臨香港銀行開戶，當天可完成開戶所需簽名文件，預計20個工作日完成。</li>
-          <li>視頻開戶: 約需30個工作日。</li>
-          <li>律師公證: 由兩地律師公證文件，再由律師代表到銀行開戶。</li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="step-card">
-      <div class="step-icon">6</div>
-      <div class="step-content">
-        <h2>會計服務</h2>
-        <p>會計要素:</p>
-        <ul class="list">
-          <li>靜態要素: 資產、負債、所有者權益</li>
-          <li>動態要素: 收入、費用、利潤</li>
-        </ul>
-        <h3>我們的服務包括:</h3>
-        <ul class="list">
-          <li>代理記賬</li>
-          <li>設置會計制度</li>
-          <li>財務報表編制</li>
+          <li>帳目整理</li>
+          <li>編制財報</li>
           <li>存貨管理</li>
           <li>成本管理</li>
           <li>建立內部會計稽核制度</li>
@@ -88,22 +61,16 @@
     </div>
 
     <div class="step-card">
-      <div class="step-icon">7</div>
+      <div class="step-icon">5</div>
       <div class="step-content">
-        <h2>稅務支援</h2>
-        <p>主要項目:</p>
-        <ul class="list">
-          <li>利得稅、薪俸稅、物業稅</li>
-          <li>海外收入稅務豁免</li>
-          <li>避免雙重徵稅</li>
-        </ul>
+        <h2>秘書服務</h2>
+        <p>我們提供一站式多元化的秘書服務，支持企業的發展需求。</p>
         <h3>服務包括:</h3>
         <ul class="list">
-          <li>稅務諮詢</li>
-          <li>稅務申報</li>
-          <li>稅務實地審核及調查</li>
-          <li>薪俸稅電報</li>
-          <li>稅務訴訟</li>
+          <li>安排董事和股東會議，並草擬會議記錄</li>
+          <li>更新公司章程及政府部門登记资料</li>
+          <li>協助開設銀行賬戶</li>
+          <li>預備及提交法定文件，如周年申報表和商業登記</li>
         </ul>
       </div>
     </div>
@@ -112,12 +79,12 @@
 
 <script>
 export default {
-  name: 'CompanyRegistrationServices',
+  name: 'OffshoreSupportServices',
 };
 </script>
 
 <style scoped>
-.company-registration-page {
+.offshore-support-page {
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px 20px 100px 20px;

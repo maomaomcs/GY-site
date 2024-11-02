@@ -5,14 +5,14 @@
 <template>
     <div style="width: 100%" id="index">
         <div style="width: 100%" class="index_div">
-            <img src="https://www.tencent.com/img/banners/student-1.jpg" alt="" style="width: 100%">
+            <img src="../../img/student-1.jpg" alt="" style="width: 100%">
             <div>
                 <h2>合作推廣,可持續發展</h2>
                 <p class="desc">與客戶合作推廣可持續實踐<br />打造可持續發展之路</p>
             </div>
         </div>
         <div style="width: 80%;margin: 0 auto" class="index_div_2">
-            <img style="width: 100%" src="https://www.tencent.com/data/student/pic-bg-1.jpg" alt="">
+            <img style="width: 100%" src="../../img/pic-bg-1.jpg" alt="">
             <div class="article-box">
                 <div class="text-box left-box">
                     <h3>GBA (Grand Blossom Advisory Limited)</h3>
@@ -22,7 +22,7 @@
             </div>
         </div>
         <div style="width: 80%;margin: 0 auto" class="index_div_2">
-            <img style="width: 100%" src="https://www.tencent.com/data/student/pic-bg-2.jpg" alt="">
+            <img style="width: 100%" src="../../img/pic-bg-2.jpg" alt="">
             <div class="article-box">
                 <div class="text-box right-box">
                     <h3><img src="../../public/logo/GrandBlossom.png" alt="img"></h3>
@@ -41,7 +41,7 @@
             <div style="" class="mod-graph-box clearfix">
                 <div>
                     <div class="graph-box not-font l-graph">
-                        <img src="https://www.tencent.com/data/responsibility/flx-1-1.jpg" alt="img" class="pic">
+                        <img src="../../img/flx-1-1.jpg" alt="img" class="pic">
 
                         <h4>公司介绍</h4>
                         <p class="desc">
@@ -50,7 +50,7 @@
                         </p>
                     </div>
                     <div class="graph-box not-font r-graph">
-                        <img src="https://www.tencent.com/data/responsibility/flx-2-1.jpg" alt="img" class="pic">
+                        <img src="../../img/flx-2-1.jpg" alt="img" class="pic">
                         <h4>多元文化</h4>
                         <p class="desc">
                             公司一直以来坚持提供平等、透明、无歧视的办公环境，对不同性别、国籍、民族、宗教信仰的员工给予充分尊重，禁止员工间开冒犯性的玩笑或展示冒犯性的物品。同时，严格遵守国家相关规定，维护员工利益，共同创造一个平等、和谐、多元文化融合发展的学习环境。
@@ -127,16 +127,16 @@
 
         <div>
             <div style="position: relative">
-                <a href="" style="display: block;width: 80%;margin: 0 auto;">
-                    <img src="https://www.tencent.com/data/student/join-bg.jpg" alt="" width="100%"
+                <a href="./login" style="display: block;width: 80%;margin: 0 auto;">
+                    <img src="../../img/join-bg.jpg" alt="" width="100%"
                         style="overflow: hidden;border-radius: 8px">
                 </a>
                 <div class="mess">
-                    <a href="">
+                    <a href="./login">
                         <h2>加入我们</h2>
                         <p class="desc"></p>
                         <div class="go-link">
-                            <i class="go-icon"><img src="https://www.tencent.com/img/responsibility/go-icon.png" alt="img"><p>GrandBlossom</p></i>
+                            <i class="go-icon"><img src="../../img/go-icon.png" alt="./login"><p>GrandBlossom</p></i>
                         </div>
                     </a>
                 </div>
@@ -163,7 +163,7 @@
 
 @font-face {
     font-family: 'TencentSansw7';
-    src: url('https://www.tencent.com/font/TencentSans-W7.eot');
+    src: url('../../img/TencentSans-W7.eot');
     src:
         url('../../public/TencentSans-W7.eot?#font-spider') format('embedded-opentype'),
         url('../../public/TencentSans-W7.woff') format('woff'),
@@ -310,7 +310,7 @@
 .brand-item .look-more i {
     width: 8px;
     height: 14px;
-    background: url(https://www.tencent.com/img/investor/more-awart.png) no-repeat center;
+    background: url(../../img/more-awart.png) no-repeat center;
     background-size: 100% 100%;
     display: inline-block;
     margin-left: 10px;

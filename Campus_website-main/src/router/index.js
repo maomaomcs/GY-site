@@ -114,6 +114,26 @@ const router = createRouter({
       component: () => import('../components/Audit_and_tax_services/nternal control review.vue') 
     },
     {
+      path: '/AppointedDirector',
+      name: 'AppointedDirector',
+      component: () => import('../components/Audit_and_tax_services/Appointed Director.vue') 
+    },
+    {
+      path: '/Macaucompany',
+      name: 'Macaucompany',
+      component: () => import('../components/Audit_and_tax_services/Macau subsidiary company.vue') 
+    },
+    {
+      path: '/Listedcompanyservices',
+      name: 'Listedcompanyservices',
+      component: () => import('../components/Audit_and_tax_services/Listed company services.vue') 
+    },
+    {
+      path: '/Enterpriseriskmanagement',
+      name: 'Enterpriseriskmanagement',
+      component: () => import('../components/Audit_and_tax_services/Enterprise risk management.vue') 
+    },
+    {
       path: '/shangbiaozhuce',
       name: 'shangbiaozhuce',
       component: () => import('../components/other/shangbiaozhuce.vue') 

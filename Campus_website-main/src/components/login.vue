@@ -210,6 +210,7 @@ const onSubmit1 = ({validateResult, firstError, e}) => {
 @import "../../web/DHome.css";
 
 .login {
+        padding: 20px 10px 54px;
     width: 100%;
     display: flex;
 }

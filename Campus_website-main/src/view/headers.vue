@@ -20,7 +20,7 @@ const redirectToLogin = () => {
         });
 };
 function newPageFunction() {
-            window.location.href = 'http://localhost:5173/login';
+            window.location.href = './login';
         }
 const clickHandler = (data) => {
     MessagePlugin.success(data.content);
@@ -57,16 +57,16 @@ const clickHandler = (data) => {
                 <t-menu-item @click="router.push('/duediligence')"> 盡職調查 </t-menu-item>
                 <t-menu-item @click="router.push('/Corporate')"> 企業併購 </t-menu-item>
                 <t-menu-item @click="router.push('/Immigrationaudit')"> 香港移民審計 </t-menu-item>
-                <t-menu-item @click="router.push('/Macau')"> 澳門子公司審計 </t-menu-item>
+                <t-menu-item @click="router.push('/Macaucompany')"> 澳門子公司審計 </t-menu-item>
             </t-submenu>
             <t-submenu value="5" title="上市公司服務">
                 <t-menu-item @click="router.push('/Listingplanning')"> 上市策劃 </t-menu-item>
                 <t-menu-item @click="router.push('/Financialaudit')"> 財務審計 </t-menu-item>
                 <t-menu-item @click="router.push('/Environmental')"> 環境社會及管治報告 </t-menu-item>
                 <t-menu-item @click="router.push('/nternalreview')"> 內部控制審閱 </t-menu-item>
-                <t-menu-item @click="router.push('/risk')"> 企業風險管理 </t-menu-item>
-                <t-menu-item @click="router.push('/Listed')"> 上市公司秘書 </t-menu-item>
-                <t-menu-item @click="router.push('/Director')"> 任職董事 </t-menu-item>
+                <t-menu-item @click="router.push('/Enterpriseriskmanagement')"> 企業風險管理 </t-menu-item>
+                <t-menu-item @click="router.push('/Listedcompanyservices')"> 上市公司秘書 </t-menu-item>
+                <t-menu-item @click="router.push('/AppointedDirector')"> 任職董事 </t-menu-item>
             </t-submenu>
             <t-submenu value="6" title="其他服務">
                 <t-menu-item @click="router.push('/shangbiaozhuce')"> 註冊商標 </t-menu-item>
