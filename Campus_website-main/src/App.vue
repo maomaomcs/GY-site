@@ -1,5 +1,5 @@
 <script setup>
-import index from "@/index.vue";
+//import index from "@/index.vue";
 import headers from "./view/headers.vue";
 import foot from "./view/foot.vue";
 </script>
