@@ -95,9 +95,14 @@
   <style scoped>
   .subsidy-project-inspection-service-container {
     width: 80%;
-    margin: 0 auto;
-    margin-bottom: 100px;
-    font-family: Arial, sans-serif;
+        margin: 5px auto;
+        padding-top: 5px;
+        margin-bottom: 100px;
+        font-family: Arial, sans - serif;
+        padding-left: 3%;
+        padding-right: 3%;
+        padding-bottom: 3%;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
   }
   
   h2 {
