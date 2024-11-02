@@ -11,7 +11,7 @@
       <div class="step-content">
         <h2>公司名称申请</h2>
         <p>在开始注册流程前，您需要申请并获得拟用公司名称的批准。请确保名称符合澳门的法律规定。</p>
-        <button class="btn-primary">查看名称申请要求</button>
+        <!-- <button class="btn-primary">查看名称申请要求</button> -->
       </div>
     </section>
 
@@ -30,7 +30,7 @@
           <li>领取开业文件及证书</li>
           <li>准备法定记录册</li>
         </ul>
-        <button class="btn-primary">了解更多</button>
+        <!-- <button class="btn-primary">了解更多</button> -->
       </div>
     </section>
 
@@ -48,7 +48,7 @@
           <li>完成调查后银行发放账号和支票本</li>
           <li>激活网上银行并首次存入启动资金</li>
         </ol>
-        <button class="btn-primary">银行开户细节</button>
+        <!-- <button class="btn-primary">银行开户细节</button> -->
       </div>
     </section>
 
