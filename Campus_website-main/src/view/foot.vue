@@ -1,90 +1,76 @@
-<script setup>
-
-</script>
-
 <template>
     <div id="foot">
-        <div class="footer">
-            <div class="about">
-                <div>
-                    <ul>
-                        <li>公司概况</li>
-                        <li><a href="">董事长致辞</a></li>
-                        <li><a href="">领导团队</a></li>
-                        <li><a href="">发展历程</a></li>
-                        <li><a href="">企业价值观</a></li>
-                        <li><a href="">经营理念</a></li>
-                        <li><a href="">公司简介</a></li>
-                        <li><a href="">公司视频</a></li>
-                    </ul>
-                    <ul>
-                        <li>部门设置</li>
-                        <li><a href="">董事会办公室</a></li>
-                        <li><a href="">品牌宣传部</a></li>
-                        <li><a href="">监察审计部</a></li>
-                        <li><a href="">人力资源部</a></li>
-                        <li><a href="">业务管理部</a></li>
-                        <li><a href="">合作发展部</a></li>
-                        <li><a href="">客户服务中心</a></li>
-                    </ul>
-                    <ul>
-                        <li>业务板块</li>
-                        <li><a href="">生产制造板块</a></li>
-                        <li><a href="">研发创新板块</a></li>
-                        <li><a href="">市场营销板块</a></li>
-                        <li><a href="">技术服务中心</a></li>
-                        <li><a href="">物流配送板块</a></li>
-                        <li><a href="">综合管理部</a></li>
-                    </ul>
-                    <ul>
-                        <li>公共服务</li>
-                        <li><a href="">业务管理</a></li>
-                        <li><a href="">协同办公</a></li>
-                        <li><a href="">企业邮箱</a></li>
-                        <li><a href="">公司官网导航</a></li>
-                        <li><a href="">意见反馈箱</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <div class="phone_">
-                        <h3>0532-12345678</h3>
-                        <p>8:00-18:00（仅收市话费）</p>
-                        <t-button :ghost="true">
-                            <em class="iconfont-message2"></em>
-                            <p>联系我们</p>
-                        </t-button>
-                    </div>
-                </div>
+      <div class="footer">
+        <div class="about">
+          <div>
+            <ul>
+              <li>公司秘書及會計服務</li>
+              <li><a href="/company-opened" target="_blank">公司開業</a></li>
+              <li><a href="/Zhuce" target="_blank">註冊地址</a></li>
+              <li><a href="/Secretarialservices" target="_blank">秘書服務</a></li>
+              <li><a href="/Openingabank" target="_blank">銀行開戶</a></li>
+              <li><a href="/Payrollmanagement" target="_blank">財務會計</a></li>
+              <li><a href="/FinancialAccounting" target="_blank">薪酬管理</a></li>
+              <li><a href="/CompanySupport" target="_blank">離岸公司支援(英屬維爾京群島、開曼群島)</a></li>
+            </ul>
+            <ul>
+              <li>稅務及審計服務</li>
+              <li><a href="/statutory-audit" target="_blank">法定審計</a></li>
+              <li><a href="/businessvaluation" target="_blank">商業估值</a></li>
+              <li><a href="/PerformProcedures" target="_blank">執行商定程序</a></li>
+              <li><a href="/TaxConsultation" target="_blank">稅務諮詢</a></li>
+              <li><a href="/CPA" target="_blank">鑑證會計</a></li>
+              <li><a href="/duediligence" target="_blank">盡職調查</a></li>
+              <li><a href="/Corporate" target="_blank">企業併購</a></li>
+              <li><a href="/Immigrationaudit" target="_blank">香港移民審計</a></li>
+              <li><a href="/Macaucompany" target="_blank">澳門子公司密計</a></li>
+            </ul>
+            <ul>
+              <li>上市公司服務</li>
+              <li><a href="/Listingplanning" target="_blank">上市策劃(美國、香港)</a></li>
+              <li><a href="/Financialaudit" target="_blank">財務審計</a></li>
+              <li><a href="/Environmental" target="_blank">環境社會及管治報告</a></li>
+              <li><a href="/nternalreview" target="_blank">內部控制審閱</a></li>
+              <li><a href="/" target="_blank">企業風險管理</a></li>
+              <li><a href="/" target="_blank">上市公司秘書</a></li>
+              <li><a href="/" target="_blank">任職董事</a></li>
+            </ul>
+            <ul>
+              <li>其他服務</li>
+              <li><a href="/shangbiaozhuce" target="_blank">註冊商標</a></li>
+              <li><a href="/zizhushenbao" target="_blank">資助申報</a></li>
+              <li><a href="/shouzizhuxiangmu" target="_blank">受資助項目查驗</a></li>
+              <li><a href="/chepaishenbao" target="_blank">港澳車牌申請</a></li>
+              <li><a href="/zichanguanli" target="_blank">資產管理</a></li>
+              <li><a href="/equityinvestment" target="_blank">股權投融</a></li>
+              <li><a href="/creditsupport" target="_blank">信貸支援</a></li>
+              <li><a href="/equityunderwriting" target="_blank">股權包銷</a></li>
+              <li><a href="/majorinvestment" target="_blank">重大投資移民</a></li>
+            </ul>
+          </div>
+          <div>
+            <div class="phone_">
+              <h3>0532-12345678</h3>
+              <p>8:00-18:00（仅收市话费）</p>
+              <t-button :ghost="true">
+                <em class="iconfont-message2"></em>
+                <p>联系我们</p>
+              </t-button>
             </div>
+          </div>
         </div>
-        <div style="width: 100%;margin: 10px 0 auto;background-color: #fafafa;padding: 10px 0;text-align: center">
-            <!-- <div class="info-text" style="width: 85%;margin: 0 auto">
-                <div class="info_content" style="width: 100%">
-                    <p class="sites"><a rel="nofollow" href="//www.mi.com/shop" target="_blank">港湾学院</a><span class="sep">|</span><a rel="nofollow" href="" target="_blank">学院风采</a><span class="sep">|</span><a rel="nofollow" href="" target="_blank">学校</a><span class="sep">|</span><a rel="nofollow" href="" target="_blank">办公室</a><span class="sep">|</span><a rel="nofollow" href="" target="_blank">校报</a><span class="sep">|</span><a rel="nofollow" href="" target="_blank">娱乐</a><span class="sep">|</span><a rel="nofollow" href="" target="_blank">休闲</a><span class="sep">|</span><a rel="nofollow" href="" target="_blank">校企企服务</a><span class="sep">|</span><a rel="nofollow" href="" target="_blank">港湾缴费</a><span class="sep">|</span><a rel="nofollow" href="" target="_blank">港湾学院隐私政策</a><span class="sep">|</span><a rel="nofollow" href="" target="_blank">港湾学院儿童信息保护规则</a><span class="sep">|</span><a rel="nofollow" href="" target="_blank">港湾学院隐私政策</a><span class="sep">|</span><a rel="nofollow" href="" target="_blank">港湾学院用户协议</a><span class="sep">|</span><a rel="nofollow" href="" target="_blank">问题反馈</a><span class="sep">|</span><a rel="nofollow" href="" class="J_siteGlobalRegion">联系校长</a></p>
-                    <p class="sites" style="margin: 5px 0"><a rel="nofollow" href="http://www.mi.com/beihu" target="_blank">北京互联网法院法律服务工作站</a> <span class="sep">|</span> <a rel="nofollow" href="http://www.cca.org.cn/" target="_blank">中国消费者协会</a> <span class="sep">|</span> <a rel="nofollow" href="http://www.bj315.org/" target="_blank">北京市消费者协会</a></p>
-                    <div class="logo">
-                        <img src="../../public/logo/GrandBlossom.png" alt="">
-                    </div>
-                    <p>
-                        ©
-                        <a href="" title="mi.com">qdgw.edu.cn</a> 鲁ICP备09093029号-1
-                        <a href="http://beian.miit.gov.cn/" target="_blank" rel="nofollow">鲁ICP备09093029号-1</a> <a rel="nofollow" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=37021102000241" target="_blank">鲁公网安备 37021102000241号</a> <a href="" target="_blank">鲁公网安备 37021102000241号</a> <br> <a href="" target="_blank">（鲁）网械平台备字（2018）第****号</a> <a href="" target="_blank">互联网药品信息服务资格证 (鲁)-非经营性-****-****</a> <a href="" target="_blank">营业执照</a> <a href="" target="_blank">医疗器械质量公告</a> <br> <a href="https://cdn.cnbj1.fds.api.mi-img.com/staticsfile/pc/5f93056c-bc30-401e-9526-66839114ffb9.png" target="_blank">增值电信业务经营许可证编号：京*****</a>&nbsp;网络食品经营备案 京食药网食备**** &nbsp;
-                        <a href="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/c6859168166651511897f54fa1047fe3.png" target="_blank">食品经营许可证</a>&nbsp;新出发京批字第直*****号
-                        <br>违法和不良信息举报电话：171-5104-4404&nbsp;<a href="https://www.mi.com/intellectual" target="_blank">知识产权侵权投诉</a>&nbsp;本网站所列数据，除特殊说明，所有数据均出自我校实验室测试
-                    </p>
-                </div>
-            </div> -->
-
-            <div class="call">
-                <span>GrandBlossom官网</span>
-            </div>
+      </div>
+      <div style="width: 100%; margin: 10px 0 auto; background-color: #fafafa; padding: 10px 0; text-align: center;">
+        <div class="call">
+          <span>GrandBlossom官网</span>
         </div>
+      </div>
     </div>
-</template>
-
+  </template>
 <style src="../../src/assets/home.css"></style>
 <style scoped>
 #foot {
+    margin-top: 50px;
     text-align: center;
     user-select: none;
 }
