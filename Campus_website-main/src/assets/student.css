@@ -14,7 +14,7 @@
 
 .type-box .row-1 .item-1 {
     width: 66.66666666%;
-    background: url(https://www.tencent.com/data/student/txt-1-bg.jpg) no-repeat center;
+    background: url(../../img/txt-1-bg.jpg) no-repeat center;
     background-size: cover;
     height: 271px;
     float: left;
@@ -23,7 +23,7 @@
 
 .type-box .row-1 .item-2 {
     width: 33.33333333%;
-    background: url(https://www.tencent.com/data/student/txt-2-bg.jpg) no-repeat center;
+    background: url(../../img/txt-2-bg.jpg) no-repeat center;
     background-size: cover;
     height: 271px;
     float: left;
@@ -32,7 +32,7 @@
 
 .type-box .row-2 .item-3 {
     width: 33.33333333%;
-    background: url(https://www.tencent.com/data/student/txt-3-bg.jpg) no-repeat center;
+    background: url(../../img/txt-3-bg.jpg) no-repeat center;
     background-size: cover;
     height: 271px;
     float: left;
