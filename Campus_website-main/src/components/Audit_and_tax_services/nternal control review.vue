@@ -1,114 +1,151 @@
 <template>
-    <div class="agreed-upon-procedures-container">
-        <!-- 內部控制審閱部分 -->
-        <h2 style="text-align: center; font-size: 32px; font-weight: bold;">內部控制審閱</h2>
-        <h3>一、內部控制審閱簡介</h3>
-        <p>
-            內部控制審閱是企業財務管理和監督過程中的關鍵環節，它是對企業內部控制系統進行全面、深入檢查和評估的重要過程在商業環境複雜、財務風險防範要求高的背景下，高質量的內部控制審閱對於確保企業內部控制有效、保障財務信息可靠和運營合規至關重要我們致力於為客戶提供全面、專業且高效的內部控制審閱服務，助力企業完善內部控制體系和保障健康發展
-        </p>
-        <h3>二、內部控制審閱的重要性</h3>
-        <h4>合規與風險管理的關鍵保障</h4>
-        <p>
-            對於企業而言，內部控制審閱是確保企業遵守法律法規和有效管理風險的關鍵手段通過審閱，可以準確評估企業內部控制在財務報告、運營管理、合規遵循等方面是否滿足要求，避免因內部控制失效導致的違規風險和財務損失例如，若未能有效審閱企業在資金支付環節的內部控制，可能出現未經授權的資金支出，導致企業財務受損或面臨法律問題
-        </p>
-        <h4>管理決策的重要依據</h4>
-        <p>
-            審閱結果為企業管理決策提供了重要依據詳細的審閱信息能夠幫助企業管理層了解內部控制的優勢和不足，進而確定合理的管理策略例如，通過對採購環節內部控制的審閱分析，企業可以清楚知道是否需要調整採購審批流程、加強供應商管理，以優化資源配置和降低成本；通過對財務報告內部控制的評估，確定是否需要改進財務流程和加強監督
-        </p>
-        <h4>保障企業持續穩定發展</h4>
-        <p>
-            有效的內部控制審閱有助於保障企業的持續穩定發展提前對內部控制的有效性進行準確審查，可以在日常運營中避免因內部控制缺陷引發的各種問題，如舞弊、錯誤決策、資源浪費等，同時也有利於在面臨內外部挑戰時保持企業的穩定性和競爭力
-        </p>
-        <h3>三、內部控制審閱流程</h3>
-        <h4>確定審閱範圍與目標</h4>
-        <p>
-            根據企業的類型（如上市公司、中小企業等）、行業特點和審閱目的（如年度審閱、專項審閱等）確定內部控制審閱的範圍和目標這需要考慮相關法規、會計準則以及行業最佳實踐對內部控制的要求例如，對於上市公司的年度內部控制審閱，需要涵蓋財務報告內部控制的所有要素，確保財務報表的可靠性；對於專項審閱，如對企業某業務流程的內部控制審閱，則需明確該業務相關的控制環節、風險點等審查範圍
-        </p>
-        <h4>組建專業審閱團隊</h4>
-        <p>
-            組建一支由註冊會計師、內部控制專家、風險管理專家、行業專家等組成的專業審閱團隊團隊成員需要具備豐富的內部控制審閱經驗和相關領域的專業知識，能夠從不同角度對企業的內部控制情況進行全面審查例如，註冊會計師負責檢查與財務報告相關的內部控制，內部控制專家評估內部控制體系的設計和運行有效性，風險管理專家關注內部控制在風險識別和應對方面的作用，行業專家評估企業內部控制在同行業中的水平和合理性
-        </p>
-        <h4>資料收集與分析</h4>
-        <p>
-            從企業內部各部門及外部相關機構收集各種資料，包括但不限於內部控制手冊、政策文件、流程圖、業務合同、財務報表、審計報告、風險評估報告等對收集到的資料進行深入分析，識別其中的關鍵信息、異常情況和可能影響內部控制有效性的問題例如，通過分析內部控制手冊和流程圖，核實內部控制的設計是否合理；通過審查業務合同和財務報表，確定內部控制在實際業務操作中的執行情況；通過分析風險評估報告，了解企業面臨的風險是否得到有效控制
-        </p>
-        <h4>實地調查與訪談（如有需要）</h4>
-        <p>
-            在必要情況下，審閱團隊進行實地考察或與相關方進行訪談如對企業的倉庫進行實地查看，了解存貨管理的內部控制執行情況；與企業的各級管理人員、員工訪談，了解他們對內部控制的理解和執行情況獲取更準確的信息，確保審閱結果的可靠性
-        </p>
-        <h4>撰寫內部控制審閱報告</h4>
-        <p>
-            根據資料分析和實地調查（如有）的結果，撰寫詳細的內部控制審閱報告報告內容應包括企業的基本情況、審閱發現的問題和風險（如內部控制設計缺陷、執行不力等）、對企業內部控制有效性的整體評估、建議措施等報告要以清晰、準確、客觀的方式呈現，為企業管理層、審計委員會、監管機構等報告使用者提供全面的支持例如，報告中會詳細列出內部控制薄弱環節、潛在風險點以及針對這些問題的改進建議
-        </p>
-        <h3>四、我們的優勢</h3>
-        <h4>專業的審閱團隊</h4>
-        <p>
-            我們擁有一支由經驗豐富的註冊會計師、內部控制咨詢師、風險管理師、行業分析師等組成的專業團隊團隊成員在內部控制審閱領域擁有深厚的專業知識和多年的實踐經驗，熟悉國內外內部控制標準、法規和相關最佳實踐，能夠為客戶提供高質量的專業服務無論是複雜的財務報告內部控制審閱、業務流程內部控制評估還是風險管理審閱，都能準確高效地完成
-        </p>
-        <h4>豐富的行業資源</h4>
-        <p>
-            憑藉廣泛的商業網絡和豐富的行業資源，我們能夠迅速獲取內部控制標準的最新修訂信息、各行業的內部控制案例和市場趨勢等資料與監管機構、行業協會、同行業企業等建立了良好的合作關係，這有助於在審閱過程中獲取更多信息、協調各方關係，解決可能出現的問題
-        </p>
-        <h4>科學的審閱方法和模型</h4>
-        <p>
-            我們運用先進的審閱方法和模型，對內部控制審閱項目進行全面、深入的分析無論是資料收集整理、風險評估還是報告撰寫，都有科學的方法和模型作為支撐，確保審閱結果的準確性和可靠性同時，不斷更新和改進這些方法和模型，以適應不斷變化的內部控制標準和市場環境
-        </p>
-        <h4>個性化的服務方案</h4>
-        <p>
-            每個內部控制審閱項目都有其獨特性，我們深知這一點因此，我們根據客戶的具體情況和需求，制定個性化的內部控制審閱服務方案從審閱範圍的確定到報告內容的重點，每一個環節都充分考慮客戶的企業類型、行業特點、審閱目的、時間安排等因素，為客戶提供最適合的審閱方案
-        </p>
-        <h4>嚴格的信息保密機制</h4>
-        <p>
-            在內部控制審閱過程中，信息的保密性至關重要我們建立了嚴格的信息保密機制，從資料收集到整個審閱過程中的信息處理和存儲，都採取了嚴格的保密措施確保企業的商業機密、內部控制信息、管理策略等敏感信息不被泄露，保護客戶的利益
-        </p>
-        <h3>五、服務流程</h3>
-        <h4>需求溝通與評估</h4>
-        <p>
-            與客戶進行深入溝通，了解客戶的企業類型、規模、行業特點、審閱目的、時間安排等信息同時，對內部控制審閱項目的複雜性和潛在風險進行初步評估，為後續的審閱方案設計提供依據
-        </p>
-        <h4>方案設計與規劃</h4>
-        <p>
-            根據溝通和評估的結果，我們的專業團隊為客戶設計詳細的內部控制審閱方案，包括確定審閱範圍、重點審閱領域、審閱方法、團隊成員組成、時間安排和預算等同時，制定內部控制審閥項目的時間表和路線圖，確保項目按計劃推進
-        </p>
-        <h4>項目執行與監控</h4>
-        <p>
-            在內部控制審閱方案實施過程中，我們負責協調各方資源，推動審閱項目的各個環節順利進行對項目進度、可能出現的風險進行實時監控，及時發現並解決可能出現的問題，如資料獲取困難、審閱過程中發現新的重大問題等
-        </p>
-        <h4>報告提交與後續支持</h4>
-        <p>
-            完成內部控制審閱後，向客戶提交詳細的審閱報告，並與客戶進行深入溝通，解釋報告內容和審閱發現同時，為客戶提供後續支持服務，包括協助企業改進內部控制、根據新的法規和要求對報告內容進行更新等，確保客戶在整個內部控制審閱及後續過程中能夠充分利用審閱結果
-        </p>
+    <div class="internal-control-review-page">
+      <h1 class="header">內部控制審閱</h1>
+      <p class="description">
+        提供全面的內部控制審閱服務，幫助企業完善內部控制體系，確保運營風險可控，財務報告可靠合規。
+      </p>
+      <div class="service-list">
+        <div 
+          v-for="(service, index) in services" 
+          :key="index" 
+          class="service-card"
+          @click="openModal(service)"
+        >
+          <img :src="service.icon" alt="Service Icon" class="service-icon"/>
+          <h2>{{ service.title }}</h2>
+          <p>{{ service.shortDescription }}</p>
+        </div>
+      </div>
+  
+      <div v-if="selectedService" class="modal" @click="closeModal">
+        <div class="modal-content" @click.stop>
+          <span class="close" @click="closeModal">×</span>
+          <h2>{{ selectedService.title }}</h2>
+          <p>{{ selectedService.description }}</p>
+        </div>
+      </div>
     </div>
-</template>
-
-<style scoped>
-.agreed-upon-procedures-container {
-    width: 80%;
-    margin: 5px auto;
-    padding-top: 5px;
-    margin-bottom: 100px;
-    font-family: Arial, sans - serif;
-    padding-left: 3%;
-    padding-right: 3%;
-    padding-bottom: 3%;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-}
-
-h2 {
-    border-bottom: 2px solid #007BFF;
-    padding-bottom: 10px;
-    margin-bottom: 20px;
-    margin-top: 50px;
-}
-
-h3 {
-    margin-top: 30px;
+  </template>
+  
+  <script>
+  export default {
+    data() {
+      return {
+        services: [
+          {
+            title: "審核內部控制系統",
+            shortDescription: "審核企業內部控制系統",
+            description: "評估和審查企業現有的內部控制系統，識別潛在風險點，提出改善建議以確保公司流程高效且符合合規要求。",
+            icon: "../../img/chaepai.png"
+          },
+          {
+            title: "完善內部控制體系",
+            shortDescription: "完善企業內部控制體系",
+            description: "提供針對性的改善方案，幫助企業建立和完善內部控制體系，減少運營風險並增強財務報告的可靠性。",
+            icon: "../../img/sheji.png"
+          },
+          {
+            title: "降低運營風險",
+            shortDescription: "降低企業運營風險",
+            description: "通過審閱和改進內部控制措施，降低企業在運營中可能面臨的風險，確保企業穩定運行。",
+            icon: "../../img/Business analytics.png"
+          }
+        ],
+        selectedService: null
+      };
+    },
+    methods: {
+      openModal(service) {
+        this.selectedService = service;
+      },
+      closeModal() {
+        this.selectedService = null;
+      }
+    }
+  };
+  </script>
+  
+  <style scoped>
+  .internal-control-review-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 20px 100px 20px;
+    background-color: #f5f7fa;
+  }
+  
+  .header {
+    text-align: center;
+    font-size: 2.5em;
+    color: #2c3e50;
     margin-bottom: 10px;
-    color: #007BFF;
-}
-h4 {
-    margin-top: 20px;
-    margin-bottom: 10px;
-    color: #0056b3;
-}
-</style>
+  }
+  
+  .description {
+    text-align: center;
+    font-size: 1.2em;
+    color: #7f8c8d;
+    margin-bottom: 40px;
+  }
+  
+  .service-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap: 20px;
+    margin: 10px 100px;
+  }
+  
+  .service-card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    position: relative;
+  }
+  
+  .service-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .service-icon {
+    width: 50px; /* Adjust size */
+    height: 50px; /* Adjust size */
+    margin-bottom: 10px; /* Space between icon and text */
+  }
+  
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    width: 100%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .close {
+    float: right;
+    font-size: 1.5em;
+    cursor: pointer;
+    color: #ff7675;
+  }
+  
+  .close:hover {
+    color: #d63031;
+  }
+  </style>
+  
