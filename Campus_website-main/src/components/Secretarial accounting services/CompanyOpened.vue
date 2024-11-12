@@ -42,58 +42,31 @@ export default {
           title: "開業申請",
           shortDescription: "協助完成公司開業申請的各項事宜",
           description: "包括開業申請的填寫規範、提交渠道以及審核流程等內容的詳細說明",
-<<<<<<< HEAD
           icon: "../../img/baobao.png"
-=======
-          icon: "../../img/公文包.png"
->>>>>>> 435ff47d4b91c57cd1129b7f600fca0c6de9b14e
         },
         {
           title: "法律公證文件準備",
           shortDescription: "負責準備公司開業所需的各類法律公證文件",
           description: "明確各類法律公證文件的具體要求、辦理地點以及辦理時長等情況",
-<<<<<<< HEAD
           icon: "../../img/huoban.png"
         },
         {
           title: "公司章程撰寫與遞交",
           shortDescription: "撰寫符合要求的公司章程，包括对股东架构相关内容的确定，并完成递交工作",
           description: "闡述公司章程撰寫的規範格式、內容要點以及遞交的相關部門和流程，同时涉及股东身份核实、股权比例确定等股东架构方面内容",
-=======
-          icon: "../../img/合夥夥伴.png"
-        },
-        {
-          title: "公司章程撰寫與遞交",
-          shortDescription: "撰寫符合要求的公司章程並完成遞交工作",
-          description: "闡述公司章程撰寫的規範格式、內容要點以及遞交的相關部門和流程",
->>>>>>> 435ff47d4b91c57cd1129b7f600fca0c6de9b14e
           icon: "../../img/passive income.png"
         },
         {
           title: "公司印章及銀行印章辦理",
           shortDescription: "辦理公司及銀行相關印章的製作等事宜",
           description: "說明公司印章和銀行印章辦理的流程、所需材料以及印章的使用規範等",
-<<<<<<< HEAD
           icon: "../../img/qiye.png"
-=======
-          icon: "../../img/Stocks and brokerages .png"
-        },
-        {
-          title: "股東架構確認",
-          shortDescription: "對公司股東架構進行確認與梳理",
-          description: "講解如何準確確認股東架構，包括股東身份核實、股權比例確定等方面",
-          icon: "../../img/Insurance.png"
->>>>>>> 435ff47d4b91c57cd1129b7f600fca0c6de9b14e
         },
         {
           title: "刊登政府公告",
           shortDescription: "按照規定完成在政府相關平臺刊登公告的操作",
           description: "具體說明刊登政府公告的平臺選擇、公告內容要求以及發佈時間等規定",
-<<<<<<< HEAD
           icon: "../../img/qiyue.png"
-=======
-          icon: "../../img/Business solutions .png"
->>>>>>> 435ff47d4b91c57cd1129b7f600fca0c6de9b14e
         },
         {
           title: "法定記錄冊管理",
