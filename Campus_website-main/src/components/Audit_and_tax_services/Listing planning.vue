@@ -55,7 +55,7 @@
             title: "上市籌備流程 - 審批流程",
             shortDescription: "經過SEC證監會、FINRA金融監管局和交易所審批（回覆監管機構提問及補充數據）。",
             description: "應對多個監管機構的審批，包括回覆提問和補充數據，確保順利通過審批。",
-            icon: "../../img/Business solutions.png"
+            icon: "../../img/guanli.png"
           },
           {
             title: "上市籌備流程 - 路演融資",

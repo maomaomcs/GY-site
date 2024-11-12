@@ -66,7 +66,7 @@ export default {
           title: "法定文件提交",
           shortDescription: "準備及提交法定文件",
           description: "為企業準備及提交年度申報表、商業登記及其它法定文件",
-          icon: "../../img/Business solutions.png"
+          icon: "../../img/shenqing.png"
         }
       ],
       selectedService: null
