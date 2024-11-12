@@ -1,100 +1,140 @@
 <template>
-    <div class="agreed-upon-procedures-container">
-       <!-- 定義部分 -->
-       <h2 style="text-align: center; font-size: 32px; font-weight: bold;">執行商定程式</h2>
-       <p>
-          執行商定程式（Agreed - upon Procedures）是指註冊會計師對特定財務數據、單一財務報表或整套財務報表等財務資訊執行與特定主體商定的具有審計性質的程式，並就執行的商定程式及其結果出具報告。
-         </p>
-    
-       <!-- 業務特點部分 -->
-       <h2>一、業務特點</h2>
-       <h3>基於委託需求</h3>
-       <p>
-         
-      註冊會計師執行的程式是與委託方事先商定好的，這些程式可能包括對某些帳戶餘額的核對、對特定交易的檢查等。例如，一家企業可能要求註冊會計師對其應收賬款中特定大客戶的賬款進行函證，並檢查相關的銷售合同和發貨記錄，這就是基於企業的特定需求商定的程式。
-         </p>
-       <h3>不提供審計意見</h3>
-       <p>
-         
-      與傳統的審計業務不同，執行商定程式並不對財務報表整體發表審計意見。註冊會計師僅報告所執行程式的結果，由報告使用者自行根據這些結果作出判斷。例如，註冊會計師按照商定程式檢查了某公司的存貨盤點記錄和相關憑證後，只在報告中說明檢查的過程和發現的事實，而不會得出諸如
-      “該公司存貨計量準確” 這樣的審計結論。
-         </p>
-    
-       <!-- 業務流程部分 -->
-       <h2>二、業務流程</h2>
-       <h3>簽訂業務約定書</h3>
-       <p>
-         
-      註冊會計師與委託方就業務性質、範圍、雙方的責任和義務等進行溝通和協商，並簽訂業務約定書。在業務約定書中，要明確商定程式的具體內容、報告的格式和使用限制等。例如，明確規定註冊會計師要對某企業近一年來的重大採購合同的執行情況進行檢查，並在報告中詳細列出檢查的合同數量、發現的合同執行偏差等內容。
-         </p>
-       <h3>計畫程式</h3>
-       <p>
-         
-      根據商定的程式，制定詳細的工作計畫。這包括確定所需的人員、時間安排、樣本量選取方法等。比如，如果商定程式是對企業固定資產的折舊計算進行檢查，註冊會計師需要計畫選取多少固定資產樣本、採用什麼方法檢查折舊計算是否正確（如重新計算等）。
-         </p>
-       <h3>執行程式</h3>
-       <p>
-         
-      按照計畫實施商定程式。這可能涉及到檢查、監盤、函證、計算、分析等多種審計方法。例如，在對企業的銀行存款執行商定程式時，註冊會計師可能會到銀行進行函證，獲取銀行對帳單並與企業的銀行存款日記賬進行核對，同時對未達賬項進行分析等。
-         </p>
-       <h3>編制報告</h3>
-       <p>
-         
-      報告應詳細描述所執行的程式、發現的情況和得出的結果。報告的使用者通常僅限於委託方和約定的其他報告使用者，且報告中必須明確說明註冊會計師不對財務報表整體發表審計意見。例如，報告可能會這樣表述：“我們按照與貴公司商定的程式，對
-      20XX 年 X 月 X 日至 20XX 年 X 月 X 日期間的銷售發票進行了檢查，我們檢查了 XX 份發票，發現其中 XX 份發票存在開具不規範的情況，以下是這些發票的詳細資訊……
-      本報告僅供貴公司內部管理使用，我們不對貴公司的財務報表整體發表審計意見。”
-         </p>
-    
-       <!-- 應用場景部分 -->
-       <h2>三、應用場景</h2>
-       <h3>特定專案檢查</h3>
-       <p>
-         
-      企業在進行並購、重組等重大經濟活動時，可能會委託註冊會計師對目標企業的特定財務專案進行檢查。例如，收購方可能要求註冊會計師對被收購方的研發費用支出情況執行商定程式，以瞭解研發投入的真實性和合理性，為收購決策提供參考依據。
-         </p>
-       <h3>合規性檢查</h3>
-       <p>
-          企業為了滿足監管要求或內部合規管理的需要，會委託註冊會計師執行商定程式。比如，金融機構可能要求註冊會計師對其信貸業務中的利率計算是否符合相關法規和內部政策執行商定程式，以確保業務操作的合規性。
-         </p>
-       <h3>糾紛解決</h3>
-       <p>
-         
-      在涉及財務糾紛的情況下，雙方可能共同委託註冊會計師執行商定程式，以獲取客觀的證據。例如，在企業與供應商就採購價格的計算方法產生爭議時，雙方可以委託註冊會計師按照商定的程式對相關採購交易的價格計算進行檢查，註冊會計師的檢查結果可以作為解決糾紛的參考依據。
-         </p>
+  <div class="agreed-procedure-page">
+    <h1 class="header">执行商定程序相关服务</h1>
+    <p class="description">
+      以下是执行商定程序相关信息，特别是涉及特定资助项目超限额时的报告要求
+    </p>
+    <div class="service-list">
+      <div v-for="(service, index) in services" :key="index" class="service-card" @click="openModal(service)">
+        <h2>{{ service.title }}</h2>
+        <p>{{ service.shortDescription }}</p>
       </div>
-   </template>
- 
- 
+    </div>
+    <div v-if="selectedService" class="modal" @click="closeModal">
+      <div class="modal-content" @click.stop>
+        <span class="close" @click="closeModal">×</span>
+        <h2>{{ selectedService.title }}</h2>
+        <p>{{ selectedService.description }}</p>
+      </div>
+    </div>
+  </div>
+</template>
 <script>
 export default {
-  name: "AgreedUponProcedures"
+  data() {
+    return {
+      services: [
+        {
+          title: "执行商定程序概述",
+          shortDescription: "了解执行商定程序的基本情况",
+          description: "介绍执行商定程序的概念、适用场景等内容"
+        },
+        {
+          title: "超限额报告依据",
+          shortDescription: "依据相关指引确定报告需求",
+          description: "详细说明《受助活助项目查验指引》对执行商定程序的指导意义"
+        },
+        {
+          title: "受助活动金额限制",
+          shortDescription: "明确受助活动的金额门槛",
+          description: "解释受助活动超过澳门100万时的特殊要求"
+        },
+        {
+          title: "会计师报告制作",
+          shortDescription: "由会计师制作相关报告",
+          description: "阐述会计师在执行商定程序中制作报告的责任和流程"
+        },
+        {
+          title: "各类资助情况",
+          shortDescription: "涉及多种资助项目",
+          description: "列举澳基金会资助、科学技术发展基金资助、文化发展基金资助、招商投资促进局资助、市政署资助、卫生局资助、教育基金资助、渔类发展及援助基金资助等不同类型资助项目的相关情况"
+        }
+      ],
+      selectedService: null
+    };
+  },
+  methods: {
+    openModal(service) {
+      this.selectedService = service;
+    },
+    closeModal() {
+      this.selectedService = null;
+    }
+  }
 };
 </script>
- 
- 
 <style scoped>
-.agreed-upon-procedures-container {
-  width: 80%;
-  margin: 5px auto;
-  padding-top: 5px;
-  margin-bottom: 100px;
-  font-family: Arial, sans - serif;
-  padding-left: 3%;
-  padding-right: 3%;
-  padding-bottom: 3%;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+.agreed-procedure-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 20px 100px 20px;
+  background-color: #f5f7fa;
 }
 
-h2 {
-  border-bottom: 2px solid #007BFF;
-  padding-bottom: 10px;
-  margin-bottom: 20px;
-  margin-top: 50px;
-}
-
-h3 {
-  margin-top: 30px;
+.header {
+  text-align: center;
+  font-size: 2.5em;
+  color: #2c3e50;
   margin-bottom: 10px;
-  color: #007BFF;
+}
+
+.description {
+  text-align: center;
+  font-size: 1.2em;
+  color: #7f8c8d;
+  margin-bottom: 40px;
+}
+
+.service-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.service-card {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+  transform: scale(1.05);
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 600px;
+  width: 100%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.close {
+  float: right;
+  font-size: 1.5em;
+  cursor: pointer;
+  color: #ff7675;
+}
+
+.close:hover {
+  color: #d63031;
 }
 </style>

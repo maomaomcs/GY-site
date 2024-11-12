@@ -2,7 +2,7 @@
   <div class="registration-address-page">
     <h1 class="header">注册地址相关服务</h1>
     <p class="description">
-      我们提供虚拟办公室服务，满足企业在注册地址及相关业务方面的需求。
+      我们提供虚拟办公室服务，满足企业在注册地址及相关业务方面的需求
     </p>
     <div class="service-list">
       <div 
@@ -33,28 +33,28 @@ export default {
       services: [
         {
           title: "提供公司注册地址及联络地址",
-          shortDescription: "为企业提供合法有效的公司注册地址和联络地址。",
-          description: "详细说明地址的合法性、稳定性以及如何用于公司注册和日常联络。"
+          shortDescription: "为企业提供合法有效的公司注册地址和联络地址",
+          description: "详细说明地址的合法性、稳定性以及如何用于公司注册和日常联络"
         },
         {
           title: "专人代收信件并寄回指定地址",
-          shortDescription: "安排专人负责代收公司信件，并按要求寄回指定地点。",
-          description: "包括信件代收的流程、安全保障措施以及寄回服务的细节。"
+          shortDescription: "安排专人负责代收公司信件，并按要求寄回指定地点",
+          description: "包括信件代收的流程、安全保障措施以及寄回服务的细节"
         },
         {
           title: "会议室借用",
-          shortDescription: "企业可借用我们的会议室。",
-          description: "介绍会议室的设施、借用规则、预约方式和使用时间限制等。"
+          shortDescription: "企业可借用我们的会议室",
+          description: "介绍会议室的设施、借用规则、预约方式和使用时间限制等"
         },
         {
           title: "提供联络电话",
-          shortDescription: "为企业提供专门的联络电话服务。",
-          description: "说明联络电话的使用方式、接听安排以及如何与企业业务衔接。"
+          shortDescription: "为企业提供专门的联络电话服务",
+          description: "说明联络电话的使用方式、接听安排以及如何与企业业务衔接"
         },
         {
           title: "接待政府部门稽查",
-          shortDescription: "协助企业接待政府部门的稽查工作。",
-          description: "阐述接待流程、准备工作以及如何配合政府部门完成稽查。"
+          shortDescription: "协助企业接待政府部门的稽查工作",
+          description: "阐述接待流程、准备工作以及如何配合政府部门完成稽查"
         }
       ],
       selectedService: null

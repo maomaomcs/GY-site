@@ -1,110 +1,141 @@
 <template>
-    <div class="agreed-upon-procedures-container">
-        <!-- 會計師註冊服務部分 -->
-        <h2 style="text-align: center; font-size: 32px; font-weight: bold;">會計師註冊服務</h2>
-        <h3>一、會計師註冊服務簡介</h3>
-        <p>
-            會計師註冊是會計人員職業生涯中的重要環節，它是獲得合法執業資格的關鍵步驟。在會計行業不斷發展、法規日益完善的環境下，順利完成註冊對於個人職業發展至關重要。我們致力於為廣大會計人員提供全面、專業且高效的會計師註冊服務，助力他們在會計領域開啟合法且高質量的執業之路。
-        </p>
-        <h3>二、會計師註冊的重要性</h3>
-        <h4>合法執業的前提</h4>
-        <p>
-            對於會計人員而言，註冊是合法從事審計、財務諮詢等專業服務的前提。只有完成註冊，才能在法律允許的範圍內，為企業和社會提供高質量的會計服務。例如，註冊會計師可以簽署審計報告，這是企業財務信息可信度的重要保障，對資本市場的正常運轉有著關鍵作用。
-        </p>
-        <h4>職業發展的基礎</h4>
-        <p>
-            會計師註冊能夠為個人職業發展打下堅實基礎。註冊資格是會計人員專業能力的一種認可，有助於在求職、晉升等過程中脫穎而出。擁有註冊會計師資質的人員，往往在薪資待遇、職業機會等方面更具優勢，能夠進入更高級別的會計崗位，如高級審計經理、財務總監等。
-        </p>
-        <h4>行業規範與信任保障</h4>
-        <p>
-            會計師註冊有助於維護會計行業的規範和公信力。註冊過程中的嚴格審核和持續教育要求，確保了註冊會計師具備必要的專業知識和職業道德。這使得社會各界對註冊會計師的服務質量有信心，有利於整個行業的健康發展。例如，企業在選擇審計機構時，更傾向於選擇註冊會計師人數多、資質優良的事務所。
-        </p>
-        <h3>三、會計師註冊流程</h3>
-        <h4>註冊條件確認</h4>
-        <p>
-            會計人員首先要明確註冊條件，這需要依據國家或地區的註冊會計師法規來確定。包括學歷要求，一般需要大專及以上學歷；專業背景，通常為會計學相關專業；考試通過情況，如通過註冊會計師考試的各個科目。同時，還要關注工作經驗要求，不同地區和類型的註冊可能對工作年限和性質有不同規定。例如，有的註冊要求在審計工作中有一定時長的實踐經驗。
-        </p>
-        <h4>資料準備與審核</h4>
-        <p>
-            根據註冊條件準備資料，如學歷證書、考試合格成績單、工作經驗證明等。對於學歷證書，需確保其真實性和有效性，若是國外學歷還可能涉及學歷認證程序。工作經驗證明要詳細準確，包括工作單位、職位、工作起止時間等信息，並加蓋單位公章。註冊機構會對提交的資料進行審核，檢查其完整性和合規性，如檢查成績單上的考試科目是否齊全、工作經驗證明中的工作時長是否滿足要求等。
-        </p>
-        <h4>註冊申請提交與跟進</h4>
-        <p>
-            完成資料準備和審核後，向註冊機構提交註冊申請。要確保申請按時、準確提交，並妥善保管提交憑證。在申請提交後，需要跟進註冊進度，及時了解註冊機構的反饋信息。若存在問題或需要補充材料，要迅速反應，按照要求準備並提交。例如，如果註冊機構要求對工作經驗進行進一步說明，應及時提供詳細的工作內容和成果等相關信息。
-        </p>
-        <h4>註冊後持續教育與維護</h4>
-        <p>
-            註冊成功後，並非一勞永逸，還需要參加持續教育。這是為了保證註冊會計師的知識和技能與時俱進，適應不斷變化的會計準則和法規。持續教育內容涵蓋新的會計政策解讀、審計技術更新、職業道德規範強化等。同時，要按時繳納註冊費用，遵守註冊會計師協會的各項規定，以維護註冊資格的有效性。例如，每年需要完成一定的學時要求，若未能滿足可能會面臨註冊資格暫停或吊銷的風險。
-        </p>
-        <h3>四、我們的優勢</h3>
-        <h4>專業的註冊服務團隊</h4>
-        <p>
-            我們擁有一支由經驗豐富的註冊會計師、教育專家、法務顧問等組成的專業團隊。團隊成員在會計師註冊領域擁有深厚的專業知識和多年的實踐經驗，熟悉註冊流程的各個環節，能夠為客戶提供全方位的專業服務。無論是資料準備、條件審核還是問題解決，都能給予準確的指導和支持。
-        </p>
-        <h4>豐富的行業資源</h4>
-        <p>
-            憑藉廣泛的會計行業網絡和豐富的資源，我們能夠迅速獲取最新的註冊政策信息和相關資料。與各地註冊會計師協會、教育機構、企業等建立了良好的合作關係，這有助於在註冊過程中更好地協調各方資源，解決可能出現的問題，如協助客戶處理學歷認證問題或與註冊機構溝通特殊情況。
-        </p>
-        <h4>科學的指導方法和模型</h4>
-        <p>
-            我們運用先進的指導方法和模型，對註冊項目進行全面、深入的分析。無論是註冊條件評估、資料準備還是持續教育規劃，都有科學的方法和模型作為支撐，確保客戶註冊過程的順利進行和註冊後的持續發展。同時，不斷更新和改進這些方法和模型，以適應不斷變化的註冊政策和行業環境。
-        </p>
-        <h4>個性化的服務方案</h4>
-        <p>
-            每個會計人員的情況都有其獨特性，我們深知這一點。因此，我們根據客戶的具體情況和需求，制定個性化的註冊服務方案。從註冊條件的分析到持續教育的規劃，每一個環節都充分考慮客戶的特點和目標，為客戶提供最適合的解決方案，確保客戶能夠順利完成註冊並在職業生涯中持續發展。
-        </p>
-        <h4>嚴格的信息保密機制</h4>
-        <p>
-            在註冊過程中，客戶信息的保密性至關重要。我們建立了嚴格的信息保密機制，從客戶資料的收集到整個註冊過程中的信息處理和存儲，都採取了嚴格的保密措施。確保客戶的個人隱私、學歷信息、工作經歷等商業機密和敏感信息不被泄露，保護客戶的利益。
-        </p>
-        <h3>五、服務流程</h3>
-        <h4>需求溝通與評估</h4>
-        <p>
-            與客戶進行深入溝通，了解客戶的註冊需求、目標、現有條件（如學歷、考試通過情況、工作經驗等）、時間安排等信息。同時，對客戶的整體情況進行全面評估，包括專業知識水平、可能面臨的註冊難點等，為後續的註冊方案設計提供依據。
-        </p>
-        <h4>方案設計與規劃</h4>
-        <p>
-            根據溝通和評估的結果，我們的專業團隊為客戶設計詳細的註冊方案，包括註冊路徑選擇（如選擇普通註冊還是有特殊條件的註冊類型）、資料準備清單、時間安排建議、持續教育規劃等。同時，制定註冊項目的時間表和路線圖，確保項目按計劃推進。
-        </p>
-        <h4>項目執行與監控</h4>
-        <p>
-            在註冊方案實施過程中，我們負責協調各方資源，推動註冊項目的各個環節順利進行。對項目進度、可能出現的風險進行實時監控，及時發現並解決可能出現的問題，如資料審核不通過、持續教育課程選擇困難等。
-        </p>
-        <h4>後續支持與持續服務</h4>
-        <p>
-            註冊完成後，為客戶提供持續支持服務，包括持續教育提醒、註冊資格維護指導、職業發展建議等。協助客戶應對註冊後可能面臨的各種情況，如應對註冊會計師協會的檢查、更新註冊信息等，確保客戶在職業生涯中能夠持續受益於我們的服務。
-        </p>
+    <div class="forensic-accounting-page">
+    <h1 class="header">鉴证会计相关服务</h1>
+    <p class="description">
+    以下是鉴证会计相关信息，包括其概念、与其他业务的关联等
+    </p>
+    <div class="service-list">
+    <div
+    v-for="(service, index) in services"
+    :key="index"
+    class="service-card"
+    @click="openModal(service)"
+    >
+    <h2>{{ service.title }}</h2>
+    <p>{{ service.shortDescription }}</p>
     </div>
-  </template>
-  
-  <style scoped>
-  .agreed-upon-procedures-container {
-    width: 80%;
-    margin: 5px auto;
-    padding-top: 5px;
-    margin-bottom: 100px;
-    font-family: Arial, sans - serif;
-    padding-left: 3%;
-    padding-right: 3%;
-    padding-bottom: 3%;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-  }
-  
-  h2 {
-    border-bottom: 2px solid #007BFF;
-    padding-bottom: 10px;
-    margin-bottom: 20px;
-    margin-top: 50px;
-  }
-  
-  h3 {
-    margin-top: 30px;
+    </div>
+    <div v-if="selectedService" class="modal" @click="closeModal">
+      <div class="modal-content" @click.stop>
+        <span class="close" @click="closeModal">×</span>
+        <h2>{{ selectedService.title }}</h2>
+        <p>{{ selectedService.description }}</p>
+      </div>
+    </div>
+    </div>
+    </template>
+    <script>
+    export default {
+    data() {
+    return {
+    services: [
+    {
+    title: "鉴证会计概述",
+    shortDescription: "了解鉴证会计基本概念",
+    description: "介绍鉴证会计是什么，以及它在财务领域的重要性"
+    },
+    {
+    title: "鉴证会计与审计关系",
+    shortDescription: "明确与审计业务联系",
+    description: "阐述鉴证会计和审计之间的关联，它们如何相互影响"
+    },
+    {
+    title: "鉴证会计与会计业务关系",
+    shortDescription: "明确与会计业务联系",
+    description: "解释鉴证会计和一般会计业务之间的联系"
+    },
+    {
+    title: "鉴证功能体现",
+    shortDescription: "了解鉴证功能的体现",
+    description: "说明鉴证会计如何确保财务信息的真实性和可靠性"
+    },
+    {
+    title: "在法定审计中的作用",
+    shortDescription: "法定审计中的鉴证",
+    description: "讲述鉴证会计在法定审计中所承担的角色和发挥的作用"
+    },
+    {
+    title: "在其他审计服务中的作用",
+    shortDescription: "其他审计服务中的鉴证",
+    description: "介绍鉴证会计在除法定审计外的其他审计服务中的作用"
+    }
+    ],
+    selectedService: null
+    };
+    },
+    methods: {
+    openModal(service) {
+    this.selectedService = service;
+    },
+    closeModal() {
+    this.selectedService = null;
+    }
+    }
+    };
+    </script>
+    <style scoped>
+    .forensic-accounting-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 20px 100px 20px;
+    background-color: #f5f7fa;
+    }
+    .header {
+    text-align: center;
+    font-size: 2.5em;
+    color: #2c3e50;
     margin-bottom: 10px;
-    color: #007BFF;
-  }
-  h4 {
-    margin-top: 20px;
-    margin-bottom: 10px;
-    color: #0056b3;
-  }
-  </style>
+    }
+    .description {
+    text-align: center;
+    font-size: 1.2em;
+    color: #7f8c8d;
+    margin-bottom: 40px;
+    }
+    .service-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    }
+    .service-card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    }
+    .service-card:hover {
+    transform: scale(1.05);
+    }
+    .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    width: 100%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    }
+    .close {
+    float: right;
+    font-size: 1.5em;
+    cursor: pointer;
+    color: #ff7675;
+    }
+    .close:hover {
+    color: #d63031;
+    }
+    </style>

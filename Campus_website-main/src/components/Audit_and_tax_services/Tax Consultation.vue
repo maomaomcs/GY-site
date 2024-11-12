@@ -1,88 +1,165 @@
 <template>
-     <div class="agreed-upon-procedures-container">
-       <!-- 定義部分 -->
-       <h2 style="text-align: center; font-size: 32px; font-weight: bold;">澳門和香港稅務諮詢</h2>
-       <p>
-         澳門和香港稅務諮詢是指專業機構或人員為在澳門和香港地區的納稅人提供有關稅務方面的專業建議和指導的服務過程，旨在幫助納稅人履行納稅義務、合理規劃稅務、保障合法權益和優化稅務成本。
-       </p>
-    
-       <!-- 業務特點部分 -->
-       <h2>一、業務特點</h2>
-       <h3>專業性與針對性</h3>
-       <p>
-         澳門和香港有各自獨特的稅務體系，稅務諮詢服務需要專業知識來針對兩地納稅人的具體情況提供精准建議。比如澳門的稅務結構包括所得補充稅、營業稅、職業稅等，香港則有地域來源徵稅原則下的利得稅、薪俸稅、物業稅等。對於不同規模、行業的企業以及個人納稅人，諮詢服務都要根據其業務特點和稅務狀況進行定制。例如，澳門的文創企業可能需要關於文創產業稅收優惠的諮詢，香港的跨國企業可能更關注跨境業務的稅務處理。
-       </p>
-       <h3>非強制性但影響重大</h3>
-       <p>
-         納稅人自主選擇是否接受稅務諮詢服務，但諮詢結果對其稅務安排和財務狀況有重要意義。合理的稅務諮詢可以幫助納稅人降低稅負、避免稅務風險，保障其在兩地複雜稅務環境下的經濟利益。例如，通過合理利用澳門的稅收優惠政策或香港特定行業的優惠，納稅人可以顯著減少稅務支出。
-       </p>
-    
-       <!-- 業務流程部分 -->
-       <h2>二、業務流程</h2>
-       <h3>需求溝通與評估</h3>
-       <p>
-         稅務諮詢機構與澳門和香港的納稅人深入溝通，全面瞭解其經營業務、財務狀況、納稅歷史以及未來規劃等資訊，以此評估納稅人的稅務需求。例如，對於澳門的零售企業，要瞭解其店鋪數量、銷售額、成本結構以及過往納稅申報情況；對於香港的金融機構，要掌握其業務範圍、跨境交易情況和歷史稅務處理方式，從而確定各自的重點稅務問題。
-       </p>
-       <h3>方案制定階段</h3>
-       <p>
-         根據溝通所獲資訊，制定詳細的稅務諮詢方案。這需要分析納稅人在澳門和香港可能涉及的稅種、當前稅務處理的合規性、潛在的稅務風險點，同時梳理可利用的稅收優惠政策。例如，對於在兩地都有業務的企業，要考慮兩地不同的稅收法規和協定，評估其在稅務處理上的準確性，如在澳門的營業稅計算和香港的利得稅劃分是否正確，並據此尋找優化稅負的途徑。
-       </p>
-       <h3>諮詢實施階段</h3>
-       <p>
-         向納稅人提供具體的稅務諮詢服務，包括詳細解釋澳門和香港的稅務法規、指導納稅申報操作以及協助進行稅務籌畫。例如，指導澳門企業填寫所得補充稅申報表格，確保其理解並準確申報各類收入和扣除專案；為香港企業設計稅務籌畫方案，如利用研發支出優惠政策，鼓勵企業增加研發投入以降低稅負。
-       </p>
-       <h3>跟蹤與回饋</h3>
-       <p>
-         持續跟蹤諮詢建議的實施情況，及時瞭解納稅人在執行過程中遇到的問題，並根據實際情況調整建議。同時，收集納稅人對諮詢服務的回饋，評估服務品質，以便改進。例如，如果澳門企業在申請稅收優惠過程中遇到審批問題，或者香港企業在執行稅務籌畫方案時因法規變化出現困難，稅務諮詢機構要迅速協助解決，並重新評估方案的有效性。
-       </p>
-    
-       <!-- 應用場景部分 -->
-       <h2>三、應用場景</h2>
-       <h3>企業日常稅務管理</h3>
-       <p>
-         在澳門和香港經營的企業日常運營中，稅務諮詢對於確保納稅申報的準確性和及時性至關重要。複雜的稅務法規要求企業必須準確理解並遵守，稅務諮詢服務可以幫助企業避免因誤報、漏報而產生稅務風險。例如，澳門企業需要按時準確申報營業稅，香港企業要正確處理利得稅預繳和員工薪俸稅代扣代繳等事務，稅務諮詢可以指導企業財務人員進行正確操作。
-       </p>
-       <h3>重大經濟業務決策</h3>
-       <p>
-         當企業在澳門和香港進行重大經濟業務決策，如投資、並購、重組等活動時，稅務諮詢發揮關鍵作用。專業的稅務建議可以幫助企業評估不同決策方案下的稅務影響，從而選擇最優方案。例如，企業在澳門投資新的專案或香港企業進行跨境並購時，稅務諮詢可以分析不同投資架構和交易方式在兩地稅務法規下的成本和風險，為企業提供決策依據。
-       </p>
-       <h3>稅務爭議解決</h3>
-       <p>
-         當納稅人與澳門財政局或香港稅務局發生爭議時，稅務諮詢服務能夠協助納稅人應對。這包括幫助分析爭議焦點、準備相關資料、解釋稅務處理的合理性，甚至代表納稅人與稅務機關進行溝通協商。例如，如果澳門企業對稅務評估結果有異議，或者香港企業在稅務審計過程中遇到問題，稅務諮詢機構可以幫助企業梳理證據，與稅務機關進行專業溝通，爭取合理的解決方案。
-       </p>
-     </div>
-    </template>
-    
-    <script>
-    export default {
-     name: "MacauAndHongKongTaxConsulting"
+  <div class="tax-consulting-page">
+    <h1 class="header">税务咨询相关服务</h1>
+    <p class="description">
+      以下是澳门和香港税务咨询相关信息，包括企业报税要求和不同税种情况等
+    </p>
+    <div class="service-list">
+      <div v-for="(service, index) in services" :key="index" class="service-card" @click="openModal(service)">
+        <h2>{{ service.title }}</h2>
+        <p>{{ service.shortDescription }}</p>
+      </div>
+    </div>
+    <div v-if="selectedService" class="modal" @click="closeModal">
+      <div class="modal-content" @click.stop>
+        <span class="close" @click="closeModal">×</span>
+        <h2>{{ selectedService.title }}</h2>
+        <p>{{ selectedService.description }}</p>
+      </div>
+    </div>
+  </div>
+</template>
+<script>
+export default {
+  data() {
+    return {
+      services: [
+        {
+          title: "澳门企业报税要求",
+          shortDescription: "了解澳门特定企业报税规定",
+          description: "解释纯利或注册资本超澳门币100万的企业需由会计师签署A组所得税表格的要求"
+        },
+        {
+          title: "澳门税务规划协助",
+          shortDescription: "利用区域优势规划税务",
+          description: "介绍如何利用澳门的区域优势协助企业进行税务规划"
+        },
+        {
+          title: "澳门A组纳税人规定",
+          shortDescription: "A组纳税人相关要求",
+          description: "阐述A组纳税人（如股份有限公司及股份两合公司等）需具备完善会计帐册，由注册会计师等核对签署申报文件的规定"
+        },
+        {
+          title: "澳门B组纳税人规定",
+          shortDescription: "B组纳税人课税方式",
+          description: "说明B组纳税人依财政局估定所得利润课税的情况"
+        },
+        {
+          title: "澳门税种介绍 - 直接税",
+          shortDescription: "了解澳门直接税种类",
+          description: "详细介绍澳门直接税（包括营业税、所得补充税、职业税、房屋税）的税额计算方式和税率规定"
+        },
+        {
+          title: "澳门税种介绍 - 间接税",
+          shortDescription: "了解澳门间接税种类",
+          description: "详细介绍澳门间接税（包括消费税、旅游税、印花税、机动车辅税）的税额计算方式和税率规定"
+        },
+        {
+          title: "香港利得税介绍",
+          shortDescription: "香港利得税相关信息",
+          description: "讲解香港利得税（包括有限公司和独资或合伙企业税率不同、宽减政策、部分股息或投资收益豁免、存放认可机构存款利息豁免等内容）"
+        },
+        {
+          title: "香港薪俸税介绍",
+          shortDescription: "香港薪俸税相关信息",
+          description: "阐述香港薪俸税（包括扣除和免税额、税阶、暂缴规定、宽减政策等内容）"
+        },
+        {
+          title: "香港物业税介绍",
+          shortDescription: "香港物业税相关信息",
+          description: "介绍香港物业税（包括标准税率15%、可扣除相关支出、免税项目等内容）"
+        },
+        {
+          title: "香港税务优惠介绍",
+          shortDescription: "香港税务优惠情况",
+          description: "如购买合资格自愿医保产品可获税务扣减等香港税务优惠相关内容"
+        }
+      ],
+      selectedService: null
     };
-    </script>
-    
-    <style scoped>
-    .agreed-upon-procedures-container {
-        width: 80%;
-        margin: 5px auto;
-        padding-top: 5px;
-        margin-bottom: 100px;
-        font-family: Arial, sans - serif;
-        padding-left: 3%;
-        padding-right: 3%;
-        padding-bottom: 3%;
-        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  },
+  methods: {
+    openModal(service) {
+      this.selectedService = service;
+    },
+    closeModal() {
+      this.selectedService = null;
     }
+  }
+};
+</script>
+<style scoped>
+.tax-consulting-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 20px 100px 20px;
+  background-color: #f5f7fa;
+}
 
-    h2 {
-        border-bottom: 2px solid #007BFF;
-        padding-bottom: 10px;
-        margin-bottom: 20px;
-        margin-top: 50px;
-    }
+.header {
+  text-align: center;
+  font-size: 2.5em;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
 
-    h3 {
-        margin-top: 30px;
-        margin-bottom: 10px;
-        color: #007BFF;
-    }
+.description {
+  text-align: center;
+  font-size: 1.2em;
+  color: #7f8c8d;
+  margin-bottom: 40px;
+}
+
+.service-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.service-card {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+  transform: scale(1.05);
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 600px;
+  width: 100%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.close {
+  float: right;
+  font-size: 1.5em;
+  cursor: pointer;
+  color: #ff7675;
+}
+
+.close:hover {
+  color: #d63031;
+}
 </style>
-    

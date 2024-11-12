@@ -1,95 +1,168 @@
 <template>
-   <div class="agreed-upon-procedures-container">
-      <!-- 定義部分 -->
-      <h2 style="text-align: center; font-size: 32px; font-weight: bold;">法定審計</h2>
-      <p>
-         法定審計是指註冊會計師按照法律規定對企業的財務報表進行審計，並出具審計報告的過程。它是為了確保企業財務資訊的真實性、準確性和完整性，保障投資者、債權人等利益相關者的合法權益。
-        </p>
+  <div class="statutory-audit-page">
+    <h1 class="header">法定审计相关服务</h1>
+    <p class="description">
+      以下是法定审计相关信息，包括所需资料和审计流程等内容
+    </p>
+    <div class="service-list">
+      <div 
+        v-for="(service, index) in services" 
+        :key="index" 
+        class="service-card"
+        @click="openModal(service)"
+      >
+        <h2>{{ service.title }}</h2>
+        <p>{{ service.shortDescription }}</p>
+      </div>
+    </div>
 
-      <!-- 業務特點部分 -->
-      <h2>一、業務特點</h2>
-      <h3>法定性和強制性</h3>
-      <p>
-        
-      法定審計是依據國家法律法規要求開展的。對於特定類型的企業，如上市公司、金融機構等，必須定期接受法定審計。這是一種強制要求，以維護市場秩序和公眾利益。例如，上市公司需要按照證券監管法規，每年都要進行法定審計，向投資者披露真實可靠的財務狀況。
-        </p>
-      <h3>對財務報表整體發表意見</h3>
-      <p>
-        
-      與其他部分審計業務不同，法定審計需要註冊會計師對企業的財務報表整體發表審計意見，明確財務報表是否在所有重大方面按照適用的會計準則編制，是否公允反映了企業的財務狀況、經營成果和現金流量。例如，註冊會計師在完成對某上市公司的法定審計後，會在審計報告中明確指出財務報表是否真實可靠，有無重大錯報。
-        </p>
-
-      <!-- 業務流程部分 -->
-      <h2>二、業務流程</h2>
-      <h3>接受審計委託</h3>
-      <p>
-        
-      註冊會計師事務所與被審計單位溝通，確定審計業務的條款和條件，包括審計範圍、審計費用、時間安排等，並簽訂審計業務約定書。例如，在與一家製造企業簽訂審計業務約定書時，明確審計範圍涵蓋該企業及其所有子公司的財務報表，審計費用根據企業規模和審計複雜程度確定，審計工作在企業財務年度結束後的三個月內完成。
-        </p>
-      <h3>審計計畫階段</h3>
-      <p>
-        
-      註冊會計師對被審計單位的基本情況進行瞭解，包括企業的業務性質、經營規模、組織結構、內部控制等，以此評估審計風險，制定詳細的審計計畫。比如，對於一家業務複雜、分支機構眾多的企業，註冊會計師需要更詳細地瞭解其各部門的業務流程和內部控制情況，以確定重點審計領域和審計方法。
-        </p>
-      <h3>審計實施階段</h3>
-      <p>
-        
-      運用多種審計方法，如檢查、觀察、詢問、函證、重新計算、重新執行、分析程式等，對企業的財務報表專案進行審計。例如，在審計應收賬款時，註冊會計師會向客戶發函證，詢問欠款金額；檢查銷售合同、發貨記錄等原始憑證；對壞賬準備的計提進行重新計算。
-        </p>
-      <h3>完成審計工作與出具審計報告</h3>
-      <p>
-        
-      註冊會計師對審計證據進行整理和分析，評價審計結果，形成審計意見。然後按照審計準則的要求編制審計報告，審計報告包括引言段、管理層對財務報表的責任段、註冊會計師的責任段、審計意見段等內容。例如，如果財務報表沒有重大錯報，註冊會計師會出具標準無保留意見的審計報告；若存在重大問題，則可能出具保留意見、否定意見或無法表示意見的審計報告。
-        </p>
-
-      <!-- 應用場景部分 -->
-      <h2>三、應用場景</h2>
-      <h3>資本市場監管</h3>
-      <p>
-        
-      在資本市場中，上市公司需要通過法定審計向投資者和監管機構展示其財務狀況的真實性和透明度。這有助於投資者做出合理的投資決策，同時監管機構依據審計報告對上市公司進行監管，保障資本市場的穩定運行。例如，證券交易所要求上市公司每年按時公佈經審計的年報，若審計報告顯示異常情況，交易所會進一步關注和調查。
-        </p>
-      <h3>金融機構監管</h3>
-      <p>
-        
-      對於銀行、證券、保險等金融機構，法定審計是監管部門監督其合規經營和財務健康狀況的重要手段。確保金融機構的財務報表真實可靠，有助於維護金融穩定，保護存款人、投保人等的利益。例如，銀行監管機構要求銀行定期接受法定審計，檢查其資本充足率、貸款品質等關鍵財務指標。
-        </p>
-      <h3>企業內部管理與決策</h3>
-      <p>
-         企業自身也可利用法定審計的結果進行內部管理和決策。審計報告可以發現企業財務管理中的問題和漏洞，幫助企業改進內部控制，優化資源配置。例如，企業管理層根據審計發現的成本核算問題，調整生產流程和成本控制策略。
-        </p>
-     </div>
+    <div v-if="selectedService" class="modal" @click="closeModal">
+      <div class="modal-content" @click.stop>
+        <span class="close" @click="closeModal">×</span>
+        <h2>{{ selectedService.title }}</h2>
+        <p>{{ selectedService.description }}</p>
+      </div>
+    </div>
+  </div>
 </template>
 
 <script>
 export default {
-  name: "StatutoryAudit"
-};
+  data() {
+    return {
+      services: [
+        {
+          title: "法定审计资料 - 财务报表",
+          shortDescription: "了解审计所需财务报表",
+          description: "详细介绍审计年度财务报表，包括利润表、资产负债表及现金流量表在法定审计中的作用和要求"
+        },
+        {
+          title: "法定审计资料 - 会计账目",
+          shortDescription: "明确会计账目资料要求",
+          description: "阐述当年会计账目（如银行对账单、合同、费用支出发票及单据等）在法定审计中的重要性和具体内容"
+        },
+        {
+          title: "法定审计资料 - 关联信息",
+          shortDescription: "掌握关联公司和人士资料",
+          description: "说明关联公司名单及涉及的关联人士等资料在法定审计中的意义和用途"
+        },
+        {
+          title: "法定审计流程 - 方案拟定",
+          shortDescription: "审计方案的制定",
+          description: "解释拟定审计方案在法定审计流程中的首要步骤和关键要点"
+        },
+        {
+          title: "法定审计流程 - 内部控制评价",
+          shortDescription: "评价企业内部控制",
+          description: "讲述了解企业内部控制制度并评价在法定审计流程中的重要性和实施方法"
+        },
+        {
+          title: "法定审计流程 - 资料收集",
+          shortDescription: "资料的收集与记录",
+          description: "说明收集及记录或复制相关资料在法定审计流程中的作用和操作细节"
+        },
+        {
+          title: "法定审计流程 - 符合性测试",
+          shortDescription: "符合性测试环节",
+          description: "阐述进行符合性测试及结果评价在法定审计流程中的内容和意义"
+        },
+        {
+          title: "法定审计流程 - 实质性控制",
+          shortDescription: "实质性控制环节",
+          description: "讲解实质性控制及结果评价在法定审计流程中的要点和价值"
+        },
+        {
+          title: "法定审计流程 - 报告拟定与转达",
+          shortDescription: "审计报告处理",
+          description: "介绍拟定审计报告并转达给被审计公司在法定审计流程中的最终环节和注意事项"
+        }
+      ],
+      selectedService: null
+    };
+  },
+  methods: {
+    openModal(service) {
+      this.selectedService = service;
+    },
+    closeModal() {
+      this.selectedService = null;
+    }
+  }
+}
 </script>
 
 <style scoped>
-.agreed-upon-procedures-container {
-  width: 80%;
-  margin: 5px auto;
-  padding-top: 5px;
-  margin-bottom: 100px;
-  font-family: Arial, sans - serif;
-  padding-left: 3%;
-  padding-right: 3%;
-  padding-bottom: 3%;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+.statutory-audit-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 20px 100px 20px;
+  background-color: #f5f7fa;
 }
 
-h2 {
-  border-bottom: 2px solid #007BFF;
-  padding-bottom: 10px;
-  margin-bottom: 20px;
-  margin-top: 50px;
-}
-
-h3 {
-  margin-top: 30px;
+.header {
+  text-align: center;
+  font-size: 2.5em;
+  color: #2c3e50;
   margin-bottom: 10px;
-  color: #007BFF;
+}
+
+.description {
+  text-align: center;
+  font-size: 1.2em;
+  color: #7f8c8d;
+  margin-bottom: 40px;
+}
+
+.service-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.service-card {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+  transform: scale(1.05);
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 600px;
+  width: 100%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.close {
+  float: right;
+  font-size: 1.5em;
+  cursor: pointer;
+  color: #ff7675;
+}
+
+.close:hover {
+  color: #d63031;
 }
 </style>

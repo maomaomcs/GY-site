@@ -1,114 +1,178 @@
 <template>
-    <div class="agreed-upon-procedures-container">
-        <!-- 香港移民審計服務部分 -->
-        <h2 style="text-align: center; font-size: 32px; font-weight: bold;">香港移民審計服務</h2>
-        <h3>一、香港移民審計服務簡介</h3>
-        <p>
-            香港移民審計是香港移民申請過程中的關鍵環節，它是對申請人資產和相關投資情況進行全面、深入審查的重要過程。在香港移民政策嚴格、要求清晰的背景下，高質量的移民審計對於確保移民申請符合要求、提高申請成功率至關重要。我們致力於為客戶提供全面、專業且高效的香港移民審計服務，助力客戶順利完成移民申請。
-        </p>
-        <h3>二、香港移民審計的重要性</h3>
-        <h4>移民申請合規的關鍵保障</h4>
-        <p>
-            對於移民申請人而言，香港移民審計是確保申請符合香港移民法規和政策要求的關鍵手段。通過審計，可以準確核實申請人的資產狀況、投資情況等是否滿足移民條件，避免因信息不準確或不符合要求導致的移民申請被拒。例如，若未能準確審計申請人的淨資產是否達到規定金額，可能會使申請失敗，浪費申請人的時間和精力。
-        </p>
-        <h4>移民申請決策的重要依據</h4>
-        <p>
-            移民審計結果為移民申請決策提供了重要依據。詳細的審計信息能夠幫助申請人瞭解自身條件與移民要求的匹配程度，進而確定合理的申請策略。例如，通過對資產構成和投資情況的審計分析，申請人可以清楚知道是否需要補充或調整資產配置以滿足移民條件。
-        </p>
-        <h4>保障移民申請順利進行</h4>
-        <p>
-            有效的香港移民審計有助於保障移民申請的順利進行。提前對各項條件進行準確審查，可以在申請過程中避免因資產證明不足、投資不符合規定等問題導致的延誤或被拒，同時也有利於在後續的移民手續辦理階段做好充分準備。
-        </p>
-        <h3>三、香港移民審計流程</h3>
-        <h4>確定審計範圍與目標</h4>
-        <p>
-            根據香港移民的具體類別（如投資移民、技術移民等）和客戶的情況，確定移民審計的範圍和目標。這需要考慮移民政策對資產類型、金額、投資領域等的要求。例如，對於投資移民審計，需要重點關注申請人的投資項目是否符合規定的投資類別和金額標準；對於技術移民中涉及資產證明的部分，則需明確相應的資產審查範圍。
-        </p>
-        <h4>組建專業審計團隊</h4>
-        <p>
-            組建一支由財務審計專家、法律專家、投資領域專家等組成的專業審計團隊。團隊成員需要具備豐富的香港移民審計經驗和相關領域的專業知識，能夠從不同角度對申請人的情況進行全面審查。例如，財務審計專家負責審查資產證明文件和財務狀況，法律專家確保申請人的投資和資產獲取符合法律法規，投資領域專家評估投資項目的合規性和價值。
-        </p>
-        <h4>資料收集與分析</h4>
-        <p>
-            從申請人及相關機構收集各種資料，包括但不限於銀行存款證明、證券賬戶月結單、房產證明、企業營業執照、投資合同、公司章程等。對收集到的資料進行深入分析，識別其中的關鍵信息、異常情況和可能影響移民申請的問題。例如，通過分析銀行存款的流水和來源，核實存款的合法性和穩定性；通過審查投資合同條款，確定投資是否符合移民要求。
-        </p>
-        <h4>實地調查與訪談（如有需要）</h4>
-        <p>
-            在必要情況下，審計團隊進行實地考察或與相關方進行訪談。如對申請人聲稱擁有的房產進行實地查看，核實房產的實際情況；與投資項目的合作方訪談，瞭解投資項目的運作情況。獲取更準確的信息，確保審計結果的可靠性。
-        </p>
-        <h4>撰寫移民審計報告</h4>
-        <p>
-            根據資料分析和實地調查（如有）的結果，撰寫詳細的香港移民審計報告。報告內容應包括申請人的基本情況、審計發現的問題和風險（如資產證明不足、投資不符合規定等）、對移民申請的影響評估、建議措施等。報告要以清晰、準確、客觀的方式呈現，為客戶的移民申請提供全面的支持。例如，報告中會詳細列出資產證明文件的缺失情況、投資項目的潛在風險以及針對這些問題的解決建議。
-        </p>
-        <h3>四、我們的優勢</h3>
-        <h4>專業的審計團隊</h4>
-        <p>
-            我們擁有一支由經驗豐富的香港移民審計師、財務專家、律師、投資顧問等組成的專業團隊。團隊成員在香港移民審計領域擁有深厚的專業知識和多年的實踐經驗，熟悉香港移民政策和審計流程，能夠為客戶提供高質量的專業服務。無論是複雜的資產審計、法律合規審查還是投資項目評估，都能準確高效地完成。
-        </p>
-        <h4>豐富的行業資源</h4>
-        <p>
-            憑藉廣泛的商業網絡和豐富的行業資源，我們能夠迅速獲取香港移民政策的最新信息、各類資產和投資領域的市場情況等資料。與香港的金融機構、政府部門、律師事務所、行業協會等建立了良好的合作關係，這有助於在審計過程中獲取更多信息、協調各方關係，解決可能出現的問題。
-        </p>
-        <h4>科學的審計方法和模型</h4>
-        <p>
-            我們運用先進的審計方法和模型，對香港移民審計項目進行全面、深入的分析。無論是資料收集整理、風險評估還是報告撰寫，都有科學的方法和模型作為支撐，確保審計結果的準確性和可靠性。同時，不斷更新和改進這些方法和模型，以適應不斷變化的香港移民政策和市場環境。
-        </p>
-        <h4>個性化的服務方案</h4>
-        <p>
-            每個香港移民審計項目都有其獨特性，我們深知這一點。因此，我們根據客戶的具體情況和需求，制定個性化的香港移民審計服務方案。從審計範圍的確定到報告內容的重點，每一個環節都充分考慮客戶的移民類別、資產狀況、時間安排等因素，為客戶提供最適合的審計方案。
-        </p>
-        <h4>嚴格的信息保密機制</h4>
-        <p>
-            在香港移民審計過程中，信息的保密性至關重要。我們建立了嚴格的信息保密機制，從資料收集到整個審計過程中的信息處理和存儲，都採取了嚴格的保密措施。確保申請人的個人隱私、資產信息、投資情況等商業機密和敏感信息不被泄露，保護客戶的利益。
-        </p>
-        <h3>五、服務流程</h3>
-        <h4>需求溝通與評估</h4>
-        <p>
-            與客戶進行深入溝通，瞭解客戶的移民類別、個人資產狀況、投資情況、時間安排等信息。同時，對移民審計項目的複雜性和潛在風險進行初步評估，為後續的審計方案設計提供依據。
-        </p>
-        <h4>方案設計與規劃</h4>
-        <p>
-            根據溝通和評估的結果，我們的專業團隊為客戶設計詳細的香港移民審計方案，包括確定審計範圍、重點審計領域、審計方法、團隊成員組成、時間安排和預算等。同時，制定香港移民審計項目的時間表和路線圖，確保項目按計劃推進。
-        </p>
-        <h4>項目執行與監控</h4>
-        <p>
-            在香港移民審計方案實施過程中，我們負責協調各方資源，推動審計項目的各個環節順利進行。對項目進度、可能出現的風險進行實時監控，及時發現並解決可能出現的問題，如資料獲取困難、審計過程中發現新的重大風險等。
-        </p>
-        <h4>報告提交與後續支持</h4>
-        <p>
-            完成香港移民審計後，向客戶提交詳細的審計報告，並與客戶進行深入溝通，解釋報告內容和審計發現。同時，為客戶提供後續支持服務，包括協助客戶準備移民申請材料、根據移民局反饋對報告內容進行更新等，確保客戶在整個移民申請過程中能夠充分利用審計結果。
-        </p>
+    <div class="hongkong-immigration-audit-page">
+      <h1 class="header">香港移民审计相关服务</h1>
+      <p class="description">
+        以下是香港移民审计相关内容，包括审计目的、涉及资产类别和投资规定等信息
+      </p>
+      <div class="service-list">
+        <div 
+          v-for="(service, index) in services" 
+          :key="index" 
+          class="service-card"
+          @click="openModal(service)"
+        >
+          <h2>{{ service.title }}</h2>
+          <p>{{ service.shortDescription }}</p>
+        </div>
+      </div>
+  
+      <div v-if="selectedService" class="modal" @click="closeModal">
+        <div class="modal-content" @click.stop>
+          <span class="close" @click="closeModal">×</span>
+          <h2>{{ selectedService.title }}</h2>
+          <p>{{ selectedService.description }}</p>
+        </div>
+      </div>
     </div>
   </template>
   
+  <script>
+  export default {
+    data() {
+      return {
+        services: [
+          {
+            title: "香港移民审计概述",
+            shortDescription: "了解香港移民审计基本概念",
+            description: "介绍香港移民审计在移民申请中的作用和意义"
+          },
+          {
+            title: "净资产查证 - 总体要求",
+            shortDescription: "明确净资产查证要求",
+            description: "解释香港移民审计中针对净资产查证的整体目标和意义"
+          },
+          {
+            title: "净资产查证 - 银行存款资料",
+            shortDescription: "银行存款审计资料",
+            description: "阐述银行存款作为资产类别在香港移民审计中的资料要求"
+          },
+          {
+            title: "净资产查证 - 证券债券基金资料",
+            shortDescription: "证券债券基金审计资料",
+            description: "说明证券债券基金在香港移民审计中的资料要求"
+          },
+          {
+            title: "净资产查证 - 房地产资料",
+            shortDescription: "房地产审计资料",
+            description: "介绍房地产作为资产类别在香港移民审计中的资料要求"
+          },
+          {
+            title: "净资产查证 - 公司股份资料",
+            shortDescription: "公司股份审计资料",
+            description: "讲解公司股份在香港移民审计中的资料要求"
+          },
+          {
+            title: "投资规定查证 - 总体要求",
+            shortDescription: "明确投资规定查证要求",
+            description: "解释香港移民审计中针对投资规定查证的整体目标和意义"
+          },
+          {
+            title: "投资规定查证 - 存款证资料",
+            shortDescription: "存款证审计资料",
+            description: "阐述存款证在香港移民审计中的资料要求"
+          },
+          {
+            title: "投资规定查证 - 有限合基金拥有权权益资料",
+            shortDescription: "有限合基金资料",
+            description: "说明有限合基金的拥有权权益在香港移民审计中的资料要求"
+          },
+          {
+            title: "净资产金额要求",
+            shortDescription: "明确净资产金额标准",
+            description: "讲述申请人需证明在申请前两年内绝对实益拥有3,000万港元净资产的要求"
+          },
+          {
+            title: "投资金额及期限要求",
+            shortDescription: "明确投资金额和期限",
+            description: "说明申请人在180日内投资最少3,000万港元净值于获许投资资产的规定，以及在参加计划的首个周年日后及在其后每个周年日持续符合投资管理规定的内容"
+          }
+        ],
+        selectedService: null
+      };
+    },
+    methods: {
+      openModal(service) {
+        this.selectedService = service;
+      },
+      closeModal() {
+        this.selectedService = null;
+      }
+    }
+}
+  </script>
+  
   <style scoped>
-  .agreed-upon-procedures-container {
-    width: 80%;
-    margin: 5px auto;
-    padding-top: 5px;
-    margin-bottom: 100px;
-    font-family: Arial, sans - serif;
-    padding-left: 3%;
-    padding-right: 3%;
-    padding-bottom: 3%;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  .hongkong-immigration-audit-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 20px 100px 20px;
+    background-color: #f5f7fa;
   }
   
-  h2 {
-    border-bottom: 2px solid #007BFF;
-    padding-bottom: 10px;
-    margin-bottom: 20px;
-    margin-top: 50px;
+  .header {
+    text-align: center;
+    font-size: 2.5em;
+    color: #2c3e50;
+    margin-bottom: 10px;
   }
   
-  h3 {
-    margin-top: 30px;
-    margin-bottom: 10px;
-    color: #007BFF;
+  .description {
+    text-align: center;
+    font-size: 1.2em;
+    color: #7f8c8d;
+    margin-bottom: 40px;
   }
-  h4 {
-    margin-top: 20px;
-    margin-bottom: 10px;
-    color: #0056b3;
+  
+  .service-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .service-card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .service-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    width: 100%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .close {
+    float: right;
+    font-size: 1.5em;
+    cursor: pointer;
+    color: #ff7675;
+  }
+  
+  .close:hover {
+    color: #d63031;
   }
   </style>

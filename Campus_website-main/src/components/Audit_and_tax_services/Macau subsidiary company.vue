@@ -1,114 +1,158 @@
 <template>
-    <div class="agreed-upon-procedures-container">
-        <!-- 澳門子公司審計服務部分 -->
-        <h2 style="text-align: center; font-size: 32px; font-weight: bold;">澳門子公司審計服務</h2>
-        <h3>一、澳門子公司審計服務簡介</h3>
-        <p>
-            澳門子公司審計是對澳門子公司經營狀況和財務信息進行審查的關鍵流程，它是保障母公司對子公司有效監管、維護各方利益相關者權益的重要手段。在澳門特殊的商業和法律環境下，高質量的子公司審計對於確保公司運營合規、財務信息準確可靠至關重要。我們專注於為客戶提供全面、專業且高效的澳門子公司審計服務，助力母公司更好地管理子公司，保障其在澳門市場的穩定發展。
-        </p>
-        <h3>二、澳門子公司審計的重要性</h3>
-        <h4>母公司監管的有力工具</h4>
-        <p>
-            對於母公司而言，澳門子公司審計是實現有效監管的關鍵方式。通過審計，可以全面瞭解子公司的財務狀況、經營成果和現金流量，及時發現子公司在運營過程中可能存在的問題，如財務風險、內部控制漏洞等，避免因信息不對稱導致的管理失控。例如，若未能通過審計發現子公司的財務造假行為，可能會給母公司帶來巨大經濟損失。
-        </p>
-        <h4>合規經營的重要保障</h4>
-        <p>
-            澳門子公司審計有助於確保子公司在澳門的經營活動符合當地法律法規和公司章程的要求。詳細的審計信息能夠幫助子公司明確自身經營行為是否合規，進而採取相應措施進行調整和改進。例如，通過對稅務處理和勞動用工情況的審計，確保子公司遵守澳門的稅收法規和勞動法律。
-        </p>
-        <h4>決策依據的重要來源</h4>
-        <p>
-            審計結果為母公司和子公司的決策提供了重要依據。無論是戰略規劃、投資決策還是日常經營管理決策，都需要基於準確的財務和經營信息。例如，通過對市場拓展項目的審計分析，母公司可以決定是否繼續支持子公司的業務擴張計劃。
-        </p>
-        <h3>三、澳門子公司審計流程</h3>
-        <h4>確定審計範圍與目標</h4>
-        <p>
-            根據澳門子公司的業務類型、規模、行業特點以及母公司的管理需求，確定審計的範圍和目標。這需要考慮澳門當地的商業環境、法律法規對財務報告和審計的要求。例如，對於金融類子公司，可能需要重點關注風險管理和資本充足率方面的審計；對於貿易類子公司，則更側重於應收賬款和存貨的審計。
-        </p>
-        <h4>組建專業審計團隊</h4>
-        <p>
-            組建一支由熟悉澳門審計環境的註冊會計師、稅務專家、法律專家、行業分析師等組成的專業審計團隊。團隊成員需要具備豐富的澳門子公司審計經驗和相關領域的專業知識，能夠從不同角度對子公司進行全面審查。例如，註冊會計師負責財務報表審計，稅務專家審查稅務合規性，法律專家確保子公司經營活動的合法性，行業分析師評估子公司在澳門市場中的競爭力。
-        </p>
-        <h4>資料收集與分析</h4>
-        <p>
-            從澳門子公司及相關第三方收集各種資料，包括但不限於財務報表、會計賬簿、稅務申報資料、合同文件、營業執照、公司章程、董事會決議、員工信息等。對收集到的資料進行深入分析，識別其中的關鍵信息、異常情況和潛在風險。例如，通過分析財務報表中的比率和趨勢，發現子公司的財務健康狀況和可能存在的財務問題；通過審查合同文件，找出可能對公司有重大影響的條款和潛在的法律風險。
-        </p>
-        <h4>實地調查與訪談</h4>
-        <p>
-            審計團隊到澳門子公司進行實地考察，觀察其辦公環境、生產設施（如有）、庫存情況等，直觀瞭解公司的運營狀況。同時，與子公司的管理層、員工、供應商、客戶等進行訪談，獲取第一手信息。例如，與員工訪談可以瞭解公司的內部管理情況和企業文化；與供應商訪談可以瞭解採購環節的合作情況和潛在問題。
-        </p>
-        <h4>撰寫審計報告</h4>
-        <p>
-            根據資料分析和實地調查的結果，撰寫詳細的澳門子公司審計報告。報告內容應包括子公司的基本情況、審計發現的問題和風險、對公司經營和母公司管理的影響評估、建議措施等。報告要以清晰、準確、客觀的方式呈現，為母公司和子公司的管理決策提供全面的支持。例如，報告中會詳細列出子公司存在的財務風險點、內部控制缺陷以及針對這些問題的應對建議。
-        </p>
-        <h3>四、我們的優勢</h3>
-        <h4>專業的審計團隊</h4>
-        <p>
-            我們擁有一支由經驗豐富的澳門子公司審計師、財務專家、稅務顧問、律師、行業專家等組成的專業團隊。團隊成員在澳門子公司審計領域擁有深厚的專業知識和多年的實踐經驗，熟悉澳門的商業環境、法律法規和審計流程，能夠為客戶提供高質量的專業服務。無論是複雜的財務審計、稅務審查還是法律合規檢查，都能準確高效地完成。
-        </p>
-        <h4>豐富的澳門資源</h4>
-        <p>
-            憑藉廣泛的澳門商業網絡和豐富的本地資源，我們能夠迅速獲取澳門子公司所在行業的市場信息、競爭對手情況、法律法規更新等資料。與澳門的金融機構、政府部門、律師事務所、行業協會等建立了良好的合作關係，這有助於在審計過程中獲取更多信息、協調各方關係，解決可能出現的問題。
-        </p>
-        <h4>科學的審計方法和模型</h4>
-        <p>
-            我們運用先進的審計方法和模型，對澳門子公司審計項目進行全面、深入的分析。無論是資料收集整理、風險評估還是報告撰寫，都有科學的方法和模型作為支撐，確保審計結果的準確性和可靠性。同時，不斷更新和改進這些方法和模型，以適應不斷變化的澳門商業環境和法律法規要求。
-        </p>
-        <h4>個性化的服務方案</h4>
-        <p>
-            每個澳門子公司審計項目都有其獨特性，我們深知這一點。因此，我們根據客戶的具體情況和需求，制定個性化的澳門子公司審計服務方案。從審計範圍的確定到報告內容的重點，每一個環節都充分考慮客戶的子公司特點、母公司管理要求、審計目標等因素，為客戶提供最適合的審計方案。
-        </p>
-        <h4>嚴格的信息保密機制</h4>
-        <p>
-            在澳門子公司審計過程中，信息的保密性至關重要。我們建立了嚴格的信息保密機制，從資料收集到整個審計過程中的信息處理和存儲，都採取了嚴格的保密措施。確保子公司和母公司的商業機密、敏感信息不被泄露，保護各方的利益。
-        </p>
-        <h3>五、服務流程</h3>
-        <h4>需求溝通與評估</h4>
-        <p>
-            與母公司和澳門子公司進行深入溝通，瞭解母公司的管理需求、子公司的業務情況、財務狀況、內部管理水平、時間安排等信息。同時，對審計項目的複雜性和潛在風險進行初步評估，為後續的審計方案設計提供依據。
-        </p>
-        <h4>方案設計與規劃</h4>
-        <p>
-            根據溝通和評估的結果，我們的專業團隊為客戶設計詳細的澳門子公司審計方案，包括確定審計範圍、重點審計領域、審計方法、團隊成員組成、時間安排和預算等。同時，制定澳門子公司審計項目的時間表和路線圖，確保項目按計劃推進。
-        </p>
-        <h4>項目執行與監控</h4>
-        <p>
-            在澳門子公司審計方案實施過程中，我們負責協調各方資源，推動審計項目的各個環節順利進行。對項目進度、可能出現的風險進行實時監控，及時發現並解決可能出現的問題，如資料獲取困難、審計過程中發現新的重大風險等。
-        </p>
-        <h4>報告提交與後續支持</h4>
-        <p>
-            完成澳門子公司審計後，向母公司和子公司提交詳細的審計報告，並與相關方進行深入溝通，解釋報告內容和審計發現。同時，為客戶提供後續支持服務，包括協助子公司改進內部控制、根據新情況對報告內容進行更新等，確保客戶在子公司管理過程中能夠充分利用審計結果。
-        </p>
+    <div class="macau-subsidiary-audit-page">
+      <h1 class="header">澳门子公司审计相关服务</h1>
+      <p class="description">
+        以下是澳门子公司审计相关信息，包括其与其他审计服务的关联及可能涉及的审计内容
+      </p>
+      <div class="service-list">
+        <div 
+          v-for="(service, index) in services" 
+          :key="index" 
+          class="service-card"
+          @click="openModal(service)"
+        >
+          <h2>{{ service.title }}</h2>
+          <p>{{ service.shortDescription }}</p>
+        </div>
+      </div>
+  
+      <div v-if="selectedService" class="modal" @click="closeModal">
+        <div class="modal-content" @click.stop>
+          <span class="close" @click="closeModal">×</span>
+          <h2>{{ selectedService.title }}</h2>
+          <p>{{ selectedService.description }}</p>
+        </div>
+      </div>
     </div>
   </template>
   
+  <script>
+  export default {
+    data() {
+      return {
+        services: [
+          {
+            title: "澳门子公司审计概述",
+            shortDescription: "了解澳门子公司审计基本概念",
+            description: "介绍澳门子公司审计在企业管理中的意义和作用"
+          },
+          {
+            title: "澳门子公司审计与法定审计关系",
+            shortDescription: "明确与法定审计关联",
+            description: "阐述澳门子公司审计和法定审计等相关审计服务要求的联系"
+          },
+          {
+            title: "澳门子公司财务报表审计",
+            shortDescription: "财务报表审计内容",
+            description: "详细介绍对澳门子公司财务报表审计的目标、流程和重要性"
+          },
+          {
+            title: "澳门子公司内部控制审计",
+            shortDescription: "内部控制审计内容",
+            description: "说明对澳门子公司内部控制审计的重点、方法和意义"
+          },
+          {
+            title: "确保财务信息准确性",
+            shortDescription: "财务信息质量保障",
+            description: "阐述澳门子公司审计如何确保子公司财务信息的准确性"
+          },
+          {
+            title: "确保财务信息合规性",
+            shortDescription: "财务信息合规保障",
+            description: "解释澳门子公司审计在保障子公司财务信息合规性方面的措施"
+          },
+          {
+            title: "物业管理收支报告审计",
+            shortDescription: "物业管理收支审计",
+            description: "以物业管理收支报告审计为例，介绍其作为子公司审计部分内容的情况"
+          }
+        ],
+        selectedService: null
+      };
+    },
+    methods: {
+      openModal(service) {
+        this.selectedService = service;
+      },
+      closeModal() {
+        this.selectedService = null;
+      }
+    }
+}
+  </script>
+  
   <style scoped>
-  .agreed-upon-procedures-container {
-    width: 80%;
-    margin: 5px auto;
-    padding-top: 5px;
-    margin-bottom: 100px;
-    font-family: Arial, sans - serif;
-    padding-left: 3%;
-    padding-right: 3%;
-    padding-bottom: 3%;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  .macau-subsidiary-audit-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 20px 100px 20px;
+    background-color: #f5f7fa;
   }
   
-  h2 {
-    border-bottom: 2px solid #007BFF;
-    padding-bottom: 10px;
-    margin-bottom: 20px;
-    margin-top: 50px;
+  .header {
+    text-align: center;
+    font-size: 2.5em;
+    color: #2c3e50;
+    margin-bottom: 10px;
   }
   
-  h3 {
-    margin-top: 30px;
-    margin-bottom: 10px;
-    color: #007BFF;
+  .description {
+    text-align: center;
+    font-size: 1.2em;
+    color: #7f8c8d;
+    margin-bottom: 40px;
   }
-  h4 {
-    margin-top: 20px;
-    margin-bottom: 10px;
-    color: #0056b3;
+  
+  .service-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .service-card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .service-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    width: 100%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .close {
+    float: right;
+    font-size: 1.5em;
+    cursor: pointer;
+    color: #ff7675;
+  }
+  
+  .close:hover {
+    color: #d63031;
   }
   </style>
