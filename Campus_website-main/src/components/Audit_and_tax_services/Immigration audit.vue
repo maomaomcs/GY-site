@@ -1,8 +1,8 @@
 <template>
   <div class="asset-investment-page">
-    <h1 class="header">净资产查证与投资规定查</h1>
+    <h1 class="header">淨資產查證與投資規定查</h1>
     <p class="description">
-      请确保申请人申请前两年内绝对实益拥有3,000万港元净资产，并在180日内投资最少3,000万港元净值于获许投资资产。
+      請確保申請人申請前兩年內絕對實益擁有3,000萬港元淨資產，並在180日內投資最少3,000萬港元淨值於獲許投資資產。
     </p>
 
     <div class="grid">
@@ -20,33 +20,33 @@ export default {
     return {
       assetInvestmentItems: [
         {
-          title: "银行存款",
-          description: "提供银行存款记录，包括存款证、存款余额等，证明净资产的一部分。",
+          title: "銀行存款",
+          description: "提供銀行存款記錄，包括存款證、存款餘額等，證明淨資產的一部分。",
           icon: "../../img/sheji.png" // Replace with appropriate icon
         },
         {
-          title: "证券债券基金",
-          description: "提供证券、债券、基金的投资证明，包括持有的证券清单、基金份额等。",
+          title: "證券債券基金",
+          description: "提供證券、債券、基金的投資證明，包括持有的證券清單、基金份額等。",
           icon: "../../img/qiyue.png" // Replace with appropriate icon
         },
         {
-          title: "房地产",
-          description: "提供房地产的产权证明、估值报告等，证明资产的实际所有权和市场价值。",
+          title: "房地產",
+          description: "提供房地產的產權證明、估值報告等，證明資產的實際所有權和市場價值。",
           icon: "../../img/qiye.png" // Replace with appropriate icon
         },
         {
           title: "公司股份",
-          description: "提供公司股份的证书、股东名册等，证明拥有公司股权的份额。",
+          description: "提供公司股份的證書、股東名冊等，證明擁有公司股權的份額。",
           icon: "../../img/passive income.png" // Replace with appropriate icon
         },
         {
-          title: "存款证",
-          description: "提供存款证明文件，显示存款金额和期限等。",
+          title: "存款證",
+          description: "提供存款證明文件，顯示存款金額和期限等。",
           icon: "../../img/Business analytics.png" // Replace with appropriate icon
         },
         {
-          title: "投资所有权权益",
-          description: "提供有限合基金的拥有权权益证明，显示投资者的权益份额。",
+          title: "投資所有權權益",
+          description: "提供有限合基金的擁有權權益證明，顯示投資者的權益份額。",
           icon: "../../img/baobao.png" // Replace with appropriate icon
         }
       ]

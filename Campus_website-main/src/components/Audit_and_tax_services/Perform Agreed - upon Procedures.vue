@@ -1,8 +1,8 @@
 <template>
   <div class="execution-page">
-    <h1 class="header">执行商定程序</h1>
+    <h1 class="header">執行商定程序</h1>
     <p class="description">
-      根据《受助活助项目查验指引》，提供受助活动的执行商定程序。
+      根據《受助活助項目查驗指引》，提供受助活動的執行商定程序。
     </p>
 
     <div class="execution-grid">
@@ -34,22 +34,22 @@ export default {
     return {
       programs: [
         {
-          title: "澳基金会资助",
-          shortDescription: "为超澳门100万的受助活动提供资助报告。",
-          description: "根据《受助活助项目查验指引》，澳基金会资助用于支持受助活动，需由会计师制作详细报告。",
-          icon: "../../img/baobao.png" // 更换为baobao.png
+          title: "澳基金會資助",
+          shortDescription: "為超澳門100萬的受助活動提供資助報告。",
+          description: "根據《受助活助項目查驗指引》，澳基金會資助用於支持受助活動，需由會計師製作詳細報告。",
+          icon: "../../img/baobao.png" // 更換為baobao.png
         },
         {
-          title: "科学技术发展基金资助",
-          shortDescription: "为科技发展提供资金支持。",
-          description: "涉及科学技术发展基金资助，帮助企业提升科研能力，提供详细的资金支持报告。",
-          icon: "../../img/Insurance.png" // 更换为Insurance.jpg（这里假设可使用jpg格式图片路径，若需转换为png可自行调整）
+          title: "科學技術發展基金資助",
+          shortDescription: "為科技發展提供資金支持。",
+          description: "涉及科學技術發展基金資助，幫助企業提升科研能力，提供詳細的資金支持報告。",
+          icon: "../../img/Insurance.png" // 更換為Insurance.jpg（這裡假設可使用jpg格式圖片路徑，若需轉換為png可自行調整）
         },
         {
-          title: "文化发展基金资助",
-          shortDescription: "支持文化活动及项目。",
-          description: "提供文化发展基金资助，支持文化项目和活动的资助报告制作，确保资金使用合规。",
-          icon: "../../img/passive income.png" // 更换为passive income.jpg（同样假设可使用jpg格式图片路径，可按需调整）
+          title: "文化發展基金資助",
+          shortDescription: "支持文化活動及項目。",
+          description: "提供文化發展基金資助，支持文化項目和活動的資助報告製作，確保資金使用合規。",
+          icon: "../../img/passive income.png" // 更換為passive income.jpg（同樣假設可使用jpg格式圖片路徑，可按需調整）
         }
       ],
       selectedProgram: null

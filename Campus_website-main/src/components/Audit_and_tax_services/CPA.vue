@@ -1,8 +1,8 @@
 <template>
     <div class="forensic-accounting-page">
-    <h1 class="header">鉴证会计相关服务</h1>
+    <h1 class="header">鑑證會計相關服務</h1>
     <p class="description">
-    以下是鉴证会计相关信息，包括其概念、与其他业务的关联等
+    以下是鑑證會計相關信息，包括其概念、與其他業務的關聯等
     </p>
     <div class="service-list">
     <div
@@ -31,34 +31,34 @@
     return {
     services: [
     {
-    title: "鉴证会计概述",
-    shortDescription: "了解鉴证会计基本概念",
-    description: "介绍鉴证会计是什么，以及它在财务领域的重要性",icon: "../../img/Business analytics.png"
+    title: "鑑證會計概述",
+    shortDescription: "瞭解鑑證會計基本概念",
+    description: "介紹鑑證會計是什麼，以及它在財務領域的重要性",icon: "../../img/Business analytics.png"
     },
     {
-    title: "鉴证会计与审计关系",
-    shortDescription: "明确与审计业务联系",
-    description: "阐述鉴证会计和审计之间的关联，它们如何相互影响",icon: "../../img/passive income.png"
+    title: "鑑證會計與審計關係",
+    shortDescription: "明確與審計業務聯繫",
+    description: "闡述鑑證會計和審計之間的關聯，它們如何相互影響",icon: "../../img/passive income.png"
     },
     {
-    title: "鉴证会计与会计业务关系",
-    shortDescription: "明确与会计业务联系",
-    description: "解释鉴证会计和一般会计业务之间的联系",icon: "../../img/huoban.png"
+    title: "鑑證會計與會計業務關係",
+    shortDescription: "明確與會計業務聯繫",
+    description: "解釋鑑證會計和一般會計業務之間的聯繫",icon: "../../img/huoban.png"
     },
     {
-    title: "鉴证功能体现",
-    shortDescription: "了解鉴证功能的体现",
-    description: "说明鉴证会计如何确保财务信息的真实性和可靠性",icon: "../../img/Agreement.png"
+    title: "鑑證功能體現",
+    shortDescription: "瞭解鑑證功能的體現",
+    description: "說明鑑證會計如何確保財務信息的真實性和可靠性",icon: "../../img/Agreement.png"
     },
     {
-    title: "在法定审计中的作用",
-    shortDescription: "法定审计中的鉴证",
-    description: "讲述鉴证会计在法定审计中所承担的角色和发挥的作用",icon: "../../img/Files and folders.png"
+    title: "在法定審計中的作用",
+    shortDescription: "法定審計中的鑑證",
+    description: "講述鑑證會計在法定審計中所承擔的角色和發揮的作用",icon: "../../img/Files and folders.png"
     },
     {
-    title: "在其他审计服务中的作用",
-    shortDescription: "其他审计服务中的鉴证",
-    description: "介绍鉴证会计在除法定审计外的其他审计服务中的作用",icon: "../../img/Insurance.png"
+    title: "在其他審計服務中的作用",
+    shortDescription: "其他審計服務中的鑑證",
+    description: "介紹鑑證會計在除法定審計外的其他審計服務中的作用",icon: "../../img/Insurance.png"
     }
     ],
     selectedService: null

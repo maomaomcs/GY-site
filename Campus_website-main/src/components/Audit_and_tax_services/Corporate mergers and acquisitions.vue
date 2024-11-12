@@ -1,8 +1,8 @@
 <template>
   <div class="ma-page">
-    <h1 class="header">企业并购服务</h1>
+    <h1 class="header">企業併購服務</h1>
     <p class="description">
-      提供全面咨询服务，包括估值、尽职调查、交易结构设计和谈判等，确保交易成功，符合商业目标。
+      提供全面諮詢服務，包括估值、盡職調查、交易結構設計和談判等，確保交易成功，符合商業目標。
     </p>
 
     <div class="ma-grid">
@@ -33,57 +33,57 @@ export default {
     return {
       maServices: [
         {
-          title: "企业估值",
-          shortDescription: "对企业价值进行全面评估，支持交易决策。",
-          description: "通过市场分析、财务分析等方法，全面评估目标企业的市场价值和潜在风险，帮助决策者做出明智的并购决策。",
+          title: "企業估值",
+          shortDescription: "對企業價值進行全面評估，支持交易決策。",
+          description: "通過市場分析、財務分析等方法，全面評估目標企業的市場價值和潛在風險，幫助決策者做出明智的併購決策。",
           icon: "../../img/Agreement.png" // Replace with appropriate icon
         },
         {
-          title: "尽职调查",
-          shortDescription: "确保企业财务、法律合规。",
-          description: "通过审查目标公司的财务状况、运营情况和法律合规性，评估潜在的风险与回报，确保交易的透明度和可靠性。",
+          title: "盡職調查",
+          shortDescription: "確保企業財務、法律合規。",
+          description: "通過審查目標公司的財務狀況、運營情況和法律合規性，評估潛在的風險與回報，確保交易的透明度和可靠性。",
           icon: "../../img/Business analytics.png" // Replace with appropriate icon
         },
         {
-          title: "交易结构设计",
-          shortDescription: "设计最佳的并购交易结构。",
-          description: "根据企业的商业目标与市场环境，设计合适的交易结构，最大化合并的协同效应，优化税务和财务影响。",
+          title: "交易結構設計",
+          shortDescription: "設計最佳的併購交易結構。",
+          description: "根據企業的商業目標與市場環境，設計合適的交易結構，最大化合並的協同效應，優化稅務和財務影響。",
           icon: "../../img/baobao.png" // Replace with appropriate icon
         },
         {
-          title: "谈判策略",
-          shortDescription: "帮助企业制定有效的谈判策略。",
-          description: "提供谈判策略指导，确保交易条款符合企业目标，帮助实现最佳交易结果。",
+          title: "談判策略",
+          shortDescription: "幫助企業制定有效的談判策略。",
+          description: "提供談判策略指導，確保交易條款符合企業目標，幫助實現最佳交易結果。",
           icon: "../../img/Business solutions .png" // Replace with appropriate icon
         },
         {
-          title: "并购整合",
-          shortDescription: "整合资源，确保交易后顺利过渡。",
-          description: "通过并购后整合流程，帮助企业有效整合资源，实现协同效应和持续增长。",
+          title: "併購整合",
+          shortDescription: "整合資源，確保交易後順利過渡。",
+          description: "通過併購後整合流程，幫助企業有效整合資源，實現協同效應和持續增長。",
           icon: "../../img/sheji.png" // Replace with appropriate icon
         },
         {
-          title: "融资支持",
-          shortDescription: "为并购提供融资解决方案。",
-          description: "根据并购需求，提供融资支持方案，帮助企业在资金结构和融资途径上做出最佳选择。",
+          title: "融資支持",
+          shortDescription: "為併購提供融資解決方案。",
+          description: "根據併購需求，提供融資支持方案，幫助企業在資金結構和融資途徑上做出最佳選擇。",
           icon: "../../img/qiyue.png" // Replace with appropriate icon
         },
         {
           title: "法律支持",
-          shortDescription: "提供并购过程中法律咨询。",
-          description: "提供并购过程中的法律支持，确保所有合同、条款和法律程序符合相关法规要求。",
+          shortDescription: "提供併購過程中法律諮詢。",
+          description: "提供併購過程中的法律支持，確保所有合同、條款和法律程序符合相關法規要求。",
           icon: "../../img/huoban.png" // Replace with appropriate icon
         },
         {
-          title: "税务优化",
-          shortDescription: "优化税务结构，最大化并购效益。",
-          description: "帮助企业在并购过程中进行税务规划与优化，确保交易的税务效率，降低不必要的税务负担。",
+          title: "稅務優化",
+          shortDescription: "優化稅務結構，最大化併購效益。",
+          description: "幫助企業在併購過程中進行稅務規劃與優化，確保交易的稅務效率，降低不必要的稅務負擔。",
           icon: "../../img/ghfj.png" // Replace with appropriate icon
         },
         {
-          title: "并购风险管理",
-          shortDescription: "评估并购风险，提供风险管理方案。",
-          description: "帮助企业识别并购过程中可能的风险因素，提供全面的风险管理方案，确保并购过程的顺利进行。",
+          title: "併購風險管理",
+          shortDescription: "評估併購風險，提供風險管理方案。",
+          description: "幫助企業識別併購過程中可能的風險因素，提供全面的風險管理方案，確保併購過程的順利進行。",
           icon: "../../img/Insurance.png" // Replace with appropriate icon
         }
       ],

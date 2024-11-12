@@ -1,8 +1,8 @@
 <template>
   <div class="audit-page">
-    <h1 class="header">法定审计</h1>
+    <h1 class="header">法定審計</h1>
     <p class="description">
-      提供全面的法定审计服务，确保企业符合相关法规和标准。
+      提供全面的法定審計服務，確保企業符合相關法規和標準。
     </p>
 
     <div class="audit-grid">
@@ -34,40 +34,40 @@ export default {
     return {
       audits: [
         {
-          title: "所需资料",
-          shortDescription: "审计年度财务报表、会计账目、关联公司名单等。",
-          description: "包括审计年度财务报表（利润表、资产负债表及现金流量表）、当年会计账目（银行对账单、合同、费用支出发票等）及关联公司名单等。",
-          icon: "../../img/baobao.png" // 随机替换为baobao.png
+          title: "所需資料",
+          shortDescription: "審計年度財務報表、會計賬目、關聯公司名單等。",
+          description: "包括審計年度財務報表（利潤表、資產負債表及現金流量表）、當年會計賬目（銀行對賬單、合同、費用支出發票等）及關聯公司名單等。",
+          icon: "../../img/baobao.png" // 隨機替換為baobao.png
         },
         {
-          title: "审计流程",
-          shortDescription: "详细描述审计流程，包括各项步骤。",
-          description: "审计流程包括拟定审计方案、了解企业内部控制、收集相关资料、进行符合性测试、实质性控制、拟定审计报告等。",
-          icon: "../../img/Business analytics.png" // 随机替换为Business analytics.png
+          title: "審計流程",
+          shortDescription: "詳細描述審計流程，包括各項步驟。",
+          description: "審計流程包括擬定審計方案、瞭解企業內部控制、收集相關資料、進行符合性測試、實質性控制、擬定審計報告等。",
+          icon: "../../img/Business analytics.png" // 隨機替換為Business analytics.png
         },
         {
-          title: "审计报告",
-          shortDescription: "审计后编制并转交的报告。",
-          description: "拟定审计报告，并转达给被审计公司，确保其遵循审计标准。",
-          icon: "../../img/passive income.png" // 假设将passive income.jpg转换为png路径并替换
+          title: "審計報告",
+          shortDescription: "審計後編制並轉交的報告。",
+          description: "擬定審計報告，並轉達給被審計公司，確保其遵循審計標準。",
+          icon: "../../img/passive income.png" // 假設將passive income.jpg轉換為png路徑並替換
         },
         {
-          title: "财务报表",
-          shortDescription: "财务报表包括利润表、资产负债表及现金流量表。",
-          description: "财务报表是审计的重要部分，包括利润表、资产负债表和现金流量表，展示公司的财务健康状况。",
-          icon: "../../img/qiye.png" // 假设将qiye.jpg转换为png路径并替换
+          title: "財務報表",
+          shortDescription: "財務報表包括利潤表、資產負債表及現金流量表。",
+          description: "財務報表是審計的重要部分，包括利潤表、資產負債表和現金流量表，展示公司的財務健康狀況。",
+          icon: "../../img/qiye.png" // 假設將qiye.jpg轉換為png路徑並替換
         },
         {
-          title: "会计账目",
-          shortDescription: "包括银行对账单、合同和费用支出发票。",
-          description: "当年会计账目包括银行对账单、合同、费用支出发票及其他单据，记录公司的财务活动。",
-          icon: "../../img/qiyue.png" // 假设将qiyue.jpg转换为png路径并替换
+          title: "會計賬目",
+          shortDescription: "包括銀行對賬單、合同和費用支出發票。",
+          description: "當年會計賬目包括銀行對賬單、合同、費用支出發票及其他單據，記錄公司的財務活動。",
+          icon: "../../img/qiyue.png" // 假設將qiyue.jpg轉換為png路徑並替換
         },
         {
-          title: "关联公司",
-          shortDescription: "涉及的关联公司名单及关联人士。",
-          description: "提供关联公司名单以及涉及的关联人士，以确保审计的完整性。",
-          icon: "../../img/sheji.png" // 假设将sheji.jpg转换为png路径并替换
+          title: "關聯公司",
+          shortDescription: "涉及的關聯公司名單及關聯人士。",
+          description: "提供關聯公司名單以及涉及的關聯人士，以確保審計的完整性。",
+          icon: "../../img/sheji.png" // 假設將sheji.jpg轉換為png路徑並替換
         }
       ],
       selectedAudit: null

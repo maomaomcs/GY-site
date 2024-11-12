@@ -1,8 +1,8 @@
 <template>
   <div class="tax-page">
-    <h1 class="header">税务咨询服务</h1>
+    <h1 class="header">稅務諮詢服務</h1>
     <p class="description">
-      提供澳门和香港的税务咨询服务，协助企业税务规划、申报和优化。
+      提供澳門和香港的稅務諮詢服務，協助企業稅務規劃、申報和優化。
     </p>
 
     <div class="tax-grid">
@@ -34,39 +34,39 @@ export default {
     return {
       taxServices: [
         {
-          title: "澳门税务环境",
-          shortDescription: "A组纳税人需签署A组所得税表格。",
-          description: "澳门A组纳税人（股份有限公司等）需要签署A组所得税表格，确保税务合规，税务规划有助于企业优化财务结构。",
+          title: "澳門稅務環境",
+          shortDescription: "A組納稅人需簽署A組所得稅表格。",
+          description: "澳門A組納稅人（股份有限公司等）需要簽署A組所得稅表格，確保稅務合規，稅務規劃有助於企業優化財務結構。",
           icon: "../../img/Agreement.png"
         },
         {
-          title: "澳门税务类型",
-          shortDescription: "包括直接税和间接税。",
-          description: "澳门的税种包括营业税、所得补充税等直接税和消费税、旅游税等间接税，税务筹划帮助企业减轻税务负担。",
+          title: "澳門稅務類型",
+          shortDescription: "包括直接稅和間接稅。",
+          description: "澳門的稅種包括營業稅、所得補充稅等直接稅和消費稅、旅遊稅等間接稅，稅務籌劃幫助企業減輕稅務負擔。",
           icon: "../../img/baobao.png"
         },
         {
-          title: "香港税务环境",
-          shortDescription: "包括利得税和薪俸税。",
-          description: "香港税务有利得税、薪俸税等，税务优惠政策帮助企业减轻税务负担，提供税务规划服务。",
+          title: "香港稅務環境",
+          shortDescription: "包括利得稅和薪俸稅。",
+          description: "香港稅務有利得稅、薪俸稅等，稅務優惠政策幫助企業減輕稅務負擔，提供稅務規劃服務。",
           icon: "../../img/Business analytics.png"
         },
         {
-          title: "香港税务类型",
-          shortDescription: "包括物业税和税务优惠。",
-          description: "香港的税务包括物业税、薪俸税等，并有税务优惠政策，如自愿医保产品的税务扣减。",
+          title: "香港稅務類型",
+          shortDescription: "包括物業稅和稅務優惠。",
+          description: "香港的稅務包括物業稅、薪俸稅等，並有稅務優惠政策，如自願醫保產品的稅務扣減。",
           icon: "../../img/Business solutions .png"
         },
         {
-          title: "税务筹划",
-          shortDescription: "协助优化税务结构。",
-          description: "通过专业的税务筹划，帮助企业制定合理的税务结构，利用区域优势，确保企业税务合规。",
+          title: "稅務籌劃",
+          shortDescription: "協助優化稅務結構。",
+          description: "通過專業的稅務籌劃，幫助企業制定合理的稅務結構，利用區域優勢，確保企業稅務合規。",
           icon: "../../img/Insurance.png"
         },
         {
-          title: "税务申报",
-          shortDescription: "确保税务申报准确无误。",
-          description: "提供税务申报服务，确保各类税表的填写准确无误，避免税务风险。",
+          title: "稅務申報",
+          shortDescription: "確保稅務申報準確無誤。",
+          description: "提供稅務申報服務，確保各類稅表的填寫準確無誤，避免稅務風險。",
           icon: "../../img/qiyue.png"
         }
       ],

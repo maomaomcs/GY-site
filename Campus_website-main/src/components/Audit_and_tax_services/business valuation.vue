@@ -1,8 +1,8 @@
 <template>
   <div class="valuation-page">
-    <h1 class="header">商业估值</h1>
+    <h1 class="header">商業估值</h1>
     <p class="description">
-      提供全面的商业估值服务，包括公司估值和房产估值。
+      提供全面的商業估值服務，包括公司估值和房產估值。
     </p>
 
     <div class="valuation-grid">
@@ -35,20 +35,20 @@ export default {
       valuations: [
         {
           title: "公司估值",
-          shortDescription: "通过内外部因素评估股价价值，确保估值准确性。",
-          description: "考虑行业趋势、公司财务表现和市场前景等多个因素，全面评估公司的市场价值和潜在风险，确保估值的准确性。",
+          shortDescription: "通過內外部因素評估股價價值，確保估值準確性。",
+          description: "考慮行業趨勢、公司財務表現和市場前景等多個因素，全面評估公司的市場價值和潛在風險，確保估值的準確性。",
           icon: "../../img/sheji.png"
         },
         {
-          title: "房产估值",
-          shortDescription: "确定不动产的市场价值，广泛应用于交易、贷款、保险等。",
-          description: "通过对市场、地理位置、物业条件等因素的分析，准确评估房产的当前市场价值，适用于买卖、贷款和保险等场景。",
+          title: "房產估值",
+          shortDescription: "確定不動產的市場價值，廣泛應用於交易、貸款、保險等。",
+          description: "通過對市場、地理位置、物業條件等因素的分析，準確評估房產的當前市場價值，適用於買賣、貸款和保險等場景。",
           icon: "../../img/qiye.png"
         },
         {
           title: "其他估值",
-          shortDescription: "提供其它类型的估值服务。",
-          description: "根据不同需求，提供不同类型的估值服务，包括设备、商标、专利等非物质资产的评估。",
+          shortDescription: "提供其它類型的估值服務。",
+          description: "根據不同需求，提供不同類型的估值服務，包括設備、商標、專利等非物質資產的評估。",
           icon: "../../img/Insurance.png"
         }
       ],

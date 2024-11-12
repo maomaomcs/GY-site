@@ -1,8 +1,8 @@
 <template>
     <div class="listed-company-secretary-page">
-      <h1 class="header">上市公司秘书</h1>
+      <h1 class="header">上市公司秘書</h1>
       <p class="description">
-        提供全面的上市公司秘书服务，确保公司运营符合上市规则和法律法规要求。
+        提供全面的上市公司秘書服務，確保公司運營符合上市規則和法律法規要求。
       </p>
       <div class="service-list">
         <div 
@@ -33,39 +33,39 @@
       return {
         services: [
           {
-            title: "担任公司秘书",
-            shortDescription: "担任公司秘书及联席公司秘书",
-            description: "为上市公司担任公司秘书/联席公司秘书，确保公司遵守相关法律法规和公司治理要求。",
+            title: "擔任公司秘書",
+            shortDescription: "擔任公司秘書及聯席公司秘書",
+            description: "為上市公司擔任公司秘書/聯席公司秘書，確保公司遵守相關法律法規和公司治理要求。",
             icon: "../../img/huoban.png"
           },
           {
-            title: "董事会会议及股东大会",
-            shortDescription: "协助召开董事会及股东周年大会",
-            description: "编制董事会会议和董事委员会会议文件，协助召开董事会和股东周年大会，确保合法合规。",
+            title: "董事會會議及股東大會",
+            shortDescription: "協助召開董事會及股東周年大會",
+            description: "編制董事會會議和董事委員會會議文件，協助召開董事會和股東周年大會，確保合法合規。",
             icon: "../../img/sheji.png"
           },
           {
-            title: "报告及公告编制",
-            shortDescription: "编制中期、年度报告及业绩公告",
-            description: "编制并审阅上市公司中期、年度报告和业绩公告，确保报告内容准确且符合规定。",
+            title: "報告及公告編制",
+            shortDescription: "編制中期、年度報告及業績公告",
+            description: "編制並審閱上市公司中期、年度報告和業績公告，確保報告內容準確且符合規定。",
             icon: "../../img/shenqing.png"
           },
           {
-            title: "股东大会通函",
-            shortDescription: "编制股东大会通函",
-            description: "编制股东周年大会通函，包括董事授权及重选董事相关事项。",
+            title: "股東大會通函",
+            shortDescription: "編制股東大會通函",
+            description: "編制股東周年大會通函，包括董事授權及重選董事相關事項。",
             icon: "../../img/guquan.png"
           },
           {
-            title: "通知注册处及联交所",
-            shortDescription: "通知公司注册处及香港联交所",
-            description: "为上市公司提供与香港公司注册处和香港联交所相关的通知及备案服务。",
+            title: "通知註冊處及聯交所",
+            shortDescription: "通知公司註冊處及香港聯交所",
+            description: "為上市公司提供與香港公司註冊處和香港聯交所相關的通知及備案服務。",
             icon: "../../img/Insurance.png"
           },
           {
-            title: "月报表及秘书服务",
-            shortDescription: "编制月报表及提供秘书服务",
-            description: "协助上市公司编制月报表，为公司提供全方位的秘书服务，确保遵守上市规则。",
+            title: "月報表及秘書服務",
+            shortDescription: "編制月報表及提供秘書服務",
+            description: "協助上市公司編制月報表，為公司提供全方位的秘書服務，確保遵守上市規則。",
             icon: "../../img/shangbiao.png"
           }
         ],

@@ -1,8 +1,8 @@
 <template>
     <div class="macau-subsidiary-audit-page">
-      <h1 class="header">澳门子公司审计相关服务</h1>
+      <h1 class="header">澳門子公司審計相關服務</h1>
       <p class="description">
-        以下是澳门子公司审计相关信息，包括其与其他审计服务的关联及可能涉及的审计内容
+        以下是澳門子公司審計相關信息，包括其與其他審計服務的關聯及可能涉及的審計內容
       </p>
       <div class="service-list">
         <div 
@@ -32,45 +32,45 @@
     return {
         services: [
             {
-                title: "澳门子公司审计概述",
-                shortDescription: "了解澳门子公司审计基本概念",
-                description: "介绍澳门子公司审计在企业管理中的意义和作用",
+                title: "澳門子公司審計概述",
+                shortDescription: "瞭解澳門子公司審計基本概念",
+                description: "介紹澳門子公司審計在企業管理中的意義和作用",
                 icon: "../../img/Insurance.png"
             },
             {
-                title: "澳门子公司审计与法定审计关系",
-                shortDescription: "明确与法定审计关联",
-                description: "阐述澳门子公司审计和法定审计等相关审计服务要求的联系",
+                title: "澳門子公司審計與法定審計關係",
+                shortDescription: "明確與法定審計關聯",
+                description: "闡述澳門子公司審計和法定審計等相關審計服務要求的聯繫",
                 icon: "../../img/qiyue.png"
             },
             {
-                title: "澳门子公司财务报表审计",
-                shortDescription: "财务报表审计内容",
-                description: "详细介绍对澳门子公司财务报表审计的目标、流程和重要性",
+                title: "澳門子公司財務報表審計",
+                shortDescription: "財務報表審計內容",
+                description: "詳細介紹對澳門子公司財務報表審計的目標、流程和重要性",
                 icon: "../../img/baobao.png"
             },
             {
-                title: "澳门子公司内部控制审计",
-                shortDescription: "内部控制审计内容",
-                description: "说明对澳门子公司内部控制审计的重点、方法和意义",
+                title: "澳門子公司內部控制審計",
+                shortDescription: "內部控制審計內容",
+                description: "說明對澳門子公司內部控制審計的重點、方法和意義",
                 icon: "../../img/Stocks and brokerages.png"
             },
             {
-                title: "确保财务信息准确性",
-                shortDescription: "财务信息质量保障",
-                description: "阐述澳门子公司审计如何确保子公司财务信息的准确性",
+                title: "確保財務信息準確性",
+                shortDescription: "財務信息質量保障",
+                description: "闡述澳門子公司審計如何確保子公司財務信息的準確性",
                 icon: "../../img/huoban.png"
             },
             {
-                title: "确保财务信息合规性",
-                shortDescription: "财务信息合规保障",
-                description: "解释澳门子公司审计在保障子公司财务信息合规性方面的措施",
+                title: "確保財務信息合規性",
+                shortDescription: "財務信息合規保障",
+                description: "解釋澳門子公司審計在保障子公司財務信息合規性方面的措施",
                 icon: "../../img/passive income.png"
             },
             {
-                title: "物业管理收支报告审计",
-                shortDescription: "物业管理收支审计",
-                description: "以物业管理收支报告审计为例，介绍其作为子公司审计部分内容的情况",
+                title: "物業管理收支報告審計",
+                shortDescription: "物業管理收支審計",
+                description: "以物業管理收支報告審計為例，介紹其作為子公司審計部分內容的情況",
                 icon: "../../img/Business analytics.png"
             }
         ],

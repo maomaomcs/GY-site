@@ -1,8 +1,8 @@
 <template>
   <div class="due-diligence-page">
-    <h1 class="header">尽职调查服务</h1>
+    <h1 class="header">盡職調查服務</h1>
     <p class="description">
-      提供全面的尽职调查服务，帮助企业确保财务状况的真实性、评估风险并做出明智决策。
+      提供全面的盡職調查服務，幫助企業確保財務狀況的真實性、評估風險並做出明智決策。
     </p>
 
     <div class="ma-grid">
@@ -34,39 +34,39 @@ export default {
     return {
       dueDiligenceServices: [
         {
-          title: "审计需求",
-          shortDescription: "银行和政府资助项目对特定类型客户要求审计报告。",
-          description: "尽管澳门法律并未强制所有公司进行审计，但银行对融资客户及政府资助项目有审计报告的要求。通过尽职调查，确保所有交易符合财务规范。",
+          title: "審計需求",
+          shortDescription: "銀行和政府資助項目對特定類型客戶要求審計報告。",
+          description: "儘管澳門法律並未強制所有公司進行審計，但銀行對融資客戶及政府資助項目有審計報告的要求。通過盡職調查，確保所有交易符合財務規範。",
           icon: "../../img/sheji.png" // Replace with appropriate icon
         },
         {
-          title: "财务状况真实性",
-          shortDescription: "确保企业财务状况真实可信。",
-          description: "尽职调查可确保企业的财务状况真实可信，避免潜在的财务风险，帮助决策者做出明智的决策。",
+          title: "財務狀況真實性",
+          shortDescription: "確保企業財務狀況真實可信。",
+          description: "盡職調查可確保企業的財務狀況真實可信，避免潛在的財務風險，幫助決策者做出明智的決策。",
           icon: "../../img/qiyue.png" // Replace with appropriate icon
         },
         {
-          title: "风险评估",
-          shortDescription: "评估企业运营的潜在风险。",
-          description: "尽职调查评估企业的财务状况、运营情况和法律合规性，帮助识别潜在的风险因素并做出合适决策。",
+          title: "風險評估",
+          shortDescription: "評估企業運營的潛在風險。",
+          description: "盡職調查評估企業的財務狀況、運營情況和法律合規性，幫助識別潛在的風險因素並做出合適決策。",
           icon: "../../img/qiye.png" // Replace with appropriate icon
         },
         {
-          title: "重要财务信息",
-          shortDescription: "提供关键财务数据，支持决策。",
-          description: "尽职调查可为相关方提供关键财务信息和建议，帮助做出有关企业并购、融资等重大决策。",
+          title: "重要財務信息",
+          shortDescription: "提供關鍵財務數據，支持決策。",
+          description: "盡職調查可為相關方提供關鍵財務信息和建議，幫助做出有關企業併購、融資等重大決策。",
           icon: "../../img/passive income.png" // Replace with appropriate icon
         },
         {
-          title: "并购相关尽职调查",
-          shortDescription: "并购业务中的重要环节。",
-          description: "在企业并购过程中，尽职调查确保交易透明、无隐患，涉及收购合并及特殊目的审计等服务。",
+          title: "併購相關盡職調查",
+          shortDescription: "併購業務中的重要環節。",
+          description: "在企業併購過程中，盡職調查確保交易透明、無隱患，涉及收購合併及特殊目的審計等服務。",
           icon: "../../img/Agreement.png" // Replace with appropriate icon
         },
         {
-          title: "特殊目的审计",
-          shortDescription: "为特殊审计目的提供支持。",
-          description: "在特定审计任务中（如并购、融资等），进行尽职调查以确保目标公司无潜在风险，提供透明度和安全保障。",
+          title: "特殊目的審計",
+          shortDescription: "為特殊審計目的提供支持。",
+          description: "在特定審計任務中（如併購、融資等），進行盡職調查以確保目標公司無潛在風險，提供透明度和安全保障。",
           icon: "../../img/Business analytics.png" // Replace with appropriate icon
         }
       ],
