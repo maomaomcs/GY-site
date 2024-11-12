@@ -22,32 +22,32 @@ export default {
         {
           title: "银行存款",
           description: "提供银行存款记录，包括存款证、存款余额等，证明净资产的一部分。",
-          icon: "../../img/bank-deposits.png" // Replace with appropriate icon
+          icon: "../../img/sheji.png" // Replace with appropriate icon
         },
         {
           title: "证券债券基金",
           description: "提供证券、债券、基金的投资证明，包括持有的证券清单、基金份额等。",
-          icon: "../../img/securities-bonds.png" // Replace with appropriate icon
+          icon: "../../img/qiyue.png" // Replace with appropriate icon
         },
         {
           title: "房地产",
           description: "提供房地产的产权证明、估值报告等，证明资产的实际所有权和市场价值。",
-          icon: "../../img/real-estate.png" // Replace with appropriate icon
+          icon: "../../img/qiye.png" // Replace with appropriate icon
         },
         {
           title: "公司股份",
           description: "提供公司股份的证书、股东名册等，证明拥有公司股权的份额。",
-          icon: "../../img/company-shares.png" // Replace with appropriate icon
+          icon: "../../img/passive income.png" // Replace with appropriate icon
         },
         {
           title: "存款证",
           description: "提供存款证明文件，显示存款金额和期限等。",
-          icon: "../../img/deposit-certificates.png" // Replace with appropriate icon
+          icon: "../../img/Business analytics.png" // Replace with appropriate icon
         },
         {
           title: "投资所有权权益",
           description: "提供有限合基金的拥有权权益证明，显示投资者的权益份额。",
-          icon: "../../img/investment-rights.png" // Replace with appropriate icon
+          icon: "../../img/baobao.png" // Replace with appropriate icon
         }
       ]
     };

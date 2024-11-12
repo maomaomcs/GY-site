@@ -37,19 +37,19 @@ export default {
           title: "澳基金会资助",
           shortDescription: "为超澳门100万的受助活动提供资助报告。",
           description: "根据《受助活助项目查验指引》，澳基金会资助用于支持受助活动，需由会计师制作详细报告。",
-          icon: "../../img/aus-foundation.png"
+          icon: "../../img/baobao.png" // 更换为baobao.png
         },
         {
           title: "科学技术发展基金资助",
           shortDescription: "为科技发展提供资金支持。",
           description: "涉及科学技术发展基金资助，帮助企业提升科研能力，提供详细的资金支持报告。",
-          icon: "../../img/tech-fund.png"
+          icon: "../../img/Insurance.png" // 更换为Insurance.jpg（这里假设可使用jpg格式图片路径，若需转换为png可自行调整）
         },
         {
           title: "文化发展基金资助",
           shortDescription: "支持文化活动及项目。",
           description: "提供文化发展基金资助，支持文化项目和活动的资助报告制作，确保资金使用合规。",
-          icon: "../../img/culture-fund.png"
+          icon: "../../img/passive income.png" // 更换为passive income.jpg（同样假设可使用jpg格式图片路径，可按需调整）
         }
       ],
       selectedProgram: null
