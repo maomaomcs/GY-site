@@ -1,73 +1,76 @@
 <template>
-  <div class="agreed-procedure-page">
-    <h1 class="header">执行商定程序相关服务</h1>
+  <div class="execution-page">
+    <h1 class="header">执行商定程序</h1>
     <p class="description">
-      以下是执行商定程序相关信息，特别是涉及特定资助项目超限额时的报告要求
+      根据《受助活助项目查验指引》，提供受助活动的执行商定程序。
     </p>
-    <div class="service-list">
-      <div v-for="(service, index) in services" :key="index" class="service-card" @click="openModal(service)">
-        <h2>{{ service.title }}</h2>
-        <p>{{ service.shortDescription }}</p>
+
+    <div class="execution-grid">
+      <div 
+        v-for="(program, index) in programs" 
+        :key="index" 
+        class="execution-card"
+        @click="openModal(program)"
+      >
+        <img :src="program.icon" alt="Program Icon" class="execution-icon"/>
+        <h2>{{ program.title }}</h2>
+        <p>{{ program.shortDescription }}</p>
       </div>
     </div>
-    <div v-if="selectedService" class="modal" @click="closeModal">
+
+    <div v-if="selectedProgram" class="modal" @click="closeModal">
       <div class="modal-content" @click.stop>
         <span class="close" @click="closeModal">×</span>
-        <h2>{{ selectedService.title }}</h2>
-        <p>{{ selectedService.description }}</p>
+        <h2>{{ selectedProgram.title }}</h2>
+        <p>{{ selectedProgram.description }}</p>
       </div>
     </div>
   </div>
 </template>
+
 <script>
 export default {
   data() {
     return {
-      services: [
+      programs: [
         {
-          title: "执行商定程序概述",
-          shortDescription: "了解执行商定程序的基本情况",
-          description: "介绍执行商定程序的概念、适用场景等内容"
+          title: "澳基金会资助",
+          shortDescription: "为超澳门100万的受助活动提供资助报告。",
+          description: "根据《受助活助项目查验指引》，澳基金会资助用于支持受助活动，需由会计师制作详细报告。",
+          icon: "../../img/aus-foundation.png"
         },
         {
-          title: "超限额报告依据",
-          shortDescription: "依据相关指引确定报告需求",
-          description: "详细说明《受助活助项目查验指引》对执行商定程序的指导意义"
+          title: "科学技术发展基金资助",
+          shortDescription: "为科技发展提供资金支持。",
+          description: "涉及科学技术发展基金资助，帮助企业提升科研能力，提供详细的资金支持报告。",
+          icon: "../../img/tech-fund.png"
         },
         {
-          title: "受助活动金额限制",
-          shortDescription: "明确受助活动的金额门槛",
-          description: "解释受助活动超过澳门100万时的特殊要求"
-        },
-        {
-          title: "会计师报告制作",
-          shortDescription: "由会计师制作相关报告",
-          description: "阐述会计师在执行商定程序中制作报告的责任和流程"
-        },
-        {
-          title: "各类资助情况",
-          shortDescription: "涉及多种资助项目",
-          description: "列举澳基金会资助、科学技术发展基金资助、文化发展基金资助、招商投资促进局资助、市政署资助、卫生局资助、教育基金资助、渔类发展及援助基金资助等不同类型资助项目的相关情况"
+          title: "文化发展基金资助",
+          shortDescription: "支持文化活动及项目。",
+          description: "提供文化发展基金资助，支持文化项目和活动的资助报告制作，确保资金使用合规。",
+          icon: "../../img/culture-fund.png"
         }
       ],
-      selectedService: null
+      selectedProgram: null
     };
   },
   methods: {
-    openModal(service) {
-      this.selectedService = service;
+    openModal(program) {
+      this.selectedProgram = program;
     },
     closeModal() {
-      this.selectedService = null;
+      this.selectedProgram = null;
     }
   }
 };
 </script>
+
 <style scoped>
-.agreed-procedure-page {
+.execution-page {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 20px 20px 100px 20px;
+  padding: 20px 20px 50px 20px;
   background-color: #f5f7fa;
 }
 
@@ -85,13 +88,14 @@ export default {
   margin-bottom: 40px;
 }
 
-.service-list {
+.execution-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
+  margin: 0 20px;
 }
 
-.service-card {
+.execution-card {
   background-color: #ffffff;
   border: 1px solid #ddd;
   border-radius: 10px;
@@ -99,11 +103,19 @@ export default {
   text-align: center;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   cursor: pointer;
-  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
 }
 
-.service-card:hover {
+.execution-card:hover {
   transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.execution-icon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 15px;
 }
 
 .modal {
@@ -112,7 +124,7 @@ export default {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.6);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -120,16 +132,18 @@ export default {
 
 .modal-content {
   background: white;
-  padding: 20px;
+  padding: 30px;
   border-radius: 10px;
-  max-width: 600px;
-  width: 100%;
+  max-width: 700px;
+  width: 90%;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 .close {
-  float: right;
-  font-size: 1.5em;
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 1.8em;
   cursor: pointer;
   color: #ff7675;
 }

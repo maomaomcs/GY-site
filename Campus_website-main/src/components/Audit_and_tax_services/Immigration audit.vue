@@ -1,178 +1,114 @@
 <template>
-    <div class="hongkong-immigration-audit-page">
-      <h1 class="header">香港移民审计相关服务</h1>
-      <p class="description">
-        以下是香港移民审计相关内容，包括审计目的、涉及资产类别和投资规定等信息
-      </p>
-      <div class="service-list">
-        <div 
-          v-for="(service, index) in services" 
-          :key="index" 
-          class="service-card"
-          @click="openModal(service)"
-        >
-          <h2>{{ service.title }}</h2>
-          <p>{{ service.shortDescription }}</p>
-        </div>
-      </div>
-  
-      <div v-if="selectedService" class="modal" @click="closeModal">
-        <div class="modal-content" @click.stop>
-          <span class="close" @click="closeModal">×</span>
-          <h2>{{ selectedService.title }}</h2>
-          <p>{{ selectedService.description }}</p>
-        </div>
+  <div class="asset-investment-page">
+    <h1 class="header">净资产查证与投资规定查</h1>
+    <p class="description">
+      请确保申请人申请前两年内绝对实益拥有3,000万港元净资产，并在180日内投资最少3,000万港元净值于获许投资资产。
+    </p>
+
+    <div class="grid">
+      <div v-for="(item, index) in assetInvestmentItems" :key="index" class="grid-item">
+        <img :src="item.icon" alt="Icon" class="icon" />
+        <h3>{{ item.title }}</h3>
+        <p>{{ item.description }}</p>
       </div>
     </div>
-  </template>
-  
-  <script>
-  export default {
-    data() {
-      return {
-        services: [
-          {
-            title: "香港移民审计概述",
-            shortDescription: "了解香港移民审计基本概念",
-            description: "介绍香港移民审计在移民申请中的作用和意义"
-          },
-          {
-            title: "净资产查证 - 总体要求",
-            shortDescription: "明确净资产查证要求",
-            description: "解释香港移民审计中针对净资产查证的整体目标和意义"
-          },
-          {
-            title: "净资产查证 - 银行存款资料",
-            shortDescription: "银行存款审计资料",
-            description: "阐述银行存款作为资产类别在香港移民审计中的资料要求"
-          },
-          {
-            title: "净资产查证 - 证券债券基金资料",
-            shortDescription: "证券债券基金审计资料",
-            description: "说明证券债券基金在香港移民审计中的资料要求"
-          },
-          {
-            title: "净资产查证 - 房地产资料",
-            shortDescription: "房地产审计资料",
-            description: "介绍房地产作为资产类别在香港移民审计中的资料要求"
-          },
-          {
-            title: "净资产查证 - 公司股份资料",
-            shortDescription: "公司股份审计资料",
-            description: "讲解公司股份在香港移民审计中的资料要求"
-          },
-          {
-            title: "投资规定查证 - 总体要求",
-            shortDescription: "明确投资规定查证要求",
-            description: "解释香港移民审计中针对投资规定查证的整体目标和意义"
-          },
-          {
-            title: "投资规定查证 - 存款证资料",
-            shortDescription: "存款证审计资料",
-            description: "阐述存款证在香港移民审计中的资料要求"
-          },
-          {
-            title: "投资规定查证 - 有限合基金拥有权权益资料",
-            shortDescription: "有限合基金资料",
-            description: "说明有限合基金的拥有权权益在香港移民审计中的资料要求"
-          },
-          {
-            title: "净资产金额要求",
-            shortDescription: "明确净资产金额标准",
-            description: "讲述申请人需证明在申请前两年内绝对实益拥有3,000万港元净资产的要求"
-          },
-          {
-            title: "投资金额及期限要求",
-            shortDescription: "明确投资金额和期限",
-            description: "说明申请人在180日内投资最少3,000万港元净值于获许投资资产的规定，以及在参加计划的首个周年日后及在其后每个周年日持续符合投资管理规定的内容"
-          }
-        ],
-        selectedService: null
-      };
-    },
-    methods: {
-      openModal(service) {
-        this.selectedService = service;
-      },
-      closeModal() {
-        this.selectedService = null;
-      }
-    }
+  </div>
+</template>
+<script>
+export default {
+  data() {
+    return {
+      assetInvestmentItems: [
+        {
+          title: "银行存款",
+          description: "提供银行存款记录，包括存款证、存款余额等，证明净资产的一部分。",
+          icon: "../../img/bank-deposits.png" // Replace with appropriate icon
+        },
+        {
+          title: "证券债券基金",
+          description: "提供证券、债券、基金的投资证明，包括持有的证券清单、基金份额等。",
+          icon: "../../img/securities-bonds.png" // Replace with appropriate icon
+        },
+        {
+          title: "房地产",
+          description: "提供房地产的产权证明、估值报告等，证明资产的实际所有权和市场价值。",
+          icon: "../../img/real-estate.png" // Replace with appropriate icon
+        },
+        {
+          title: "公司股份",
+          description: "提供公司股份的证书、股东名册等，证明拥有公司股权的份额。",
+          icon: "../../img/company-shares.png" // Replace with appropriate icon
+        },
+        {
+          title: "存款证",
+          description: "提供存款证明文件，显示存款金额和期限等。",
+          icon: "../../img/deposit-certificates.png" // Replace with appropriate icon
+        },
+        {
+          title: "投资所有权权益",
+          description: "提供有限合基金的拥有权权益证明，显示投资者的权益份额。",
+          icon: "../../img/investment-rights.png" // Replace with appropriate icon
+        }
+      ]
+    };
+  }
+};
+</script>
+<style scoped>
+.asset-investment-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f7fa;
 }
-  </script>
-  
-  <style scoped>
-  .hongkong-immigration-audit-page {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px 20px 100px 20px;
-    background-color: #f5f7fa;
+
+.header {
+  text-align: center;
+  font-size: 2.5em;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.description {
+  text-align: center;
+  font-size: 1.2em;
+  color: #7f8c8d;
+  margin-bottom: 40px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  gap: 30px;
+  margin: 0 20px;
+}
+
+.grid-item {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  position: relative;
+}
+
+.grid-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr; /* Single column layout on smaller screens */
   }
-  
-  .header {
-    text-align: center;
-    font-size: 2.5em;
-    color: #2c3e50;
-    margin-bottom: 10px;
-  }
-  
-  .description {
-    text-align: center;
-    font-size: 1.2em;
-    color: #7f8c8d;
-    margin-bottom: 40px;
-  }
-  
-  .service-list {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 20px;
-  }
-  
-  .service-card {
-    background-color: #ffffff;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    padding: 20px;
-    text-align: center;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    cursor: pointer;
-    transition: transform 0.3s ease;
-  }
-  
-  .service-card:hover {
-    transform: scale(1.05);
-  }
-  
-  .modal {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.5);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .modal-content {
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    max-width: 600px;
-    width: 100%;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-  }
-  
-  .close {
-    float: right;
-    font-size: 1.5em;
-    cursor: pointer;
-    color: #ff7675;
-  }
-  
-  .close:hover {
-    color: #d63031;
-  }
-  </style>
+}
+</style>
