@@ -1,26 +1,67 @@
 <template>
-  <div class="financial-accounting-page">
-    <h1 class="header">财务会计相关服务</h1>
+  <div class="container">
+    <h1 class="header">專業會計服務</h1>
     <p class="description">
-      我们提供全面专业的财务会计服务，助力企业财务管理。
+      爲企業提供清晰、準確的財務信息，全面反映企業的財務狀況和經營成果，從而幫助企業做出明智的決策。
+      不僅能節省成本、確保會計信息的準確性; 還避免訊息誤導人員變動造成的工作中斷。
+      同時，專業人員對相關數據的分析和建議，能夠提升企業的管理水平和盈利能力。
     </p>
+
+    <h2 class="sub-header">我們的服務包括:</h2>
     <div class="service-list">
-      <div 
-        v-for="(service, index) in services" 
-        :key="index" 
-        class="service-card"
-        @click="openModal(service)"
-      >
-        <h2>{{ service.title }}</h2>
-        <p>{{ service.shortDescription }}</p>
+      <div class="service-card">
+        <h3>帳目整理</h3>
+      </div>
+      <div class="service-card">
+        <h3>編制財報</h3>
+      </div>
+      <div class="service-card">
+        <h3>存貨管理</h3>
+      </div>
+      <div class="service-card">
+        <h3>成本管理</h3>
       </div>
     </div>
 
-    <div v-if="selectedService" class="modal" @click="closeModal">
-      <div class="modal-content" @click.stop>
-        <span class="close" @click="closeModal">×</span>
-        <h2>{{ selectedService.title }}</h2>
-        <p>{{ selectedService.description }}</p>
+    <h2 class="sub-header">會計要素:</h2>
+    <div class="accounting-elements">
+      <div class="element-box">
+        <h3>靜態要素:</h3>
+        <ul class="element-list">
+          <li>資產</li>
+          <li>負債</li>
+          <li>所有者權益</li>
+        </ul>
+      </div>
+      <div class="element-box">
+        <h3>動態要素:</h3>
+        <ul class="element-list">
+          <li>收入</li>
+          <li>費用</li>
+          <li>利潤</li>
+        </ul>
+      </div>
+    </div>
+
+    <h2 class="sub-header">我們的具體服務包括:</h2>
+    <div class="service-list">
+      <div class="service-card">
+        <h3>代理記賬</h3>
+      </div>
+      <div class="service-card">
+        <h3>設置會計制度</h3>
+      </div>
+      <div class="service-card">
+        <h3>財務報表編制</h3>
+      </div>
+      <div class="service-card">
+        <h3>存貨管理</h3>
+      </div>
+      <div class="service-card">
+        <h3>成本管理</h3>
+      </div>
+      <div class="service-card">
+        <h3>建立內部會計稽核制度</h3>
       </div>
     </div>
   </div>
@@ -28,136 +69,100 @@
 
 <script>
 export default {
-  data() {
-    return {
-      services: [
-        {
-          title: "账目整理",
-          shortDescription: "对企业账目进行系统整理。",
-          description: "详细介绍账目整理的方法、流程，确保账目清晰准确。"
-        },
-        {
-          title: "编制财报",
-          shortDescription: "编制企业财务报告。",
-          description: "包括财报的种类、编制依据、格式规范和时间要求等内容。"
-        },
-        {
-          title: "存货管理",
-          shortDescription: "协助企业进行存货管理。",
-          description: "涉及存货盘点、计价方法、出入库管理等相关流程。"
-        },
-        {
-          title: "成本管理",
-          shortDescription: "帮助企业进行成本控制和管理。",
-          description: "分析成本构成、成本核算方法和成本控制策略。"
-        },
-        {
-          title: "代理记账",
-          shortDescription: "为企业提供代理记账服务。",
-          description: "阐述代理记账的范围、责任和优势。"
-        },
-        {
-          title: "设置会计制度",
-          shortDescription: "根据企业特点设置合理的会计制度。",
-          description: "包括会计科目设置、账务处理程序等方面。"
-        },
-        {
-          title: "财务报表编制",
-          shortDescription: "编制各类财务报表。",
-          description: "详细说明资产负债表、利润表、现金流量表等编制要点。"
-        },
-        {
-          title: "协助建立内部会计稽核制度",
-          shortDescription: "帮助企业建立内部会计稽核机制。",
-          description: "明确稽核的内容、方法和频率，保障财务信息质量。"
-        }
-      ],
-      selectedService: null
-    };
-  },
-  methods: {
-    openModal(service) {
-      this.selectedService = service;
-    },
-    closeModal() {
-      this.selectedService = null;
-    }
-  }
+  name: 'AccountingServices',
 };
 </script>
 
 <style scoped>
-.financial-accounting-page {
+.container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px 20px 100px 20px;
-  background-color: #f5f7fa;
+  background: #f3f7fa;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
 
 .header {
   text-align: center;
-  font-size: 2.5em;
-  color: #2c3e50;
-  margin-bottom: 10px;
+  font-size: 2.8em;
+  margin-bottom: 30px;
+  color: #2d3e50;
+  font-weight: bold;
 }
 
 .description {
   text-align: center;
   font-size: 1.2em;
-  color: #7f8c8d;
   margin-bottom: 40px;
+  color: #444;
+  line-height: 1.6;
+}
+
+.sub-header {
+  margin-top: 40px;
+  font-size: 2em;
+  color: #1a5d8a;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #3aafda;
+  padding-bottom: 10px;
 }
 
 .service-list {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
   gap: 20px;
+  margin-bottom: 40px;
 }
 
 .service-card {
-  background-color: #ffffff;
-  border: 1px solid #ddd;
-  border-radius: 10px;
-  padding: 20px;
+  background: #ffffff;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 25px;
   text-align: center;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  cursor: pointer;
-  transition: transform 0.3s ease;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s, border 0.3s;
 }
 
 .service-card:hover {
-  transform: scale(1.05);
+  transform: translateY(-8px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  border-color: #3aafda;
 }
 
-.modal {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.5);
+.accounting-elements {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  gap: 20px;
 }
 
-.modal-content {
-  background: white;
-  padding: 20px;
-  border-radius: 10px;
-  max-width: 600px;
-  width: 100%;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+.element-box {
+  width: 48%;
+  background: #eef5fa;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
 }
 
-.close {
-  float: right;
-  font-size: 1.5em;
-  cursor: pointer;
-  color: #ff7675;
+.element-box h3 {
+  font-size: 1.6em;
+  margin-bottom: 15px;
+  color: #236087;
 }
 
-.close:hover {
-  color: #d63031;
+.element-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.element-list li {
+  background: #dfeaf1;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  color: #3a3a3a;
 }
 </style>

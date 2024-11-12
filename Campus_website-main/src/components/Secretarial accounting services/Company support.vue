@@ -1,25 +1,77 @@
 <template>
-  <div class="offshore-company-support-page">
-    <h1 class="header">离岸公司支援（BVI、Cayman）</h1>
-    <p class="description">
-      为英属维尔京群岛（BVI）和开曼群岛（Cayman）的离岸公司提供开业及银行开户等相关服务，这些服务在当地有特定要求和流程。
-    </p>
-    <div class="service-list">
-      <div class="service-card">
-        <h2>离岸公司开业服务</h2>
-        <p>针对BVI和Cayman离岸公司的开业相关流程协助。</p>
-      </div>
-      <div class="service-card">
-        <h2>离岸公司银行开户服务</h2>
-        <p>协助BVI和Cayman离岸公司开设银行账户。</p>
+  <div class="offshore-support-page">
+    <h1 class="header">離岸公司支援</h1>
+    <p class="description">提供全面的離岸公司支援服務，讓您的業務穩步發展。</p>
+
+    <div class="step-card">
+      <div class="step-icon">1</div>
+      <div class="step-content">
+        <h2>會計及稅務支拨</h2>
+        <p>納稅人應具備完善的會計帳册，並由在「會計師專業委員會」註册的會計師核對帳冊及簽署有關申報檔。</p>
+        <h3>主要項目:</h3>
+        <ul class="list">
+          <li>利得稅、薪俸稅、物業稅申報</li>
+          <li>海外收入稅務豁免</li>
+          <li>避免雙重徵稅</li>
+        </ul>
       </div>
     </div>
 
-    <div v-if="selectedService" class="modal" @click="closeModal">
-      <div class="modal-content" @click.stop>
-        <span class="close" @click="closeModal">×</span>
-        <h2>{{ selectedService.title }}</h2>
-        <p>{{ selectedService.description }}</p>
+    <div class="step-card">
+      <div class="step-icon">2</div>
+      <div class="step-content">
+        <h2>職業稅及薪酬申報</h2>
+        <p>根據澳門法律，企業必須履行以下義務：</p>
+        <ul class="list">
+          <li>員工入職及離職登記</li>
+          <li>薪金、加班費、假期工作補償及費用報銷</li>
+          <li>按季度提交社會保障基金費用</li>
+          <li>年度申報表(M3/M4)</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="step-card">
+      <div class="step-icon">3</div>
+      <div class="step-content">
+        <h2>虛擬辦公室服務</h2>
+        <ul class="list">
+          <li>提供公司註册地址及聯絡地址</li>
+          <li>專人代收信件並寄回指定地址</li>
+          <li>會議室借用（需提前預約）</li>
+          <li>接待政府部門稽查</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="step-card">
+      <div class="step-icon">4</div>
+      <div class="step-content">
+        <h2>專業會計服務</h2>
+        <p>我們提供清晰、準確的財務信息，幫助企業做出明智的決策，提升管理水平和盈利能力。</p>
+        <h3>服務包括:</h3>
+        <ul class="list">
+          <li>帳目整理</li>
+          <li>編制財報</li>
+          <li>存貨管理</li>
+          <li>成本管理</li>
+          <li>建立內部會計稽核制度</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="step-card">
+      <div class="step-icon">5</div>
+      <div class="step-content">
+        <h2>秘書服務</h2>
+        <p>我們提供一站式多元化的秘書服務，支持企業的發展需求。</p>
+        <h3>服務包括:</h3>
+        <ul class="list">
+          <li>安排董事和股東會議，並草擬會議記錄</li>
+          <li>更新公司章程及政府部門登记资料</li>
+          <li>協助開設銀行賬戶</li>
+          <li>預備及提交法定文件，如周年申報表和商業登記</li>
+        </ul>
       </div>
     </div>
   </div>
@@ -27,36 +79,12 @@
 
 <script>
 export default {
-  data() {
-    return {
-      services: [
-        {
-          title: "离岸公司开业服务",
-          shortDescription: "针对BVI和Cayman离岸公司的开业相关流程协助。",
-          description: "虽未详细展开，但涉及当地特定要求和流程的公司开业服务。"
-        },
-        {
-          title: "离岸公司银行开户服务",
-          shortDescription: "协助BVI和Cayman离岸公司开设银行账户。",
-          description: "同样有针对当地情况的特定流程，此处未详细说明。"
-        }
-      ],
-      selectedService: null
-    };
-  },
-  methods: {
-    openModal(service) {
-      this.selectedService = service;
-    },
-    closeModal() {
-      this.selectedService = null;
-    }
-  }
+  name: 'OffshoreSupportServices',
 };
 </script>
 
 <style scoped>
-.offshore-company-support-page {
+.offshore-support-page {
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px 20px 100px 20px;
@@ -77,56 +105,54 @@ export default {
   margin-bottom: 40px;
 }
 
-.service-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  gap: 20px;
-}
-
-.service-card {
-  background-color: #ffffff;
-  border: 1px solid #ddd;
-  border-radius: 10px;
-  padding: 20px;
-  text-align: center;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  cursor: pointer;
-  transition: transform 0.3s ease;
-}
-
-.service-card:hover {
-  transform: scale(1.05);
-}
-
-.modal {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.5);
+.step-card {
   display: flex;
-  justify-content: center;
   align-items: center;
-}
-
-.modal-content {
-  background: white;
+  background-color: #ffffff;
   padding: 20px;
   border-radius: 10px;
-  max-width: 600px;
-  width: 100%;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
 }
 
-.close {
-  float: right;
-  font-size: 1.5em;
+.step-icon {
+  font-size: 3em;
+  color: #3498db;
+  margin-right: 20px;
+}
+
+.step-content {
+  flex: 1;
+}
+
+.step-content h2 {
+  font-size: 1.8em;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.step-content p,
+.step-content .list {
+  font-size: 1.1em;
+  color: #7f8c8d;
+  margin-bottom: 15px;
+}
+
+.list {
+  padding-left: 20px;
+}
+
+.btn-primary {
+  background-color: #3498db;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
   cursor: pointer;
-  color: #ff7675;
+  transition: background-color 0.3s ease;
 }
 
-.close:hover {
-  color: #d63031;
+.btn-primary:hover {
+  background-color: #2980b9;
 }
 </style>
