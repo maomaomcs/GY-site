@@ -1,115 +1,143 @@
 <template>
-    <div class="container">
-      <h1 class="header">公司註冊及開戶指南</h1>
-  
-      <div class="section">
-        <h2 @click="toggleMaterials" class="toggle-header">
-          所需資料 <span>{{ showMaterials ? '−' : '+' }}</span>
-        </h2>
-        <transition name="fade">
-          <ul v-if="showMaterials" class="content-list">
-            <li>公司註册資料，例如: 公司註冊證書、商業登記證、公司章程法團成立表格或周年申報表等</li>
-            <li>股束、董事及簽名人身份證明和最近3個月地址證明資料</li>
-            <li>業務證明資料，例如: 訂單、購銷發票、合同、提單等關聯公司註册資料</li>
-            <li>個人以及關聯公司最近3個月的銀行流水</li>
-          </ul>
-        </transition>
-      </div>
-  
-      <div class="section">
-        <h2 @click="toggleOpeningMethods" class="toggle-header">
-          開戶方式 <span>{{ showOpeningMethods ? '−' : '+' }}</span>
-        </h2>
-        <transition name="fade">
-          <ul v-if="showOpeningMethods" class="content-list">
-            <li>親臨開戶: 公司董事親臨香港銀行開户，一般情況下，當天可完成開戶所需簽名文件，预计20個工作日完成。</li>
-            <li>視頻開戶: 公司董事親臨香港銀行中國内地分行見證開戶，約需30個工作日。</li>
-            <li>律師公證: 由兩地律師公證文件，再由律師代表到銀行開戶。</li>
-          </ul>
-        </transition>
-      </div>
-  
-      <div class="section">
-        <h2 @click="toggleOpeningProcess" class="toggle-header">
-          開戶流程 <span>{{ showOpeningProcess ? '−' : '+' }}</span>
-        </h2>
-        <transition name="fade">
-          <ul v-if="showOpeningProcess" class="content-list">
-            <li>遞交開戶申請</li>
-            <li>銀行盡職調查部門審批</li>
-            <li>盡職調查通過，批出最終的賬戶號碼寄出支票本</li>
-            <li>寄出網銀等密碼</li>
-            <li>確認網上理財密碼啟動</li>
-            <li>首次網上理財登入服務</li>
-            <li>寄出或領取提款卡及密碼</li>
-            <li>存入啟動資金</li>
-          </ul>
-        </transition>
+  <div class="bank-account-opening-page">
+    <h1 class="header">银行开户相关信息</h1>
+    <p class="description">
+      以下是香港银行开户的不同方式和开户流程介绍。
+    </p>
+    <div class="service-list">
+      <div 
+        v-for="(service, index) in services" 
+        :key="index" 
+        class="service-card"
+        @click="openModal(service)"
+      >
+        <h2>{{ service.title }}</h2>
+        <p>{{ service.shortDescription }}</p>
       </div>
     </div>
-  </template>
-  
-  <script>
-  export default {
-    data() {
-      return {
-        showMaterials: false,
-        showOpeningMethods: false,
-        showOpeningProcess: false,
-      };
+
+    <div v-if="selectedService" class="modal" @click="closeModal">
+      <div class="modal-content" @click.stop>
+        <span class="close" @click="closeModal">×</span>
+        <h2>{{ selectedService.title }}</h2>
+        <p>{{ selectedService.description }}</p>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  data() {
+    return {
+      services: [
+        {
+          title: "亲临香港开户",
+          shortDescription: "公司董事亲临香港银行开户，当天完成所需签名文件，预计20个工作日完成。",
+          description: "详细介绍亲临香港开户的具体步骤、注意事项，以及开户过程中的相关细节。"
+        },
+        {
+          title: "视频开户",
+          shortDescription: "公司董事亲临香港银行中国内地分行见证开户，约需30个工作日。",
+          description: "阐述视频开户的流程、所需准备的材料，以及整个过程中的关键环节。"
+        },
+        {
+          title: "律师公证开户",
+          shortDescription: "由两地律师公证文件，再由律师代表到银行开户。",
+          description: "包括律师公证的具体要求、选择律师的建议，以及律师代表开户的流程。"
+        },
+        {
+          title: "开户流程",
+          shortDescription: "开户流程包括递交开户申请、银行尽职调查部门审批、批出账户号码、寄出支票本、网银密码等，最后确认网上理财密码启动、首次登录服务、寄出或领取提款卡及密码、存入启动资金。",
+          description: "对开户流程的每一个步骤进行详细讲解，如递交开户申请的方式、银行尽职调查的内容、各个环节的时间安排等。"
+        }
+      ],
+      selectedService: null
+    };
+  },
+  methods: {
+    openModal(service) {
+      this.selectedService = service;
     },
-    methods: {
-      toggleMaterials() {
-        this.showMaterials = !this.showMaterials;
-      },
-      toggleOpeningMethods() {
-        this.showOpeningMethods = !this.showOpeningMethods;
-      },
-      toggleOpeningProcess() {
-        this.showOpeningProcess = !this.showOpeningProcess;
-      },
-    },
-  };
-  </script>
-  
-  <style scoped>
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px 20px 100px 20px;
+    closeModal() {
+      this.selectedService = null;
+    }
   }
-  
-  .header {
-    text-align: center;
-    font-size: 2em;
-    margin-bottom: 20px;
-  }
-  
-  .section {
-    margin-bottom: 20px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 10px;
-    background: #f9f9f9;
-  }
-  
-  .toggle-header {
-    cursor: pointer;
-    font-size: 1.5em;
-    color: #007BFF;
-    margin: 0;
-  }
-  
-  .content-list {
-    margin-top: 10px;
-    padding-left: 20px;
-  }
-  
-  .fade-enter-active, .fade-leave-active {
-    transition: opacity 0.3s;
-  }
-  .fade-enter, .fade-leave-to {
-    opacity: 0;
-  }
-  </style>
-  
+};
+</script>
+
+<style scoped>
+.bank-account-opening-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 20px 100px 20px;
+  background-color: #f5f7fa;
+}
+
+.header {
+  text-align: center;
+  font-size: 2.5em;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.description {
+  text-align: center;
+  font-size: 1.2em;
+  color: #7f8c8d;
+  margin-bottom: 40px;
+}
+
+.service-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.service-card {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+  transform: scale(1.05);
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 600px;
+  width: 100%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.close {
+  float: right;
+  font-size: 1.5em;
+  cursor: pointer;
+  color: #ff7675;
+}
+
+.close:hover {
+  color: #d63031;
+}
+</style>
