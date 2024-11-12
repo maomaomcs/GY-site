@@ -1,114 +1,158 @@
 <template>
-    <div class="agreed-upon-procedures-container">
-        <!-- 盡職調查服務部分 -->
-        <h2 style="text-align: center; font-size: 32px; font-weight: bold;">盡職調查服務</h2>
-        <h3>一、盡職調查服務簡介</h3>
-        <p>
-            盡職調查是企業併購、投資等重大商業活動中的關鍵環節，它是對目標公司全面、深入瞭解的重要過程。在商業環境日益複雜、風險因素增多的情況下，高質量的盡職調查對於降低決策風險、保障交易安全至關重要。我們專注於為客戶提供全面、專業且高效的盡職調查服務，助力客戶在商業活動中做出明智決策。
-        </p>
-        <h3>二、盡職調查的重要性</h3>
-        <h4>風險識別與評估的關鍵</h4>
-        <p>
-            對於投資者或併購方而言，盡職調查是識別和評估目標公司潛在風險的關鍵手段。通過盡職調查，可以發現目標公司在財務、法律、運營等各個方面可能存在的問題，如未披露的債務、法律糾紛、經營不善等，從而避免因信息不對稱導致的投資或併購失誤。例如，在企業併購中，若未進行充分的盡職調查，可能會在交易完成後才發現目標公司存在巨額或有負債，給併購方帶來巨大經濟損失。
-        </p>
-        <h4>交易決策的重要依據</h4>
-        <p>
-            盡職調查結果為交易決策提供了重要依據。詳細的調查信息能夠幫助投資者或併購方準確評估目標公司的價值、潛力和風險，進而確定合理的交易價格、交易結構和談判策略。例如，通過對目標公司市場地位、業務模式和財務狀況的調查分析，投資者可以決定是否進行投資以及投資的額度和方式。
-        </p>
-        <h4>保障交易順利進行</h4>
-        <p>
-            有效的盡職調查有助於保障交易的順利進行。提前瞭解目標公司的情況，可以在交易過程中避免因各種問題導致的延誤或失敗，如解決潛在的法律糾紛、協調財務問題等。同時，也有利於在交易完成後的整合階段做好充分準備，提高整合的成功率。
-        </p>
-        <h3>三、盡職調查流程</h3>
-        <h4>確定調查範圍與目標</h4>
-        <p>
-            根據商業活動的類型（如併購、投資等）和客戶的具體需求，確定盡職調查的範圍和目標。這需要考慮目標公司的行業特點、規模、業務複雜程度等因素。例如，對於一家高科技企業的投資盡職調查，可能需要重點關注其知識產權情況和研發能力；而對於傳統製造業企業的併購盡職調查，則可能更側重於生產設備、供應鏈等方面。
-        </p>
-        <h4>組建專業調查團隊</h4>
-        <p>
-            組建一支由財務專家、法律專家、行業專家等組成的專業調查團隊。團隊成員需要具備豐富的盡職調查經驗和相關領域的專業知識，能夠從不同角度對目標公司進行全面審查。例如，財務專家負責分析財務報表和財務風險，法律專家審查法律文件和潛在法律問題，行業專家評估行業趨勢和目標公司的市場競爭力。
-        </p>
-        <h4>資料收集與分析</h4>
-        <p>
-            從目標公司及相關第三方收集各種資料，包括但不限於財務報表、審計報告、合同文件、營業執照、公司章程、知識產權證書、員工信息等。對收集到的資料進行深入分析，識別其中的關鍵信息、異常情況和潛在風險。例如，通過分析財務報表的各項數據和財務比率，發現目標公司的財務健康狀況和可能存在的財務問題；通過審查合同文件，找出可能對交易產生影響的重大合同條款。
-        </p>
-        <h4>實地調查與訪談</h4>
-        <p>
-            調查團隊到目標公司進行實地考察，觀察其辦公環境、生產設施、庫存情況等，直觀瞭解公司的運營狀況。同時，與目標公司的管理層、員工、供應商、客戶等進行訪談，獲取第一手信息。例如，與員工訪談可以瞭解公司的企業文化、內部管理情況；與供應商訪談可以瞭解採購環節的合作情況和潛在問題。
-        </p>
-        <h4>撰寫盡職調查報告</h4>
-        <p>
-            根據資料分析和實地調查的結果，撰寫詳細的盡職調查報告。報告內容應包括目標公司的基本情況、調查發現的問題和風險、對交易的影響評估、建議措施等。報告要以清晰、準確、客觀的方式呈現，為客戶提供全面的決策支持。例如，報告中會詳細列出目標公司存在的法律訴訟情況、財務風險點以及針對這些問題的應對建議。
-        </p>
-        <h3>四、我們的優勢</h3>
-        <h4>專業的調查團隊</h4>
-        <p>
-            我們擁有一支由經驗豐富的財務分析師、律師、行業顧問等組成的專業盡職調查團隊。團隊成員在盡職調查領域擁有深厚的專業知識和多年的實踐經驗，熟悉各類商業活動的盡職調查流程和要點，能夠為客戶提供高質量的專業服務。無論是複雜的財務分析、法律審查還是行業調研，都能準確高效地完成。
-        </p>
-        <h4>豐富的行業資源</h4>
-        <p>
-            憑藉廣泛的商業網絡和豐富的行業資源，我們能夠迅速獲取目標公司所在行業的市場信息、競爭對手情況、行業趨勢等資料。與各地的企業、金融機構、監管部門、行業協會等建立了良好的合作關係，這有助於在盡職調查過程中獲取更多信息、協調各方關係，解決可能出現的問題。
-        </p>
-        <h4>科學的調查方法和模型</h4>
-        <p>
-            我們運用先進的調查方法和模型，對盡職調查項目進行全面、深入的分析。無論是資料收集整理、風險評估還是報告撰寫，都有科學的方法和模型作為支撐，確保調查結果的準確性和可靠性。同時，不斷更新和改進這些方法和模型，以適應不斷變化的商業環境和行業特點。
-        </p>
-        <h4>個性化的服務方案</h4>
-        <p>
-            每個盡職調查項目都有其獨特性，我們深知這一點。因此，我們根據客戶的具體情況和需求，制定個性化的盡職調查服務方案。從調查範圍的確定到報告內容的重點，每一個環節都充分考慮客戶的商業目標、風險偏好等因素，為客戶提供最適合的調查方案。
-        </p>
-        <h4>嚴格的信息保密機制</h4>
-        <p>
-            在盡職調查過程中，信息的保密性至關重要。我們建立了嚴格的信息保密機制，從資料收集到整個調查過程中的信息處理和存儲，都採取了嚴格的保密措施。確保目標公司和客戶的商業機密、敏感信息不被泄露，保護各方的利益。
-        </p>
-        <h3>五、服務流程</h3>
-        <h4>需求溝通與評估</h4>
-        <p>
-            與客戶進行深入溝通，瞭解客戶的商業活動類型（如併購、投資等）、目標公司的基本情況、客戶對調查的期望和重點關注領域、時間安排等信息。同時，對項目的複雜性和潛在風險進行初步評估，為後續的調查方案設計提供依據。
-        </p>
-        <h4>方案設計與規劃</h4>
-        <p>
-            根據溝通和評估的結果，我們的專業團隊為客戶設計詳細的盡職調查方案，包括確定調查範圍、重點調查領域、調查方法、團隊成員組成、時間安排和預算等。同時，制定盡職調查項目的時間表和路線圖，確保項目按計劃推進。
-        </p>
-        <h4>項目執行與監控</h4>
-        <p>
-            在盡職調查方案實施過程中，我們負責協調各方資源，推動調查項目的各個環節順利進行。對項目進度、可能出現的風險進行實時監控，及時發現並解決可能出現的問題，如資料獲取困難、調查過程中發現新的重大風險等。
-        </p>
-        <h4>報告提交與後續支持</h4>
-        <p>
-            完成盡職調查後，向客戶提交詳細的調查報告，並與客戶進行深入溝通，解釋報告內容和調查發現。同時，為客戶提供後續支持服務，包括協助客戶進行交易談判、根據新情況對報告內容進行更新等，確保客戶在整個商業活動過程中能夠充分利用盡職調查的結果。
-        </p>
+    <div class="due-diligence-page">
+      <h1 class="header">尽职调查相关服务</h1>
+      <p class="description">
+        以下是尽职调查相关信息，包括其在不同业务场景中的作用等
+      </p>
+      <div class="service-list">
+        <div 
+          v-for="(service, index) in services" 
+          :key="index" 
+          class="service-card"
+          @click="openModal(service)"
+        >
+          <h2>{{ service.title }}</h2>
+          <p>{{ service.shortDescription }}</p>
+        </div>
+      </div>
+  
+      <div v-if="selectedService" class="modal" @click="closeModal">
+        <div class="modal-content" @click.stop>
+          <span class="close" @click="closeModal">×</span>
+          <h2>{{ selectedService.title }}</h2>
+          <p>{{ selectedService.description }}</p>
+        </div>
+      </div>
     </div>
   </template>
   
+  <script>
+  export default {
+    data() {
+      return {
+        services: [
+          {
+            title: "尽职调查概述",
+            shortDescription: "了解尽职调查基本概念",
+            description: "介绍尽职调查是什么，以及它在商业活动中的意义"
+          },
+          {
+            title: "澳门企业审计与尽职调查",
+            shortDescription: "澳门企业审计中的应用",
+            description: "解释在澳门企业审计需求判断中尽职调查的作用，虽澳门法律对审计的规定情况，但特定客户如银行融资客户和政府资助专案相关企业需要审计报告，尽职调查可满足此需求"
+          },
+          {
+            title: "尽职调查与财务状况",
+            shortDescription: "确保财务状况真实性",
+            description: "阐述尽职调查如何确保企业财务状况的真实性，保障信息质量"
+          },
+          {
+            title: "尽职调查与风险评估",
+            shortDescription: "风险评估作用",
+            description: "说明尽职调查在评估企业风险方面的重要性和方法"
+          },
+          {
+            title: "尽职调查与决策支持",
+            shortDescription: "帮助决策作用",
+            description: "讲述尽职调查如何为相关方提供重要财务信息和建议，辅助做出明智决策"
+          },
+          {
+            title: "企业并购中的尽职调查",
+            shortDescription: "企业并购场景应用",
+            description: "介绍在企业并购业务（如收购合并）中尽职调查的内容和意义"
+          },
+          {
+            title: "特殊目的审计中的尽职调查",
+            shortDescription: "特殊目的审计应用",
+            description: "阐述在特殊目的审计中尽职调查的相关情况和作用"
+          }
+        ],
+        selectedService: null
+      };
+    },
+    methods: {
+      openModal(service) {
+        this.selectedService = service;
+      },
+      closeModal() {
+        this.selectedService = null;
+      }
+    }
+  };
+  </script>
+  
   <style scoped>
-  .agreed-upon-procedures-container {
-    width: 80%;
-    margin: 5px auto;
-    padding-top: 5px;
-    margin-bottom: 100px;
-    font-family: Arial, sans - serif;
-    padding-left: 3%;
-    padding-right: 3%;
-    padding-bottom: 3%;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  .due-diligence-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 20px 100px 20px;
+    background-color: #f5f7fa;
   }
   
-  h2 {
-    border-bottom: 2px solid #007BFF;
-    padding-bottom: 10px;
-    margin-bottom: 20px;
-    margin-top: 50px;
+  .header {
+    text-align: center;
+    font-size: 2.5em;
+    color: #2c3e50;
+    margin-bottom: 10px;
   }
   
-  h3 {
-    margin-top: 30px;
-    margin-bottom: 10px;
-    color: #007BFF;
+  .description {
+    text-align: center;
+    font-size: 1.2em;
+    color: #7f8c8d;
+    margin-bottom: 40px;
   }
-  h4 {
-    margin-top: 20px;
-    margin-bottom: 10px;
-    color: #0056b3;
+  
+  .service-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .service-card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .service-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    width: 100%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .close {
+    float: right;
+    font-size: 1.5em;
+    cursor: pointer;
+    color: #ff7675;
+  }
+  
+  .close:hover {
+    color: #d63031;
   }
   </style>

@@ -2,7 +2,7 @@
   <div class="financial-accounting-page">
     <h1 class="header">财务会计相关服务</h1>
     <p class="description">
-      我们提供全面专业的财务会计服务，助力企业财务管理。
+      我们提供全面专业的财务会计服务，助力企业财务管理
     </p>
     <div class="service-list">
       <div 
@@ -33,43 +33,43 @@ export default {
       services: [
         {
           title: "账目整理",
-          shortDescription: "对企业账目进行系统整理。",
-          description: "详细介绍账目整理的方法、流程，确保账目清晰准确。"
+          shortDescription: "对企业账目进行系统整理",
+          description: "详细介绍账目整理的方法、流程，确保账目清晰准确"
         },
         {
           title: "编制财报",
-          shortDescription: "编制企业财务报告。",
-          description: "包括财报的种类、编制依据、格式规范和时间要求等内容。"
+          shortDescription: "编制企业财务报告",
+          description: "包括财报的种类、编制依据、格式规范和时间要求等内容"
         },
         {
           title: "存货管理",
-          shortDescription: "协助企业进行存货管理。",
-          description: "涉及存货盘点、计价方法、出入库管理等相关流程。"
+          shortDescription: "协助企业进行存货管理",
+          description: "涉及存货盘点、计价方法、出入库管理等相关流程"
         },
         {
           title: "成本管理",
-          shortDescription: "帮助企业进行成本控制和管理。",
-          description: "分析成本构成、成本核算方法和成本控制策略。"
+          shortDescription: "帮助企业进行成本控制和管理",
+          description: "分析成本构成、成本核算方法和成本控制策略"
         },
         {
           title: "代理记账",
-          shortDescription: "为企业提供代理记账服务。",
-          description: "阐述代理记账的范围、责任和优势。"
+          shortDescription: "为企业提供代理记账服务",
+          description: "阐述代理记账的范围、责任和优势"
         },
         {
           title: "设置会计制度",
-          shortDescription: "根据企业特点设置合理的会计制度。",
-          description: "包括会计科目设置、账务处理程序等方面。"
+          shortDescription: "根据企业特点设置合理的会计制度",
+          description: "包括会计科目设置、账务处理程序等方面"
         },
         {
           title: "财务报表编制",
-          shortDescription: "编制各类财务报表。",
-          description: "详细说明资产负债表、利润表、现金流量表等编制要点。"
+          shortDescription: "编制各类财务报表",
+          description: "详细说明资产负债表、利润表、现金流量表等编制要点"
         },
         {
           title: "协助建立内部会计稽核制度",
-          shortDescription: "帮助企业建立内部会计稽核机制。",
-          description: "明确稽核的内容、方法和频率，保障财务信息质量。"
+          shortDescription: "帮助企业建立内部会计稽核机制",
+          description: "明确稽核的内容、方法和频率，保障财务信息质量"
         }
       ],
       selectedService: null

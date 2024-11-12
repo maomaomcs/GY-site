@@ -1,17 +1,18 @@
 <template>
   <div class="offshore-company-support-page">
-    <h1 class="header">离岸公司支援（BVI、Cayman）</h1>
+    <h1 class="header">离岸公司支援（BVI、Cayman）相关服务</h1>
     <p class="description">
-      为英属维尔京群岛（BVI）和开曼群岛（Cayman）的离岸公司提供开业及银行开户等相关服务，这些服务在当地有特定要求和流程。
+      以下是针对英属维尔京群岛（BVI）和开曼群岛（Cayman）离岸公司的支援服务信息
     </p>
     <div class="service-list">
-      <div class="service-card">
-        <h2>离岸公司开业服务</h2>
-        <p>针对BVI和Cayman离岸公司的开业相关流程协助。</p>
-      </div>
-      <div class="service-card">
-        <h2>离岸公司银行开户服务</h2>
-        <p>协助BVI和Cayman离岸公司开设银行账户。</p>
+      <div 
+        v-for="(service, index) in services" 
+        :key="index" 
+        class="service-card"
+        @click="openModal(service)"
+      >
+        <h2>{{ service.title }}</h2>
+        <p>{{ service.shortDescription }}</p>
       </div>
     </div>
 
@@ -31,14 +32,39 @@ export default {
     return {
       services: [
         {
-          title: "离岸公司开业服务",
-          shortDescription: "针对BVI和Cayman离岸公司的开业相关流程协助。",
-          description: "虽未详细展开，但涉及当地特定要求和流程的公司开业服务。"
+          title: "BVI、Cayman离岸公司开业服务概述",
+          shortDescription: "了解离岸公司开业服务基本情况",
+          description: "介绍针对BVI和Cayman离岸公司开业服务的意义和大致内容"
         },
         {
-          title: "离岸公司银行开户服务",
-          shortDescription: "协助BVI和Cayman离岸公司开设银行账户。",
-          description: "同样有针对当地情况的特定流程，此处未详细说明。"
+          title: "BVI离岸公司开业特定要求",
+          shortDescription: "BVI公司开业要求",
+          description: "阐述英属维尔京群岛离岸公司开业的特殊要求，虽未详细展开，但包括一些当地法律、政策相关内容"
+        },
+        {
+          title: "Cayman离岸公司开业特定要求",
+          shortDescription: "Cayman公司开业要求",
+          description: "讲解开曼群岛离岸公司开业的特殊要求，如当地规定的文件、手续等"
+        },
+        {
+          title: "BVI、Cayman离岸公司银行开户服务概述",
+          shortDescription: "了解离岸公司银行开户服务",
+          description: "介绍针对BVI和Cayman离岸公司银行开户服务的意义和大致流程"
+        },
+        {
+          title: "BVI离岸公司银行开户特定流程",
+          shortDescription: "BVI公司银行开户流程",
+          description: "阐述英属维尔京群岛离岸公司在银行开户方面的特殊流程和注意事项"
+        },
+        {
+          title: "Cayman离岸公司银行开户特定流程",
+          shortDescription: "Cayman公司银行开户流程",
+          description: "讲解开曼群岛离岸公司在银行开户方面的特殊流程和要求"
+        },
+        {
+          title: "与一般公司开业及开户服务的区别",
+          shortDescription: "区别于一般公司服务",
+          description: "说明针对BVI和Cayman离岸公司的服务与一般公司开业及开户服务在要求、流程等方面的差异"
         }
       ],
       selectedService: null
@@ -52,7 +78,7 @@ export default {
       this.selectedService = null;
     }
   }
-};
+}
 </script>
 
 <style scoped>
