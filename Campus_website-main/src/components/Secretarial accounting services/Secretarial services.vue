@@ -1,8 +1,8 @@
 <template>
   <div class="company-secretary-services-page">
-    <h1 class="header">公司秘书及授权代表服务</h1>
+    <h1 class="header">公司秘書及授權代表服務</h1>
     <p class="description">
-      提供全面的公司秘书服务，帮助企业合规运营，助力企业发展
+      提供全面的公司秘書服務，幫助企業合規運營，助力企業發展
     </p>
     <div class="service-list">
       <div 
@@ -33,39 +33,39 @@ export default {
     return {
       services: [
         {
-          title: "撰写ESG报告",
-          shortDescription: "为上市企业撰写ESG报告",
-          description: "帮助企业编制符合国际标准的环境、社会及治理(ESG)报告，助力企业可持续发展",
+          title: "撰寫ESG報告",
+          shortDescription: "為上市企業撰寫ESG報告",
+          description: "幫助企業編制符合國際標準的環境、社會及治理(ESG)報告，助力企業可持續發展",
           icon: "../../img/sheji.png"
         },
         {
-          title: "担任公司秘书",
-          shortDescription: "提供公司秘书服务",
-          description: "为企业提供专业的公司秘书服务，包括日常管理及合规咨询",
+          title: "擔任公司秘書",
+          shortDescription: "提供公司秘書服務",
+          description: "為企業提供專業的公司秘書服務，包括日常管理及合規諮詢",
           icon: "../../img/qiyue.png"
         },
         {
-          title: "担任授权代表",
-          shortDescription: "担任企业授权代表",
-          description: "为企业担任授权代表，处理与政府机关的相关事务",
+          title: "擔任授權代表",
+          shortDescription: "擔任企業授權代表",
+          description: "為企業擔任授權代表，處理與政府機關的相關事務",
           icon: "../../img/Insurance.png"
         },
         {
-          title: "安排董事和股东会议",
-          shortDescription: "安排董事和股东会议",
-          description: "组织并安排公司董事会及股东大会的会议，确保合规并记录会议内容",
+          title: "安排董事和股東會議",
+          shortDescription: "安排董事和股東會議",
+          description: "組織並安排公司董事會及股東大會的會議，確保合規並記錄會議內容",
           icon: "../../img/ghfj.png"
         },
         {
-          title: "更新公司登记资料",
-          shortDescription: "更新公司章程及登记资料",
-          description: "更新公司章程、登记资料，包括增资、营业范围变更、管理层变动等",
+          title: "更新公司登記資料",
+          shortDescription: "更新公司章程及登記資料",
+          description: "更新公司章程、登記資料，包括增資、營業範圍變更、管理層變動等",
           icon: "../../img/Files and folders.png"
         },
         {
           title: "法定文件提交",
-          shortDescription: "准备及提交法定文件",
-          description: "为企业准备及提交年度申报表、商业登记及其它法定文件",
+          shortDescription: "準備及提交法定文件",
+          description: "為企業準備及提交年度申報表、商業登記及其它法定文件",
           icon: "../../img/Business solutions.png"
         }
       ],

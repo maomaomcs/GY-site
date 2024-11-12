@@ -36,24 +36,24 @@
 
         <div class="environment" style="width: 80%;margin: 0 auto">
             <div>
-                <h3>公司环境</h3>
+                <h3>公司環境</h3>
             </div>
             <div style="" class="mod-graph-box clearfix">
                 <div>
                     <div class="graph-box not-font l-graph">
                         <img src="../../img/flx-1-1.jpg" alt="img" class="pic">
 
-                        <h4>公司介绍</h4>
+                        <h4>公司介紹</h4>
                         <p class="desc">
-                            公司专注于提供多元化的专业服务，在公司秘书及会计服务方面，涵盖公司开业协助、注册地址提供、秘书服务、银行开户指导、财务会计管理、薪酬管理以及离岸公司支援（包括 BV、Cayman 等地）同时，会计及税务服务也十分全面，包含法定审计、商业估值、执行商定程序、税务咨询、鉴证会计、尽职调查、企业并购审计等，无论是香港移民审计还是澳门子公司审计，我们都能以专业的水准完成
-                            此外，我们还提供丰富的其他服务，如上市公司服务，包括美国、香港等地的上市策划以及财务审计在知识产权领域，可进行注册商标；在资助申报方面，提供资助申报和受资助项目查验服务港澳车牌申请、资产管理、股权投资、信贷支持、股权包销、重大投资移民等服务也一应俱全同时，我们还致力于环境社会及管治报告的编制、内部控制审阅、企业风险管理以及为上市公司提供秘书服务和任职董事推荐
+                            公司專注於提供多元化的專業服務，在公司秘書及會計服務方面，涵蓋公司開業協助、註冊地址提供、秘書服務、銀行開戶指導、財務會計管理、薪酬管理以及離岸公司支援（包括 BV、Cayman 等地）同時，會計及稅務服務也十分全面，包含法定審計、商業估值、執行商定程序、稅務諮詢、鑑證會計、盡職調查、企業併購審計等，無論是香港移民審計還是澳門子公司審計，我們都能以專業的水準完成
+                            此外，我們還提供豐富的其他服務，如上市公司服務，包括美國、香港等地的上市策劃以及財務審計在知識產權領域，可進行註冊商標；在資助申報方面，提供資助申報和受資助項目查驗服務港澳車牌申請、資產管理、股權投資、信貸支持、股權包銷、重大投資移民等服務也一應俱全同時，我們還致力於環境社會及管治報告的編制、內部控制審閱、企業風險管理以及為上市公司提供秘書服務和任職董事推薦
                         </p>
                     </div>
                     <div class="graph-box not-font r-graph">
                         <img src="../../img/flx-2-1.jpg" alt="img" class="pic">
                         <h4>多元文化</h4>
                         <p class="desc">
-                            公司一直以来坚持提供平等、透明、无歧视的办公环境，对不同性别、国籍、民族、宗教信仰的员工给予充分尊重，禁止员工间开冒犯性的玩笑或展示冒犯性的物品同时，严格遵守国家相关规定，维护员工利益，共同创造一个平等、和谐、多元文化融合发展的学习环境
+                            公司一直以來堅持提供平等、透明、無歧視的辦公環境，對不同性別、國籍、民族、宗教信仰的員工給予充分尊重，禁止員工間開冒犯性的玩笑或展示冒犯性的物品同時，嚴格遵守國家相關規定，維護員工利益，共同創造一個平等、和諧、多元文化融合發展的學習環境
                         </p>
                     </div>
                 </div>
@@ -65,10 +65,10 @@
                 <div class="mod-con clearfix" id="staff-con-4">
                     <div class="t-flx">
                         <div class="label-box" style="min-width: 240px;">
-                            <h3>公司活动</h3>
+                            <h3>公司活動</h3>
                         </div>
                         <div class="desc-box">
-                            <p class="desc">以丰富多彩的活动，深入人心的学习文化，将文化的信念不断传承</p>
+                            <p class="desc">以豐富多彩的活動，深入人心的學習文化，將文化的信念不斷傳承</p>
                         </div>
                     </div>
                 </div>
@@ -76,49 +76,49 @@
                     <div class="row row-1">
                         <div class="item item-1">
                             <div class="mask-bg"></div>
-                            <p class="title">年度大会</p>
-                            <p class="label">每年年底举行的员工大会，和新年晚会都是公司年度最重要的盛会，大会上，向员工传递正能量和新年目标，并表彰优秀员工</p>
+                            <p class="title">年度大會</p>
+                            <p class="label">每年年底舉行的員工大會，和新年晚會都是公司年度最重要的盛會，大會上，向員工傳遞正能量和新年目標，並表彰優秀員工</p>
                         </div>
                         <div class="item item-2">
                             <div class="mask-bg"></div>
-                            <p class="title">港湾年会</p>
-                            <p class="label">自公司创立以来，每年成员欢聚一堂，凝聚才华与激情创作出一个个精彩的节目，增加成员之间的感情，同时激励在新的一年里再接再厉</p>
+                            <p class="title">港灣年會</p>
+                            <p class="label">自公司創立以來，每年成員歡聚一堂，凝聚才華與激情創作出一個個精彩的節目，增加成員之間的感情，同時激勵在新的一年裡再接再厲</p>
                         </div>
                     </div>
                     <div class="row row-2">
                         <div class="item item-3">
                             <div class="mask-bg"></div>
                             <p class="title">公司文化日</p>
-                            <p class="label">是所有员工的节日这一天，员工摆出创意造型拍合影，以及参加总办Link Time等传统活动，共同庆祝这天，将文化不断传承下去</p>
+                            <p class="label">是所有員工的節日這一天，員工擺出創意造型拍合影，以及參加總辦Link Time等傳統活動，共同慶祝這天，將文化不斷傳承下去</p>
                         </div>
                         <div class="item item-5">
                             <div class="mask-bg"></div>
                             <p class="title">踏春日</p>
-                            <p class="label">公司在每年的四月，面向员工组织公益徒步活动，不仅强身健体、增进与员工之间的感情，并传递爱与社会责任</p>
+                            <p class="label">公司在每年的四月，面向員工組織公益徒步活動，不僅強身健體、增進與員工之間的感情，並傳遞愛與社會責任</p>
                         </div>
                     </div>
                     <div class="row row-3">
                         <div class="item item-6">
                             <div class="mask-bg"></div>
                             <p class="title">形象店</p>
-                            <p class="label">形象店被员工亲切地称为“爱马哥”（Image的谐音），是员工休憩和交流的地方，也是我们对外开放，集中展示周边产品的场所</p>
+                            <p class="label">形象店被員工親切地稱為“愛馬哥”（Image的諧音），是員工休憩和交流的地方，也是我們對外開放，集中展示周邊產品的場所</p>
                         </div>
                         <div class="item item-7">
                             <div class="mask-bg"></div>
-                            <p class="title">文体协会</p>
-                            <p class="label">为关爱员工健康，丰富业余生活，公司成立了舞蹈、音乐、篮球、足球、羽毛球、桌游、戏剧社等数百种文体协会</p>
+                            <p class="title">文體協會</p>
+                            <p class="label">為關愛員工健康，豐富業餘生活，公司成立了舞蹈、音樂、籃球、足球、羽毛球、桌遊、戲劇社等數百種文體協會</p>
                         </div>
                     </div>
                     <div class="row row-4">
                         <div class="item item-4">
                             <div class="mask-bg"></div>
-                            <p class="title">港湾志愿者</p>
-                            <p class="label">港湾志愿者是港湾成员自主发起的志愿者组织各成员在空闲时间以丰富多样的方式参与公益活动，践行社会责任和科技向善</p>
+                            <p class="title">港灣志願者</p>
+                            <p class="label">港灣志願者是港灣成員自主發起的志願者組織各成員在空閒時間以豐富多樣的方式參與公益活動，踐行社會責任和科技向善</p>
                         </div>
                         <div class="item item-8">
                             <div class="mask-bg"></div>
-                            <p class="title">低碳未来</p>
-                            <p class="label">公司正鼓励所有员工走向低碳未来，共同努力使“轻碳生活”成为现实相互分享降低碳排放的十条生活小贴士，促进低碳转型</p>
+                            <p class="title">低碳未來</p>
+                            <p class="label">公司正鼓勵所有員工走向低碳未來，共同努力使“輕碳生活”成為現實相互分享降低碳排放的十條生活小貼士，促進低碳轉型</p>
                         </div>
                     </div>
                 </div>
@@ -133,7 +133,7 @@
                 </a>
                 <div class="mess">
                     <a href="./login">
-                        <h2>加入我们</h2>
+                        <h2>加入我們</h2>
                         <p class="desc"></p>
                         <div class="go-link">
                             <i class="go-icon"><img src="../../img/go-icon.png" alt="./login"><p>GrandBlossom</p></i>
@@ -226,7 +226,7 @@
     justify-content: space-around;
 }
 
-/* 内容模块 */
+/* 內容模塊 */
 .brand-item {
     position: relative;
 }
@@ -317,7 +317,7 @@
 }
 
 
-/* 模块 */
+/* 模塊 */
 .mod-graph-box {
     margin-top: 44px;
     overflow: hidden;

@@ -1,8 +1,8 @@
 <template>
   <div class="virtual-office-page">
-    <h1 class="header">虚拟办公室服务</h1>
+    <h1 class="header">虛擬辦公室服務</h1>
     <p class="description">
-      提供全面的虚拟办公室服务，助力企业在全球拓展业务
+      提供全面的虛擬辦公室服務，助力企業在全球拓展業務
     </p>
     <div class="service-list">
       <div 
@@ -33,21 +33,21 @@ export default {
     return {
       services: [
         {
-          title: "公司注册地址及联络地址",
-          shortDescription: "提供合法的公司注册及联络地址",
-          description: "我们提供合法的公司注册地址及联络地址，确保您在全球各地的运营合规",
+          title: "公司註冊地址及聯絡地址",
+          shortDescription: "提供合法的公司註冊及聯絡地址",
+          description: "我們提供合法的公司註冊地址及聯絡地址，確保您在全球各地的運營合規",
           icon: "../../img/baobao.png"
         },
         {
-          title: "专人代收信件并寄回指定地址",
-          shortDescription: "专人代收信件并寄回指定地址",
-          description: "为客户提供专人代收信件服务，确保信件按时转寄至指定地址",
+          title: "專人代收信件並寄回指定地址",
+          shortDescription: "專人代收信件並寄回指定地址",
+          description: "為客戶提供專人代收信件服務，確保信件按時轉寄至指定地址",
           icon: "../../img/Business analytics.png"
         },
         {
-          title: "会议室借用及联络电话",
-          shortDescription: "会议室借用、提供联络电话及接待服务",
-          description: "提供会议室借用、联络电话服务，并可接待政府部门稽查",
+          title: "會議室借用及聯絡電話",
+          shortDescription: "會議室借用、提供聯絡電話及接待服務",
+          description: "提供會議室借用、聯絡電話服務，並可接待政府部門稽查",
           icon: "../../img/ghfj.png"
         }
       ],

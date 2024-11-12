@@ -5,55 +5,55 @@ import axios from "axios";
 const router = useRouter();
 const visible_message = ref(false);
 
-// 下拉菜单选项
+// 下拉菜單選項
 const options = [
-    { content: '个人信息', value: 1 },
+    { content: '個人信息', value: 1 },
     { content: '退出', value: 2 },
 ];
 
-// 重定向到登录页
+// 重定向到登錄頁
 const redirectToLogin = () => {
     axios.post('http://127.0.0.1:5000/get_shopping_list', {}, { withCredentials: true })
         .then((data) => {
             if (data['data']['code'] !== 400) {
-                MessagePlugin.success("你已登录无需重复登录!");
+                MessagePlugin.success("你已登錄無需重複登錄!");
             } else {
                 router.push('/login');
             }
         });
 };
 
-// 跳转到登录页面
+// 跳轉到登錄頁面
 function newPageFunction() {
     window.location.href = './login';
 }
 
-// 菜单项点击事件
+// 菜單項點擊事件
 const clickHandler = (data) => {
     MessagePlugin.success(data.content);
 };
 </script>
 
 <template>
-    <t-drawer v-model:visible="visible_message" header="个人信箱" :on-overlay-click="() => (visible_message = false)" placement="right" @cancel="visible_message = false" size="medium">
+    <t-drawer v-model:visible="visible_message" header="個人信箱" :on-overlay-click="() => (visible_message = false)" placement="right" @cancel="visible_message = false" size="medium">
         <message></message>
     </t-drawer>
 
     <div class="box">
         <t-head-menu expand-type="popup">
-            <!-- Logo区域 -->
+            <!-- Logo區域 -->
             <template #logo>
                 <img style="height: 60px; margin-left: 110px;" src="../../public/logo/Photo.png" alt="logo" />
-                <span class="logo-text">GrandBlossom官网</span>
+                <span class="logo-text">GrandBlossom官網</span>
             </template>
 
-            <!-- 主菜单项 -->
-            <t-menu-item class="no-color" @click="router.push('/')"> 官网首页 </t-menu-item>
+            <!-- 主菜單項 -->
+            <t-menu-item class="no-color" @click="router.push('/')"> 官網首頁 </t-menu-item>
 
-            <!-- 公司秘書及會計服務 子菜单 -->
+            <!-- 公司秘書及會計服務 子菜單 -->
             <t-submenu  value="3" title="秘書會計服務">
                 <t-menu-item class="no-color"  @click="router.push('/company-opened')"> 公司開業 </t-menu-item>
-                <t-menu-item class="no-color" @click="router.push('/Zhuce')"> 虚拟办公室服务 </t-menu-item>
+                <t-menu-item class="no-color" @click="router.push('/Zhuce')"> 虛擬辦公室服務 </t-menu-item>
                 <t-menu-item class="no-color" @click="router.push('/Secretarialservices')"> 秘書服務 </t-menu-item>
                 <t-menu-item class="no-color" @click="router.push('/Openingabank')"> 銀行開戶 </t-menu-item>
                 <t-menu-item class="no-color" @click="router.push('/FinancialAccounting')"> 財務會計 </t-menu-item>
@@ -61,7 +61,7 @@ const clickHandler = (data) => {
                 <t-menu-item class="no-color" @click="router.push('/CompanySupport')"> 離岸公司支援 </t-menu-item>
             </t-submenu>
 
-            <!-- 審計及稅務服務 子菜单 -->
+            <!-- 審計及稅務服務 子菜單 -->
             <t-submenu value="4" title="審計及稅務服務">
                 <t-menu-item class="no-color" @click="router.push('/statutory-audit')"> 法定審計 </t-menu-item>
                 <t-menu-item class="no-color" @click="router.push('/businessvaluation')"> 商業估值 </t-menu-item>
@@ -74,7 +74,7 @@ const clickHandler = (data) => {
                 <!-- <t-menu-item  class="no-color" @click="router.push('/Macaucompany')"> 澳門子公司審計 </t-menu-item> -->
             </t-submenu>
 
-            <!-- 上市公司服務 子菜单 -->
+            <!-- 上市公司服務 子菜單 -->
             <t-submenu value="5" title="上市公司服務">
                 <t-menu-item class="no-color"  @click="router.push('/Listingplanning')"> 上市策劃 </t-menu-item>
                 <t-menu-item  class="no-color" @click="router.push('/Financialaudit')"> 財務審計 </t-menu-item>
@@ -85,14 +85,14 @@ const clickHandler = (data) => {
                 <!-- <t-menu-item  class="no-color" @click="router.push('/AppointedDirector')"> 任職董事 </t-menu-item> -->
             </t-submenu>
 
-            <!-- 其他服務 子菜单 -->
+            <!-- 其他服務 子菜單 -->
            
             <router-link :to="{ path: '/qitafuwu' }">
-    <t-menu-item class="no-color">其他服务</t-menu-item>
+    <t-menu-item class="no-color">其他服務</t-menu-item>
   </router-link>
            
 
-            <!-- 用户登录操作 -->
+            <!-- 用戶登錄操作 -->
             <template #operations>
                 <t-button variant="text" shape="square" @click="redirectToLogin(); newPageFunction()">
                     <template #icon><t-icon name="user" /></template>
@@ -101,25 +101,25 @@ const clickHandler = (data) => {
         </t-head-menu>
     </div>
 
-    <!-- 页面路由展示 -->
+    <!-- 頁面路由展示 -->
     <router-view></router-view>
 </template>
 
 <style lang="less" scoped>
-/* 样式重置 */
+/* 樣式重置 */
 
-/* 样式重置 */
-/* 样式重置 */
+/* 樣式重置 */
+/* 樣式重置 */
 .no-color {
     color: inherit;
     background-color: transparent;
     border: none;
-    transition: color 0.3s ease, font-weight 0.3s ease; /* 平滑过渡 */
+    transition: color 0.3s ease, font-weight 0.3s ease; /* 平滑過渡 */
 }
 
-/* 鼠标悬停时颜色加深并加粗文字 */
+/* 鼠標懸停時顏色加深並加粗文字 */
 .no-color:hover {
-    color: #000000; /* 设置你想要的颜色 */
+    color: #000000; /* 設置你想要的顏色 */
     font-weight: bold; /* 加粗文字 */
 }
 

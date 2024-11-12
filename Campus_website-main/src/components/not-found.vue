@@ -19,8 +19,8 @@ onMounted(()=>{
                     <div class="text-wrap">
                         <h1 data-t="404" class="_h1">404</h1>
                     </div>
-                    <div class="text-center mt-2">页面不存在或者您没有权限访问</div>
-                    <div class="mt-4"><a id="click" role="button" tabindex="0" class="btn btn-primary">回首页</a></div>
+                    <div class="text-center mt-2">頁面不存在或者您沒有權限訪問</div>
+                    <div class="mt-4"><a id="click" role="button" tabindex="0" class="btn btn-primary">回首頁</a></div>
                 </div>
             </div>
         </div>
