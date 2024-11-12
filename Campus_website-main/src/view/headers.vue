@@ -1,14 +1,17 @@
 <script setup>
 import { ref } from "vue";
 import { useRouter } from 'vue-router';
-import { MessagePlugin } from "tdesign-vue-next";
 import axios from "axios";
 const router = useRouter();
 const visible_message = ref(false);
+
+// 下拉菜单选项
 const options = [
     { content: '个人信息', value: 1 },
     { content: '退出', value: 2 },
 ];
+
+// 重定向到登录页
 const redirectToLogin = () => {
     axios.post('http://127.0.0.1:5000/get_shopping_list', {}, { withCredentials: true })
         .then((data) => {
@@ -19,98 +22,190 @@ const redirectToLogin = () => {
             }
         });
 };
+
+// 跳转到登录页面
 function newPageFunction() {
-            window.location.href = './login';
-        }
+    window.location.href = './login';
+}
+
+// 菜单项点击事件
 const clickHandler = (data) => {
     MessagePlugin.success(data.content);
 };
-
 </script>
 
 <template>
     <t-drawer v-model:visible="visible_message" header="个人信箱" :on-overlay-click="() => (visible_message = false)" placement="right" @cancel="visible_message = false" size="medium">
         <message></message>
     </t-drawer>
+
     <div class="box">
         <t-head-menu expand-type="popup">
+            <!-- Logo区域 -->
             <template #logo>
-                <img style="height: 28px" src="../../public/logo/Photo.png" alt="logo" />
-                <span style="margin: 5px 0 5px 10px;font-size: 18px">GrandBlossom官网</span>
+                <img style="height: 60px; margin-left: 110px;" src="../../public/logo/Photo.png" alt="logo" />
+                <span class="logo-text">GrandBlossom官网</span>
             </template>
+
+            <!-- 主菜单项 -->
             <t-menu-item class="no-color" @click="router.push('/')"> 官网首页 </t-menu-item>
-            <t-submenu value="3" title="公司秘書及會計服務">
-                <t-menu-item @click="router.push('/company-opened')"> 公司開業 </t-menu-item>
-                <t-menu-item @click="router.push('/Zhuce')"> 註冊地址 </t-menu-item>
-                <t-menu-item @click="router.push('/Secretarialservices')"> 秘書服務 </t-menu-item>
-                <t-menu-item @click="router.push('/Openingabank')"> 銀行開戶 </t-menu-item>
-                <t-menu-item @click="router.push('/FinancialAccounting')"> 財務會計 </t-menu-item>
-                <t-menu-item @click="router.push('/Payrollmanagement')"> 薪酬管理 </t-menu-item>
-                <t-menu-item @click="router.push('/CompanySupport')"> 離岸公司支援 </t-menu-item>
+
+            <!-- 公司秘書及會計服務 子菜单 -->
+            <t-submenu  value="3" title="秘書會計服務">
+                <t-menu-item class="no-color"  @click="router.push('/company-opened')"> 公司開業 </t-menu-item>
+                <t-menu-item class="no-color" @click="router.push('/Zhuce')"> 註冊地址 </t-menu-item>
+                <t-menu-item class="no-color" @click="router.push('/Secretarialservices')"> 秘書服務 </t-menu-item>
+                <t-menu-item class="no-color" @click="router.push('/Openingabank')"> 銀行開戶 </t-menu-item>
+                <t-menu-item class="no-color" @click="router.push('/FinancialAccounting')"> 財務會計 </t-menu-item>
+                <t-menu-item class="no-color" @click="router.push('/Payrollmanagement')"> 薪酬管理 </t-menu-item>
+                <t-menu-item class="no-color" @click="router.push('/CompanySupport')"> 離岸公司支援 </t-menu-item>
             </t-submenu>
+
+            <!-- 審計及稅務服務 子菜单 -->
             <t-submenu value="4" title="審計及稅務服務">
-                <t-menu-item @click="router.push('/statutory-audit')"> 法定審計 </t-menu-item>
-                <t-menu-item @click="router.push('/businessvaluation')"> 商業估值 </t-menu-item>
-                <t-menu-item @click="router.push('/PerformProcedures')"> 執行商定程序 </t-menu-item>
-                <t-menu-item @click="router.push('/TaxConsultation')"> 稅務諮詢 </t-menu-item>
-                <t-menu-item @click="router.push('/CPA')"> 鑑證會計 </t-menu-item>
-                <t-menu-item @click="router.push('/duediligence')"> 盡職調查 </t-menu-item>
-                <t-menu-item @click="router.push('/Corporate')"> 企業併購 </t-menu-item>
-                <t-menu-item @click="router.push('/Immigrationaudit')"> 香港移民審計 </t-menu-item>
-                <t-menu-item @click="router.push('/Macaucompany')"> 澳門子公司審計 </t-menu-item>
+                <t-menu-item class="no-color" @click="router.push('/statutory-audit')"> 法定審計 </t-menu-item>
+                <t-menu-item class="no-color" @click="router.push('/businessvaluation')"> 商業估值 </t-menu-item>
+                <t-menu-item class="no-color"  @click="router.push('/PerformProcedures')"> 執行商定程序 </t-menu-item>
+                <t-menu-item  class="no-color" @click="router.push('/TaxConsultation')"> 稅務諮詢 </t-menu-item>
+                <t-menu-item  class="no-color" @click="router.push('/CPA')"> 鑑證會計 </t-menu-item>
+                <t-menu-item  class="no-color" @click="router.push('/duediligence')"> 盡職調查 </t-menu-item>
+                <t-menu-item  class="no-color" @click="router.push('/Corporate')"> 企業併購 </t-menu-item>
+                <t-menu-item  class="no-color" @click="router.push('/Immigrationaudit')"> 香港移民審計 </t-menu-item>
+                <t-menu-item  class="no-color" @click="router.push('/Macaucompany')"> 澳門子公司審計 </t-menu-item>
             </t-submenu>
+
+            <!-- 上市公司服務 子菜单 -->
             <t-submenu value="5" title="上市公司服務">
-                <t-menu-item @click="router.push('/Listingplanning')"> 上市策劃 </t-menu-item>
-                <t-menu-item @click="router.push('/Financialaudit')"> 財務審計 </t-menu-item>
-                <t-menu-item @click="router.push('/Environmental')"> 環境社會及管治報告 </t-menu-item>
-                <t-menu-item @click="router.push('/nternalreview')"> 內部控制審閱 </t-menu-item>
-                <t-menu-item @click="router.push('/Enterpriseriskmanagement')"> 企業風險管理 </t-menu-item>
-                <t-menu-item @click="router.push('/Listedcompanyservices')"> 上市公司秘書 </t-menu-item>
-                <t-menu-item @click="router.push('/AppointedDirector')"> 任職董事 </t-menu-item>
+                <t-menu-item class="no-color"  @click="router.push('/Listingplanning')"> 上市策劃 </t-menu-item>
+                <t-menu-item  class="no-color" @click="router.push('/Financialaudit')"> 財務審計 </t-menu-item>
+                <t-menu-item  class="no-color" @click="router.push('/Environmental')"> 環境社會及管治報告 </t-menu-item>
+                <t-menu-item  class="no-color" @click="router.push('/nternalreview')"> 內部控制審閱 </t-menu-item>
+                <t-menu-item class="no-color"  @click="router.push('/Enterpriseriskmanagement')"> 企業風險管理 </t-menu-item>
+                <t-menu-item  class="no-color" @click="router.push('/Listedcompanyservices')"> 上市公司秘書 </t-menu-item>
+                <t-menu-item  class="no-color" @click="router.push('/AppointedDirector')"> 任職董事 </t-menu-item>
             </t-submenu>
+
+            <!-- 其他服務 子菜单 -->
             <t-submenu value="6" title="其他服務">
-                <t-menu-item @click="router.push('/shangbiaozhuce')"> 註冊商標 </t-menu-item>
-                <t-menu-item @click="router.push('/zizhushenbao')"> 資助申報 </t-menu-item>
-                <t-menu-item @click="router.push('/shouzizhuxiangmu')"> 受資助項目查驗 </t-menu-item>
-                <t-menu-item @click="router.push('/chepaishenbao')"> 港澳車牌申請 </t-menu-item>
-                <t-menu-item @click="router.push('/zichanguanli')"> 資產管理 </t-menu-item>
-                <t-menu-item @click="router.push('/equityinvestment')"> 股權投融 </t-menu-item>
-                <t-menu-item @click="router.push('/creditsupport')"> 信貸支援 </t-menu-item>
-                <t-menu-item @click="router.push('/equityunderwriting')"> 股權包銷 </t-menu-item>
-                <t-menu-item @click="router.push('/majorinvestment')"> 重大投資移民 </t-menu-item>
+                <t-menu-item  class="no-color" @click="router.push('/shangbiaozhuce')"> 註冊商標 </t-menu-item>
+                <t-menu-item class="no-color"  @click="router.push('/zizhushenbao')"> 資助申報 </t-menu-item>
+                <t-menu-item  class="no-color" @click="router.push('/shouzizhuxiangmu')"> 受資助項目查驗 </t-menu-item>
+                <t-menu-item class="no-color"  @click="router.push('/chepaishenbao')"> 港澳車牌申請 </t-menu-item>
+                <t-menu-item class="no-color"  @click="router.push('/zichanguanli')"> 資產管理 </t-menu-item>
+                <t-menu-item  class="no-color" @click="router.push('/equityinvestment')"> 股權投融 </t-menu-item>
+                <t-menu-item class="no-color"  @click="router.push('/creditsupport')"> 信貸支援 </t-menu-item>
+                <t-menu-item class="no-color"  @click="router.push('/equityunderwriting')"> 股權包銷 </t-menu-item>
+                <t-menu-item  class="no-color" @click="router.push('/majorinvestment')"> 重大投資移民 </t-menu-item>
             </t-submenu>
+
+            <!-- 用户登录操作 -->
             <template #operations>
-               
-                <t-button variant="text" shape="square" @click="redirectToLogin();newPageFunction()">
+                <t-button variant="text" shape="square" @click="redirectToLogin(); newPageFunction()">
                     <template #icon><t-icon name="user" /></template>
                 </t-button>
-                
             </template>
         </t-head-menu>
     </div>
+
+    <!-- 页面路由展示 -->
     <router-view></router-view>
 </template>
 
 <style lang="less" scoped>
+/* 样式重置 */
+
+/* 样式重置 */
+/* 样式重置 */
 .no-color {
-    color: inherit; /* Use inherited color */
-    background-color: transparent; /* No background */
-    border: none; /* Remove border */
+    color: inherit;
+    background-color: transparent;
+    border: none;
+    transition: color 0.3s ease, font-weight 0.3s ease; /* 平滑过渡 */
+}
+
+/* 鼠标悬停时颜色加深并加粗文字 */
+.no-color:hover {
+    color: #000000; /* 设置你想要的颜色 */
+    font-weight: bold; /* 加粗文字 */
+}
+
+
+
+/* Header Styling */
+.t-head-menu {
+    background-color: #ffffff;
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 0 20px;
+}
+
+.t-menu-item {
+    color: #fff;
+    font-size: 16px;
+}
+
+.t-menu-item:hover {
+    font-weight: bold;
+    background-color: #005C8D;
+}
+
+.t-submenu-title {
+    color: #fff;
+    font-weight: 500;
+}
+
+.t-submenu-title:hover {
+    background-color: #005C8D;
 }
 
 .t-menu__operations {
     .t-button {
         margin-left: 8px;
-    }
-}
-.t-demo-menu--dark {
-    .t-button {
-        color: #fff;
+        background-color: #fff;
+        color: #003366;
+        border-radius: 4px;
         &:hover {
-            background-color: #4b4b4b;
-            border-color: transparent;
-            --ripple-color: #383838;
+            background-color: #f0f0f0;
         }
     }
+}
+
+/* Logo Styling */
+img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+.logo-text {
+    font-size: 15px;
+    color: #000000;
+}
+
+/* Dropdown Styling */
+.t-menu__submenu {
+    background-color: #ffffff;
+    color: #003366;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.t-menu__submenu .t-menu-item {
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.t-menu__submenu .t-menu-item:hover {
+    background-color: #f0f0f0;
+    font-weight: bold;
+}
+
+.t-menu-item-active {
+    background-color: #005C8D !important;
+    color: #fff;
+}
+
+/* Adjust padding for better alignment */
+.t-head-menu .t-menu-item,
+.t-head-menu .t-submenu-title {
+    padding: 10px 15px;
 }
 </style>
