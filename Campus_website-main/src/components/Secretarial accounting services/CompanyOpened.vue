@@ -133,6 +133,7 @@ export default {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 20px;
+  margin: 10px 100px;
 }
 
 .service-card {
