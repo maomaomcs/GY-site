@@ -1,90 +1,169 @@
 <template>
-    <div class="agreed-upon-procedures-container">
-    <!-- 上市公司秘書部分 -->
-    <h2 style="text-align: center; font-size: 32px; font-weight: bold;">上市公司秘書</h2>
-    <h3>一、上市公司秘書簡介</h3>
-    <p>
-    上市公司秘書業務是上市公司運營中的關鍵內容，對於上市公司在資本市場的良好運作和持續發展具有至關重要的作用在資本市場日益複雜、監管要求不斷提高的環境下，專業的上市公司秘書能夠幫助企業應對各種挑戰和抓住發展機遇我們致力於為廣大上市公司提供全面、專業且高效的秘書服務，助力上市公司在資本市場中穩健前行
-    </p>
-    <h3>二、上市公司秘書的重要性</h3>
-    <h4>保障上市公司合規運營的關鍵角色</h4>
-    <p>
-    對於上市公司而言，合規是其在資本市場生存和發展的根本上市公司面臨諸多監管要求，如信息披露規範、公司治理準則等只有通過專業的上市公司秘書服務，才能確保公司提前知曉並遵守這些規定，在合法、合規的狀態下開展業務例如，準確及時的信息披露工作可以避免因信息違規而受到監管處罰，保障公司在資本市場的正常運轉
-    </p>
-    <h4>戰略發展與價值提升的重要保障</h4>
-    <p>
-    上市公司秘書為公司戰略發展和價值提升提供有力支持秘書能夠協助公司在制定和執行戰略過程中，充分考慮資本市場環境和投資者期望等因素，避免因戰略不當導致公司發展受阻同時，有助於公司把握資本市場機遇，如再融資、並購重組等，使戰略決策更具前瞻性和適應性擁有優秀秘書服務的上市公司，更有可能在資本市場競爭中脫穎而出，實現長期發展目標，如提升公司市值、拓展業務領域等
-    </p>
-    <h4>增強公司市場信譽與投資者吸引力的助力</h4>
-    <p>
-    有效的上市公司秘書服務有助於維護公司的市場信譽和提升對投資者的吸引力秘書在工作過程中的規範操作和專業指導，向投資者、監管機構和合作夥伴展示了公司的專業性和可靠性這使得公司在資本市場、商業合作等方面更具優勢，有利於公司獲取更多資源和發展機會例如，在股票發行或再融資過程中，規範的公司治理和信息披露（秘書在其中發揮重要作用）能吸引更多投資者參與
-    </p>
-    <h3>三、上市公司秘書工作流程</h3>
-    <h4>公司情況調研與問題初查</h4>
-    <p>
-    與上市公司進行深入溝通，了解公司的規模、所屬行業、經營模式、戰略目標等信息同時，對公司現有的資本市場運作情況進行初步評估，包括已遵守的監管要求、面臨的潛在問題（如信息披露的潛在風險、公司治理的薄弱環節等）及其處理措施的效果等，為後續的秘書服務方案設計提供依據
-    </p>
-    <h4>服務方案設計與規劃</h4>
-    <p>
-    根據調研和初查的結果，我們的專業團隊為上市公司設計詳細的秘書服務方案，包括信息披露內容和頻率的規劃、公司治理優化建議、再融資或並購重組相關的協調安排、投資者關係管理計劃等同時，制定服務項目的時間表和路線圖，確保項目按計劃推進
-    </p>
-    <h4>方案實施與過程監控</h4>
-    <p>
-    在秘書服務方案實施過程中，我們負責協調各方資源，推動上市公司秘書服務項目的各個環節順利進行對項目實施過程中的公司運作情況、秘書服務效果進行實時監控，及時發現並解決可能出現的問題，如信息披露出錯、再融資計劃協調困難、投資者關係緊張等問題
-    </p>
-    <h4>後續支持與持續改進服務</h4>
-    <p>
-    上市公司秘書服務完成後，為公司提供持續支持服務，包括根據市場變化調整信息披露內容和方式、優化公司治理結構、為新的戰略規劃提供資本市場相關建議等協助公司應對發展過程中可能面臨的新情況和變化，如監管政策調整、市場環境變動等，確保公司在長期經營中能夠持續受益於我們的秘書服務
-    </p>
-    <h3>四、我們的優勢</h3>
-    <h4>專業的秘書服務團隊</h4>
-    <p>
-    我們擁有一支由經驗豐富的金融專家、法律顧問、行業分析師等組成的專業團隊團隊成員在上市公司秘書服務領域擁有深厚的專業知識和多年的實踐經驗，熟悉資本市場規則、公司治理要求、信息披露規範等內容，能夠為上市公司提供全方位的專業秘書服務無論是信息披露指導、公司治理優化建議還是資本市場相關協調工作，都能給予準確的指導和支持
-    </p>
-    <h4>豐富的資本市場數據與案例資源</h4>
-    <p>
-    憑藉廣泛的資本市場數據收集網絡和豐富的上市公司秘書服務案例庫，我們能夠迅速獲取最新的資本市場信息和相關案例資料與證券交易所、行業協會、研究機構、各類企業等建立了良好的合作關係，這有助於在服務過程中更好地參考同行業經驗，解決可能出現的問題，如協助上市公司分析競爭對手的資本市場策略或根據行業趨勢調整自身秘書服務方案
-    </p>
-    <h4>科學的服務方法和模型</h4>
-    <p>
-    我們運用先進的服務方法和模型，對上市公司秘書服務項目進行全面、深入的分析無論是服務方案設計、實施過程監控還是後續支持，都有科學的方法和模型作為支撐，確保上市公司秘書服務過程的科學有效同時，不斷更新和改進這些方法和模型，以適應不斷變化的資本市場環境和上市公司經營狀況
-    </p>
-    <h4>個性化的服務方案</h4>
-    <p>
-    每個上市公司的情況都有其獨特性，我們深知這一點因此，我們根據上市公司的具體情況和需求，制定個性化的秘書服務方案從信息披露的重點確定到資本市場策略相關的協調工作，每一個環節都充分考慮公司的行業特點、經營規模、戰略目標等因素，為上市公司提供最適合的解決方案，確保公司能夠有效應對資本市場挑戰並實現可持續發展
-    </p>
-    <h4>嚴格的信息保密機制</h4>
-    <p>
-    在上市公司秘書服務過程中，客戶信息的保密性至關重要我們建立了嚴格的信息保密機制，從上市公司資料的收集到整個服務過程中的信息處理和存儲，都採取了嚴格的保密措施確保上市公司的商業機密、經營數據、資本市場計劃等敏感信息不被泄露，保護上市公司的利益
-    </p>
+    <div class="listed-company-secretary-page">
+      <h1 class="header">上市公司秘书</h1>
+      <p class="description">
+        提供全面的上市公司秘书服务，确保公司运营符合上市规则和法律法规要求。
+      </p>
+      <div class="service-list">
+        <div 
+          v-for="(service, index) in services" 
+          :key="index" 
+          class="service-card"
+          @click="openModal(service)"
+        >
+          <img :src="service.icon" alt="Service Icon" class="service-icon"/>
+          <h2>{{ service.title }}</h2>
+          <p>{{ service.shortDescription }}</p>
+        </div>
+      </div>
+  
+      <div v-if="selectedService" class="modal" @click="closeModal">
+        <div class="modal-content" @click.stop>
+          <span class="close" @click="closeModal">×</span>
+          <h2>{{ selectedService.title }}</h2>
+          <p>{{ selectedService.description }}</p>
+        </div>
+      </div>
     </div>
-    </template>
-    <style scoped>
-    .agreed-upon-procedures-container {
-    width: 80%;
-    margin: 5px auto;
-    padding-top: 5px;
-    margin-bottom: 100px;
-    font-family: Arial, sans - serif;
-    padding-left: 3%;
-    padding-right: 3%;
-    padding-bottom: 3%;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  </template>
+  
+  <script>
+  export default {
+    data() {
+      return {
+        services: [
+          {
+            title: "担任公司秘书",
+            shortDescription: "担任公司秘书及联席公司秘书",
+            description: "为上市公司担任公司秘书/联席公司秘书，确保公司遵守相关法律法规和公司治理要求。",
+            icon: "../../img/huoban.png"
+          },
+          {
+            title: "董事会会议及股东大会",
+            shortDescription: "协助召开董事会及股东周年大会",
+            description: "编制董事会会议和董事委员会会议文件，协助召开董事会和股东周年大会，确保合法合规。",
+            icon: "../../img/sheji.png"
+          },
+          {
+            title: "报告及公告编制",
+            shortDescription: "编制中期、年度报告及业绩公告",
+            description: "编制并审阅上市公司中期、年度报告和业绩公告，确保报告内容准确且符合规定。",
+            icon: "../../img/shenqing.png"
+          },
+          {
+            title: "股东大会通函",
+            shortDescription: "编制股东大会通函",
+            description: "编制股东周年大会通函，包括董事授权及重选董事相关事项。",
+            icon: "../../img/guquan.png"
+          },
+          {
+            title: "通知注册处及联交所",
+            shortDescription: "通知公司注册处及香港联交所",
+            description: "为上市公司提供与香港公司注册处和香港联交所相关的通知及备案服务。",
+            icon: "../../img/Insurance.png"
+          },
+          {
+            title: "月报表及秘书服务",
+            shortDescription: "编制月报表及提供秘书服务",
+            description: "协助上市公司编制月报表，为公司提供全方位的秘书服务，确保遵守上市规则。",
+            icon: "../../img/shangbiao.png"
+          }
+        ],
+        selectedService: null
+      };
+    },
+    methods: {
+      openModal(service) {
+        this.selectedService = service;
+      },
+      closeModal() {
+        this.selectedService = null;
+      }
     }
-    h2 {
-    border-bottom: 2px solid #007BFF;
-    padding-bottom: 10px;
-    margin-bottom: 20px;
-    margin-top: 50px;
-    }
-    h3 {
-    margin-top: 30px;
+  };
+  </script>
+  
+  <style scoped>
+  .listed-company-secretary-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 20px 100px 20px;
+    background-color: #f5f7fa;
+  }
+  
+  .header {
+    text-align: center;
+    font-size: 2.5em;
+    color: #2c3e50;
     margin-bottom: 10px;
-    color: #007BFF;
-    }
-    h4 {
-    margin-top: 20px;
-    margin-bottom: 10px;
-    color: #0056b3;
-    }
-    </style>
+  }
+  
+  .description {
+    text-align: center;
+    font-size: 1.2em;
+    color: #7f8c8d;
+    margin-bottom: 40px;
+  }
+  
+  .service-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap: 20px;
+    margin: 10px 100px;
+  }
+  
+  .service-card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    position: relative;
+  }
+  
+  .service-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .service-icon {
+    width: 50px; /* Adjust size */
+    height: 50px; /* Adjust size */
+    margin-bottom: 10px; /* Space between icon and text */
+  }
+  
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    width: 100%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .close {
+    float: right;
+    font-size: 1.5em;
+    cursor: pointer;
+    color: #ff7675;
+  }
+  
+  .close:hover {
+    color: #d63031;
+  }
+  </style>
+  
