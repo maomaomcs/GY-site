@@ -37,37 +37,37 @@ export default {
           title: "澳门税务环境",
           shortDescription: "A组纳税人需签署A组所得税表格。",
           description: "澳门A组纳税人（股份有限公司等）需要签署A组所得税表格，确保税务合规，税务规划有助于企业优化财务结构。",
-          icon: "../../img/macau-tax.png"
+          icon: "../../img/Agreement.png"
         },
         {
           title: "澳门税务类型",
           shortDescription: "包括直接税和间接税。",
           description: "澳门的税种包括营业税、所得补充税等直接税和消费税、旅游税等间接税，税务筹划帮助企业减轻税务负担。",
-          icon: "../../img/macau-tax-type.png"
+          icon: "../../img/baobao.png"
         },
         {
           title: "香港税务环境",
           shortDescription: "包括利得税和薪俸税。",
           description: "香港税务有利得税、薪俸税等，税务优惠政策帮助企业减轻税务负担，提供税务规划服务。",
-          icon: "../../img/hk-tax.png"
+          icon: "../../img/Business analytics.png"
         },
         {
           title: "香港税务类型",
           shortDescription: "包括物业税和税务优惠。",
           description: "香港的税务包括物业税、薪俸税等，并有税务优惠政策，如自愿医保产品的税务扣减。",
-          icon: "../../img/hk-tax-type.png"
+          icon: "../../img/Business solutions .png"
         },
         {
           title: "税务筹划",
           shortDescription: "协助优化税务结构。",
           description: "通过专业的税务筹划，帮助企业制定合理的税务结构，利用区域优势，确保企业税务合规。",
-          icon: "../../img/tax-planning.png"
+          icon: "../../img/Insurance.png"
         },
         {
           title: "税务申报",
           shortDescription: "确保税务申报准确无误。",
           description: "提供税务申报服务，确保各类税表的填写准确无误，避免税务风险。",
-          icon: "../../img/tax-filing.png"
+          icon: "../../img/qiyue.png"
         }
       ],
       selectedService: null

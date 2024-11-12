@@ -36,55 +36,55 @@ export default {
           title: "企业估值",
           shortDescription: "对企业价值进行全面评估，支持交易决策。",
           description: "通过市场分析、财务分析等方法，全面评估目标企业的市场价值和潜在风险，帮助决策者做出明智的并购决策。",
-          icon: "../../img/valuation.png" // Replace with appropriate icon
+          icon: "../../img/Agreement.png" // Replace with appropriate icon
         },
         {
           title: "尽职调查",
           shortDescription: "确保企业财务、法律合规。",
           description: "通过审查目标公司的财务状况、运营情况和法律合规性，评估潜在的风险与回报，确保交易的透明度和可靠性。",
-          icon: "../../img/due-diligence.png" // Replace with appropriate icon
+          icon: "../../img/Business analytics.png" // Replace with appropriate icon
         },
         {
           title: "交易结构设计",
           shortDescription: "设计最佳的并购交易结构。",
           description: "根据企业的商业目标与市场环境，设计合适的交易结构，最大化合并的协同效应，优化税务和财务影响。",
-          icon: "../../img/transaction-structure.png" // Replace with appropriate icon
+          icon: "../../img/baobao.png" // Replace with appropriate icon
         },
         {
           title: "谈判策略",
           shortDescription: "帮助企业制定有效的谈判策略。",
           description: "提供谈判策略指导，确保交易条款符合企业目标，帮助实现最佳交易结果。",
-          icon: "../../img/negotiation.png" // Replace with appropriate icon
+          icon: "../../img/Business solutions .png" // Replace with appropriate icon
         },
         {
           title: "并购整合",
           shortDescription: "整合资源，确保交易后顺利过渡。",
           description: "通过并购后整合流程，帮助企业有效整合资源，实现协同效应和持续增长。",
-          icon: "../../img/integration.png" // Replace with appropriate icon
+          icon: "../../img/sheji.png" // Replace with appropriate icon
         },
         {
           title: "融资支持",
           shortDescription: "为并购提供融资解决方案。",
           description: "根据并购需求，提供融资支持方案，帮助企业在资金结构和融资途径上做出最佳选择。",
-          icon: "../../img/financing.png" // Replace with appropriate icon
+          icon: "../../img/qiyue.png" // Replace with appropriate icon
         },
         {
           title: "法律支持",
           shortDescription: "提供并购过程中法律咨询。",
           description: "提供并购过程中的法律支持，确保所有合同、条款和法律程序符合相关法规要求。",
-          icon: "../../img/legal-support.png" // Replace with appropriate icon
+          icon: "../../img/huoban.png" // Replace with appropriate icon
         },
         {
           title: "税务优化",
           shortDescription: "优化税务结构，最大化并购效益。",
           description: "帮助企业在并购过程中进行税务规划与优化，确保交易的税务效率，降低不必要的税务负担。",
-          icon: "../../img/tax-optimization.png" // Replace with appropriate icon
+          icon: "../../img/ghfj.png" // Replace with appropriate icon
         },
         {
           title: "并购风险管理",
           shortDescription: "评估并购风险，提供风险管理方案。",
           description: "帮助企业识别并购过程中可能的风险因素，提供全面的风险管理方案，确保并购过程的顺利进行。",
-          icon: "../../img/risk-management.png" // Replace with appropriate icon
+          icon: "../../img/Insurance.png" // Replace with appropriate icon
         }
       ],
       selectedService: null

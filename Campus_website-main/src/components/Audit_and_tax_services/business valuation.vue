@@ -37,19 +37,19 @@ export default {
           title: "公司估值",
           shortDescription: "通过内外部因素评估股价价值，确保估值准确性。",
           description: "考虑行业趋势、公司财务表现和市场前景等多个因素，全面评估公司的市场价值和潜在风险，确保估值的准确性。",
-          icon: "../../img/company-valuation.png"
+          icon: "../../img/sheji.png"
         },
         {
           title: "房产估值",
           shortDescription: "确定不动产的市场价值，广泛应用于交易、贷款、保险等。",
           description: "通过对市场、地理位置、物业条件等因素的分析，准确评估房产的当前市场价值，适用于买卖、贷款和保险等场景。",
-          icon: "../../img/property-valuation.png"
+          icon: "../../img/qiye.png"
         },
         {
           title: "其他估值",
           shortDescription: "提供其它类型的估值服务。",
           description: "根据不同需求，提供不同类型的估值服务，包括设备、商标、专利等非物质资产的评估。",
-          icon: "../../img/other-valuation.png"
+          icon: "../../img/Insurance.png"
         }
       ],
       selectedValuation: null

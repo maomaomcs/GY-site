@@ -37,37 +37,37 @@ export default {
           title: "所需资料",
           shortDescription: "审计年度财务报表、会计账目、关联公司名单等。",
           description: "包括审计年度财务报表（利润表、资产负债表及现金流量表）、当年会计账目（银行对账单、合同、费用支出发票等）及关联公司名单等。",
-          icon: "../../img/audit-documents.png"
+          icon: "../../img/baobao.png" // 随机替换为baobao.png
         },
         {
           title: "审计流程",
           shortDescription: "详细描述审计流程，包括各项步骤。",
           description: "审计流程包括拟定审计方案、了解企业内部控制、收集相关资料、进行符合性测试、实质性控制、拟定审计报告等。",
-          icon: "../../img/audit-process.png"
+          icon: "../../img/Business analytics.png" // 随机替换为Business analytics.png
         },
         {
           title: "审计报告",
           shortDescription: "审计后编制并转交的报告。",
           description: "拟定审计报告，并转达给被审计公司，确保其遵循审计标准。",
-          icon: "../../img/audit-report.png"
+          icon: "../../img/passive income.png" // 假设将passive income.jpg转换为png路径并替换
         },
         {
           title: "财务报表",
           shortDescription: "财务报表包括利润表、资产负债表及现金流量表。",
           description: "财务报表是审计的重要部分，包括利润表、资产负债表和现金流量表，展示公司的财务健康状况。",
-          icon: "../../img/financial-statements.png"
+          icon: "../../img/qiye.png" // 假设将qiye.jpg转换为png路径并替换
         },
         {
           title: "会计账目",
           shortDescription: "包括银行对账单、合同和费用支出发票。",
           description: "当年会计账目包括银行对账单、合同、费用支出发票及其他单据，记录公司的财务活动。",
-          icon: "../../img/accounting-records.png"
+          icon: "../../img/qiyue.png" // 假设将qiyue.jpg转换为png路径并替换
         },
         {
           title: "关联公司",
           shortDescription: "涉及的关联公司名单及关联人士。",
           description: "提供关联公司名单以及涉及的关联人士，以确保审计的完整性。",
-          icon: "../../img/related-companies.png"
+          icon: "../../img/sheji.png" // 假设将sheji.jpg转换为png路径并替换
         }
       ],
       selectedAudit: null

@@ -37,37 +37,37 @@ export default {
           title: "审计需求",
           shortDescription: "银行和政府资助项目对特定类型客户要求审计报告。",
           description: "尽管澳门法律并未强制所有公司进行审计，但银行对融资客户及政府资助项目有审计报告的要求。通过尽职调查，确保所有交易符合财务规范。",
-          icon: "../../img/audit-requirements.png" // Replace with appropriate icon
+          icon: "../../img/sheji.png" // Replace with appropriate icon
         },
         {
           title: "财务状况真实性",
           shortDescription: "确保企业财务状况真实可信。",
           description: "尽职调查可确保企业的财务状况真实可信，避免潜在的财务风险，帮助决策者做出明智的决策。",
-          icon: "../../img/financial-authenticity.png" // Replace with appropriate icon
+          icon: "../../img/qiyue.png" // Replace with appropriate icon
         },
         {
           title: "风险评估",
           shortDescription: "评估企业运营的潜在风险。",
           description: "尽职调查评估企业的财务状况、运营情况和法律合规性，帮助识别潜在的风险因素并做出合适决策。",
-          icon: "../../img/risk-assessment.png" // Replace with appropriate icon
+          icon: "../../img/qiye.png" // Replace with appropriate icon
         },
         {
           title: "重要财务信息",
           shortDescription: "提供关键财务数据，支持决策。",
           description: "尽职调查可为相关方提供关键财务信息和建议，帮助做出有关企业并购、融资等重大决策。",
-          icon: "../../img/financial-information.png" // Replace with appropriate icon
+          icon: "../../img/passive income.png" // Replace with appropriate icon
         },
         {
           title: "并购相关尽职调查",
           shortDescription: "并购业务中的重要环节。",
           description: "在企业并购过程中，尽职调查确保交易透明、无隐患，涉及收购合并及特殊目的审计等服务。",
-          icon: "../../img/merger-due-diligence.png" // Replace with appropriate icon
+          icon: "../../img/Agreement.png" // Replace with appropriate icon
         },
         {
           title: "特殊目的审计",
           shortDescription: "为特殊审计目的提供支持。",
           description: "在特定审计任务中（如并购、融资等），进行尽职调查以确保目标公司无潜在风险，提供透明度和安全保障。",
-          icon: "../../img/special-purpose-audit.png" // Replace with appropriate icon
+          icon: "../../img/Business analytics.png" // Replace with appropriate icon
         }
       ],
       selectedService: null

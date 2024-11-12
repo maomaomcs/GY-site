@@ -86,17 +86,11 @@ const clickHandler = (data) => {
             </t-submenu>
 
             <!-- 其他服務 子菜单 -->
-            <t-submenu value="6" title="其他服務">
-                <!-- <t-menu-item  class="no-color" @click="router.push('/shangbiaozhuce')"> 註冊商標 </t-menu-item> -->
-                <!-- <t-menu-item class="no-color"  @click="router.push('/zizhushenbao')"> 資助申報 </t-menu-item> -->
-                <t-menu-item  class="no-color" @click="router.push('/shouzizhuxiangmu')"> 受資助項目查驗 </t-menu-item>
-                <!-- <t-menu-item class="no-color"  @click="router.push('/chepaishenbao')"> 港澳車牌申請 </t-menu-item> -->
-                <t-menu-item class="no-color"  @click="router.push('/zichanguanli')"> 資產管理 </t-menu-item>
-                <t-menu-item  class="no-color" @click="router.push('/equityinvestment')"> 股權投融 </t-menu-item>
-                <!-- <t-menu-item class="no-color"  @click="router.push('/creditsupport')"> 信貸支援 </t-menu-item> -->
-                <t-menu-item class="no-color"  @click="router.push('/equityunderwriting')"> 股權包銷 </t-menu-item>
-                <!-- <t-menu-item  class="no-color" @click="router.push('/majorinvestment')"> 重大投資移民 </t-menu-item> -->
-            </t-submenu>
+           
+            <router-link :to="{ path: '/qitafuwu' }">
+    <t-menu-item class="no-color">其他服务</t-menu-item>
+  </router-link>
+           
 
             <!-- 用户登录操作 -->
             <template #operations>

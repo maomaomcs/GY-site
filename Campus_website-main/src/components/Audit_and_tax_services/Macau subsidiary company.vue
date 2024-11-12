@@ -29,47 +29,54 @@
   <script>
   export default {
     data() {
-      return {
+    return {
         services: [
-          {
-            title: "澳门子公司审计概述",
-            shortDescription: "了解澳门子公司审计基本概念",
-            description: "介绍澳门子公司审计在企业管理中的意义和作用"
-          },
-          {
-            title: "澳门子公司审计与法定审计关系",
-            shortDescription: "明确与法定审计关联",
-            description: "阐述澳门子公司审计和法定审计等相关审计服务要求的联系"
-          },
-          {
-            title: "澳门子公司财务报表审计",
-            shortDescription: "财务报表审计内容",
-            description: "详细介绍对澳门子公司财务报表审计的目标、流程和重要性"
-          },
-          {
-            title: "澳门子公司内部控制审计",
-            shortDescription: "内部控制审计内容",
-            description: "说明对澳门子公司内部控制审计的重点、方法和意义"
-          },
-          {
-            title: "确保财务信息准确性",
-            shortDescription: "财务信息质量保障",
-            description: "阐述澳门子公司审计如何确保子公司财务信息的准确性"
-          },
-          {
-            title: "确保财务信息合规性",
-            shortDescription: "财务信息合规保障",
-            description: "解释澳门子公司审计在保障子公司财务信息合规性方面的措施"
-          },
-          {
-            title: "物业管理收支报告审计",
-            shortDescription: "物业管理收支审计",
-            description: "以物业管理收支报告审计为例，介绍其作为子公司审计部分内容的情况"
-          }
+            {
+                title: "澳门子公司审计概述",
+                shortDescription: "了解澳门子公司审计基本概念",
+                description: "介绍澳门子公司审计在企业管理中的意义和作用",
+                icon: "../../img/Insurance.png"
+            },
+            {
+                title: "澳门子公司审计与法定审计关系",
+                shortDescription: "明确与法定审计关联",
+                description: "阐述澳门子公司审计和法定审计等相关审计服务要求的联系",
+                icon: "../../img/qiyue.png"
+            },
+            {
+                title: "澳门子公司财务报表审计",
+                shortDescription: "财务报表审计内容",
+                description: "详细介绍对澳门子公司财务报表审计的目标、流程和重要性",
+                icon: "../../img/baobao.png"
+            },
+            {
+                title: "澳门子公司内部控制审计",
+                shortDescription: "内部控制审计内容",
+                description: "说明对澳门子公司内部控制审计的重点、方法和意义",
+                icon: "../../img/Stocks and brokerages.png"
+            },
+            {
+                title: "确保财务信息准确性",
+                shortDescription: "财务信息质量保障",
+                description: "阐述澳门子公司审计如何确保子公司财务信息的准确性",
+                icon: "../../img/huoban.png"
+            },
+            {
+                title: "确保财务信息合规性",
+                shortDescription: "财务信息合规保障",
+                description: "解释澳门子公司审计在保障子公司财务信息合规性方面的措施",
+                icon: "../../img/passive income.png"
+            },
+            {
+                title: "物业管理收支报告审计",
+                shortDescription: "物业管理收支审计",
+                description: "以物业管理收支报告审计为例，介绍其作为子公司审计部分内容的情况",
+                icon: "../../img/Business analytics.png"
+            }
         ],
         selectedService: null
-      };
-    },
+    };
+},
     methods: {
       openModal(service) {
         this.selectedService = service;
