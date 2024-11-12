@@ -1,8 +1,8 @@
 <template>
-  <div class="secretary-service-page">
-    <h1 class="header">秘书服务相关内容</h1>
+  <div class="company-secretary-services-page">
+    <h1 class="header">公司秘书及授权代表服务</h1>
     <p class="description">
-      以下是我们为企业提供的全面秘书服务相关事项介绍
+      提供全面的公司秘书服务，帮助企业合规运营，助力企业发展
     </p>
     <div class="service-list">
       <div 
@@ -11,7 +11,7 @@
         class="service-card"
         @click="openModal(service)"
       >
-      <img :src="service.icon" alt="Service Icon" class="service-icon"/>
+        <img :src="service.icon" alt="Service Icon" class="service-icon"/>
         <h2>{{ service.title }}</h2>
         <p>{{ service.shortDescription }}</p>
       </div>
@@ -33,44 +33,40 @@ export default {
     return {
       services: [
         {
-          title: "为上市企业撰写ESG报告",
-          shortDescription: "针对上市企业，撰写环境、社会和公司治理（ESG）相关报告",
-          description: "详细阐述如何依据相关标准和企业实际情况，撰写全面且准确的ESG报告",icon: "../../img/Agreement.png"
+          title: "撰写ESG报告",
+          shortDescription: "为上市企业撰写ESG报告",
+          description: "帮助企业编制符合国际标准的环境、社会及治理(ESG)报告，助力企业可持续发展",
+          icon: "../../img/sheji.png"
         },
         {
-          title: "担任公司秘书及公司授权代表",
-          shortDescription: "承担公司秘书职责以及作为公司授权代表开展相关工作",
-          description: "说明在担任这两个角色过程中所涉及的具体工作内容、责任和权限等",icon: "../../img/huoban.png"
+          title: "担任公司秘书",
+          shortDescription: "提供公司秘书服务",
+          description: "为企业提供专业的公司秘书服务，包括日常管理及合规咨询",
+          icon: "../../img/qiyue.png"
+        },
+        {
+          title: "担任授权代表",
+          shortDescription: "担任企业授权代表",
+          description: "为企业担任授权代表，处理与政府机关的相关事务",
+          icon: "../../img/Insurance.png"
         },
         {
           title: "安排董事和股东会议",
-          shortDescription: "负责组织安排公司董事和股东会议的相关事宜",
-          description: "包括确定会议时间、地点、议程，通知参会人员等详细流程",icon: "../../img/Agreement.png"
+          shortDescription: "安排董事和股东会议",
+          description: "组织并安排公司董事会及股东大会的会议，确保合规并记录会议内容",
+          icon: "../../img/ghfj.png"
         },
         {
-          title: "草拟会议记录",
-          shortDescription: "在董事和股东会议后，起草相关会议记录文件",
-          description: "明确会议记录应涵盖的内容要点、格式规范以及审核流程等",icon: "../../img/baobao.png"
+          title: "更新公司登记资料",
+          shortDescription: "更新公司章程及登记资料",
+          description: "更新公司章程、登记资料，包括增资、营业范围变更、管理层变动等",
+          icon: "../../img/Files and folders.png"
         },
         {
-          title: "更新公司章程及政府部门登记资料",
-          shortDescription: "处理公司各类变更情况下的公司章程更新以及向政府部门提交相关登记资料的工作，如公司增资、增加营业范围、更换管理层成员、更改公司地址、名称及商号、股权转让、公司注销及暂停业务活动申请等相关变更事项对应的资料更新与提交",
-          description: "详细描述针对不同变更事项，如何准确更新公司章程及按要求向政府部门提交登记资料的具体步骤和注意事项",icon: "../../img/Business solutions .png"
-        },
-        {
-          title: "协助开设银行账户",
-          shortDescription: "辅助公司完成开设银行账户的相关流程",
-          description: "介绍开设银行账户所需准备的文件、与银行沟通协调的要点以及整个开户流程的具体环节", icon: "../../img/passive income.png"
-        },
-        {
-          title: "预备及提交法定文件（如周年申报表）",
-          shortDescription: "负责准备并向相关部门提交法定文件，例如周年申报表等",
-          description: "具体说明各类法定文件的准备要求、填写规范以及提交的时间节点和方式等",icon: "../../img/Insurance.png"
-        },
-        {
-          title: "申请商业登记",
-          shortDescription: "办理公司商业登记的申请手续",
-          description: "阐述商业登记申请的流程、所需材料以及审核流程等相关内容",icon: "../../img/Business analytics.png"
+          title: "法定文件提交",
+          shortDescription: "准备及提交法定文件",
+          description: "为企业准备及提交年度申报表、商业登记及其它法定文件",
+          icon: "../../img/Business solutions.png"
         }
       ],
       selectedService: null
@@ -88,7 +84,7 @@ export default {
 </script>
 
 <style scoped>
-.secretary-service-page {
+.company-secretary-services-page {
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px 20px 100px 20px;
@@ -111,7 +107,7 @@ export default {
 
 .service-list {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
   gap: 20px;
   margin: 10px 100px;
 }
@@ -131,11 +127,13 @@ export default {
 .service-card:hover {
   transform: scale(1.05);
 }
+
 .service-icon {
-  width: 50px; /* 根据需要调整大小 */
-  height: 50px; /* 根据需要调整大小 */
-  margin-bottom: 10px; /* 添加一些间距 */
+  width: 50px; /* Adjust size */
+  height: 50px; /* Adjust size */
+  margin-bottom: 10px; /* Space between icon and text */
 }
+
 .modal {
   position: fixed;
   top: 0;

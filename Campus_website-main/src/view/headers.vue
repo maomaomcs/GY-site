@@ -53,7 +53,7 @@ const clickHandler = (data) => {
             <!-- 公司秘書及會計服務 子菜单 -->
             <t-submenu  value="3" title="秘書會計服務">
                 <t-menu-item class="no-color"  @click="router.push('/company-opened')"> 公司開業 </t-menu-item>
-                <t-menu-item class="no-color" @click="router.push('/Zhuce')"> 註冊地址 </t-menu-item>
+                <t-menu-item class="no-color" @click="router.push('/Zhuce')"> 虚拟办公室服务 </t-menu-item>
                 <t-menu-item class="no-color" @click="router.push('/Secretarialservices')"> 秘書服務 </t-menu-item>
                 <t-menu-item class="no-color" @click="router.push('/Openingabank')"> 銀行開戶 </t-menu-item>
                 <t-menu-item class="no-color" @click="router.push('/FinancialAccounting')"> 財務會計 </t-menu-item>

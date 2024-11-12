@@ -1,8 +1,8 @@
 <template>
   <div class="bank-account-opening-page">
-    <h1 class="header">银行开户相关信息</h1>
+    <h1 class="header">银行开户服务</h1>
     <p class="description">
-      以下是香港银行开户的不同方式和开户流程介绍
+      提供多种香港银行开户方式，确保企业顺利开户。
     </p>
     <div class="service-list">
       <div 
@@ -11,7 +11,7 @@
         class="service-card"
         @click="openModal(service)"
       >
-      <img :src="service.icon" alt="Service Icon" class="service-icon"/>
+        <img :src="service.icon" alt="Service Icon" class="service-icon"/>
         <h2>{{ service.title }}</h2>
         <p>{{ service.shortDescription }}</p>
       </div>
@@ -33,28 +33,40 @@ export default {
     return {
       services: [
         {
-          title: "亲临香港开户",
-          shortDescription: "公司董事亲临香港银行开户，当天完成所需签名文件，预计20个工作日完成",
-          description: "详细介绍亲临香港开户的具体步骤、注意事项，以及开户过程中的相关细节",
+          title: "亲临开户",
+          shortDescription: "公司董事亲临香港银行开户",
+          description: "当天完成签名文件，预计20个工作日完成开户。",
           icon: "../../img/Agreement.png"
         },
         {
           title: "视频开户",
-          shortDescription: "公司董事亲临香港银行中国内地分行见证开户，约需30个工作日",
-          description: "阐述视频开户的流程、所需准备的材料，以及整个过程中的关键环节",
-          icon: "../../img/Insurance.png"
+          shortDescription: "公司董事亲临香港银行分行见证开户",
+          description: "约需30个工作日，过程通过视频见证完成。",
+          icon: "../../img/qiyue.png"
         },
         {
           title: "律师公证开户",
-          shortDescription: "由两地律师公证文件，再由律师代表到银行开户",
-          description: "包括律师公证的具体要求、选择律师的建议，以及律师代表开户的流程",
-          icon: "../../img/passive income.png"
+          shortDescription: "通过两地律师公证开户",
+          description: "由律师公证文件，再由律师代表到银行开户。",
+          icon: "../../img/Stocks and brokerages .png"
         },
         {
-          title: "开户流程",
-          shortDescription: "开户流程包括递交开户申请、银行尽职调查部门审批、批出账户号码、寄出支票本、网银密码等，最后确认网上理财密码启动、首次登录服务、寄出或领取提款卡及密码、存入启动资金",
-          description: "对开户流程的每一个步骤进行详细讲解，如递交开户申请的方式、银行尽职调查的内容、各个环节的时间安排等",
-          icon: "../../img/Files and folders.png"
+          title: "递交开户申请",
+          shortDescription: "递交开户申请",
+          description: "提供公司文件并提交申请。",
+          icon: "../../img/sheji.png"
+        },
+        {
+          title: "银行审批",
+          shortDescription: "银行尽职调查",
+          description: "银行进行审批并核实公司信息。",
+          icon: "../../img/qiyue.png"
+        },
+        {
+          title: "确认网上理财密码",
+          shortDescription: "确认网上银行服务",
+          description: "激活网上理财密码，并完成首次登录及领取银行卡。",
+          icon: "../../img/passive income.png"
         }
       ],
       selectedService: null
@@ -95,7 +107,7 @@ export default {
 
 .service-list {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
   gap: 20px;
   margin: 10px 100px;
 }
@@ -115,11 +127,13 @@ export default {
 .service-card:hover {
   transform: scale(1.05);
 }
+
 .service-icon {
-  width: 50px; /* 根据需要调整大小 */
-  height: 50px; /* 根据需要调整大小 */
-  margin-bottom: 10px; /* 添加一些间距 */
+  width: 50px; /* Adjust size */
+  height: 50px; /* Adjust size */
+  margin-bottom: 10px; /* Space between icon and text */
 }
+
 .modal {
   position: fixed;
   top: 0;

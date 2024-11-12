@@ -1,8 +1,8 @@
 <template>
   <div class="financial-accounting-page">
-    <h1 class="header">财务会计相关服务</h1>
+    <h1 class="header">财务会计服务</h1>
     <p class="description">
-      我们提供全面专业的财务会计服务，助力企业财务管理
+      提供全面的财务会计服务，助力企业规范财务管理，提升运营效率。
     </p>
     <div class="service-list">
       <div 
@@ -11,7 +11,7 @@
         class="service-card"
         @click="openModal(service)"
       >
-      <img :src="service.icon" alt="Service Icon" class="service-icon"/>
+        <img :src="service.icon" alt="Service Icon" class="service-icon"/>
         <h2>{{ service.title }}</h2>
         <p>{{ service.shortDescription }}</p>
       </div>
@@ -34,51 +34,39 @@ export default {
       services: [
         {
           title: "账目整理",
-          shortDescription: "对企业账目进行系统整理",
-          description: "详细介绍账目整理的方法、流程，确保账目清晰准确",
-          icon: "../../img/Agreement.png"
-        },
-        {
-          title: "编制财报",
-          shortDescription: "编制企业财务报告",
-          description: "包括财报的种类、编制依据、格式规范和时间要求等内容",
-          icon: "../../img/baobao.png"
-        },
-        {
-          title: "存货管理",
-          shortDescription: "协助企业进行存货管理",
-          description: "涉及存货盘点、计价方法、出入库管理等相关流程",
-          icon: "../../img/Business analytics.png"
-        },
-        {
-          title: "成本管理",
-          shortDescription: "帮助企业进行成本控制和管理",
-          description: "分析成本构成、成本核算方法和成本控制策略",
-          icon: "../../img/Business solutions.png"
-        },
-        {
-          title: "代理记账",
-          shortDescription: "为企业提供代理记账服务",
-          description: "阐述代理记账的范围、责任和优势",
-          icon: "../../img/Files and folders.png"
-        },
-        {
-          title: "设置会计制度",
-          shortDescription: "根据企业特点设置合理的会计制度",
-          description: "包括会计科目设置、账务处理程序等方面",
-          icon: "../../img/Insurance.png"
+          shortDescription: "专业的账目整理服务",
+          description: "帮助企业整理账目，确保财务数据准确无误。",
+          icon: "../../img/Stocks and brokerages .png"
         },
         {
           title: "财务报表编制",
-          shortDescription: "编制各类财务报表",
-          description: "详细说明资产负债表、利润表、现金流量表等编制要点",
+          shortDescription: "编制财务报表",
+          description: "为企业编制符合国际标准的财务报表，确保合规。",
+          icon: "../../img/ghfj.png"
+        },
+        {
+          title: "存货管理",
+          shortDescription: "有效管理存货",
+          description: "通过精细化管理，帮助企业优化存货，提升运营效率。",
           icon: "../../img/passive income.png"
         },
         {
-          title: "协助建立内部会计稽核制度",
-          shortDescription: "帮助企业建立内部会计稽核机制",
-          description: "明确稽核的内容、方法和频率，保障财务信息质量",
-          icon: "../../img/qiye.png"
+          title: "成本管理",
+          shortDescription: "优化成本管理",
+          description: "协助企业进行成本控制，提升整体财务表现。",
+          icon: "../../img/Files and folders.png"
+        },
+        {
+          title: "代理记账",
+          shortDescription: "提供代理记账服务",
+          description: "为企业提供高效、合规的代理记账服务，确保财务透明。",
+          icon: "../../img/sheji.png"
+        },
+        {
+          title: "会计制度设立",
+          shortDescription: "设立会计制度",
+          description: "根据企业需求，帮助企业设立完善的会计制度。",
+          icon: "../../img/Business solutions .png"
         }
       ],
       selectedService: null
@@ -119,7 +107,7 @@ export default {
 
 .service-list {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
   gap: 20px;
   margin: 10px 100px;
 }
@@ -139,11 +127,13 @@ export default {
 .service-card:hover {
   transform: scale(1.05);
 }
+
 .service-icon {
-  width: 50px; /* 根据需要调整大小 */
-  height: 50px; /* 根据需要调整大小 */
-  margin-bottom: 10px; /* 添加一些间距 */
+  width: 50px; /* Adjust size */
+  height: 50px; /* Adjust size */
+  margin-bottom: 10px; /* Space between icon and text */
 }
+
 .modal {
   position: fixed;
   top: 0;

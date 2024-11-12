@@ -6,7 +6,7 @@
             <ul>
               <li>公司秘書及會計服務</li>
               <li><a href="/company-opened" target="_self">公司開業</a></li>
-              <li><a href="/Zhuce" target="_self">註冊地址</a></li>
+              <li><a href="/Zhuce" target="_self">虚拟办公室服务</a></li>
               <li><a href="/Secretarialservices" target="_self">秘書服務</a></li>
               <li><a href="/Openingabank" target="_self">銀行開戶</a></li>
               <li><a href="/Payrollmanagement" target="_self">財務會計</a></li>

@@ -1,8 +1,8 @@
 <template>
-  <div class="registration-address-page">
-    <h1 class="header">注册地址相关服务</h1>
+  <div class="virtual-office-page">
+    <h1 class="header">虚拟办公室服务</h1>
     <p class="description">
-      我们提供虚拟办公室服务，满足企业在注册地址及相关业务方面的需求
+      提供全面的虚拟办公室服务，助力企业在全球拓展业务
     </p>
     <div class="service-list">
       <div 
@@ -11,7 +11,7 @@
         class="service-card"
         @click="openModal(service)"
       >
-      <img :src="service.icon" alt="Service Icon" class="service-icon"/>
+        <img :src="service.icon" alt="Service Icon" class="service-icon"/>
         <h2>{{ service.title }}</h2>
         <p>{{ service.shortDescription }}</p>
       </div>
@@ -33,29 +33,22 @@ export default {
     return {
       services: [
         {
-          title: "提供公司注册地址及联络地址",
-          shortDescription: "为企业提供合法有效的公司注册地址和联络地址",
-          description: "详细说明地址的合法性、稳定性以及如何用于公司注册和日常联络",icon: "../../img/Agreement.png"
+          title: "公司注册地址及联络地址",
+          shortDescription: "提供合法的公司注册及联络地址",
+          description: "我们提供合法的公司注册地址及联络地址，确保您在全球各地的运营合规",
+          icon: "../../img/baobao.png"
         },
         {
           title: "专人代收信件并寄回指定地址",
-          shortDescription: "安排专人负责代收公司信件，并按要求寄回指定地点",
-          description: "包括信件代收的流程、安全保障措施以及寄回服务的细节",icon: "../../img/passive income.png"
+          shortDescription: "专人代收信件并寄回指定地址",
+          description: "为客户提供专人代收信件服务，确保信件按时转寄至指定地址",
+          icon: "../../img/Business analytics.png"
         },
         {
-          title: "会议室借用",
-          shortDescription: "企业可借用我们的会议室",
-          description: "介绍会议室的设施、借用规则、预约方式和使用时间限制等", icon: "../../img/qiye.png"
-        },
-        {
-          title: "提供联络电话",
-          shortDescription: "为企业提供专门的联络电话服务",
-          description: "说明联络电话的使用方式、接听安排以及如何与企业业务衔接",icon: "../../img/baobao.png"
-        },
-        {
-          title: "接待政府部门稽查",
-          shortDescription: "协助企业接待政府部门的稽查工作",
-          description: "阐述接待流程、准备工作以及如何配合政府部门完成稽查",icon: "../../img/Business solutions .png"
+          title: "会议室借用及联络电话",
+          shortDescription: "会议室借用、提供联络电话及接待服务",
+          description: "提供会议室借用、联络电话服务，并可接待政府部门稽查",
+          icon: "../../img/ghfj.png"
         }
       ],
       selectedService: null
@@ -73,7 +66,7 @@ export default {
 </script>
 
 <style scoped>
-.registration-address-page {
+.virtual-office-page {
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px 20px 100px 20px;
@@ -96,15 +89,9 @@ export default {
 
 .service-list {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* 第一行显示两个服务项 */
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
   gap: 20px;
   margin: 10px 100px;
-}
-
-@media (min-width: 750px) {
-  .service-list {
-    grid-template-columns: repeat(3, 1fr); /* 第二行开始显示三个服务项 */
-  }
 }
 
 .service-card {
@@ -122,11 +109,13 @@ export default {
 .service-card:hover {
   transform: scale(1.05);
 }
+
 .service-icon {
-  width: 50px; /* 根据需要调整大小 */
-  height: 50px; /* 根据需要调整大小 */
-  margin-bottom: 10px; /* 添加一些间距 */
+  width: 50px; /* Adjust size */
+  height: 50px; /* Adjust size */
+  margin-bottom: 10px; /* Space between icon and text */
 }
+
 .modal {
   position: fixed;
   top: 0;
