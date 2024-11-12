@@ -44,7 +44,7 @@ const clickHandler = (data) => {
             <!-- Logo区域 -->
             <template #logo>
                 <img style="height: 60px; margin-left: 110px;" src="../../public/logo/Photo.png" alt="logo" />
-                <span class="logo-text"></span>
+                <span class="logo-text">GrandBlossom官网</span>
             </template>
 
             <!-- 主菜单项 -->
@@ -177,8 +177,8 @@ img {
 }
 
 .logo-text {
-    font-size: 30px;
-    color: #fff;
+    font-size: 15px;
+    color: #000000;
 }
 
 /* Dropdown Styling */
