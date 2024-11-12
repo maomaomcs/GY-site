@@ -1,8 +1,8 @@
 <template>
   <div class="compensation-management-page">
-    <h1 class="header">薪酬管理相关服务</h1>
+    <h1 class="header">薪酬管理相關服務</h1>
     <p class="description">
-      依据澳门法律，以下是雇主在薪酬管理方面需要履行的责任和相关操作
+      依據澳門法律，以下是僱主在薪酬管理方面需要履行的責任和相關操作
     </p>
     <div class="service-list">
       <div 
@@ -33,34 +33,34 @@ export default {
     return {
       services: [
         {
-          title: "雇员入职及离职登记申报",
-          shortDescription: "按照澳门法律，为雇员申报入职及离职信息",
-          description: "详细介绍申报的途径、所需材料以及申报的时间要求等",icon: "../../img/huoban.png"
+          title: "僱員入職及離職登記申報",
+          shortDescription: "按照澳門法律，為僱員申報入職及離職信息",
+          description: "詳細介紹申報的途徑、所需材料以及申報的時間要求等",icon: "../../img/huoban.png"
         },
         {
-          title: "员工薪金等财务信息申报",
-          shortDescription: "申报员工薪金等相关财务数据",
-          description: "包括薪金信息的具体内容、申报格式以及与财务系统的对接等内容",icon: "../../img/passive income.png"
+          title: "員工薪金等財務信息申報",
+          shortDescription: "申報員工薪金等相關財務數據",
+          description: "包括薪金信息的具體內容、申報格式以及與財務系統的對接等內容",icon: "../../img/passive income.png"
         },
         {
-          title: "提供粮单",
-          shortDescription: "为员工提供粮单",
-          description: "阐述粮单的内容、格式、发放周期以及保存要求等", icon: "../../img/Agreement.png"
+          title: "提供糧單",
+          shortDescription: "為員工提供糧單",
+          description: "闡述糧單的內容、格式、發放週期以及保存要求等", icon: "../../img/Agreement.png"
         },
         {
-          title: "申报职业税",
-          shortDescription: "负责申报职业税相关事宜",
-          description: "说明职业税的计算方法、申报时间、申报表格填写等细节",icon: "../../img/Business analytics.png"
+          title: "申報職業稅",
+          shortDescription: "負責申報職業稅相關事宜",
+          description: "說明職業稅的計算方法、申報時間、申報表格填寫等細節",icon: "../../img/Business analytics.png"
         },
         {
-          title: "按季度提交社会保障基金费用",
-          shortDescription: "按季度向相关部门提交社会保障基金费用",
-          description: "包括费用计算依据、提交方式和逾期处理等情况",icon: "../../img/Business solutions .png"
+          title: "按季度提交社會保障基金費用",
+          shortDescription: "按季度向相關部門提交社會保障基金費用",
+          description: "包括費用計算依據、提交方式和逾期處理等情況",icon: "../../img/Business solutions .png"
         },
         {
-          title: "提交雇主年度申报表（M3/M4）",
-          shortDescription: "提交雇主年度申报表M3/M4",
-          description: "详细讲解M3/M4申报表的填写内容、提交时间和审核要点等",icon: "../../img/Insurance.png"
+          title: "提交僱主年度申報表（M3/M4）",
+          shortDescription: "提交僱主年度申報表M3/M4",
+          description: "詳細講解M3/M4申報表的填寫內容、提交時間和審核要點等",icon: "../../img/Insurance.png"
         }
       ],
       selectedService: null
@@ -122,9 +122,9 @@ export default {
   transform: scale(1.05);
 }
 .service-icon {
-  width: 50px; /* 根据需要调整大小 */
-  height: 50px; /* 根据需要调整大小 */
-  margin-bottom: 10px; /* 添加一些间距 */
+  width: 50px; /* 根據需要調整大小 */
+  height: 50px; /* 根據需要調整大小 */
+  margin-bottom: 10px; /* 添加一些間距 */
 }
 .modal {
   position: fixed;

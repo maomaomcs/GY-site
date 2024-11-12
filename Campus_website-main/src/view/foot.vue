@@ -6,7 +6,7 @@
             <ul>
               <li>公司秘書及會計服務</li>
               <li><a href="/company-opened" target="_self">公司開業</a></li>
-              <li><a href="/Zhuce" target="_self">虚拟办公室服务</a></li>
+              <li><a href="/Zhuce" target="_self">虛擬辦公室服務</a></li>
               <li><a href="/Secretarialservices" target="_self">秘書服務</a></li>
               <li><a href="/Openingabank" target="_self">銀行開戶</a></li>
               <li><a href="/Payrollmanagement" target="_self">財務會計</a></li>
@@ -38,11 +38,11 @@
           </div>
           <div>
             <div class="phone_">
-              <h3>0532-12345678</h3>
-              <p>8:00-18:00（仅收市话费）</p>
+              <h3>85328550660</h3>
+              <p>8:00-18:00（僅收市話費）</p>
               <t-button :ghost="true">
                 <em class="iconfont-message2"></em>
-                <p><a href="../login">联系我们</a></p>
+                <p><a href="../login">聯繫我們</a></p>
               </t-button>
             </div>
           </div>
@@ -50,7 +50,7 @@
       </div>
       <div style="width: 100%; margin: 10px 0 auto; background-color: #fafafa; padding: 10px 0; text-align: center;">
         <div class="call">
-          <span>GrandBlossom官网</span>
+          <span>GrandBlossom官網</span>
         </div>
       </div>
     </div>

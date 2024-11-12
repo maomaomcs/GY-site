@@ -1,8 +1,8 @@
 <template>
   <div class="financial-accounting-page">
-    <h1 class="header">财务会计服务</h1>
+    <h1 class="header">財務會計服務</h1>
     <p class="description">
-      提供全面的财务会计服务，助力企业规范财务管理，提升运营效率。
+      提供全面的財務會計服務，助力企業規範財務管理，提升運營效率。
     </p>
     <div class="service-list">
       <div 
@@ -33,39 +33,39 @@ export default {
     return {
       services: [
         {
-          title: "账目整理",
-          shortDescription: "专业的账目整理服务",
-          description: "帮助企业整理账目，确保财务数据准确无误。",
+          title: "賬目整理",
+          shortDescription: "專業的賬目整理服務",
+          description: "幫助企業整理賬目，確保財務數據準確無誤。",
           icon: "../../img/Stocks and brokerages .png"
         },
         {
-          title: "财务报表编制",
-          shortDescription: "编制财务报表",
-          description: "为企业编制符合国际标准的财务报表，确保合规。",
+          title: "財務報表編制",
+          shortDescription: "編制財務報表",
+          description: "為企業編制符合國際標準的財務報表，確保合規。",
           icon: "../../img/ghfj.png"
         },
         {
-          title: "存货管理",
-          shortDescription: "有效管理存货",
-          description: "通过精细化管理，帮助企业优化存货，提升运营效率。",
+          title: "存貨管理",
+          shortDescription: "有效管理存貨",
+          description: "通過精細化管理，幫助企業優化存貨，提升運營效率。",
           icon: "../../img/passive income.png"
         },
         {
           title: "成本管理",
-          shortDescription: "优化成本管理",
-          description: "协助企业进行成本控制，提升整体财务表现。",
+          shortDescription: "優化成本管理",
+          description: "協助企業進行成本控制，提升整體財務表現。",
           icon: "../../img/Files and folders.png"
         },
         {
-          title: "代理记账",
-          shortDescription: "提供代理记账服务",
-          description: "为企业提供高效、合规的代理记账服务，确保财务透明。",
+          title: "代理記賬",
+          shortDescription: "提供代理記賬服務",
+          description: "為企業提供高效、合規的代理記賬服務，確保財務透明。",
           icon: "../../img/sheji.png"
         },
         {
-          title: "会计制度设立",
-          shortDescription: "设立会计制度",
-          description: "根据企业需求，帮助企业设立完善的会计制度。",
+          title: "會計制度設立",
+          shortDescription: "設立會計制度",
+          description: "根據企業需求，幫助企業設立完善的會計制度。",
           icon: "../../img/Business solutions .png"
         }
       ],

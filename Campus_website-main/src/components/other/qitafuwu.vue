@@ -1,9 +1,9 @@
 <template>
   <div class="company-opening-page">
-    <h1 class="header">其他服务</h1>
+    <h1 class="header">其他服務</h1>
 
     <div class="service-list">
-      <!-- 新增其他服务循环展示 -->
+      <!-- 新增其他服務循環展示 -->
       <div 
         v-for="(otherService, index) in otherServices" 
         :key="index" 
@@ -16,7 +16,7 @@
       </div>
     </div>
 
-    <!-- 新增其他服务详情模态框 -->
+    <!-- 新增其他服務詳情模態框 -->
     <div v-if="selectedOtherService" class="other-service-modal" @click="closeOtherServiceModal">
       <div class="other-service-modal-content" @click.stop>
         <span class="close" @click="closeOtherServiceModal">×</span>
@@ -31,60 +31,60 @@
 export default {
   data() {
     return {
-      // 新增其他服务数据
+      // 新增其他服務數據
       otherServices: [
         {
-          title: "注册商標",
-          shortDescription: "提供商标注册相关服务",
-          description: "更多内容请通过联系方式进行交流",
+          title: "註冊商標",
+          shortDescription: "提供商標註冊相關服務",
+          description: "更多內容請通過聯繫方式進行交流",
           icon: "../img/zhuce.png" 
         },
         {
-          title: "资助申请",
-          shortDescription: "协助进行资助申请相关事务",
-          description: "更多内容请通过联系方式进行交流",
+          title: "資助申請",
+          shortDescription: "協助進行資助申請相關事務",
+          description: "更多內容請通過聯繫方式進行交流",
           icon: "../../img/shenqing.png"
         },
         {
-          title: "受资助项目查验",
-          shortDescription: "按照相关指引对受资助项目进行查验",
-          description: "根据《受助活助项目查验指引》，对受资助项目进行查验（如受助活动超过澳门100万需会计师制作报告，可视为受资助项目查验的一部分要求，确保资助资金使用合规等）。",
+          title: "受資助項目查驗",
+          shortDescription: "按照相關指引對受資助項目進行查驗",
+          description: "根據《受助活助項目查驗指引》，對受資助項目進行查驗（如受助活動超過澳門100萬需會計師製作報告，可視為受資助項目查驗的一部分要求，確保資助資金使用合規等）。",
           icon: "../../img/chayan.png"
         },
         {
-          title: "港澳车牌申请",
-          shortDescription: "负责港澳车牌申请相关事宜",
-          description: "更多内容请通过联系方式进行交流",
+          title: "港澳車牌申請",
+          shortDescription: "負責港澳車牌申請相關事宜",
+          description: "更多內容請通過聯繫方式進行交流",
           icon: "../../img/chaepai.png"
         },
         {
-          title: "资产管理",
-          shortDescription: "提供资产管理相关服务",
-          description: "更多内容请通过联系方式进行交流",
+          title: "資產管理",
+          shortDescription: "提供資產管理相關服務",
+          description: "更多內容請通過聯繫方式進行交流",
           icon: "../../img/qian.png"
         },
         {
-          title: "股权投融资",
-          shortDescription: "涵盖在上市统筹及策划中的股权投融资服务",
-          description: "上市（IPO）统筹及策划中涵盖股权投融资服务，包括为企业提供股权融资渠道、协助企业进行股权结构设计、开展股权融资相关活动等，帮助企业筹集资金用于发展或扩张业务（例如在上市过程中吸引投资者投资企业股权）。",
+          title: "股權投融資",
+          shortDescription: "涵蓋在上市統籌及策劃中的股權投融資服務",
+          description: "上市（IPO）統籌及策劃中涵蓋股權投融資服務，包括為企業提供股權融資渠道、協助企業進行股權結構設計、開展股權融資相關活動等，幫助企業籌集資金用於發展或擴張業務（例如在上市過程中吸引投資者投資企業股權）。",
           icon: "../../img/rongzi.png"
         },
         {
-          title: "信贷支援",
-          shortDescription: "提供信贷支援相关服务",
-          description: "更多内容请通过联系方式进行交流",
+          title: "信貸支援",
+          shortDescription: "提供信貸支援相關服務",
+          description: "更多內容請通過聯繫方式進行交流",
           icon: "../../img/xindai.png"
         },
         {
-          title: "股权包销",
-          shortDescription: "属于上市统筹及策划服务中的股权包销服务",
-          description: "上市（IPO）统筹及策划服务中的一部分，在企业上市过程中，投行或相关机构承担股权包销责任，帮助企业销售股票，确保企业成功上市融资（例如在路演、融资过程中，与承销商合作完成股权包销工作）。",
+          title: "股權包銷",
+          shortDescription: "屬於上市統籌及策劃服務中的股權包銷服務",
+          description: "上市（IPO）統籌及策劃服務中的一部分，在企業上市過程中，投行或相關機構承擔股權包銷責任，幫助企業銷售股票，確保企業成功上市融資（例如在路演、融資過程中，與承銷商合作完成股權包銷工作）。",
           icon: "../../img/guquan.png"
         },
         {
-          title: "重大投资移民",
-          shortDescription: "协助办理重大投资移民相关事务",
-          description: "更多内容请通过联系方式进行交流",
+          title: "重大投資移民",
+          shortDescription: "協助辦理重大投資移民相關事務",
+          description: "更多內容請通過聯繫方式進行交流",
           icon: "../../img/yiming.png"
         }
       ],
@@ -92,11 +92,11 @@ export default {
     };
   },
   methods: {
-    // 新增打开其他服务详情模态框的方法
+    // 新增打開其他服務詳情模態框的方法
     openOtherServiceModal(otherService) {
       this.selectedOtherService = otherService;
     },
-    // 新增关闭其他服务详情模态框的方法
+    // 新增關閉其他服務詳情模態框的方法
     closeOtherServiceModal() {
       this.selectedOtherService = null;
     }
@@ -149,8 +149,8 @@ export default {
   transform: scale(1.05);
 }
 .service-icon {
-  width: 50px; /* 根据需要调整大小 */
-  height: 50px; /* 根据需要调整大小 */
+  width: 50px; /* 根據需要調整大小 */
+  height: 50px; /* 根據需要調整大小 */
   margin-bottom: 10px; 
 }
 .other-service-modal {

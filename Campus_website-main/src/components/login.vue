@@ -6,7 +6,7 @@ import axios from "axios";
 const handleChange = (value) => {
     console.log('handleChange:', value);
 };
-const value = ref({value: '1', label: '选项一'});
+const value = ref({value: '1', label: '選項一'});
 
 const value_tab = ref('first');
 const theme = ref('normal');
@@ -27,17 +27,17 @@ const rules = {
     account: [
         {required: true, message: '姓名必填', type: 'error', trigger: 'blur'},
         {required: true, message: '姓名必填', type: 'error', trigger: 'change'},
-        {whitespace: true, message: '姓名不能为空'},
-        {min: 3, message: '输入字数应在3到6之间', type: 'error', trigger: 'blur'},
-        {max: 6, message: '输入字数应在3到6之间', type: 'error', trigger: 'blur'},
+        {whitespace: true, message: '姓名不能為空'},
+        {min: 3, message: '輸入字數應在3到6之間', type: 'error', trigger: 'blur'},
+        {max: 6, message: '輸入字數應在3到6之間', type: 'error', trigger: 'blur'},
     ],
-    password: [{required: true, message: '密码必填', type: 'error'}],
-    email: [{required: true, message: '格式必须为邮箱', type: 'warning'}],
+    password: [{required: true, message: '密碼必填', type: 'error'}],
+    email: [{required: true, message: '格式必須為郵箱', type: 'warning'}],
     age: [
-        {required: true, message: '年龄必填', type: 'error'},
-        {number: true, message: '请输入数字', type: 'warning'},
+        {required: true, message: '年齡必填', type: 'error'},
+        {number: true, message: '請輸入數字', type: 'warning'},
     ],
-    gender: [{required: true, message: '性别必填', type: 'warning'}],
+    gender: [{required: true, message: '性別必填', type: 'warning'}],
 };
 
 const emailSuffix = ['@qq.com', '@163.com', '@gmail.com'];
@@ -55,18 +55,18 @@ const login_formData = reactive({
 });
 const login_rules = {
     account: [
-        {required: true, message: '用户id必填', type: 'error', trigger: 'blur'},
-        {required: true, message: '用户id必填', type: 'error', trigger: 'change'},
-        {whitespace: true, message: '用户id不能为空'},
-        {min: 5, message: '输入字数应在5到11之间', type: 'error', trigger: 'blur'},
-        {max: 11, message: '输入字数应在5到11之间', type: 'error', trigger: 'blur'},
+        {required: true, message: '用戶id必填', type: 'error', trigger: 'blur'},
+        {required: true, message: '用戶id必填', type: 'error', trigger: 'change'},
+        {whitespace: true, message: '用戶id不能為空'},
+        {min: 5, message: '輸入字數應在5到11之間', type: 'error', trigger: 'blur'},
+        {max: 11, message: '輸入字數應在5到11之間', type: 'error', trigger: 'blur'},
     ],
     password: [
-        {required: true, message: '密码必填', type: 'error', trigger: 'blur'},
-        {required: true, message: '密码必填', type: 'error', trigger: 'change'},
-        {whitespace: true, message: '密码不能为空'},
-        {min: 8, message: '输入字数应在8到16之间', type: 'error', trigger: 'blur'},
-        {max: 16, message: '输入字数应在8到16之间', type: 'error', trigger: 'blur'},
+        {required: true, message: '密碼必填', type: 'error', trigger: 'blur'},
+        {required: true, message: '密碼必填', type: 'error', trigger: 'change'},
+        {whitespace: true, message: '密碼不能為空'},
+        {min: 8, message: '輸入字數應在8到16之間', type: 'error', trigger: 'blur'},
+        {max: 16, message: '輸入字數應在8到16之間', type: 'error', trigger: 'blur'},
     ],
 }
 
@@ -77,18 +77,18 @@ const onReset = () => {
 const onSubmit = ({validateResult, firstError, e}) => {
     e.preventDefault();
     if (validateResult === true) {
-        const url = 'http://127.0.0.1:5000/get_login'; // 目标API的URL
+        const url = 'http://127.0.0.1:5000/get_login'; // 目標API的URL
         axios.post(url, formData, {
             headers: {},
             withCredentials: true,
         }).then((data) => {
             let result = data['data']
             if (result['code'] === 0) {
-                MessagePlugin.success('注册成功,你的账号为: ' + result['user_id']);
+                MessagePlugin.success('註冊成功,你的賬號為: ' + result['user_id']);
             } else if (result['code'] === 2) {
-                MessagePlugin.success("注册失败,因为: " + result['msg'])
+                MessagePlugin.success("註冊失敗,因為: " + result['msg'])
             } else {
-                MessagePlugin.success("注册失败,请重新尝试")
+                MessagePlugin.success("註冊失敗,請重新嘗試")
             }
         });
     } else {
@@ -100,7 +100,7 @@ const onSubmit = ({validateResult, firstError, e}) => {
 const onSubmit1 = ({validateResult, firstError, e}) => {
     e.preventDefault();
     if (validateResult === true) {
-        const url = 'http://127.0.0.1:5000/get_login_in'; // 目标API的URL
+        const url = 'http://127.0.0.1:5000/get_login_in'; // 目標API的URL
         axios.post(url, login_formData, {
             headers: {}, withCredentials: true,
         }).then((res) => {
@@ -110,7 +110,7 @@ const onSubmit1 = ({validateResult, firstError, e}) => {
                 window.location.href = 'http://localhost:5173/';
             }
             else{
-                MessagePlugin.error("登录失败,请检查账号或密码")
+                MessagePlugin.error("登錄失敗,請檢查賬號或密碼")
             }
 
         });
@@ -130,12 +130,6 @@ const onSubmit1 = ({validateResult, firstError, e}) => {
                     <span style="font-size: 25px">GrandBlossom</span>
                 </div>
                 <div class="_title">
-                    <div>
-                        <a href="">用户协议</a>
-                        <a href="">隐私政策</a>
-                        <a href="">帮助中心</a>
-                    </div>
-                    
                 </div>
             </div>
             <div class="content" style="padding: 15px;border-radius: 8px;overflow: hidden;border:1px solid rgba(128,128,128,0.6)">
@@ -143,14 +137,14 @@ const onSubmit1 = ({validateResult, firstError, e}) => {
                     <t-tab-panel value="first" style="padding: 10px">
                         <template #label>
                             <t-icon name="home" class="tabs-icon-margin"/>
-                            登录
+                            登錄
                         </template>
                         <t-form ref="login_in_form" :data="login_formData" :rules="login_rules" @reset="onReset"
                                 @submit="onSubmit1">
-                            <t-form-item label="用户名" help="" name="account">
+                            <t-form-item label="用戶名" help="" name="account">
                                 <t-input v-model="login_formData.account"></t-input>
                             </t-form-item>
-                            <t-form-item label="密码" help="" name="password">
+                            <t-form-item label="密碼" help="" name="password">
                                 <t-input v-model="login_formData.password" type="password"></t-input>
                             </t-form-item>
                             <t-form-item>
@@ -163,31 +157,31 @@ const onSubmit1 = ({validateResult, firstError, e}) => {
                     <t-tab-panel value="second" style="padding: 10px">
                         <template #label>
                             <t-icon name="calendar" class="tabs-icon-margin"/>
-                            注册
+                            註冊
                         </template>
                         <t-form ref="form" :data="formData" :rules="rules" @reset="onReset" @submit="onSubmit">
-                            <t-form-item label="用户名" help="这是用户名字段帮助说明" name="account">
+                            <t-form-item label="用戶名" help="這是用戶名字段幫助說明" name="account">
                                 <t-input v-model="formData.account"></t-input>
                             </t-form-item>
 
-                            <t-form-item label="个人简介" help="一句话介绍自己" name="description">
+                            <t-form-item label="個人簡介" help="一句話介紹自己" name="description">
                                 <t-input v-model="formData.description"></t-input>
                             </t-form-item>
 
-                            <t-form-item label="密码" name="password">
+                            <t-form-item label="密碼" name="password">
                                 <t-input v-model="formData.password" type="password"></t-input>
                             </t-form-item>
 
-                            <t-form-item label="邮箱" name="email">
+                            <t-form-item label="郵箱" name="email">
                                 <t-auto-complete v-model="formData.email" :options="emailOptions"
                                                  :filterable="false"></t-auto-complete>
                             </t-form-item>
 
-                            <t-form-item label="年龄" name="age">
+                            <t-form-item label="年齡" name="age">
                                 <t-input-number v-model="formData.age"/>
                             </t-form-item>
 
-                            <t-form-item label="性别" name="gender">
+                            <t-form-item label="性別" name="gender">
                                 <t-radio-group v-model="formData.gender">
                                     <t-radio value="male">男</t-radio>
                                     <t-radio value="femal">女</t-radio>

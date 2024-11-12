@@ -1,8 +1,8 @@
 <template>
   <div class="bank-account-opening-page">
-    <h1 class="header">银行开户服务</h1>
+    <h1 class="header">銀行開戶服務</h1>
     <p class="description">
-      提供多种香港银行开户方式，确保企业顺利开户。
+      提供多種香港銀行開戶方式，確保企業順利開戶。
     </p>
     <div class="service-list">
       <div 
@@ -33,39 +33,39 @@ export default {
     return {
       services: [
         {
-          title: "亲临开户",
-          shortDescription: "公司董事亲临香港银行开户",
-          description: "当天完成签名文件，预计20个工作日完成开户。",
+          title: "親臨開戶",
+          shortDescription: "公司董事親臨香港銀行開戶",
+          description: "當天完成簽名文件，預計20個工作日完成開戶。",
           icon: "../../img/Agreement.png"
         },
         {
-          title: "视频开户",
-          shortDescription: "公司董事亲临香港银行分行见证开户",
-          description: "约需30个工作日，过程通过视频见证完成。",
+          title: "視頻開戶",
+          shortDescription: "公司董事親臨香港銀行分行見證開戶",
+          description: "約需30個工作日，過程通過視頻見證完成。",
           icon: "../../img/qiyue.png"
         },
         {
-          title: "律师公证开户",
-          shortDescription: "通过两地律师公证开户",
-          description: "由律师公证文件，再由律师代表到银行开户。",
+          title: "律師公證開戶",
+          shortDescription: "通過兩地律師公證開戶",
+          description: "由律師公證文件，再由律師代表到銀行開戶。",
           icon: "../../img/Stocks and brokerages .png"
         },
         {
-          title: "递交开户申请",
-          shortDescription: "递交开户申请",
-          description: "提供公司文件并提交申请。",
+          title: "遞交開戶申請",
+          shortDescription: "遞交開戶申請",
+          description: "提供公司文件並提交申請。",
           icon: "../../img/sheji.png"
         },
         {
-          title: "银行审批",
-          shortDescription: "银行尽职调查",
-          description: "银行进行审批并核实公司信息。",
+          title: "銀行審批",
+          shortDescription: "銀行盡職調查",
+          description: "銀行進行審批並核實公司信息。",
           icon: "../../img/qiyue.png"
         },
         {
-          title: "确认网上理财密码",
-          shortDescription: "确认网上银行服务",
-          description: "激活网上理财密码，并完成首次登录及领取银行卡。",
+          title: "確認網上理財密碼",
+          shortDescription: "確認網上銀行服務",
+          description: "激活網上理財密碼，並完成首次登錄及領取銀行卡。",
           icon: "../../img/passive income.png"
         }
       ],
