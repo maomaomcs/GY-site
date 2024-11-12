@@ -1,114 +1,190 @@
 <template>
-    <div class="agreed-upon-procedures-container">
-        <!-- 上市策劃（美國、香港）服務部分 -->
-        <h2 style="text-align: center; font-size: 32px; font-weight: bold;">上市策劃（美國、香港）服務</h2>
-        <h3>一、上市策劃（美國、香港）服務簡介</h3>
-        <p>
-            上市策劃（美國、香港）是企業邁向資本市場過程中的關鍵環節，它是對企業上市相關事宜進行全面、深入規劃和指導的重要過程在國際資本市場規則複雜、上市要求嚴格的背景下，高質量的上市策劃對於確保企業上市順利、提高上市成功率至關重要我們致力於為客戶提供全面、專業且高效的上市策劃（美國、香港）服務，助力企業成功上市並在資本市場良好發展
-        </p>
-        <h3>二、上市策劃（美國、香港）的重要性</h3>
-        <h4>上市合規的關鍵保障</h4>
-        <p>
-            對於擬上市企業而言，上市策劃是確保企業符合美國和香港資本市場法規和上市政策要求的關鍵手段通過策劃，可以準確規劃企業的股權結構、財務狀況、公司治理等是否滿足上市條件，避免因信息不準確或不符合要求導致的上市申請被拒例如，若未能準確規劃企業的財務報表是否符合美國通用會計準則（GAAP）或香港會計準則，可能會使上市申請失敗，浪費企業大量的時間和資源
-        </p>
-        <h4>上市決策的重要依據</h4>
-        <p>
-            策劃結果為企業上市決策提供了重要依據詳細的策劃信息能夠幫助企業管理層瞭解自身條件與上市要求的匹配程度，進而確定合理的上市策略例如，通過對企業財務狀況和業務模式的分析，企業可以清楚知道是否需要調整財務結構或業務布局以滿足上市條件，選擇更合適的上市地點（美國或香港）和上市板塊
-        </p>
-        <h4>保障上市過程順利進行</h4>
-        <p>
-            有效的上市策劃（美國、香港）有助於保障上市過程的順利進行提前對各項條件進行準確規劃和準備，可以在上市申請過程中避免因文件準備不足、合規問題等導致的延誤或被拒，同時也有利於在後續的上市流程（如路演、定價等）階段做好充分準備
-        </p>
-        <h3>三、上市策劃（美國、香港）流程</h3>
-        <h4>確定策劃範圍與目標</h4>
-        <p>
-            根據企業的類型（如科技企業、傳統製造業企業等）、規模和上市目標市場（美國或香港）確定上市策劃的範圍和目標這需要考慮美國證券交易委員會（SEC）和香港聯合交易所（港交所）的上市規則對企業資質、財務指標、信息披露等的要求例如，對於計劃在美國納斯達克上市的科技企業，需要重點關注其創新能力、市值、股權分散度等是否符合納斯達克的上市標準；對於擬在香港主板上市的企業，則需明確相應的財務業績、市值、公眾持股比例等審查範圍
-        </p>
-        <h4>組建專業策劃團隊</h4>
-        <p>
-            組建一支由投資銀行專家、法律專家、財務專家、行業專家等組成的專業策劃團隊團隊成員需要具備豐富的美國和香港上市策劃經驗和相關領域的專業知識，能夠從不同角度對企業的上市情況進行全面規劃例如，投資銀行專家負責承銷股票和制定上市方案，法律專家確保企業的法律架構和上市過程符合兩地法律法規，財務專家負責財務報表的整理和優化，行業專家評估企業在同行業中的競爭力和上市潛力
-        </p>
-        <h4>資料收集與分析</h4>
-        <p>
-            從企業內部各部門及外部相關機構收集各種資料，包括但不限於營業執照、公司章程、財務報表、審計報告、稅務文件、業務合同、知識產權證書等對收集到的資料進行深入分析，識別其中的關鍵信息、異常情況和可能影響上市申請的問題例如，通過分析財務報表，核實企業的財務狀況和盈利能力；通過審查業務合同，確定企業的商業模式和潛在風險；通過檢查知識產權證書，評估企業的核心競爭力
-        </p>
-        <h4>實地調查與訪談（如有需要）</h4>
-        <p>
-            在必要情況下，策劃團隊進行實地考察或與相關方進行訪談如對企業的生產基地進行實地查看，瞭解生產流程和產能；與企業的主要客戶、供應商訪談，瞭解企業的市場地位和業務穩定性獲取更準確的信息，確保策劃結果的可靠性
-        </p>
-        <h4>撰寫上市策劃報告</h4>
-        <p>
-            根據資料分析和實地調查（如有）的結果，撰寫詳細的上市策劃（美國、香港）報告報告內容應包括企業的基本情況、策劃發現的問題和風險（如財務指標不達標、法律合規問題等）、對上市申請的影響評估、建議措施等報告要以清晰、準確、客觀的方式呈現，為企業的上市申請提供全面的支持例如，報告中會詳細列出財務報表需要調整的項目、法律文件的完善建議以及針對其他問題的解決方案
-        </p>
-        <h3>四、我們的優勢</h3>
-        <h4>專業的策劃團隊</h4>
-        <p>
-            我們擁有一支由經驗豐富的投資銀行家、律師、註冊會計師、行業顧問等組成的專業團隊團隊成員在上市策劃（美國、香港）領域擁有深厚的專業知識和多年的實踐經驗，熟悉美國和香港的資本市場規則、上市流程和相關法律法規，能夠為客戶提供高質量的專業服務無論是複雜的股權架構設計、財務合規處理還是法律文件準備，都能準確高效地完成
-        </p>
-        <h4>豐富的行業資源</h4>
-        <p>
-            憑藉廣泛的商業網絡和豐富的行業資源，我們能夠迅速獲取美國和香港資本市場的最新政策信息、各行業的上市案例和市場動態等資料與美國證券交易委員會（SEC）、香港聯合交易所（港交所）、金融機構、律師事務所、行業協會等建立了良好的合作關係，這有助於在策劃過程中獲取更多信息、協調各方關係，解決可能出現的問題
-        </p>
-        <h4>科學的策劃方法和模型</h4>
-        <p>
-            我們運用先進的策劃方法和模型，對上市策劃（美國、香港）項目進行全面、深入的分析無論是資料收集整理、風險評估還是報告撰寫，都有科學的方法和模型作為支撐，確保策劃結果的準確性和可靠性同時，不斷更新和改進這些方法和模型，以適應不斷變化的資本市場規則和市場環境
-        </p>
-        <h4>個性化的服務方案</h4>
-        <p>
-            每個上市策劃（美國、香港）項目都有其獨特性，我們深知這一點因此，我們根據客戶的具體情況和需求，制定個性化的上市策劃服務方案從策劃範圍的確定到報告內容的重點，每一個環節都充分考慮客戶的企業類型、行業特點、上市目標、時間安排等因素，為客戶提供最適合的策劃方案
-        </p>
-        <h4>嚴格的信息保密機制</h4>
-        <p>
-            在上市策劃過程中，信息的保密性至關重要我們建立了嚴格的信息保密機制，從資料收集到整個策劃過程中的信息處理和存儲，都採取了嚴格的保密措施確保企業的商業機密、財務數據、上市計劃等敏感信息不被泄露，保護客戶的利益
-        </p>
-        <h3>五、服務流程</h3>
-        <h4>需求溝通與評估</h4>
-        <p>
-            與客戶進行深入溝通，瞭解客戶的企業類型、財務狀況、上市目標、時間安排等信息同時，對上市策劃項目的複雜性和潛在風險進行初步評估，為後續的策劃方案設計提供依據
-        </p>
-        <h4>方案設計與規劃</h4>
-        <p>
-            根據溝通和評估的結果，我們的專業團隊為客戶設計詳細的上市策劃（美國、香港）方案，包括確定策劃範圍、重點策劃領域、策劃方法、團隊成員組成、時間安排和預算等同時，制定上市策劃項目的時間表和路線圖，確保項目按計劃推進
-        </p>
-        <h4>項目執行與監控</h4>
-        <p>
-            在上市策劃方案實施過程中，我們負責協調各方資源，推動策劃項目的各個環節順利進行對項目進度、可能出現的風險進行實時監控，及時發現並解決可能出現的問題，如資料獲取困難、策劃過程中發現新的重大風險等
-        </p>
-        <h4>報告提交與後續支持</h4>
-        <p>
-            完成上市策劃後，向客戶提交詳細的策劃報告，並與客戶進行深入溝通，解釋報告內容和策劃發現同時，為客戶提供後續支持服務，包括協助客戶準備上市申請材料、根據監管反饋對報告內容進行更新等，確保客戶在整個上市申請過程中能夠充分利用策劃結果
-        </p>
+    <div class="ma-page">
+      <h1 class="header">上市策劃（美國、香港）</h1>
+      <p class="description">
+        已完成美國及香港市場上市項目，涵蓋上市（IPO）統籌及策劃的多個方面，包括股權投融資、路演、包銷對接、會計及法律支援等。
+      </p>
+  
+      <div class="ma-grid">
+        <div 
+          v-for="(service, index) in maServices" 
+          :key="index" 
+          class="ma-card"
+          @click="openModal(service)"
+        >
+          <img :src="service.icon" alt="Service Icon" class="ma-icon"/>
+          <h2>{{ service.title }}</h2>
+          <p>{{ service.shortDescription }}</p>
+        </div>
+      </div>
+  
+      <div v-if="selectedService" class="modal" @click="closeModal">
+        <div class="modal-content" @click.stop>
+          <span class="close" @click="closeModal">×</span>
+          <h2>{{ selectedService.title }}</h2>
+          <p>{{ selectedService.description }}</p>
+        </div>
+      </div>
     </div>
-</template>
-
-<style scoped>
-.agreed-upon-procedures-container {
-    width: 80%;
-    margin: 5px auto;
-    padding-top: 5px;
-    margin-bottom: 100px;
-    font-family: Arial, sans - serif;
-    padding-left: 3%;
-    padding-right: 3%;
-    padding-bottom: 3%;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-}
-
-h2 {
-    border-bottom: 2px solid #007BFF;
-    padding-bottom: 10px;
-    margin-bottom: 20px;
-    margin-top: 50px;
-}
-
-h3 {
-    margin-top: 30px;
+  </template>
+  
+  <script>
+  export default {
+    data() {
+      return {
+        maServices: [
+          {
+            title: "上市籌備流程 - 委任團隊",
+            shortDescription: "委任顧問及專業團隊（會計師、律師團隊等）。",
+            description: "上市籌備的重要環節，選擇合適的顧問和專業團隊，為後續上市工作提供專業支持。",
+            icon: "../../img/Agreement.png"
+          },
+          {
+            title: "上市籌備流程 - 準備文件",
+            shortDescription: "準備上市文件（審計、招股書起草等）。",
+            description: "精心準備各類上市文件，包括審計報告和招股書的起草，確保信息準確和完整。",
+            icon: "../../img/Business analytics.png"
+          },
+          {
+            title: "上市籌備流程 - 遞交招股書",
+            shortDescription: "向SEC證監會遞交F - 1招股書。",
+            description: "按照規定向美國SEC證監會遞交F - 1招股書，開啟上市審批流程。",
+            icon: "../../img/baobao.png"
+          },
+          {
+            title: "上市籌備流程 - 審批流程",
+            shortDescription: "經過SEC證監會、FINRA金融監管局和交易所審批（回覆監管機構提問及補充數據）。",
+            description: "應對多個監管機構的審批，包括回覆提問和補充數據，確保順利通過審批。",
+            icon: "../../img/Business solutions.png"
+          },
+          {
+            title: "上市籌備流程 - 路演融資",
+            shortDescription: "進行IPO路演融資。",
+            description: "通過IPO路演吸引投資者，完成融資環節，為上市提供資金支持。",
+            icon: "../../img/sheji.png"
+          },
+          {
+            title: "上市籌備流程 - 掛牌交易",
+            shortDescription: "最後掛牌交易與股票交割（公司股票於美國掛牌並交易）。",
+            description: "完成最後的掛牌交易和股票交割，使公司股票在市場上正常交易。",
+            icon: "../../img/qiyue.png"
+          },
+          {
+            title: "美國香港上市對比 - 上市標準",
+            shortDescription: "納斯達克資本市場門檻較低，香港主板上市門檻較高。",
+            description: "分析美國納斯達克和香港主板的上市標準差異，為企業選擇上市地點提供參考。",
+            icon: "../../img/huoban.png"
+          },
+          {
+            title: "美國香港上市對比 - 上市程式和指導思想",
+            shortDescription: "納斯達克披露為主，註冊制，上市時間短；香港半審核制，上市時間長。",
+            description: "對比美國納斯達克和香港市場的上市程式和指導思想，瞭解不同市場的特點。",
+            icon: "../../img/ghfj.png"
+          },
+          {
+            title: "美國香港上市對比 - 其他方面對比",
+            shortDescription: "包括訴訟和賣空風險、AB股、投行選擇等方面對比。",
+            description: "詳細比較美國和香港市場在訴訟和賣空風險、AB股、投行選擇、費用、私有化、關聯交易等方面的差異。",
+            icon: "../../img/Insurance.png"
+          }
+        ],
+        selectedService: null
+      };
+    },
+    methods: {
+      openModal(service) {
+        this.selectedService = service;
+      },
+      closeModal() {
+        this.selectedService = null;
+      }
+    }
+  };
+  </script>
+  
+  <style scoped>
+  .ma-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 20px 50px 20px;
+    background-color: #f5f7fa;
+  }
+  
+  .header {
+    text-align: center;
+    font-size: 2.5em;
+    color: #2c3e50;
     margin-bottom: 10px;
-    color: #007BFF;
-}
-h4 {
-    margin-top: 20px;
-    margin-bottom: 10px;
-    color: #0056b3;
-}
-</style>
+  }
+  
+  .description {
+    text-align: center;
+    font-size: 1.2em;
+    color: #7f8c8d;
+    margin-bottom: 40px;
+  }
+  
+  .ma-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin: 0 20px;
+  }
+  
+  .ma-card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+  }
+  
+  .ma-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  }
+  
+  .ma-icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 15px;
+  }
+  
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 700px;
+    width: 90%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 1.8em;
+    cursor: pointer;
+    color: #ff7675;
+  }
+  
+  .close:hover {
+    color: #d63031;
+  }
+  </style>
