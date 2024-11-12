@@ -33,9 +33,9 @@ export default {
     return {
       services: [
         {
-          title: "公司名称许可申请",
-          shortDescription: "办理公司名称的许可申请流程相关服务",
-          description: "详细介绍公司名称许可申请的具体步骤、所需材料以及注意事项等",
+          title: "公司名稱許可申請",
+          shortDescription: "辦理公司名稱的許可申請流程相關服務",
+          description: "詳細介紹公司名稱許可申請的具體步驟、所需材料以及注意事項等",
           icon: "../../img/Agreement.png"
         },
         {
@@ -60,7 +60,7 @@ export default {
           title: "公司印章及银行印章办理",
           shortDescription: "办理公司及银行相关印章的制作等事宜",
           description: "说明公司印章和银行印章办理的流程、所需材料以及印章的使用规范等",
-          icon: "../../img/Stocks and brokerages .png"
+          icon: "../../img/企业.png"
         },
         {
           title: "股东架构确认",
@@ -133,6 +133,7 @@ export default {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 20px;
+  margin: 10px 100px;
 }
 
 .service-card {
