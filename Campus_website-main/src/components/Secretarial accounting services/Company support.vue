@@ -1,16 +1,17 @@
 <template>
   <div class="offshore-company-support-page">
-    <h1 class="header">离岸公司支援（BVI、Cayman）相关服务</h1>
+    <h1 class="header">離岸公司支援（BVI、Cayman）相關服務</h1>
     <p class="description">
-      以下是针对英属维尔京群岛（BVI）和开曼群岛（Cayman）离岸公司的支援服务信息
+      以下是針對英屬維爾京群島（BVI）和開曼群島（Cayman）離岸公司的支援服務信息
     </p>
     <div class="service-list">
-      <div 
-        v-for="(service, index) in services" 
-        :key="index" 
+      <div
+        v-for="(service, index) in services"
+        :key="index"
         class="service-card"
         @click="openModal(service)"
       >
+        <img :src="service.icon" alt="Service Icon" class="service-icon"/>
         <h2>{{ service.title }}</h2>
         <p>{{ service.shortDescription }}</p>
       </div>
@@ -32,39 +33,40 @@ export default {
     return {
       services: [
         {
-          title: "BVI、Cayman离岸公司开业服务概述",
-          shortDescription: "了解离岸公司开业服务基本情况",
-          description: "介绍针对BVI和Cayman离岸公司开业服务的意义和大致内容"
+          title: "BVI、Cayman離岸公司開業服務概述",
+          shortDescription: "瞭解離岸公司開業服務基本情況",
+          description: "介紹針對BVI和Cayman離岸公司開業服務的意義和大致內容",
+          icon: "../../img/Business analytics.png"
         },
         {
-          title: "BVI离岸公司开业特定要求",
-          shortDescription: "BVI公司开业要求",
-          description: "阐述英属维尔京群岛离岸公司开业的特殊要求，虽未详细展开，但包括一些当地法律、政策相关内容"
+          title: "BVI離岸公司開業特定要求",
+          shortDescription: "BVI公司開業要求",
+          description: "闡述英屬維爾京群島離岸公司開業的特殊要求，雖未詳細展開，但包括一些當地法律、政策相關內容",
+          icon: "../../img/Agreement.png"
         },
         {
-          title: "Cayman离岸公司开业特定要求",
-          shortDescription: "Cayman公司开业要求",
-          description: "讲解开曼群岛离岸公司开业的特殊要求，如当地规定的文件、手续等"
+          title: "Cayman離岸公司開業特定要求",
+          shortDescription: "Cayman公司開業要求",
+          description: "講解開曼群島離岸公司開業的特殊要求，如當地規定的文件、手續等",
+          icon: "../../img/Files and folders.png"
         },
         {
-          title: "BVI、Cayman离岸公司银行开户服务概述",
-          shortDescription: "了解离岸公司银行开户服务",
-          description: "介绍针对BVI和Cayman离岸公司银行开户服务的意义和大致流程"
+          title: "BVI、Cayman離岸公司銀行開戶服務概述",
+          shortDescription: "瞭解離岸公司銀行開戶服務",
+          description: "介紹針對BVI和Cayman離岸公司銀行開戶服務的意義和大致流程",
+          icon: "../../img/passive income.png"
         },
         {
-          title: "BVI离岸公司银行开户特定流程",
-          shortDescription: "BVI公司银行开户流程",
-          description: "阐述英属维尔京群岛离岸公司在银行开户方面的特殊流程和注意事项"
+          title: "BVI離岸公司銀行開戶特定流程",
+          shortDescription: "BVI公司銀行開戶流程",
+          description: "闡述英屬維爾京群島離岸公司在銀行開戶方面的特殊流程和注意事項",
+          icon: "../../img/qiye.png"
         },
         {
-          title: "Cayman离岸公司银行开户特定流程",
-          shortDescription: "Cayman公司银行开户流程",
-          description: "讲解开曼群岛离岸公司在银行开户方面的特殊流程和要求"
-        },
-        {
-          title: "与一般公司开业及开户服务的区别",
-          shortDescription: "区别于一般公司服务",
-          description: "说明针对BVI和Cayman离岸公司的服务与一般公司开业及开户服务在要求、流程等方面的差异"
+          title: "Cayman離岸公司銀行開戶特定流程",
+          shortDescription: "Cayman公司銀行開戶流程",
+          description: "講解開曼群島離岸公司在銀行開戶方面的特殊流程和要求",
+          icon: "../../img/Insurance.png"
         }
       ],
       selectedService: null
@@ -78,7 +80,7 @@ export default {
       this.selectedService = null;
     }
   }
-}
+};
 </script>
 
 <style scoped>
@@ -107,6 +109,7 @@ export default {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 20px;
+  margin: 10px 100px;
 }
 
 .service-card {
@@ -118,12 +121,17 @@ export default {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   cursor: pointer;
   transition: transform 0.3s ease;
+  position: relative;
 }
 
 .service-card:hover {
   transform: scale(1.05);
 }
-
+.service-icon {
+  width: 50px; /* 根據需要調整大小 */
+  height: 50px; /* 根據需要調整大小 */
+  margin-bottom: 10px; /* 添加一些間距 */
+}
 .modal {
   position: fixed;
   top: 0;

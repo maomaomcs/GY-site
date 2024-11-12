@@ -1,8 +1,8 @@
 <template>
   <div class="company-opening-page">
-    <h1 class="header">公司开业相关服务</h1>
+    <h1 class="header">公司開業相關服務</h1>
     <p class="description">
-      以下是公司开业所需办理的各项事务以及相关地区的适用情况等信息
+      以下是公司開業所需辦理的各項事務以及相關地區的適用情況等信息
     </p>
     <div class="service-list">
       <div 
@@ -39,57 +39,78 @@ export default {
           icon: "../../img/Agreement.png"
         },
         {
-          title: "开业申请",
-          shortDescription: "协助完成公司开业申请的各项事宜",
-          description: "包括开业申请的填写规范、提交渠道以及审核流程等内容的详细说明",
+          title: "開業申請",
+          shortDescription: "協助完成公司開業申請的各項事宜",
+          description: "包括開業申請的填寫規範、提交渠道以及審核流程等內容的詳細說明",
+<<<<<<< HEAD
+          icon: "../../img/baobao.png"
+=======
           icon: "../../img/公文包.png"
+>>>>>>> 435ff47d4b91c57cd1129b7f600fca0c6de9b14e
         },
         {
-          title: "法律公证文件准备",
-          shortDescription: "负责准备公司开业所需的各类法律公证文件",
-          description: "明确各类法律公证文件的具体要求、办理地点以及办理时长等情况",
-          icon: "../../img/合伙伙伴.png"
+          title: "法律公證文件準備",
+          shortDescription: "負責準備公司開業所需的各類法律公證文件",
+          description: "明確各類法律公證文件的具體要求、辦理地點以及辦理時長等情況",
+<<<<<<< HEAD
+          icon: "../../img/huoban.png"
         },
         {
-          title: "公司章程撰写与递交",
-          shortDescription: "撰写符合要求的公司章程并完成递交工作",
-          description: "阐述公司章程撰写的规范格式、内容要点以及递交的相关部门和流程",
+          title: "公司章程撰寫與遞交",
+          shortDescription: "撰寫符合要求的公司章程，包括对股东架构相关内容的确定，并完成递交工作",
+          description: "闡述公司章程撰寫的規範格式、內容要點以及遞交的相關部門和流程，同时涉及股东身份核实、股权比例确定等股东架构方面内容",
+=======
+          icon: "../../img/合夥夥伴.png"
+        },
+        {
+          title: "公司章程撰寫與遞交",
+          shortDescription: "撰寫符合要求的公司章程並完成遞交工作",
+          description: "闡述公司章程撰寫的規範格式、內容要點以及遞交的相關部門和流程",
+>>>>>>> 435ff47d4b91c57cd1129b7f600fca0c6de9b14e
           icon: "../../img/passive income.png"
         },
         {
-          title: "公司印章及银行印章办理",
-          shortDescription: "办理公司及银行相关印章的制作等事宜",
-          description: "说明公司印章和银行印章办理的流程、所需材料以及印章的使用规范等",
-          icon: "../../img/企业.png"
+          title: "公司印章及銀行印章辦理",
+          shortDescription: "辦理公司及銀行相關印章的製作等事宜",
+          description: "說明公司印章和銀行印章辦理的流程、所需材料以及印章的使用規範等",
+<<<<<<< HEAD
+          icon: "../../img/qiye.png"
+=======
+          icon: "../../img/Stocks and brokerages .png"
         },
         {
-          title: "股东架构确认",
-          shortDescription: "对公司股东架构进行确认与梳理",
-          description: "讲解如何准确确认股东架构，包括股东身份核实、股权比例确定等方面",
+          title: "股東架構確認",
+          shortDescription: "對公司股東架構進行確認與梳理",
+          description: "講解如何準確確認股東架構，包括股東身份核實、股權比例確定等方面",
           icon: "../../img/Insurance.png"
+>>>>>>> 435ff47d4b91c57cd1129b7f600fca0c6de9b14e
         },
         {
           title: "刊登政府公告",
-          shortDescription: "按照规定完成在政府相关平台刊登公告的操作",
-          description: "具体说明刊登政府公告的平台选择、公告内容要求以及发布时间等规定",
+          shortDescription: "按照規定完成在政府相關平臺刊登公告的操作",
+          description: "具體說明刊登政府公告的平臺選擇、公告內容要求以及發佈時間等規定",
+<<<<<<< HEAD
+          icon: "../../img/qiyue.png"
+=======
           icon: "../../img/Business solutions .png"
+>>>>>>> 435ff47d4b91c57cd1129b7f600fca0c6de9b14e
         },
         {
-          title: "法定记录册管理",
-          shortDescription: "负责公司法定记录册的管理维护工作",
-          description: "涵盖法定记录册应记录的内容、更新频率以及保管要求等内容",
+          title: "法定記錄冊管理",
+          shortDescription: "負責公司法定記錄冊的管理維護工作",
+          description: "涵蓋法定記錄冊應記錄的內容、更新頻率以及保管要求等內容",
           icon: "../../img/Business analytics.png"
         },
         {
-          title: "申领开业文件及证明",
-          shortDescription: "帮助申领公司开业所需的各类文件及证明",
-          description: "详细列出开业文件及证明的种类、申领地点、所需材料以及申领流程等",
+          title: "申領開業文件及證明",
+          shortDescription: "幫助申領公司開業所需的各類文件及證明",
+          description: "詳細列出開業文件及證明的種類、申領地點、所需材料以及申領流程等",
           icon: "../../img/Files and folders.png"
         },
         {
-          title: "开立多币种户口",
-          shortDescription: "协助公司开立多币种的银行户口",
-          description: "介绍开立多币种户口的银行选择、开户流程、所需文件以及相关注意事项等",
+          title: "開立多幣種戶口",
+          shortDescription: "協助公司開立多幣種的銀行戶口",
+          description: "介紹開立多幣種戶口的銀行選擇、開戶流程、所需文件以及相關注意事項等",
           icon: "../../img/Insurance.png"
         }
       ],
@@ -152,9 +173,9 @@ export default {
   transform: scale(1.05);
 }
 .service-icon {
-  width: 50px; /* 根据需要调整大小 */
-  height: 50px; /* 根据需要调整大小 */
-  margin-bottom: 10px; /* 添加一些间距 */
+  width: 50px; /* 根據需要調整大小 */
+  height: 50px; /* 根據需要調整大小 */
+  margin-bottom: 10px; /* 添加一些間距 */
 }
 .modal {
   position: fixed;

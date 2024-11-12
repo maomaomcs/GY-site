@@ -11,6 +11,7 @@
         class="service-card"
         @click="openModal(service)"
       >
+      <img :src="service.icon" alt="Service Icon" class="service-icon"/>
         <h2>{{ service.title }}</h2>
         <p>{{ service.shortDescription }}</p>
       </div>
@@ -34,32 +35,32 @@ export default {
         {
           title: "雇员入职及离职登记申报",
           shortDescription: "按照澳门法律，为雇员申报入职及离职信息",
-          description: "详细介绍申报的途径、所需材料以及申报的时间要求等"
+          description: "详细介绍申报的途径、所需材料以及申报的时间要求等",icon: "../../img/huoban.png"
         },
         {
           title: "员工薪金等财务信息申报",
           shortDescription: "申报员工薪金等相关财务数据",
-          description: "包括薪金信息的具体内容、申报格式以及与财务系统的对接等内容"
+          description: "包括薪金信息的具体内容、申报格式以及与财务系统的对接等内容",icon: "../../img/passive income.png"
         },
         {
           title: "提供粮单",
           shortDescription: "为员工提供粮单",
-          description: "阐述粮单的内容、格式、发放周期以及保存要求等"
+          description: "阐述粮单的内容、格式、发放周期以及保存要求等", icon: "../../img/Agreement.png"
         },
         {
           title: "申报职业税",
           shortDescription: "负责申报职业税相关事宜",
-          description: "说明职业税的计算方法、申报时间、申报表格填写等细节"
+          description: "说明职业税的计算方法、申报时间、申报表格填写等细节",icon: "../../img/Business analytics.png"
         },
         {
           title: "按季度提交社会保障基金费用",
           shortDescription: "按季度向相关部门提交社会保障基金费用",
-          description: "包括费用计算依据、提交方式和逾期处理等情况"
+          description: "包括费用计算依据、提交方式和逾期处理等情况",icon: "../../img/Business solutions .png"
         },
         {
           title: "提交雇主年度申报表（M3/M4）",
           shortDescription: "提交雇主年度申报表M3/M4",
-          description: "详细讲解M3/M4申报表的填写内容、提交时间和审核要点等"
+          description: "详细讲解M3/M4申报表的填写内容、提交时间和审核要点等",icon: "../../img/Insurance.png"
         }
       ],
       selectedService: null
@@ -102,6 +103,7 @@ export default {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 20px;
+  margin: 10px 100px;
 }
 
 .service-card {
@@ -113,12 +115,17 @@ export default {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   cursor: pointer;
   transition: transform 0.3s ease;
+  position: relative;
 }
 
 .service-card:hover {
   transform: scale(1.05);
 }
-
+.service-icon {
+  width: 50px; /* 根据需要调整大小 */
+  height: 50px; /* 根据需要调整大小 */
+  margin-bottom: 10px; /* 添加一些间距 */
+}
 .modal {
   position: fixed;
   top: 0;

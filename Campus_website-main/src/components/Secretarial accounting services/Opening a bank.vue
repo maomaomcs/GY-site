@@ -11,6 +11,7 @@
         class="service-card"
         @click="openModal(service)"
       >
+      <img :src="service.icon" alt="Service Icon" class="service-icon"/>
         <h2>{{ service.title }}</h2>
         <p>{{ service.shortDescription }}</p>
       </div>
@@ -34,22 +35,26 @@ export default {
         {
           title: "亲临香港开户",
           shortDescription: "公司董事亲临香港银行开户，当天完成所需签名文件，预计20个工作日完成",
-          description: "详细介绍亲临香港开户的具体步骤、注意事项，以及开户过程中的相关细节"
+          description: "详细介绍亲临香港开户的具体步骤、注意事项，以及开户过程中的相关细节",
+          icon: "../../img/Agreement.png"
         },
         {
           title: "视频开户",
           shortDescription: "公司董事亲临香港银行中国内地分行见证开户，约需30个工作日",
-          description: "阐述视频开户的流程、所需准备的材料，以及整个过程中的关键环节"
+          description: "阐述视频开户的流程、所需准备的材料，以及整个过程中的关键环节",
+          icon: "../../img/Insurance.png"
         },
         {
           title: "律师公证开户",
           shortDescription: "由两地律师公证文件，再由律师代表到银行开户",
-          description: "包括律师公证的具体要求、选择律师的建议，以及律师代表开户的流程"
+          description: "包括律师公证的具体要求、选择律师的建议，以及律师代表开户的流程",
+          icon: "../../img/passive income.png"
         },
         {
           title: "开户流程",
           shortDescription: "开户流程包括递交开户申请、银行尽职调查部门审批、批出账户号码、寄出支票本、网银密码等，最后确认网上理财密码启动、首次登录服务、寄出或领取提款卡及密码、存入启动资金",
-          description: "对开户流程的每一个步骤进行详细讲解，如递交开户申请的方式、银行尽职调查的内容、各个环节的时间安排等"
+          description: "对开户流程的每一个步骤进行详细讲解，如递交开户申请的方式、银行尽职调查的内容、各个环节的时间安排等",
+          icon: "../../img/Files and folders.png"
         }
       ],
       selectedService: null
@@ -92,6 +97,7 @@ export default {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 20px;
+  margin: 10px 100px;
 }
 
 .service-card {
@@ -103,12 +109,17 @@ export default {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   cursor: pointer;
   transition: transform 0.3s ease;
+  position: relative;
 }
 
 .service-card:hover {
   transform: scale(1.05);
 }
-
+.service-icon {
+  width: 50px; /* 根据需要调整大小 */
+  height: 50px; /* 根据需要调整大小 */
+  margin-bottom: 10px; /* 添加一些间距 */
+}
 .modal {
   position: fixed;
   top: 0;
