@@ -134,50 +134,10 @@ const router = createRouter({
       component: () => import('../components/Audit_and_tax_services/Enterprise risk management.vue') 
     },
     {
-      path: '/shangbiaozhuce',
-      name: 'shangbiaozhuce',
-      component: () => import('../components/other/shangbiaozhuce.vue') 
-    },
-    {
-      path: '/zizhushenbao',
-      name: 'zizhushenbao',
-      component: () => import('../components/other/zizhushenbao.vue') 
-    },
-    {
-      path: '/shouzizhuxiangmu',
-      name: 'shouzizhuxiangmu',
-      component: () => import('../components/other/shouzizhuxiangmu.vue') 
-    },
-    {
-      path: '/chepaishenbao',
-      name: 'chepaishenbao',
-      component: () => import('../components/other/chepaishenbao.vue') 
-    },
-    {
-      path: '/zichanguanli',
-      name: 'zichanguanli',
-      component: () => import('../components/other/zichanguanli.vue') 
-    },
-    {
-      path: '/equityinvestment',
-      name: 'equityinvestment',
-      component: () => import('../components/other/equity-investment-and-financing-service-container.vue') 
-    },
-    {
-      path: '/creditsupport',
-      name: 'creditsupport',
-      component: () => import('../components/other/credit-support-service-container.vue') 
-    },
-    {
-      path: '/equityunderwriting',
-      name: 'equityunderwriting',
-      component: () => import('../components/other/equity-underwriting-service-container.vue') 
-    },
-    {
-      path: '/majorinvestment',
-      name: 'majorinvestment',
-      component: () => import('../components/other/major-investment-immigration-service-container.vue') 
-    },
+      path: '/qitafuwu',
+      name: '/qitafuwu',
+      component: () => import('../components/other/qitafuwu.vue') 
+    }
   ]
 })
 

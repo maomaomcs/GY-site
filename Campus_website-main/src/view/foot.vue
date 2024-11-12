@@ -35,18 +35,6 @@
               <li><a href="/Listedcompanyservices" target="_self">上市公司秘書</a></li>
               <!-- <li><a href="/AppointedDirector" target="_self">任職董事</a></li> -->
             </ul>
-            <ul>
-              <li>其他服務</li>
-              <!-- <li><a href="/shangbiaozhuce" target="_self">註冊商標</a></li> -->
-              <!-- <li><a href="/zizhushenbao" target="_self">資助申報</a></li> -->
-              <li><a href="/shouzizhuxiangmu" target="_self">受資助項目查驗</a></li>
-              <!-- <li><a href="/chepaishenbao" target="_self">港澳車牌申請</a></li> -->
-              <!-- <li><a href="/zichanguanli" target="_self">資產管理</a></li> -->
-              <li><a href="/equityinvestment" target="_self">股權投融</a></li>
-              <!-- <li><a href="/creditsupport" target="_self">信貸支援</a></li> -->
-              <li><a href="/equityunderwriting" target="_self">股權包銷</a></li>
-              <!-- <li><a href="/majorinvestment" target="_self">重大投資移民</a></li> -->
-            </ul>
           </div>
           <div>
             <div class="phone_">
@@ -77,7 +65,7 @@
 
 #foot .server {
     margin: 15px 0;
-    //background-color: orange;
+    background-color: orange;
 }
 
 #foot .server ul {
@@ -114,7 +102,7 @@
 #foot .about>div:nth-of-type(2) {
     width: 20%;
     text-align: center;
-    //border-left: 1px solid rgb(128, 128, 128);
+    border-left: 1px solid rgb(128, 128, 128);
 }
 
 #foot .about>div:nth-of-type(1)>ul {
