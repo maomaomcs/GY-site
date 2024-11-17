@@ -84,14 +84,15 @@ const clickHandler = (data) => {
                 <t-menu-item  class="no-color" @click="router.push('/Listedcompanyservices')"> 上市公司秘書 </t-menu-item>
                 <!-- <t-menu-item  class="no-color" @click="router.push('/AppointedDirector')"> 任職董事 </t-menu-item> -->
             </t-submenu>
-
-            <!-- 其他服務 子菜單 -->
-           
-            <router-link :to="{ path: '/qitafuwu' }">
-    <t-menu-item class="no-color">其他服務</t-menu-item>
-  </router-link>
-           
-
+            <t-menu-item  class="no-color" @click="router.push('/qitafuwu')"> 其他服务 </t-menu-item>
+                        <!-- 其他服務 子菜單 -->
+            <!-- <router-link :to="{ path: '/qitafuwu' }">
+            <t-menu-item class="no-color">其他服務</t-menu-item> -->
+            <t-submenu value="6" title="語言切換">
+            <t-menu-item class="no-color"  @click="router.push('/')"> 简体中文 </t-menu-item>
+            <t-menu-item  class="no-color" @click="router.push('/')"> 繁體中文 </t-menu-item>
+            <t-menu-item  class="no-color" @click="router.push('/')"> English </t-menu-item>
+            </t-submenu>
             <!-- 用戶登錄操作 -->
             <template #operations>
                 <t-button variant="text" shape="square" @click="redirectToLogin(); newPageFunction()">

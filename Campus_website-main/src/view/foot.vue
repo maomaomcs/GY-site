@@ -45,7 +45,7 @@
               <p>8:00-18:00（僅收市話費）</p>
               <t-button :ghost="true">
                 <em class="iconfont-message2"></em>
-                <p><a href="../login">聯繫我們</a></p>
+                <p class="lianx"><a href="../login">聯繫我們</a></p>
               </t-button>
             </div>
           </div>
@@ -60,6 +60,7 @@
   </template>
 <style src="../../src/assets/home.css"></style>
 <style scoped>
+
 #foot {
     margin-top: 50px;
     text-align: center;

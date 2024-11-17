@@ -148,7 +148,7 @@ const onSubmit1 = ({validateResult, firstError, e}) => {
                                 <t-input v-model="login_formData.password" type="password"></t-input>
                             </t-form-item>
                             <t-form-item>
-                                <t-button theme="primary" type="submit">提交</t-button>
+                                <t-button theme="primary" type="submit" class="submit">提交</t-button>
                                 <t-button theme="default" variant="base" type="reset">重置</t-button>
                             </t-form-item>
                         </t-form>
@@ -188,7 +188,7 @@ const onSubmit1 = ({validateResult, firstError, e}) => {
                                 </t-radio-group>
                             </t-form-item>
                             <t-form-item>
-                                <t-button theme="primary" type="submit">提交</t-button>
+                                <t-button theme="primary" type="submit" class="submit">提交</t-button>
                                 <t-button theme="default" variant="base" type="reset">重置</t-button>
                             </t-form-item>
                         </t-form>
@@ -202,7 +202,9 @@ const onSubmit1 = ({validateResult, firstError, e}) => {
 <style scoped>
 @import "../../web/main.css";
 @import "../../web/DHome.css";
-
+.submit{
+    background-color: green;
+}
 .login {
         padding: 20px 10px 54px;
     width: 100%;
