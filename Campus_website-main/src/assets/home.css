@@ -5161,7 +5161,7 @@ img:not([src]), img[src=" "] {
 .site-header .nav-item .link {
     display: block;
     padding: 26px 10px 38px;
-    *padding: 26px 8px 38px;
+    padding: 26px 8px 38px;
     color: #333;
     -webkit-transition: color .2s;
     transition: color .2s
