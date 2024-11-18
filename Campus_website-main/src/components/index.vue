@@ -5,7 +5,7 @@
 <template>
     <div style="width: 100%" id="index">
         <div style="width: 100%" class="index_div">
-            <img src="../../img/student-1.jpg" alt="" style="width: 100%">
+            <img src="../../img/微信图片_20241118010926.png" alt="" style="width: 100%">
             <div>
                 <h2>合作推廣,可持續發展</h2>
                 <p class="desc">與客戶合作推廣可持續實踐<br />打造可持續發展之路</p>
@@ -59,7 +59,6 @@
                 </div>
             </div>
         </div>
-
         <div style="width: 100%;margin: 0 auto">
             <div class="brand-item brand-three-item white-bg">
                 <div class="mod-con clearfix" id="staff-con-4">
@@ -108,23 +107,22 @@
                             <p class="title">文體協會</p>
                             <p class="label">為關愛員工健康，豐富業餘生活，公司成立了舞蹈、音樂、籃球、足球、羽毛球、桌遊、戲劇社等數百種文體協會</p>
                         </div>
-                    </div>
+<!--                     </div>
                     <div class="row row-4">
                         <div class="item item-4">
                             <div class="mask-bg"></div>
                             <p class="title">港灣志願者</p>
                             <p class="label">港灣志願者是港灣成員自主發起的志願者組織各成員在空閒時間以豐富多樣的方式參與公益活動，踐行社會責任和科技向善</p>
-                        </div>
-                        <div class="item item-8">
+                        </div> -->
+                        <!-- <div class="item item-8">
                             <div class="mask-bg"></div>
                             <p class="title">低碳未來</p>
                             <p class="label">公司正鼓勵所有員工走向低碳未來，共同努力使“輕碳生活”成為現實相互分享降低碳排放的十條生活小貼士，促進低碳轉型</p>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
         </div>
-
         <div>
             <div style="position: relative">
                 <a href="./login" style="display: block;width: 80%;margin: 0 auto;">
@@ -142,37 +140,10 @@
                 </div>
             </div>
         </div>
-
     </div>
-
 </template>
-
 <style scoped src="@/assets/student.css"></style>
 <style scoped>
-@font-face {
-    font-family: 'TencentSansw3';
-    src: url('../../public/TencentSans-W3.eot');
-    src:
-        url('../../public/TencentSans-W3.eot?#font-spider') format('embedded-opentype'),
-        url('../../public/TencentSans-W3.woff') format('woff'),
-        url('../../public/TencentSans-W3.ttf') format('truetype'),
-        url('../../public/TencentSans-W3.svg') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'TencentSansw7';
-    src: url('../../img/TencentSans-W7.eot');
-    src:
-        url('../../public/TencentSans-W7.eot?#font-spider') format('embedded-opentype'),
-        url('../../public/TencentSans-W7.woff') format('woff'),
-        url('../../public/TencentSans-W7.ttf') format('truetype'),
-        url('../../public/TencentSans-W7.svg') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
 .mess {
     position: absolute;
     left: 15%;
