@@ -39,16 +39,7 @@
               <li><a href="/qitafuwu" target="_self">其他服務</a></li>
             </ul>
           </div>
-          <div>
-            <div class="phone_">
-              <h3>85328550660</h3>
-              <p>8:00-18:00（僅收市話費）</p>
-              <t-button :ghost="true">
-                <em class="iconfont-message2"></em>
-                <p class="lianx"><a href="../login">聯繫我們</a></p>
-              </t-button>
-            </div>
-          </div>
+          
         </div>
       </div>
       <div style="width: 100%; margin: 10px 0 auto; background-color: #fafafa; padding: 10px 0; text-align: center;">
@@ -74,11 +65,13 @@
 
 #foot .server ul {
     display: flex;
+    
 }
 
 #foot .footer {
     width: 80%;
     margin: 0 auto;
+    
     font-family: iconfont, system-ui !important;
 }
 
@@ -100,17 +93,17 @@
 
 #foot .about>div:nth-of-type(1) {
     display: flex;
-    width: 80%;
+    width: 100%;
 }
 
 #foot .about>div:nth-of-type(2) {
-    width: 20%;
+    width: 25%;
     text-align: center;
     border-left: 1px solid rgb(128, 128, 128);
 }
 
 #foot .about>div:nth-of-type(1)>ul {
-    width: 20%;
+    width: 25%;
     flex: 1;
 }
 
