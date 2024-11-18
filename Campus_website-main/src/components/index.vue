@@ -249,7 +249,7 @@ h1, h2, h3, p {
   text-align: center;
 }
 
-.tagline, .title, .subtitle, .description {
+.tagline, .title, .subtitle, .description, .learn-more-button {
   opacity: 0;
   animation: float-in 1.5s ease-out forwards;
 }
