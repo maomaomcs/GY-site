@@ -1,7 +1,7 @@
 <template>
-    <div id="app" class="main-container">
-      <!-- Hero Section -->
-      <section class="hero">
+  <div id="app" class="main-container">
+    <!-- Hero Section -->
+    <section class="hero">
         <div class="hero-content">
           <div class="hero-image-placeholder">
             <p class="image01">
@@ -20,39 +20,39 @@
           </div>
         </div>
       </section>
-  
-      <!-- Business Partner Section -->
-      <section class="business-partner">
-        <h2>Business Partner</h2>
-        <div class="partner-cards">
-          <div class="card">
-            <div class="image-placeholder">
-              <p>Grow Together Image</p>
-            </div>
-            <h3>Grow Together</h3>
-            <p>Collaborative growth with professionals.</p>
+    
+    <!-- Business Partner Section -->
+    <section class="business-partner">
+      <h2>Business Partner</h2>
+      <div class="partner-cards">
+        <div class="card">
+          <div class="image-placeholder-business-partner">
+            <img :src="businessImage1" alt="Business Partner Image 1">
           </div>
-          <div class="card">
-            <div class="image-placeholder">
-              <p>Value Creator Image</p>
-            </div>
-            <h3>Value Creator</h3>
-            <p>Focused on delivering value to customers.</p>
-          </div>
-          <div class="card">
-            <div class="image-placeholder">
-              <p>Smart Business Image</p>
-            </div>
-            <h3>Smart Business</h3>
-            <p>Innovative solutions for smart enterprises.</p>
-          </div>
+          <h3>Grow Together</h3>
+          <p>Collaborative growth with professionals.</p>
         </div>
-      </section>
-  
-      <!-- Business Planning Section -->
-      <section class="business-planning">
+        <div class="card">
+          <div class="image-placeholder-business-partner">
+            <img :src="businessImage2" alt="Business Partner Image 2">
+          </div>
+          <h3>Value Creator</h3>
+          <p>Focused on delivering value to customers.</p>
+        </div>
+        <div class="card">
+          <div class="image-placeholder-business-partner">
+            <img :src="businessImage3" alt="Business Partner Image 3">
+          </div>
+          <h3>Smart Business</h3>
+          <p>Innovative solutions for smart enterprises.</p>
+        </div>
+      </div>
+    </section>
+    <!-- Business Planning Section -->
+    <section class="business-planning">
         <h2>Business Planning</h2>
-        <div class="image-placeholder">
+        <div class="image-placeholder-Business-Planning">
+          <img src="../../img/微信图片_20241118010926.png">
           <p>Keyboard Image Placeholder</p>
         </div>
       </section>
@@ -70,125 +70,161 @@
           </div>
         </div>
       </section>
-    </div>
-  </template>
-  
-  <script>
-  export default {
-    name: "App",
-  };
-  </script>
-  
-  <style scoped>
-  /* Global Styles */
-  body {
-    margin: 0;
-    font-family: Arial, sans-serif;
+  </div>
+</template>
+
+<script>
+export default {
+  data() {
+    return {
+      businessImage1: '../../img/image.png',
+      businessImage2: '../../img/image.png',
+      businessImage3: '../../img/image.png',
+      hoverImage1: '../../img/image01.png',
+      hoverImage2: '../../img/image01.png',
+      hoverImage3: '../../img/image01.png',
+    };
   }
+};
+</script>
+
+<style scoped>
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.main-container {
+  max-width: 1200px;
+ margin: 0 auto;
+  padding: 0;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #f4f4f4;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-image-placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  color: #001f5b;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+/* Business Partner Section */
+.business-partner {
+  padding: 2rem 1rem;
+  text-align: center;
+  background-color: #f8f8f8;
+}
+
+.partner-cards {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.card {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 5%; 
+  width: 250px;
+  text-align: center;
+  position: relative;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.card h3 {
+  margin-top: 5%;
+  color: #001f5b;
+}
+.card p {
+  margin-top: 2%;
+  color: #001f5b;
+}
+
+.image-placeholder-business-partner {
+  width: 100%; 
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%; 
+  margin-bottom: 1rem;
+  color: #555;
+  background-color: rgb(26, 198, 95);
+  display: flex;
+  transition: opacity 0.5s ease; 
+}
+
+.image-placeholder-business-partner img {
+  width: 100%; 
+  height: 120px;
+  border-radius: 50%; 
+  transition: opacity 0.5s ease; 
+}
+
+.image-placeholder-business-partner:hover img {
+  opacity: 0.8;
+}
+ /* Business Planning Section */
   
-  .main-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0;
-  }
-  
-  /* Hero Section */
-  .hero {
-    background-color: #f4f4f4;
-    padding: 2rem;
-    display: flex;
-    align-items: center;
-    gap: 2rem;
-  }
-  
-  .hero-content {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .hero-image-placeholder {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-  }
-  
-  .hero h1 {
-    font-size: 2.5rem;
-    color: #001f5b;
-  }
-  
-  .hero p {
-    font-size: 1.2rem;
-    color: #555;
-  }
-  
-  .carousel-indicators span {
-    margin: 0 0.5rem;
-    font-size: 1rem;
-    color: #888;
-  }
-  
-  /* Business Partner Section */
-  .business-partner {
-    padding: 2rem 1rem;
-    text-align: center;
-    background-color: #f8f8f8;
-  }
-  
-  .partner-cards {
-    display: flex;
-    justify-content: center;
-    gap: 1.5rem;
-    margin-top: 1rem;
-  }
-  
-  .card {
-    background-color: white;
-    padding: 1.5rem;
-    border-radius: 8px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-    width: 250px;
-    text-align: center;
-  }
-  
-  .card h3 {
-    color: #001f5b;
-  }
-  
-  .image-placeholder {
-    background-color: #e0e0e0;
+ .business-planning {
     width: 100%;
-    height: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 8px;
-    margin-bottom: 1rem;
-    color: #555;
-  }
-  
-  /* Business Planning Section */
-  .business-planning {
-    text-align: center;
-    padding: 2rem;
-    background-color: #f4f4f4;
-  }
-  
-  .business-planning .image-placeholder {
-    width: 100%;
-    max-width: 500px;
     height: 250px;
     margin: 0 auto;
-    background-color: #e0e0e0;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 8px;
+    background-image: url("../../img/image.png");
+    background-size: cover; /* 确保背景图片覆盖整个容器 */
+    background-position: center; /* 图片居中显示 */
   }
-  
+  .image-placeholder-Business-Planning{
+  width: 80%; 
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  color: #555;
+  background-color: aqua;
+  display: flex;
+}
+.image-placeholder-Business-Planning img{
+  justify-content: center;
+  margin-left: 170px;
+  width: 120px; 
+  height: 120px;
+  border-radius: 8px;
+}
   /* Our Challenge Section */
   .our-challenge {
     background-color: #001f5b;
@@ -212,5 +248,4 @@
     margin-top: 1rem;
     border-radius: 8px;
   }
-  </style>
-  
+</style>
