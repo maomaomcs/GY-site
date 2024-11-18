@@ -117,7 +117,27 @@ export default {
   height: 50px;
   margin-bottom: 15px;
 }
+.execution-card:hover .execution-icon {
+  animation: bounce 0.6s ease-in-out; /* Apply bounce animation */
+}
 
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  30% {
+    transform: translateY(-10px); /* Bounce up */
+  }
+  50% {
+    transform: translateY(0); /* Back to original position */
+  }
+  70% {
+    transform: translateY(-5px); /* Smaller bounce up */
+  }
+  100% {
+    transform: translateY(0); /* Back to original position */
+  }
+}
 .modal {
   position: fixed;
   top: 0;

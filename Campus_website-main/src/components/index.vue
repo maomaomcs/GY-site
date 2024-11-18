@@ -28,7 +28,7 @@
   </div>
   <div id="app" class="main-container">
     <section class="business-partner">
-      <h2 style="color: green; font-size: 30px; margin-bottom: 10px;">公司資源</h2>
+      <h2 style="color: green; font-size: 30px; margin-bottom: 30px;">公司資源</h2>
       <div class="partner-cards">
         <div class="card">
           <div class="image-placeholder-business-partner">
@@ -275,7 +275,9 @@ h1, h2, h3, p {
   padding: 4rem 2rem;
   text-align: center;
 }
-
+.business-partner h2{
+  margin-bottom: 50px;
+}
 .partner-cards {
   display: flex;
   justify-content: center;
@@ -283,7 +285,7 @@ h1, h2, h3, p {
 }
 
 .card {
-  background-color: rgba(255, 255, 255, 0.8); /* Lowered opacity for a semi-transparent white background */
+  background-color: rgba(255, 255, 255, 0.5); /* 将透明度从0.8修改为0.5，你可以按需调整这个值 */
   padding: 2rem;
   border-radius: 12px;
   width: 300px;
@@ -293,14 +295,17 @@ h1, h2, h3, p {
 }
 
 /* Gradient effect for image with transparency at the edges */
-.card .image-placeholder-business-partner img {
+.card.image-placeholder-business-partner img {
   width: 100%;
   height: 100%;
   border-radius: 12px;
   object-fit: cover;
   transition: transform 0.3s ease;
   position: relative;
-  z-index: 1; /* Ensure the image is above the background */
+  z-index: 1;
+  /* 创建一个径向渐变遮罩，中心不透明，边缘透明 */
+  mask-image: radial-gradient(circle at center, rgb(255, 253, 253) 60%, transparent 100%);
+  -webkit-mask-image: radial-gradient(circle at center, white 80%, transparent 100%); /* 针对webkit内核浏览器兼容 */
 }
 
 .card .image-placeholder-business-partner {

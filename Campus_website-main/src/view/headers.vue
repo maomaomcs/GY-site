@@ -88,7 +88,7 @@ const clickHandler = (data) => {
                         <!-- 其他服務 子菜單 -->
             <!-- <router-link :to="{ path: '/qitafuwu' }">
             <t-menu-item class="no-color">其他服務</t-menu-item> -->
-            <t-submenu value="6" title="繁/简/EN">
+            <t-submenu value="6" title="繁/简/EN" class="t-trans">
             <t-menu-item class="no-color"  @click="router.push('/')"> 繁體中文 </t-menu-item>
             <t-menu-item  class="no-color" @click="router.push('/')"> 简体中文</t-menu-item>
             <t-menu-item  class="no-color" @click="router.push('/')"> English </t-menu-item>
@@ -129,7 +129,9 @@ const clickHandler = (data) => {
     font-weight: bold; /* 加粗文字 */
 }
 
-
+.t-trans{
+    margin-left: 60%;
+}
 
 /* Header Styling */
 .t-head-menu {

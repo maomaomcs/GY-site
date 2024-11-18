@@ -144,11 +144,34 @@ export default {
 
 .service-card:hover {
   transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
 }
 .service-icon {
   width: 50px; /* 根據需要調整大小 */
   height: 50px; /* 根據需要調整大小 */
   margin-bottom: 10px; /* 添加一些間距 */
+  transition: transform 0.3s ease;
+}
+.service-card:hover .service-icon {
+  animation: bounce 0.6s ease-in-out; /* Apply bounce animation */
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  30% {
+    transform: translateY(-10px); /* Bounce up */
+  }
+  50% {
+    transform: translateY(0); /* Back to original position */
+  }
+  70% {
+    transform: translateY(-5px); /* Smaller bounce up */
+  }
+  100% {
+    transform: translateY(0); /* Back to original position */
+  }
 }
 .modal {
   position: fixed;

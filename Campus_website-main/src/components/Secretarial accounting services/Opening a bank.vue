@@ -120,20 +120,42 @@ export default {
   text-align: center;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   cursor: pointer;
-  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* 添加box-shadow过渡效果 */
   position: relative;
 }
 
 .service-card:hover {
   transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
 }
 
 .service-icon {
   width: 50px; /* Adjust size */
   height: 50px; /* Adjust size */
   margin-bottom: 10px; /* Space between icon and text */
+  transition: transform 0.3s ease;
+}
+.service-card:hover .service-icon {
+  animation: bounce 0.6s ease-in-out; /* Apply bounce animation */
 }
 
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  30% {
+    transform: translateY(-10px); /* Bounce up */
+  }
+  50% {
+    transform: translateY(0); /* Back to original position */
+  }
+  70% {
+    transform: translateY(-5px); /* Smaller bounce up */
+  }
+  100% {
+    transform: translateY(0); /* Back to original position */
+  }
+}
 .modal {
   position: fixed;
   top: 0;

@@ -107,7 +107,7 @@ export default {
 
 .service-list {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
   gap: 20px;
   margin: 10px 100px;
 }
@@ -120,25 +120,50 @@ export default {
   text-align: center;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   cursor: pointer;
-  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* 添加box-shadow过渡效果 */
   position: relative;
 }
 
 .service-card:hover {
   transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
 }
+
 .service-icon {
-  width: 50px; /* 根據需要調整大小 */
-  height: 50px; /* 根據需要調整大小 */
-  margin-bottom: 10px; /* 添加一些間距 */
+  width: 50px; /* Adjust size */
+  height: 50px; /* Adjust size */
+  margin-bottom: 10px; /* Space between icon and text */
+  transition: transform 0.3s ease;
 }
+.service-card:hover .service-icon {
+  animation: bounce 0.6s ease-in-out; /* Apply bounce animation */
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  30% {
+    transform: translateY(-10px); /* Bounce up */
+  }
+  50% {
+    transform: translateY(0); /* Back to original position */
+  }
+  70% {
+    transform: translateY(-5px); /* Smaller bounce up */
+  }
+  100% {
+    transform: translateY(0); /* Back to original position */
+  }
+}
+
 .modal {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.6); /* 调暗背景颜色，增强模态框显示效果 */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -146,16 +171,18 @@ export default {
 
 .modal-content {
   background: white;
-  padding: 20px;
+  padding: 30px;
   border-radius: 10px;
   max-width: 600px;
-  width: 100%;
+  width: 90%;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 .close {
-  float: right;
-  font-size: 1.5em;
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 1.8em;
   cursor: pointer;
   color: #ff7675;
 }
@@ -163,4 +190,5 @@ export default {
 .close:hover {
   color: #d63031;
 }
+
 </style>
