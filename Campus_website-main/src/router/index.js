@@ -135,7 +135,7 @@ const router = createRouter({
     },
     {
       path: '/qitafuwu',
-      name: '/qitafuwu',
+      name: 'qitafuwu',
       component: () => import('../components/other/qitafuwu.vue') 
     }
   ]

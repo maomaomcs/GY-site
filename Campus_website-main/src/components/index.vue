@@ -17,7 +17,7 @@
     </div>
   </div>
   <div class="business-planning">
-    <h2 id="learn-more">公司介紹</h2>
+    <h2 id="learn-more" style="color: green;">公司介紹</h2>
     <div class="content-wrapper">
       </div>
       <div class="description-text">
@@ -28,22 +28,22 @@
   </div>
   <div id="app" class="main-container">
     <section class="business-partner">
-      <h2>公司資源</h2>
+      <h2 style="color: green; font-size: 30px;">公司資源</h2>
       <div class="partner-cards">
         <div class="card">
           <div class="image-placeholder-business-partner">
             <img src="../../img/join-bg.jpg" alt="Business Partner Image 1">
           </div>
-          <h3>合作推廣</h3>
+          <h3 style="color: green;">合作推廣</h3>
           <p>合作推廣,可持續發展
-與客戶合作推廣可持續實踐
-打造可持續發展之路</p>
+            與客戶合作推廣可持續實踐
+          打造可持續發展之路</p>
         </div>
         <div class="card">
           <div class="image-placeholder-business-partner">
             <img src="../../img/flx-1-1.jpg" alt="Business Partner Image 2">
           </div>
-          <h3>GBA</h3>
+          <h3 style="color: green;">GBA</h3>
           <p>為客戶提供全面服務
             開業、公司秘書、會計、審計、稅務、ESG報告、投融資及IPO等專業服務，團隊遍佈澳門、香港及內地，為客戶量身訂製解決方案</p>
         </div>
@@ -51,7 +51,7 @@
           <div class="image-placeholder-business-partner">
             <img src="../../img/flx-2-1.jpg" alt="Business Partner Image 3">
           </div>
-          <h3>成員資格</h3>
+          <h3 style="color: green;">成員資格</h3>
           <p>成員擁有多項專業資格，包括：Macau CPA、HKICPA、AICPA、ACG(CS, CGP)、CIA、CFE、CMA、CRMA、CAMS、CISA、CISM、CRISC、 CBP、PMP、CESGA 以及香港、澳門及美國律師資格
             成員為曾擔任或現任美國及香港上市公司董事、金融公司高管和重要社會職務</p>
         </div>
@@ -72,7 +72,7 @@
                         <h2 class="join">加入我們</h2>
                         <p class="desc"></p>
                         <div class="go-link">
-                            <i class="go-icon"><p>➡️GrandBlossom</p></i>
+                            <i class="go-icon"><p>→GrandBlossom</p></i>
                         </div>
                     </a>
                 </div>
