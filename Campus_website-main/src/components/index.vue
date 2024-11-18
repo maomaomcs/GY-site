@@ -2,26 +2,13 @@
   <div id="app" class="main-container">
     <!-- Hero Section -->
     <section class="hero">
-        <div class="hero-content">
-          <div class="hero-image-placeholder">
-            <p class="image01">
-              <img src="../../img/image01.png" alt="Image 01">
-            </p>
-            <img src="../../img/image.png" alt="Main Image">
-          </div>
-          <div class="hero-text">
-            <h1>Think Future</h1>
-            <p>For a successful business</p>
-            <div class="carousel-indicators">
-              <span>01</span>
-              <span>02</span>
-              <span>03</span>
-            </div>
-          </div>
+      <div class="hero-content">
+        <div class="hero-image-container">
+          <img src="../../temp/image.png" alt="Main Image" class="main-image">
         </div>
-      </section>
-    
-    <!-- Business Partner Section -->
+
+      </div>
+    </section>
     <section class="business-partner">
       <h2>Business Partner</h2>
       <div class="partner-cards">
@@ -50,43 +37,47 @@
     </section>
     <!-- Business Planning Section -->
     <section class="business-planning">
-        <h2>Business Planning</h2>
-        <div class="image-placeholder-Business-Planning">
-          <img src="../../img/微信图片_20241118010926.png">
-          <p>Keyboard Image Placeholder</p>
+      <h2>Business Planning</h2>
+      <div class="image-placeholder-Business-Planning">
+        <img src="../../img/微信图片_20241118010926.png">
+        <p>Keyboard Image Placeholder</p>
+      </div>
+    </section>
+
+    <!-- Our Challenge Section -->
+    <section class="our-challenge">
+      <div class="challenge-content">
+        <h2>Our Challenge</h2>
+        <p>
+          We are committed to solving your business problems through innovation
+          and strategy.
+        </p>
+        <div class="image-placeholder">
+          <p>Challenge Image Placeholder</p>
         </div>
-      </section>
-  
-      <!-- Our Challenge Section -->
-      <section class="our-challenge">
-        <div class="challenge-content">
-          <h2>Our Challenge</h2>
-          <p>
-            We are committed to solving your business problems through innovation
-            and strategy.
-          </p>
-          <div class="image-placeholder">
-            <p>Challenge Image Placeholder</p>
-          </div>
-        </div>
-      </section>
+      </div>
+    </section>
+
   </div>
 </template>
 
+
 <script>
 export default {
+  name: "App",
   data() {
-    return {
-      businessImage1: '../../img/image.png',
-      businessImage2: '../../img/image.png',
-      businessImage3: '../../img/image.png',
-      hoverImage1: '../../img/image01.png',
-      hoverImage2: '../../img/image01.png',
-      hoverImage3: '../../img/image01.png',
-    };
-  }
+  return {
+   businessImage1: '../../img/image.png',
+   businessImage2: '../../img/image.png',
+   businessImage3: '../../img/image.png',
+   hoverImage1: '../../img/image01.png',
+   hoverImage2: '../../img/image01.png',
+   hoverImage3: '../../img/image01.png',
+  };
+ }
 };
 </script>
+
 
 <style scoped>
 /* Global Styles */
@@ -97,7 +88,7 @@ body {
 
 .main-container {
   max-width: 1200px;
- margin: 0 auto;
+  margin: 0 auto;
   padding: 0;
 }
 
@@ -151,7 +142,7 @@ body {
 .card {
   background-color: white;
   padding: 1.5rem;
-  border-radius: 5%; 
+  border-radius: 5%;
   width: 250px;
   text-align: center;
   position: relative;
@@ -163,51 +154,56 @@ body {
   margin-top: 5%;
   color: #001f5b;
 }
+
 .card p {
   margin-top: 2%;
   color: #001f5b;
 }
 
 .image-placeholder-business-partner {
-  width: 100%; 
+  width: 100%;
   height: 120px;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 50%; 
+  border-radius: 50%;
   margin-bottom: 1rem;
   color: #555;
   background-color: rgb(26, 198, 95);
   display: flex;
-  transition: opacity 0.5s ease; 
+  transition: opacity 0.5s ease;
 }
 
 .image-placeholder-business-partner img {
-  width: 100%; 
+  width: 100%;
   height: 120px;
-  border-radius: 50%; 
-  transition: opacity 0.5s ease; 
+  border-radius: 50%;
+  transition: opacity 0.5s ease;
 }
 
 .image-placeholder-business-partner:hover img {
   opacity: 0.8;
 }
- /* Business Planning Section */
-  
- .business-planning {
-    width: 100%;
-    height: 250px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 8px;
-    background-image: url("../../img/image.png");
-    background-size: cover; /* 确保背景图片覆盖整个容器 */
-    background-position: center; /* 图片居中显示 */
-  }
-  .image-placeholder-Business-Planning{
-  width: 80%; 
+
+/* Business Planning Section */
+
+.business-planning {
+  width: 100%;
+  height: 250px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background-image: url("../../img/image.png");
+  background-size: cover;
+  /* 确保背景图片覆盖整个容器 */
+  background-position: center;
+  /* 图片居中显示 */
+}
+
+.image-placeholder-Business-Planning {
+  width: 80%;
   height: 120px;
   display: flex;
   justify-content: center;
@@ -218,34 +214,36 @@ body {
   background-color: aqua;
   display: flex;
 }
-.image-placeholder-Business-Planning img{
+
+.image-placeholder-Business-Planning img {
   justify-content: center;
   margin-left: 170px;
-  width: 120px; 
+  width: 120px;
   height: 120px;
   border-radius: 8px;
 }
-  /* Our Challenge Section */
-  .our-challenge {
-    background-color: #001f5b;
-    color: white;
-    text-align: center;
-    padding: 2rem;
-  }
-  
-  .challenge-content {
-    max-width: 600px;
-    margin: 0 auto;
-  }
-  
-  .challenge-content .image-placeholder {
-    width: 100%;
-    height: 200px;
-    background-color: #e0e0e0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 1rem;
-    border-radius: 8px;
-  }
+
+/* Our Challenge Section */
+.our-challenge {
+  background-color: #001f5b;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+}
+
+.challenge-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.challenge-content .image-placeholder {
+  width: 100%;
+  height: 200px;
+  background-color: #e0e0e0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  border-radius: 8px;
+}
 </style>
