@@ -112,7 +112,12 @@ export default {
   gap: 20px;
   margin: 0 20px;
 }
-
+.description {
+  text-align: center;
+  font-size: 1.2em;
+  color: #7f8c8d;
+  margin-bottom: 40px;
+}
 .ma-card {
   background-color: #ffffff;
   border: 1px solid #ddd;
@@ -130,10 +135,34 @@ export default {
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
 }
 
+/* Add a bounce effect to the icon */
 .ma-icon {
   width: 50px;
   height: 50px;
   margin-bottom: 15px;
+  transition: transform 0.3s ease;
+}
+
+.ma-card:hover .ma-icon {
+  animation: bounce 0.6s ease-in-out; /* Apply bounce animation */
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  30% {
+    transform: translateY(-10px); /* Bounce up */
+  }
+  50% {
+    transform: translateY(0); /* Back to original position */
+  }
+  70% {
+    transform: translateY(-5px); /* Smaller bounce up */
+  }
+  100% {
+    transform: translateY(0); /* Back to original position */
+  }
 }
 
 .modal {
@@ -169,4 +198,38 @@ export default {
 .close:hover {
   color: #d63031;
 }
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .ma-grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns on smaller screens */
+  }
+
+  .ma-card {
+    padding: 15px; /* Smaller padding for cards */
+  }
+
+  .header {
+    font-size: 2em;
+  }
+
+  .description {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 480px) {
+  .ma-grid {
+    grid-template-columns: 1fr; /* 1 column on very small screens */
+  }
+
+  .header {
+    font-size: 1.8em;
+  }
+
+  .description {
+    font-size: 0.9em;
+  }
+}
+
 </style>

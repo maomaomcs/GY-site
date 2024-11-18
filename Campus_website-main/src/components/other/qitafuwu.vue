@@ -1,7 +1,9 @@
 <template>
   <div class="company-opening-page">
     <h1 class="header">其他服務</h1>
-
+    <p class="description">
+      我們提供多元化的專業服務，致力於為客戶提供全面的商業支持。
+    </p>
     <div class="service-list">
       <!-- 新增其他服務循環展示 -->
       <div 

@@ -88,22 +88,22 @@ const clickHandler = (data) => {
                         <!-- 其他服務 子菜單 -->
             <!-- <router-link :to="{ path: '/qitafuwu' }">
             <t-menu-item class="no-color">其他服務</t-menu-item> -->
-            <t-submenu value="6" title="語言切換">
-            <t-menu-item class="no-color"  @click="router.push('/')"> 简体中文 </t-menu-item>
-            <t-menu-item  class="no-color" @click="router.push('/')"> 繁體中文 </t-menu-item>
+            <t-submenu value="6" title="繁/简/EN">
+            <t-menu-item class="no-color"  @click="router.push('/')"> 繁體中文 </t-menu-item>
+            <t-menu-item  class="no-color" @click="router.push('/')"> 简体中文</t-menu-item>
             <t-menu-item  class="no-color" @click="router.push('/')"> English </t-menu-item>
             </t-submenu>
 
-            <t-submenu value="7" title="联系我们">
+            <!-- <t-submenu value="7" title="联系我们">
             <t-menu-item class="no-color" > 85328550660 </t-menu-item>
             <t-menu-item class="no-color" > 8:00-18:00（僅收市話費） </t-menu-item>
-            </t-submenu>
+            </t-submenu> -->
             <!-- 用戶登錄操作 -->
-            <template #operations>
+            <!-- <template #operations>
                 <t-button variant="text" shape="square" @click="redirectToLogin(); newPageFunction()">
                     <template #icon><t-icon name="user" /></template>
                 </t-button>
-            </template>
+            </template> -->
         </t-head-menu>
     </div>
 

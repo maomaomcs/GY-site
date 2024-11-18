@@ -28,7 +28,7 @@
   </div>
   <div id="app" class="main-container">
     <section class="business-partner">
-      <h2 style="color: green; font-size: 30px;">公司資源</h2>
+      <h2 style="color: green; font-size: 30px; margin-bottom: 10px;">公司資源</h2>
       <div class="partner-cards">
         <div class="card">
           <div class="image-placeholder-business-partner">
@@ -82,6 +82,7 @@
     </div>
 </template>
 <style>
+/* General Styles */
 .mess .join{
   font-family: 宋体;
   color: green;
@@ -185,13 +186,21 @@ h1, h2, h3, p {
   width: 100%;
   height: auto;
   object-fit: cover;
-  opacity: 0.5; 
+  opacity: 0.5;
 }
 
 .banner-content {
-  position: relative;
-  z-index: 2;
-  text-align: center;
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    padding-right: 418px;
+    padding-left: 418px;
+    padding-top: 168px;
+    padding-bottom: 238px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
 .tagline, .title, .subtitle, .description, .learn-more-button {
@@ -265,7 +274,6 @@ h1, h2, h3, p {
 .business-partner {
   padding: 4rem 2rem;
   text-align: center;
-  background-color: #ecf0f1;
 }
 
 .partner-cards {
@@ -275,13 +283,45 @@ h1, h2, h3, p {
 }
 
 .card {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.8); /* Lowered opacity for a semi-transparent white background */
   padding: 2rem;
   border-radius: 12px;
   width: 300px;
   text-align: center;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative; /* Ensure proper stacking context for the gradient effect */
 }
+
+/* Gradient effect for image with transparency at the edges */
+.card .image-placeholder-business-partner img {
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+  position: relative;
+  z-index: 1; /* Ensure the image is above the background */
+}
+
+.card .image-placeholder-business-partner {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.card .image-placeholder-business-partner::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.3)); /* Gradient from transparent to white */
+  border-radius: 12px;
+  z-index: 2; /* Place the gradient above the image */
+}
+
 
 .card h3 {
   color: #2980b9;
@@ -316,16 +356,35 @@ h1, h2, h3, p {
 .image-placeholder-business-partner:hover img {
   opacity: 0.8;
 }
+
 /* Company Introduction Section */
 .business-planning {
-  background: linear-gradient(135deg, #f0f3f4 0%, #dfe6e9 100%);
-  padding: 6rem 2rem;
-  text-align: center;
-  color: #333;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  margin: 3rem auto;
-  max-width: 1200px;
+  background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px); /* Apply blur effect for the frosted glass look */
+    padding: 6rem 2rem;
+    text-align: center;
+    color: green;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin: 3rem auto;
+    max-width: 1200px;
+    position: relative; /* Ensure proper stacking context for backdrop-filter */
+    overflow: hidden; /* Prevents anything from overflowing outside the rounded corners */
+}
+
+/* Optional: Add a subtle background image to enhance the frosted glass effect */
+.business-planning::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('path-to-your-image.jpg'); /* Replace with your background image */
+    background-size: cover;
+    background-position: center;
+    z-index: -1; /* Keeps the background behind the content */
+    opacity: 0.2; /* Adjust opacity for the background */
 }
 
 /* Heading for Company Introduction */
@@ -419,4 +478,5 @@ h1, h2, h3, p {
     width: 80%;
   }
 }
+
 </style>

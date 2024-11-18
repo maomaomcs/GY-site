@@ -38,7 +38,18 @@
               <li><a href="/qitafuwu" target="_self">其他服務</a></li>
             </ul>
           </div>
-          
+          <div>
+            <div class="phone_">
+              <h3>85328550660</h3>
+              <p>8:00-18:00（僅收市話費）</p>
+              <p>contact@gbaprofession.com</p>
+              <p>澳門宋玉生廣場258號建興龍廣場5樓O座</p>
+              <t-button :ghost="true" style="color:green">
+                <em class="iconfont-message2" style="color:green"></em>
+                <p class="no-color" style="color:green"><a href="/" style="color:green">聯繫我們</a></p>
+              </t-button>
+            </div>
+          </div>
         </div>
       </div>
       <div style="width: 100%; margin: 10px 0 auto; background-color: #fafafa; padding: 10px 0; text-align: center;">
@@ -50,7 +61,12 @@
   </template>
 <style src="../../src/assets/home.css"></style>
 <style scoped>
-
+.no-color {
+    color: inherit;
+    background-color: transparent;
+    border: none;
+    transition: color 0.3s ease, font-weight 0.3s ease; /* 平滑過渡 */
+}
 #foot {
     margin-top: 50px;
     text-align: center;

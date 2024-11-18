@@ -75,8 +75,8 @@
     };
     </script>
     <style scoped>
-    .forensic-accounting-page {
-      max-width: 1200px;
+.forensic-accounting-page {
+  max-width: 1200px;
   margin: 0 auto;
   padding: 20px 20px 50px 20px;
   background-color: #f5f7fa;
@@ -120,10 +120,34 @@
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
 }
 
+/* Add a bounce effect to the image */
 .audit-icon {
   width: 50px;
   height: 50px;
   margin-bottom: 15px;
+  transition: transform 0.3s ease;
+}
+
+.audit-card:hover .audit-icon {
+  animation: bounce 0.6s ease-in-out; /* Apply bounce animation */
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  30% {
+    transform: translateY(-10px); /* Bounce up */
+  }
+  50% {
+    transform: translateY(0); /* Back to original position */
+  }
+  70% {
+    transform: translateY(-5px); /* Smaller bounce up */
+  }
+  100% {
+    transform: translateY(0); /* Back to original position */
+  }
 }
 
 .modal {
@@ -159,4 +183,38 @@
 .close:hover {
   color: #d63031;
 }
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .audit-grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns on smaller screens */
+  }
+
+  .audit-card {
+    padding: 15px; /* Smaller padding for cards */
+  }
+
+  .header {
+    font-size: 2em;
+  }
+
+  .description {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 480px) {
+  .audit-grid {
+    grid-template-columns: 1fr; /* 1 column on very small screens */
+  }
+
+  .header {
+    font-size: 1.8em;
+  }
+
+  .description {
+    font-size: 0.9em;
+  }
+}
+
 </style>

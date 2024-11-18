@@ -112,10 +112,34 @@ export default {
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
 }
 
+/* Add a bounce effect to the image */
 .valuation-icon {
   width: 50px;
   height: 50px;
   margin-bottom: 15px;
+  transition: transform 0.3s ease;
+}
+
+.valuation-card:hover .valuation-icon {
+  animation: bounce 0.6s ease-in-out; /* Apply bounce animation */
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  30% {
+    transform: translateY(-10px); /* Bounce up */
+  }
+  50% {
+    transform: translateY(0); /* Back to original position */
+  }
+  70% {
+    transform: translateY(-5px); /* Smaller bounce up */
+  }
+  100% {
+    transform: translateY(0); /* Back to original position */
+  }
 }
 
 .modal {
@@ -151,4 +175,5 @@ export default {
 .close:hover {
   color: #d63031;
 }
+
 </style>
