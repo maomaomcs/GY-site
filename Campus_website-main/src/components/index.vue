@@ -13,14 +13,22 @@
         Risk Advisory | Accounting | Audit | Tax <br />
         Due Diligence ESG | Comp Sec | Valuation | IPO | Compliance
       </p>
-      <!-- Learn More Button -->
       <a href="#learn-more" class="learn-more-button animate-float">Learn More</a>
     </div>
   </div>
+  <div class="business-planning">
+    <h2 id="learn-more">公司介紹</h2>
+    <div class="content-wrapper">
+      </div>
+      <div class="description-text">
+        <p>
+          公司專注於提供多元化的專業服務，在公司秘書及會計服務方面，涵蓋公司開業協助、註冊地址提供、秘書服務、銀行開戶指導、財務會計管理、薪酬管理以及離岸公司支援(包括 BV、Cayman 等地)同時，會計及稅務服務也十分全面，包含法定審計、商業估值、執行商定程序、稅務諮詢、鑑證會計、盡職調查、企業併購審計等，無論是香港移民審計還是澳門子公司審計，我們都能以專業的水準完成 此外，我們還提供豐富的其他服務，如上市公司服務，包括美國、香港等地的上市策劃以及財務審計在知識產領域，可進行註冊商標;在資助中報方面，提供資助中報和受资助項目查驗服務港澳車牌中請、資產管理、股投資、信貸支持、股權包銷、重大投資移民等服務也一應俱全同時，我們還致力於環境社會及管治報告的編制、内部控制審閱、企業風險管理以及為上市公司提供秘書服務和任職董事推薦
+        </p>
+    </div>
+  </div>
   <div id="app" class="main-container">
-    <!-- Business Partner Section -->
     <section class="business-partner">
-      <h2 id="learn-more"></h2>
+      <h2>公司資源</h2>
       <div class="partner-cards">
         <div class="card">
           <div class="image-placeholder-business-partner">
@@ -51,28 +59,20 @@
     </section>
 
     <!-- Business Planning Section -->
-    <section class="business-planning">
-      <h2>公司介紹</h2>
-      <div class="image-placeholder-Business-Planning">
-        <img src="../../img/qiyue.png" alt="Business Planning Image">
-        <p>
-          公司專注於提供多元化的專業服務，在公司秘書及會計服務方面，涵蓋公司開業協助、註冊地址提供、秘書服務、銀行開戶指導、財務會計管理、薪酬管理以及離岸公司支援(包括 BV、Cayman 等地)同時，會計及稅務服務也十分全面，包含法定審計、商業估值、執行商定程序、稅務諮詢、鑑證會計、盡職調查、企業併購審計等，無論是香港移民審計還是澳門子公司審計，我們都能以專業的水準完成 此外，我們還提供豐富的其他服務，如上市公司服務，包括美國、香港等地的上市策劃以及財務審計在知識產領域，可進行註冊商標;在資助中報方面，提供資助中報和受资助項目查驗服務港澳車牌中請、資產管理、股投資、信貸支持、股權包銷、重大投資移民等服務也一應俱全同時，我們還致力於環境社會及管治報告的編制、内部控制審閱、企業風險管理以及為上市公司提供秘書服務和任職董事推薦
-        </p>
-      </div>
-    </section>
+
 
     <div>
             <div style="position: relative">
                 <a href="" style="display: block;width: 80%;margin: 0 auto;">
-                    <img src="../../img/join-bg.jpg" alt="" width="100%"
+                    <img src="../../temp/image.png" alt="" width="100%"
                         style="overflow: hidden;border-radius: 8px">
                 </a>
                 <div class="mess">
                     <a href="">
-                        <h2>加入我们</h2>
+                        <h2 class="join">加入我們</h2>
                         <p class="desc"></p>
                         <div class="go-link">
-                            <i class="go-icon"><img src="https://www.tencent.com/img/responsibility/go-icon.png" alt="img"><p>GrandBlossom</p></i>
+                            <i class="go-icon"><p>➡️GrandBlossom</p></i>
                         </div>
                     </a>
                 </div>
@@ -82,7 +82,10 @@
     </div>
 </template>
 <style>
-
+.mess .join{
+  font-family: 宋体;
+  color: green;
+}
 .mess {
     position: absolute;
     left: 15%;
@@ -94,7 +97,7 @@
 }
 
 .mess h2 {
-    font-family: 'TencentSansw7', serif;
+    font-family: serif;
     font-size: 30px;
     color: #2a2e2e;
 }
@@ -120,6 +123,7 @@
 }
 
 .mess .go-icon {
+  color: green;
     float: left;
     height: 36px;
 }
@@ -135,67 +139,8 @@
     align-items: center;
     justify-content: space-around;
 }
-
-
-#index>.index_div {
-    position: relative;
-}
-
-#index>.index_div>div {
-    position: absolute;
-    left: 7%;
-    top: 20%;
-}
-
-#index>.index_div>div h2 {
-    font-family: 'TencentSansw3', serif;
-    font-size: 44px;
-    color: #2A2E2E;
-    letter-spacing: 0;
-    margin-bottom: 8px;
-    /* //margin-top: 202px; */
-    font-weight: 400;
-}
-
-#index>.index_div>div .desc {
-    font-size: 16px;
-    color: #2A2E2E;
-    letter-spacing: 0;
-    line-height: 29px;
-}
-
-#index>.index_div_2 {
-    position: relative;
-}
-
-/* #index>.index_div_2>div{ */
-/* //position: absolute; */
-/* //left: 7%; */
-/* //top: 20%; */
-/* //width: 40%; */
-/* } */
-
-#index>.index_div_2>div h2 {
-    font-family: 'TencentSansw3', serif;
-    font-size: 44px;
-    color: #2A2E2E;
-    letter-spacing: 0;
-    margin-bottom: 8px;
-    /* //margin-top: 202px; */
-    font-weight: 400;
-}
-
-#index>.index_div_2>div .desc {
-    font-size: 16px;
-    color: #2A2E2E;
-    letter-spacing: 0;
-    line-height: 29px;
-
-}
-
-/* Global Styling */
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -268,7 +213,7 @@ h1, h2, h3, p {
 }
 
 .highlight {
-  color: #27ae60;
+  color: green;
 }
 
 .subtitle {
@@ -289,7 +234,7 @@ h1, h2, h3, p {
   display: inline-block;
   padding: 10px 20px;
   margin-top: 20px;
-  background-color: #007BFF;
+  background-color: green;
   color: white;
   text-decoration: none;
   font-weight: bold;
@@ -301,6 +246,7 @@ h1, h2, h3, p {
 
 .learn-more-button:hover {
   background-color: #2ecc71;
+  color: #fff; /* Keep text white */
 }
 
 @keyframes float-in {
@@ -370,73 +316,107 @@ h1, h2, h3, p {
 .image-placeholder-business-partner:hover img {
   opacity: 0.8;
 }
-
-/* Business Planning Section */
+/* Company Introduction Section */
 .business-planning {
-  width: 100%;
-  height: 350px;
-  margin: 2rem auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #1abc9c;
-  background-image: url("../../img/image01.png");
-  background-size: cover;
-  background-position: center;
-  border-radius: 12px;
-  color: #fff;
-  position: relative;
-}
-
-.business-planning h2 {
-  position: absolute;
-  top: 20px;
-  left: 20px;
-  font-size: 2rem;
-  font-weight: bold;
-}
-
-.image-placeholder-Business-Planning {
-  width: 80%;
-  height: 120px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: rgba(255, 255, 255, 0.7);
-  border-radius: 8px;
-}
-
-.image-placeholder-Business-Planning img {
-  width: 120px;
-  height: 120px;
-  border-radius: 8px;
-}
-
-/* Our Challenge Section */
-.our-challenge {
-  background-color: #34495e;
-  color: #fff;
+  background: linear-gradient(135deg, #f0f3f4 0%, #dfe6e9 100%);
+  padding: 6rem 2rem;
   text-align: center;
-  padding: 3rem 1rem;
+  color: #333;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin: 3rem auto;
+  max-width: 1200px;
 }
 
-.challenge-content h2 {
-  font-size: 2.5rem;
+/* Heading for Company Introduction */
+.business-planning h2 {
+  font-size: 2.8rem;
+  font-weight: bold;
+  color: #2980b9;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Description Text */
+.description-text {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #7f8c8d;
+  max-width: 850px;
+  margin: 0 auto 3rem;
+  text-align: left;
+  font-family: 'Arial', sans-serif;
+}
+
+.description-text p {
+  margin-bottom: 1.5rem;
+  text-align: justify;
+  font-weight: 300;
+}
+
+/* Content Wrapper for Cards */
+.content-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.content-wrapper .card {
+  background-color: #fff;
+  width: 30%;
+  padding: 2.5rem;
+  margin-bottom: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  text-align: center;
+  overflow: hidden;
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+.content-wrapper .card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.content-wrapper .card h3 {
+  color: #2980b9;
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.content-wrapper .card p {
+  color: #7f8c8d;
+  font-size: 1rem;
+  line-height: 1.6;
   margin-bottom: 1rem;
 }
 
-.challenge-content p {
-  font-size: 1.2rem;
+.content-wrapper .card img {
+  width: 100%;
+  height: 200px;
+  border-radius: 8px;
+  object-fit: cover;
   margin-bottom: 1.5rem;
+  transition: transform 0.3s ease;
 }
 
-.challenge-content .image-placeholder {
-  width: 100%;
-  height: 250px;
-  background-color: #95a5a6;
-  border-radius: 8px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.content-wrapper .card img:hover {
+  transform: scale(1.05);
+}
+
+/* Responsive Design for Mobile */
+@media (max-width: 768px) {
+  .content-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .content-wrapper .card {
+    width: 80%;
+  }
 }
 </style>
