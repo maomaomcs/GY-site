@@ -88,7 +88,7 @@ const clickHandler = (data) => {
                         <!-- 其他服務 子菜單 -->
             <!-- <router-link :to="{ path: '/qitafuwu' }">
             <t-menu-item class="no-color">其他服務</t-menu-item> -->
-            <t-submenu value="6" title="繁/简/EN" class="t-trans">
+            <t-submenu value="6" title="繁/简/EN">
             <t-menu-item class="no-color"  @click="router.push('/')"> 繁體中文 </t-menu-item>
             <t-menu-item  class="no-color" @click="router.push('/')"> 简体中文</t-menu-item>
             <t-menu-item  class="no-color" @click="router.push('/')"> English </t-menu-item>
